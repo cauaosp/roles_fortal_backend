@@ -7,10 +7,10 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-DATA_FILE = "data/artigos_opovo.json"
+DATA_FILE = "data/artigos_ceara.json"
 
 
-@app.route("/opovo")
+@app.route("/artigos")
 def get_opovo():
     if not os.path.exists(DATA_FILE):
         return jsonify({"error": "Dados não disponíveis ainda", "artigos": []}), 503
@@ -25,7 +25,7 @@ def get_opovo():
 
 @app.route("/")
 def index():
-    return jsonify({"Status": "rodando", "endpoints": ["/opovo"]})
+    return jsonify({"Status": "rodando", "endpoints": ["/artigos"]})
 
 
 if __name__ == "__main__":
