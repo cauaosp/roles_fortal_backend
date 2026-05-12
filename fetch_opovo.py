@@ -1,3 +1,4 @@
+import html
 import json
 import time
 
@@ -8,8 +9,6 @@ from utils.functions import creation_time
 
 def fetch_opovo(url, params, headers):
     opovo_articles = []
-
-    params["offset"] = 30
 
     try:
         response = requests.get(url, params=params, headers=headers)
@@ -252,6 +251,151 @@ def fetch_cearaagora(url, params, headers):
     return articles
 
 
+def fetch_tce(url, params, headers):
+    articles = []
+
+    try:
+        for i in range(3):
+            params["start"] = i * 11
+            response = requests.get(
+                url,
+                params=params,
+                headers=headers,
+            )
+
+            print(response.status_code, "tce")
+
+            xml_response = response.text
+
+            soup = BeautifulSoup(xml_response, "xml")
+
+            items = soup.find_all("entry")
+
+            subtitulo = None
+
+            for item in items:
+                titulo = item.title.text if item.title else None
+
+                sumario = item.find("summary").text if item.find("summary") else None
+
+                if sumario:
+                    decoded = html.unescape(sumario)
+
+                    soup_summary = BeautifulSoup(decoded, "html.parser")
+
+                    for img in soup_summary.find_all("img"):
+                        img.decompose()
+
+                    subtitulo = soup_summary.get_text(" ", strip=True)[:150]
+
+                category_tag = item.find("category")
+                categoria = category_tag.get("term") if category_tag else None
+
+                author_tag = item.find("author")
+                autor = (
+                    author_tag.find("name").text.strip()
+                    if author_tag and author_tag.find("name")
+                    else None
+                )
+
+                dataPublicacao = item.published.text if item.published else None
+
+                link = item.id.text if item.id else None
+
+                jornal = "Tribunal de Contas do Ceará"
+
+                createdAt = creation_time()
+
+                articles.append(
+                    {
+                        "titulo": titulo,
+                        "subtitulo": subtitulo,
+                        "categoria": categoria,
+                        "autor": autor,
+                        "dataPublicacao": dataPublicacao,
+                        "link": link,
+                        "jornal": jornal,
+                        "createdAt": createdAt,
+                    }
+                )
+
+    except KeyError:
+        print("Erro no fetch dos dados")
+
+    return articles
+
+
+def fetch_terra_da_luz(url, params, headers):
+    articles = []
+
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            headers=headers,
+        )
+
+        print(response.status_code, "terra da luz")
+
+        items = response.json()
+
+        users_response = requests.get(
+            url="https://portalterradaluz.com.br/wp-json/wp/v2/users",
+            headers=headers,
+        )
+
+        users_data = users_response.json()
+
+        authors_map = {user["id"]: user["name"] for user in users_data}
+
+        categories_response = requests.get(
+            url="https://portalterradaluz.com.br/wp-json/wp/v2/categories",
+            headers=headers,
+        )
+
+        categories_data = categories_response.json()
+
+        categories_map = {
+            category["id"]: category["name"] for category in categories_data
+        }
+
+        for item in items:
+            categories = []
+            categories_list = item["categories"]
+            for category_id in categories_list:
+                categories.append(categories_map.get(category_id))
+
+            author_id = item["author"]
+            author_name = authors_map.get(author_id)
+
+            titulo_html = item["title"]["rendered"]
+            excerpt_html = item["excerpt"]["rendered"]
+
+            titulo = BeautifulSoup(titulo_html, "html.parser").get_text(" ", strip=True)
+
+            subtitulo = BeautifulSoup(excerpt_html, "html.parser").get_text(
+                " ", strip=True
+            )
+
+            articles.append(
+                {
+                    "titulo": titulo,
+                    "subtitulo": subtitulo,
+                    "categoria": categories,
+                    "autor": author_name,
+                    "dataPublicacao": item["date"],
+                    "link": item["link"],
+                    "jornal": "Portal Terra da Luz",
+                    "created_at": creation_time(),
+                }
+            )
+
+    except KeyError:
+        print("Erro no fetch dos dados")
+
+    return articles
+
+
 if __name__ == "__main__":
     jornais = {
         "opovo": {
@@ -260,7 +404,6 @@ if __name__ == "__main__":
                 "id": "/reboot/src/endpoints/VerMais.php",
                 "dinamico": 1,
                 "site_arvor": "Vida&Arte",
-                "offset": 0,
                 "limit": 30,
             },
             "headers": {"User-Agent": "Mozilla/5.0"},
@@ -294,6 +437,16 @@ if __name__ == "__main__":
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             },
         },
+        "tce": {
+            "url": "https://www.tce.ce.gov.br/comunicacao/noticias",
+            "params": {"format": "feed", "type": "atom", "start": "0"},
+            "headers": {"User-Agent": "Mozilla/5.0"},
+        },
+        "terra_da_luz": {
+            "url": "https://portalterradaluz.com.br/wp-json/wp/v2/posts",
+            "params": {"page": "1", "per_page": "30"},
+            "headers": {"User-Agent": "Mozilla/5.0"},
+        },
     }
 
     n = 0
@@ -306,6 +459,8 @@ if __name__ == "__main__":
             "oestadoce": [],
             "globoce": [],
             "cearaagora": [],
+            "terra_da_luz": [],
+            "tce": [],
         }
 
         data["opovo"].extend(
@@ -338,6 +493,20 @@ if __name__ == "__main__":
                 jornais["cearaagora"]["url"],
                 jornais["cearaagora"]["params"],
                 jornais["cearaagora"]["headers"],
+            )
+        )
+        data["tce"].extend(
+            fetch_tce(
+                jornais["tce"]["url"],
+                jornais["tce"]["params"],
+                jornais["tce"]["headers"],
+            )
+        )
+        data["terra_da_luz"].extend(
+            fetch_terra_da_luz(
+                jornais["terra_da_luz"]["url"],
+                jornais["terra_da_luz"]["params"],
+                jornais["terra_da_luz"]["headers"],
             )
         )
 
