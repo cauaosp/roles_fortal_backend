@@ -13,6 +13,11 @@ def fetch_opovo(url, params, headers):
     try:
         response = requests.get(url, params=params, headers=headers)
         print(response.status_code, "opovo")
+
+        if response.status_code != 200:
+            print(f"Erro HTTP {response.status_code} para opovo")
+            return opovo_articles
+
         data = response.json()
 
         created_at = creation_time()
@@ -37,46 +42,6 @@ def fetch_opovo(url, params, headers):
         print("Erro no fetch dos dados")
 
     return opovo_articles
-
-
-def fetch_gcmais(url, params, headers):
-    gcmais_articles = []
-
-    try:
-        response = requests.get(url, params=params, headers=headers)
-        print(response.status_code, "gcmais")
-        data = response.json()
-
-        created_at = creation_time()
-
-        for item in data:
-            try:
-                categorias = (
-                    item.get("yoast_head_json", {})
-                    .get("schema", {})
-                    .get("@graph", [{}])[0]
-                    .get("articleSection", [])
-                )
-
-                gcmais_articles.append(
-                    {
-                        "titulo": item["title"]["rendered"],
-                        "subtitulo": item.get("acf", {}).get("post_gravata"),
-                        "categoria": categorias,
-                        "autor": item.get("yoast_head_json", {}).get("author"),
-                        "dataPublicacao": item["date"],
-                        "link": item["link"],
-                        "jornal": "gcmais",
-                        "createdAt": created_at,
-                    }
-                )
-            except KeyError:
-                print("Erro ao processar item:", item)
-                continue
-    except KeyError:
-        print("Erro no fetch dos dados")
-
-    return gcmais_articles
 
 
 def fetch_dn(url, headers):
@@ -125,6 +90,10 @@ def fetch_oestadoce(url, params, headers):
     try:
         response = requests.get(url, params=params, headers=headers)
         print(response.status_code, "o estado")
+
+        if response.status_code != 200:
+            print(f"Erro HTTP {response.status_code} para o estado")
+            return oestadoce_articles
 
         data = response.json()
 
@@ -216,6 +185,10 @@ def fetch_cearaagora(url, params, headers):
         )
 
         print(response.status_code, "cearaagora")
+
+        if response.status_code != 200:
+            print(f"Erro HTTP {response.status_code} para cearaagora")
+            return articles
 
         items = response.json()
 
@@ -337,6 +310,10 @@ def fetch_terra_da_luz(url, params, headers):
 
         print(response.status_code, "terra da luz")
 
+        if response.status_code != 200:
+            print(f"Erro HTTP {response.status_code} para terra da luz")
+            return articles
+
         items = response.json()
 
         users_response = requests.get(
@@ -396,6 +373,72 @@ def fetch_terra_da_luz(url, params, headers):
     return articles
 
 
+def fetch_secult(url, params, headers):
+    articles = []
+
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            headers=headers,
+        )
+
+        print(response.status_code, "secult")
+
+        if response.status_code != 200:
+            print(f"Erro HTTP {response.status_code} para secult")
+            return articles
+
+        items = response.json()
+
+        for item in items:
+            titulo = item["title"]["rendered"]
+
+            subtitulo_puro = item["excerpt"]["rendered"]
+            subtitulo = BeautifulSoup(subtitulo_puro, "html.parser").get_text(
+                " ", strip=True
+            )
+
+            categorias = []
+
+            if "_embedded" in item and "wp:term" in item["_embedded"]:
+                termos = item["_embedded"]["wp:term"]
+                for taxonomia in termos:
+                    if taxonomia and len(taxonomia) > 0:
+                        primeiro_termo = taxonomia[0]
+                        if primeiro_termo.get("taxonomy") == "category":
+                            for cat in taxonomia:
+                                categorias.append(cat.get("name"))
+                            break
+
+            autor_nome = None
+
+            if "yoast_head_json" in item:
+                autor_nome = item["yoast_head_json"].get("author")
+
+            dataPublicacao = item["date"]
+
+            link = item["link"]
+
+            articles.append(
+                {
+                    "titulo": titulo,
+                    "subtitulo": subtitulo,
+                    "categoria": categorias,
+                    "autor": autor_nome,
+                    "dataPublicacao": dataPublicacao,
+                    "link": link,
+                    "jornal": "Secult",
+                    "created_at": creation_time(),
+                }
+            )
+
+    except KeyError:
+        print("Erro no fetch dos dados")
+
+    return articles
+
+
 if __name__ == "__main__":
     jornais = {
         "opovo": {
@@ -405,15 +448,6 @@ if __name__ == "__main__":
                 "dinamico": 1,
                 "site_arvor": "Vida&Arte",
                 "limit": 30,
-            },
-            "headers": {"User-Agent": "Mozilla/5.0"},
-        },
-        "gcmais": {
-            "url": "https://gcmais.com.br/wp-json/wp/v2/posts",
-            "params": {
-                "categories": "1",
-                "page": "1",
-                "per_page": "30",
             },
             "headers": {"User-Agent": "Mozilla/5.0"},
         },
@@ -447,6 +481,15 @@ if __name__ == "__main__":
             "params": {"page": "1", "per_page": "30"},
             "headers": {"User-Agent": "Mozilla/5.0"},
         },
+        "secult": {
+            "url": "https://www.secult.ce.gov.br/wp-json/wp/v2/posts",
+            "params": {
+                "_embed": "true",
+                "per_page": "30",
+                "page": "1",
+            },
+            "headers": {"User-Agent": "Mozilla/5.0"},
+        },
     }
 
     n = 0
@@ -454,13 +497,13 @@ if __name__ == "__main__":
     while n == 0:
         data = {
             "opovo": [],
-            "gcmais": [],
             "dn": [],
             "oestadoce": [],
             "globoce": [],
             "cearaagora": [],
             "terra_da_luz": [],
             "tce": [],
+            "secult": [],
         }
 
         data["opovo"].extend(
@@ -468,13 +511,6 @@ if __name__ == "__main__":
                 jornais["opovo"]["url"],
                 jornais["opovo"]["params"],
                 jornais["opovo"]["headers"],
-            )
-        )
-        data["gcmais"].extend(
-            fetch_gcmais(
-                jornais["gcmais"]["url"],
-                jornais["gcmais"]["params"],
-                jornais["gcmais"]["headers"],
             )
         )
         data["oestadoce"].extend(
@@ -509,14 +545,20 @@ if __name__ == "__main__":
                 jornais["terra_da_luz"]["headers"],
             )
         )
+        data["secult"].extend(
+            fetch_secult(
+                jornais["secult"]["url"],
+                jornais["secult"]["params"],
+                jornais["secult"]["headers"],
+            )
+        )
 
         with open("data/artigos_ceara.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         print(f"total: {sum(len(v) for v in data.values())} artigos")
 
-        counts = {k: len(v) for k, v in data.items()}
-        print(counts)
+        print({k: len(v) for k, v in data.items()})
         n += 1
 
         # time.sleep(360)
