@@ -1,91 +1,87 @@
+import asyncio
 import html
 import json
+import time
+from datetime import datetime, timedelta, timezone
+from typing import Any, Dict, List
 
 import requests
 from bs4 import BeautifulSoup
-from utils.functions import creation_time
+from utils.const import JORNAIS_MAP
+from utils.functions import FUNCTIONS_MAP
 
 
-def fetch_secult(url, params, headers):
-    articles = []
+async def scraping_limitado(sem, nome: str, config: Dict[str, Any]):
+    async with sem:
+        print(f"[{time.strftime('%H:%M:%S')}] 🔍 Iniciando: {nome}")
+        try:
+            func = config["func"]
+            params = config["params"]
 
-    try:
-        response = requests.get(
-            url,
-            params=params,
-            headers=headers,
-        )
+            # Adapta conforme a estrutura dos parâmetros
+            if "params" in params and "headers" in params:
+                # Para funções que esperam (url, params, headers)
+                resultado = await func(
+                    params["url"], params.get("params", {}), params["headers"]
+                )
+            elif "headers" in params:
+                # Para funções que esperam (url, headers)
+                resultado = await func(params["url"], params["headers"])
+            else:
+                # Para funções que esperam apenas url
+                resultado = await func(params["url"])
 
-        print(response.status_code, "secult")
-
-        items = response.json()
-
-        for item in items:
-            titulo = item["title"]["rendered"]
-
-            subtitulo_puro = item["excerpt"]["rendered"]
-            subtitulo = BeautifulSoup(subtitulo_puro, "html.parser").get_text(
-                " ", strip=True
+            print(
+                f"[{time.strftime('%H:%M:%S')}] ✅ Finalizado: {nome} - {len(resultado)} artigos"
             )
+            return nome, resultado
+        except Exception as e:
+            print(f"[{time.strftime('%H:%M:%S')}] ❌ Erro em {nome}: {e}")
+            import traceback
 
-            categorias = []
+            traceback.print_exc()
+            return nome, []
 
-            if "_embedded" in item and "wp:term" in item["_embedded"]:
-                termos = item["_embedded"]["wp:term"]
-                for taxonomia in termos:
-                    if taxonomia and len(taxonomia) > 0:
-                        primeiro_termo = taxonomia[0]
-                        if primeiro_termo.get("taxonomy") == "category":
-                            for cat in taxonomia:
-                                categorias.append(cat.get("name"))
-                            break
 
-            autor_nome = None
+async def fetch_concurrent(limit: int = 4):
+    data = {nome: [] for nome in FUNCTIONS_MAP.keys()}
 
-            if "yoast_head_json" in item:
-                autor_nome = item["yoast_head_json"].get("author")
+    sem = asyncio.Semaphore(limit)
 
-            dataPublicacao = item["date"]
+    tarefas = [
+        scraping_limitado(sem, nome, config) for nome, config in FUNCTIONS_MAP.items()
+    ]
 
-            link = item["link"]
+    resultados = await asyncio.gather(*tarefas)
 
-            articles.append(
-                {
-                    "titulo": titulo,
-                    "subtitulo": subtitulo,
-                    "categoria": categorias,
-                    "autor": autor_nome,
-                    "dataPublicacao": dataPublicacao,
-                    "link": link,
-                    "jornal": "Secult",
-                    "created_at": creation_time(),
-                }
-            )
+    # Preencher o dicionário com os resultados
+    for nome, artigos in resultados:
+        data[nome].extend(artigos)
 
-    except KeyError:
-        print("Erro no fetch dos dados")
+    # Estatísticas finais
+    total_artigos = sum(len(artigos) for artigos in data.values())
+    print("\n" + "=" * 50)
+    print("📊 RESUMO FINAL:")
+    for nome, artigos in data.items():
+        if len(artigos) > 0:
+            print(f"  ✅ {nome}: {len(artigos)} artigos")
+        else:
+            print(f"  ❌ {nome}: Falhou ou sem artigos")
+    print(f"\n  📈 TOTAL: {total_artigos} artigos coletados")
+    print("=" * 50)
 
-    return articles
+    return data
+
+
+async def main():
+    resultados_total = await fetch_concurrent()  # 4 scraping simultâneos
+
+    # Acessar resultados
+    print(f"O Povo: {len(resultados_total['opovo'])} artigos")
+    print(f"Diário do Nordeste: {len(resultados_total['dn'])} artigos")
+
+    return resultados_total
 
 
 if __name__ == "__main__":
-    jornal = {
-        "secult": {
-            "url": "https://www.secult.ce.gov.br/wp-json/wp/v2/posts",
-            "params": {
-                "_embed": "true",
-                "per_page": "30",
-                "page": "1",
-            },
-            "headers": {"User-Agent": "Mozilla/5.0"},
-        }
-    }
-
-    articles_list = fetch_secult(
-        jornal["secult"]["url"],
-        jornal["secult"]["params"],
-        jornal["secult"]["headers"],
-    )
-
-    print(f"total: {len(articles_list)} artigos")
-    print(f"\n {json.dumps(articles_list[:5], indent=4)}")
+    asyncio.run(main())
