@@ -3,7 +3,7 @@ import html
 import json
 import time
 from datetime import datetime, timedelta, timezone
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 import aiohttp
 import requests
@@ -209,7 +209,7 @@ async def fetch_cearaagora(session, url, params, headers):
         url_autor = "https://cearaagora.com.br/wp-json/wp/v2/users/"
         fetch_author = session.get(url_autor, headers=headers)
 
-        url_categoria = f"https://cearaagora.com.br/wp-json/wp/v2/categories/"
+        url_categoria = "https://cearaagora.com.br/wp-json/wp/v2/categories/"
         fetch_categories = session.get(url_categoria, headers=headers)
 
         fetch_posts, fetch_author, fetch_categories = await asyncio.gather(
@@ -506,6 +506,7 @@ async def scraping_limitado(session, sem, nome: str, config: Dict[str, Any]):
             print(
                 f"[{time.strftime('%H:%M:%S')}] ✅ Finalizado: {nome} - {len(resultado)} artigos"
             )
+
             return nome, resultado
         except Exception as e:
             print(f"[{time.strftime('%H:%M:%S')}] ❌ Erro em {nome}: {e}")
@@ -520,6 +521,8 @@ async def fetch_concurrent(limit: int = 4):
 
     sem = asyncio.Semaphore(limit)
 
+    inicio = time.perf_counter()
+
     async with aiohttp.ClientSession() as session:
         tarefas = [
             scraping_limitado(session, sem, nome, config)
@@ -528,11 +531,13 @@ async def fetch_concurrent(limit: int = 4):
 
         resultados = await asyncio.gather(*tarefas)
 
-    # Preencher o dicionário com os resultados
+    final = time.perf_counter()
+
+    tempo_total = final - inicio
+
     for nome, artigos in resultados:
         data[nome].extend(artigos)
 
-    # Estatísticas finais
     total_artigos = sum(len(artigos) for artigos in data.values())
     print("\n" + "=" * 50)
     print("📊 RESUMO FINAL:")
@@ -542,6 +547,7 @@ async def fetch_concurrent(limit: int = 4):
         else:
             print(f"  ❌ {nome}: Falhou ou sem artigos")
     print(f"\n  📈 TOTAL: {total_artigos} artigos coletados")
+    print(f"\n⏱️  Tempo total: {tempo_total:.2f}s")
     print("=" * 50)
 
     return data
