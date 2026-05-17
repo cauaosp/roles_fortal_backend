@@ -358,135 +358,137 @@ async def fetch_terra_da_luz(url, params, headers):
             post_task = session.get(url, params=params, headers=headers)
 
             users_response = session.get(
-                    url="https://portalterradaluz.com.br/wp-json/wp/v2/users",
-                    headers=headers,
-                )
+                url="https://portalterradaluz.com.br/wp-json/wp/v2/users",
+                headers=headers,
+            )
 
             categories_response = session.get(
-                    url="https://portalterradaluz.com.br/wp-json/wp/v2/categories",
-                    headers=headers,
-                )
+                url="https://portalterradaluz.com.br/wp-json/wp/v2/categories",
+                headers=headers,
+            )
 
-            users_data = users_response.json()
+            post_task, users_response, categories_response = await asyncio.gather(
+                post_task,
+                users_response,
+                categories_response,
+            )
 
-            items = await post_task.json()
-
+            users_data = await users_response.json()
 
             authors_map = {user["id"]: user["name"] for user in users_data}
 
-            categories_data = categories_response.json()
+            categories_data = await categories_response.json()
 
             categories_map = {
                 category["id"]: category["name"] for category in categories_data
             }
 
+            items = await post_task.json()
 
+            for item in items:
+                try:
+                    categories = []
+                    categories_list = item["categories"]
+                    for category_id in categories_list:
+                        categories.append(categories_map.get(category_id))
 
-                for item in items:
-                    try:
-                        categories = []
-                        categories_list = item["categories"]
-                        for category_id in categories_list:
-                            categories.append(categories_map.get(category_id))
+                    author_id = item["author"]
+                    author_name = authors_map.get(author_id)
 
-                        author_id = item["author"]
-                        author_name = authors_map.get(author_id)
+                    titulo_html = item["title"]["rendered"]
+                    excerpt_html = item["excerpt"]["rendered"]
 
-                        titulo_html = item["title"]["rendered"]
-                        excerpt_html = item["excerpt"]["rendered"]
+                    titulo = BeautifulSoup(titulo_html, "html.parser").get_text(
+                        " ", strip=True
+                    )
 
-                        titulo = BeautifulSoup(titulo_html, "html.parser").get_text(
-                            " ", strip=True
-                        )
+                    subtitulo = BeautifulSoup(excerpt_html, "html.parser").get_text(
+                        " ", strip=True
+                    )
 
-                        subtitulo = BeautifulSoup(excerpt_html, "html.parser").get_text(
-                            " ", strip=True
-                        )
-
-                        articles.append(
-                            {
-                                "titulo": titulo,
-                                "subtitulo": subtitulo,
-                                "categoria": categories,
-                                "autor": author_name,
-                                "dataPublicacao": item["date"],
-                                "link": item["link"],
-                                "jornal": "Portal Terra da Luz",
-                                "created_at": creation_time(),
-                            }
-                        )
-                    except KeyError:
-                        print(f"Erro no item: {item}")
+                    articles.append(
+                        {
+                            "titulo": titulo,
+                            "subtitulo": subtitulo,
+                            "categoria": categories,
+                            "autor": author_name,
+                            "dataPublicacao": item["date"],
+                            "link": item["link"],
+                            "jornal": "Portal Terra da Luz",
+                            "created_at": creation_time(),
+                        }
+                    )
+                except KeyError:
+                    print(f"Erro no item: {item}")
     except KeyError as e:
         print(f"Erro no fetch dos dados terra da luz: {e}")
 
     return articles
 
 
-# async def fetch_secult(url, params, headers):
-#     articles = []
+async def fetch_secult(url, params, headers):
+    articles = []
 
-#     try:
-#         response = requests.get(
-#             url,
-#             params=params,
-#             headers=headers,
-#         )
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                url,
+                params=params,
+                headers=headers,
+            ) as response:
+                if response.status != 200:
+                    print(f"Erro HTTP {response.status} para secult")
+                    return articles
 
-#         print(response.status_code, "secult")
+                print(response.status, "secult")
 
-#         if response.status_code != 200:
-#             print(f"Erro HTTP {response.status_code} para secult")
-#             return articles
+                items = await response.json()
 
-#         items = response.json()
+                for item in items:
+                    titulo = item["title"]["rendered"]
 
-#         for item in items:
-#             titulo = item["title"]["rendered"]
+                    subtitulo_puro = item["excerpt"]["rendered"]
+                    subtitulo = BeautifulSoup(subtitulo_puro, "html.parser").get_text(
+                        " ", strip=True
+                    )
 
-#             subtitulo_puro = item["excerpt"]["rendered"]
-#             subtitulo = BeautifulSoup(subtitulo_puro, "html.parser").get_text(
-#                 " ", strip=True
-#             )
+                    categorias = []
 
-#             categorias = []
+                    if "_embedded" in item and "wp:term" in item["_embedded"]:
+                        termos = item["_embedded"]["wp:term"]
+                        for taxonomia in termos:
+                            if taxonomia and len(taxonomia) > 0:
+                                primeiro_termo = taxonomia[0]
+                                if primeiro_termo.get("taxonomy") == "category":
+                                    for cat in taxonomia:
+                                        categorias.append(cat.get("name"))
+                                    break
 
-#             if "_embedded" in item and "wp:term" in item["_embedded"]:
-#                 termos = item["_embedded"]["wp:term"]
-#                 for taxonomia in termos:
-#                     if taxonomia and len(taxonomia) > 0:
-#                         primeiro_termo = taxonomia[0]
-#                         if primeiro_termo.get("taxonomy") == "category":
-#                             for cat in taxonomia:
-#                                 categorias.append(cat.get("name"))
-#                             break
+                    autor_nome = None
 
-#             autor_nome = None
+                    if "yoast_head_json" in item:
+                        autor_nome = item["yoast_head_json"].get("author")
 
-#             if "yoast_head_json" in item:
-#                 autor_nome = item["yoast_head_json"].get("author")
+                    dataPublicacao = item["date"]
 
-#             dataPublicacao = item["date"]
+                    link = item["link"]
 
-#             link = item["link"]
+                    articles.append(
+                        {
+                            "titulo": titulo,
+                            "subtitulo": subtitulo,
+                            "categoria": categorias,
+                            "autor": autor_nome,
+                            "dataPublicacao": dataPublicacao,
+                            "link": link,
+                            "jornal": "Secult",
+                            "created_at": creation_time(),
+                        }
+                    )
+    except KeyError:
+        print("Erro no fetch dos dados")
 
-#             articles.append(
-#                 {
-#                     "titulo": titulo,
-#                     "subtitulo": subtitulo,
-#                     "categoria": categorias,
-#                     "autor": autor_nome,
-#                     "dataPublicacao": dataPublicacao,
-#                     "link": link,
-#                     "jornal": "Secult",
-#                     "created_at": creation_time(),
-#                 }
-#             )
-
-#     except KeyError:
-#         print("Erro no fetch dos dados")
-
-#     return articles
+    return articles
 
 
 async def scraping_limitado(sem, nome: str, config: Dict[str, Any]):
@@ -496,17 +498,13 @@ async def scraping_limitado(sem, nome: str, config: Dict[str, Any]):
             func = config["func"]
             params = config["params"]
 
-            # Adapta conforme a estrutura dos parâmetros
             if "params" in params and "headers" in params:
-                # Para funções que esperam (url, params, headers)
                 resultado = await func(
                     params["url"], params.get("params", {}), params["headers"]
                 )
             elif "headers" in params:
-                # Para funções que esperam (url, headers)
                 resultado = await func(params["url"], params["headers"])
             else:
-                # Para funções que esperam apenas url
                 resultado = await func(params["url"])
 
             print(
@@ -552,33 +550,33 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    # "opovo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
-    # "dn": {
-    #     "func": fetch_dn,
-    #     "params": JORNAIS_MAP["dn"],
-    # },
-    # "oestadoce": {
-    #     "func": fetch_oestadoce,
-    #     "params": JORNAIS_MAP["oestadoce"],
-    # },
-    # "verdemares": {
-    #     "func": fetch_verdemares,
-    #     "params": JORNAIS_MAP["verdemares"],
-    # },
-    # "cearaagora": {
-    #     "func": fetch_cearaagora,
-    #     "params": JORNAIS_MAP["cearaagora"],
-    # },
-    # "terra_da_luz": {
-    #     "func": fetch_terra_da_luz,
-    #     "params": JORNAIS_MAP["terra_da_luz"],
-    # },
+    "opovo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    "dn": {
+        "func": fetch_dn,
+        "params": JORNAIS_MAP["dn"],
+    },
+    "oestadoce": {
+        "func": fetch_oestadoce,
+        "params": JORNAIS_MAP["oestadoce"],
+    },
+    "verdemares": {
+        "func": fetch_verdemares,
+        "params": JORNAIS_MAP["verdemares"],
+    },
+    "cearaagora": {
+        "func": fetch_cearaagora,
+        "params": JORNAIS_MAP["cearaagora"],
+    },
+    "terra_da_luz": {
+        "func": fetch_terra_da_luz,
+        "params": JORNAIS_MAP["terra_da_luz"],
+    },
     "tce": {
         "func": fetch_tce,
         "params": JORNAIS_MAP["tce"],
     },
-    # "secult": {
-    #     "func": fetch_secult,
-    #     "params": JORNAIS_MAP["secult"],
-    # },
+    "secult": {
+        "func": fetch_secult,
+        "params": JORNAIS_MAP["secult"],
+    },
 }
