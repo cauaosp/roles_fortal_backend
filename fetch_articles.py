@@ -1,4 +1,5 @@
 import asyncio
+import json
 
 from utils.functions import fetch_concurrent
 
@@ -9,11 +10,11 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    data = asyncio.run(main())
 
-    # with open("data/artigos_ceara.json", "w", encoding="utf-8") as f:
-    #     json.dump(data, f, ensure_ascii=False, indent=4)
-    #     print("Arquivo salvo!")
+    with open("data/artigos_ceara.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+        print("Arquivo salvo!")
 
-    # print(f"total: {sum(len(v) for v in data.values())} artigos")
-    # print({k: len(v) for k, v in data.items()})
+    print(f"total: {sum(len(v) for v in data.values())} artigos")
+    print({k: len(v) for k, v in data.items()})
