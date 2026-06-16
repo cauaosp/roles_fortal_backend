@@ -25,8 +25,6 @@ async def fetch_opovo(session, url, params, headers):
                 print(f"Erro HTTP {response.status} para opovo")
                 return opovo_articles
 
-            print(response.status, "opovo")
-
             data = await response.json()
 
             created_at = creation_time()
@@ -65,8 +63,6 @@ async def fetch_dn(session, url, headers):
                     if response.status != 200:
                         print(f"Erro HTTP {response.status} para opovo")
                         return dn_articles
-
-                    print(response.status, "diario do nordeste")
 
                     html = await response.text()
 
@@ -114,8 +110,6 @@ async def fetch_oestadoce(session, url, params, headers):
                 print(f"Erro HTTP {response.status} para o estado")
                 return oestadoce_articles
 
-            print(response.status, "o estado")
-
             data = await response.json()
 
             created_at = creation_time()
@@ -158,8 +152,6 @@ async def fetch_verdemares(session, url, headers):
             if response.status != 200:
                 print(f"Erro ao buscar dados do verdemares {response.status}")
                 return articles
-
-            print(response.status, "globoce")
 
             xml = await response.text()
 
@@ -228,8 +220,6 @@ async def fetch_cearaagora(session, url, params, headers):
             print(f"Erro HTTP {fetch_posts.status} para cearaagora")
             return articles
 
-        print(fetch_posts.status, "cearaagora")
-
         for item in items:
             try:
                 categories = []
@@ -275,8 +265,6 @@ async def fetch_tce(session, url, params, headers):
                 if response.status != 200:
                     print(f"Erro na requisição: {response.status}")
                     continue
-
-                print(response.status, "tce")
 
                 xml_response = await response.text()
 
@@ -436,8 +424,6 @@ async def fetch_secult(session, url, params, headers):
                 print(f"Erro HTTP {response.status} para secult")
                 return articles
 
-            print(response.status, "secult")
-
             items = await response.json()
 
             for item in items:
@@ -504,7 +490,7 @@ async def scraping_limitado(session, sem, nome: str, config: Dict[str, Any]):
                 resultado = await func(session, params["url"])
 
             print(
-                f"[{time.strftime('%H:%M:%S')}] ✅ Finalizado: {nome} - {len(resultado)} artigos"
+                f"[{time.strftime('%H:%M:%S')}] ✅ Fim: {nome} - {len(resultado)} artigos"
             )
 
             return nome, resultado
@@ -554,32 +540,32 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    "opovo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
-    "dn": {
+    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    "Diário do Nordeste": {
         "func": fetch_dn,
         "params": JORNAIS_MAP["dn"],
     },
-    "oestadoce": {
+    "O Estado CE": {
         "func": fetch_oestadoce,
         "params": JORNAIS_MAP["oestadoce"],
     },
-    "verdemares": {
+    "Verdes Mares": {
         "func": fetch_verdemares,
         "params": JORNAIS_MAP["verdemares"],
     },
-    "cearaagora": {
+    "Ceará Agora": {
         "func": fetch_cearaagora,
         "params": JORNAIS_MAP["cearaagora"],
     },
-    "terra_da_luz": {
+    "Terra da Luz": {
         "func": fetch_terra_da_luz,
         "params": JORNAIS_MAP["terra_da_luz"],
     },
-    "tce": {
+    "Tribunal de Contas do Ceará": {
         "func": fetch_tce,
         "params": JORNAIS_MAP["tce"],
     },
-    "secult": {
+    "Secretaria de Cultura do Ceará": {
         "func": fetch_secult,
         "params": JORNAIS_MAP["secult"],
     },
