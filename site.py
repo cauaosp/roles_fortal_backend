@@ -22,7 +22,7 @@ def get_artigos():
         if not data:
             return jsonify(
                 {
-                    "message": "Nenhum artigo foi capturado.",
+                    "error": "Nenhum artigo foi capturado.",
                     "artigos": [],
                 }
             ), 200
