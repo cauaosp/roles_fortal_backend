@@ -1,6 +1,7 @@
 import asyncio
 import html
 import json
+import re
 import time
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict
@@ -14,6 +15,14 @@ from utils.const import JORNAIS_MAP
 def creation_time():
     fuso_brasilia = timezone(timedelta(hours=-3))
     return datetime.now(fuso_brasilia).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def clear_html_string(texto):
+    if not texto:
+        return None
+
+    subtitulo = re.sub(r"<[^>]+>", "", texto)
+    return subtitulo[:250].strip()
 
 
 async def fetch_opovo(session, url, params, headers):
@@ -34,7 +43,7 @@ async def fetch_opovo(session, url, params, headers):
                     opovo_articles.append(
                         {
                             "titulo": item["ds_matia_titlo"],
-                            "subtitulo": item["ds_matia_chape"] or None,
+                            "subtitulo": clear_html_string(item["ds_matia_chape"]),
                             "categoria": item["ds_site"],
                             "autor": item["nm_autor"],
                             "dataPublicacao": item["dt_matia_publi"],
@@ -55,48 +64,88 @@ async def fetch_opovo(session, url, params, headers):
 async def fetch_dn(session, url, headers):
     dn_articles = []
 
-    try:
-        for i in range(3):
-            try:
-                url_paged = url + f"?page={i + 1}"
-                async with session.get(url_paged, headers=headers) as response:
-                    if response.status != 200:
-                        print(f"Erro HTTP {response.status} para opovo")
-                        return dn_articles
+    for i in range(3):
+        url_paged = url + f"?page={i + 1}"
 
-                    html = await response.text()
+        try:
+            async with session.get(url_paged, headers=headers) as response:
+                if response.status != 200:
+                    print(f"Erro HTTP {response.status} para opovo")
+                    return dn_articles
 
-                    soup = BeautifulSoup(html, "html.parser")
+                html = await response.text()
 
-                    jsonld_script = soup.find("script", {"type": "application/ld+json"})
+                soup = BeautifulSoup(html, "html.parser")
 
-                    if not jsonld_script or jsonld_script.string is None:
-                        return dn_articles
+                feed = soup.find("div", id="teasers-feed")
 
-                    data = json.loads(jsonld_script.string)
+                if not feed:
+                    return dn_articles
 
-                    if "@graph" in data and len(data["@graph"]) > 0:
-                        collection_page = data["@graph"][0]
+                artigos = feed.find_all("div", attrs={"data-js": "teaser"})
 
-                        if "hasPart" in collection_page:
-                            for item in collection_page["hasPart"]:
-                                if item.get("@type") == "NewsArticle":
-                                    article = {
-                                        "titulo": item.get("headline", ""),
-                                        "autor": item.get("author", {}).get("name", "")
-                                        if isinstance(item.get("author"), dict)
-                                        else "",
-                                        "dataPublicacao": item.get("datePublished", ""),
-                                        "link": item.get("url", ""),
-                                        "jornal": "diariodonordeste",
-                                        "createdAt": creation_time(),
-                                    }
-                                    dn_articles.append(article)
+                for artigo in artigos:
+                    if len(dn_articles) >= 30:
+                        break
 
-            except KeyError:
-                print("Erro no fetch dos dados")
-    except Exception as e:
-        print(f"Erro ao buscar dn: {e}")
+                    try:
+                        titulo_tag = artigo.find("h2")
+                        titulo = (
+                            titulo_tag.get_text(" ", strip=True) if titulo_tag else None
+                        )
+
+                        subtitulo_tag = artigo.find("p", class_="text-lead")
+                        subtitulo = clear_html_string(subtitulo_tag.get_text())
+
+                        categoria_tag = artigo.find(
+                            "a", class_=lambda c: c and "uppercase" in c
+                        )
+                        categoria = (
+                            categoria_tag.get_text(" ", strip=True)
+                            if categoria_tag
+                            else None
+                        )
+
+                        autor_tag = artigo.find(
+                            "div", class_=lambda c: c and "font-bold" in c
+                        )
+                        autor = (
+                            autor_tag.get_text(" ", strip=True) if autor_tag else None
+                        )
+
+                        data_tag = artigo.find(
+                            "div", class_=lambda c: c and "text-slate-500" in c
+                        )
+                        data_publicacao = (
+                            data_tag.get_text(" ", strip=True) if data_tag else None
+                        )
+
+                        link_tag = artigo.find(
+                            "a",
+                            href=True,
+                            attrs={"aria-label": True},
+                        )
+
+                        link = link_tag["href"] if link_tag else None
+
+                        dn_articles.append(
+                            {
+                                "titulo": titulo,
+                                "subtitulo": subtitulo,
+                                "categoria": categoria,
+                                "autor": autor,
+                                "dataPublicacao": data_publicacao,
+                                "link": link,
+                                "jornal": "diariodonordeste",
+                                "createdAt": creation_time(),
+                            }
+                        )
+
+                    except Exception as e:
+                        print(f"Erro ao processar artigo: {e}")
+
+        except KeyError:
+            print("Erro no fetch dos dados")
 
     return dn_articles
 
@@ -116,6 +165,8 @@ async def fetch_oestadoce(session, url, params, headers):
 
             for item in data:
                 try:
+                    subtitulo = clear_html_string(item["excerpt"]["rendered"])
+
                     categorias = (
                         item.get("yoast_head_json", {})
                         .get("schema", {})
@@ -126,7 +177,7 @@ async def fetch_oestadoce(session, url, params, headers):
                     oestadoce_articles.append(
                         {
                             "titulo": item["title"]["rendered"],
-                            "subtitulo": item.get("acf", {}).get("post_gravata"),
+                            "subtitulo": subtitulo,
                             "categoria": categorias,
                             "autor": item.get("yoast_head_json", {}).get("author"),
                             "dataPublicacao": item["date"],
@@ -164,7 +215,7 @@ async def fetch_verdemares(session, url, headers):
                 titulo = title_tag.get_text() if title_tag else None
 
                 subtitle_tag = item.find("atom:subtitle")
-                subtitulo = subtitle_tag.get_text() if subtitle_tag else None
+                subtitulo = clear_html_string(subtitle_tag.get_text())
 
                 link_tag = item.link
                 link = link_tag.get_text() if link_tag else None
@@ -182,7 +233,7 @@ async def fetch_verdemares(session, url, headers):
                         "categoria": categoria,
                         "dataPublicacao": data,
                         "link": link,
-                        "jornal": "g1ceara",
+                        "jornal": "verdesmares",
                         "createdAt": creation_time(),
                     }
                 )
@@ -193,6 +244,8 @@ async def fetch_verdemares(session, url, headers):
 
 
 async def fetch_cearaagora(session, url, params, headers):
+    # 14 - ceara / 49 - fortaleza / 28 - cultura / 13 - interior / 146 - tecnologia / 25 - grandefortaleza / 16 - educação
+    categories_approved = [14, 49, 28, 13, 146, 25, 16]
     articles = []
 
     try:
@@ -201,7 +254,9 @@ async def fetch_cearaagora(session, url, params, headers):
         url_autor = "https://cearaagora.com.br/wp-json/wp/v2/users/"
         fetch_author = session.get(url_autor, headers=headers)
 
-        url_categoria = "https://cearaagora.com.br/wp-json/wp/v2/categories/"
+        url_categoria = (
+            "https://cearaagora.com.br/wp-json/wp/v2/categories?per_page=100"
+        )
         fetch_categories = session.get(url_categoria, headers=headers)
 
         fetch_posts, fetch_author, fetch_categories = await asyncio.gather(
@@ -209,10 +264,11 @@ async def fetch_cearaagora(session, url, params, headers):
         )
 
         users_data = await fetch_author.json()
-        users_map = {user["id"]: user for user in users_data}
-
+        users_map = {user["id"]: user["name"] for user in users_data}
         categories_data = await fetch_categories.json()
-        categories_map = {category["id"]: category for category in categories_data}
+        categories_map = {
+            category["id"]: category["name"] for category in categories_data
+        }
 
         items = await fetch_posts.json()
 
@@ -221,21 +277,37 @@ async def fetch_cearaagora(session, url, params, headers):
             return articles
 
         for item in items:
-            try:
-                categories = []
-                categorias_id_list = item.get("categories", [])
-                for id in categorias_id_list:
-                    categories.append(categories_map.get(id))
+            if len(articles) >= 30:
+                break
 
-                author_id = item.get("author", 0)
-                author_obj = users_map.get(author_id)
-                author_name = author_obj.get("name", "") if author_obj else ""
+            try:
+                valid_article = False
+                categories = []
+
+                for category_id in item.get("categories", []):
+                    if category_id in categories_approved:
+                        valid_article = True
+
+                    category_name = categories_map.get(category_id)
+
+                    if category_name and category_name.lower().startswith("destaque"):
+                        category_name = "Destaque"
+
+                    if category_name and category_name.lower() != "sem categoria":
+                        categories.append(category_name)
+
+                if not valid_article:
+                    continue
+
+                author_id = item.get("author")
+                author_name = users_map.get(author_id)
+                subtitle = clear_html_string(item["excerpt"]["rendered"])
 
                 articles.append(
                     {
                         "titulo": item["title"]["rendered"],
-                        "subtitulo": item["excerpt"]["rendered"],
-                        "categoria": "",
+                        "subtitulo": subtitle,
+                        "categoria": categories,
                         "autor": author_name,
                         "dataPublicacao": item["date"],
                         "link": item["link"],
@@ -290,7 +362,9 @@ async def fetch_tce(session, url, params, headers):
                             for img in soup_summary.find_all("img"):
                                 img.decompose()
 
-                            subtitulo = soup_summary.get_text(" ", strip=True)[:150]
+                            subtitulo = clear_html_string(
+                                soup_summary.get_text(" ", strip=True)
+                            )
 
                         category_tag = item.find("category")
                         categoria = category_tag.get("term") if category_tag else None
@@ -311,8 +385,6 @@ async def fetch_tce(session, url, params, headers):
                         link_tag = item.id
                         link = link_tag.get_text() if link_tag else None
 
-                        jornal = "Tribunal de Contas do Ceará"
-
                         createdAt = creation_time()
 
                         articles.append(
@@ -323,7 +395,7 @@ async def fetch_tce(session, url, params, headers):
                                 "autor": autor,
                                 "dataPublicacao": dataPublicacao,
                                 "link": link,
-                                "jornal": jornal,
+                                "jornal": "tce",
                                 "createdAt": createdAt,
                             }
                         )
@@ -387,8 +459,8 @@ async def fetch_terra_da_luz(session, url, params, headers):
                     " ", strip=True
                 )
 
-                subtitulo = BeautifulSoup(excerpt_html, "html.parser").get_text(
-                    " ", strip=True
+                subtitulo = clear_html_string(
+                    BeautifulSoup(excerpt_html, "html.parser").get_text(" ", strip=True)
                 )
 
                 articles.append(
@@ -399,7 +471,7 @@ async def fetch_terra_da_luz(session, url, params, headers):
                         "autor": author_name,
                         "dataPublicacao": item["date"],
                         "link": item["link"],
-                        "jornal": "Portal Terra da Luz",
+                        "jornal": "portalterradaluz",
                         "created_at": creation_time(),
                     }
                 )
@@ -430,8 +502,10 @@ async def fetch_secult(session, url, params, headers):
                 titulo = item["title"]["rendered"]
 
                 subtitulo_puro = item["excerpt"]["rendered"]
-                subtitulo = BeautifulSoup(subtitulo_puro, "html.parser").get_text(
-                    " ", strip=True
+                subtitulo = clear_html_string(
+                    BeautifulSoup(subtitulo_puro, "html.parser").get_text(
+                        " ", strip=True
+                    )
                 )
 
                 categorias = []
@@ -463,7 +537,7 @@ async def fetch_secult(session, url, params, headers):
                         "autor": autor_nome,
                         "dataPublicacao": dataPublicacao,
                         "link": link,
-                        "jornal": "Secult",
+                        "jornal": "secult",
                         "created_at": creation_time(),
                     }
                 )
