@@ -25,7 +25,7 @@ def get_artigos():
                     "error": "Nenhum artigo foi capturado.",
                     "artigos": [],
                 }
-            ), 200
+            ), 503
 
         return jsonify(data)
     except json.JSONDecodeError:
