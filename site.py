@@ -18,6 +18,15 @@ def get_artigos():
     try:
         with open(DATA_FILE, "r") as f:
             data = json.load(f)
+
+        if not data:
+            return jsonify(
+                {
+                    "message": "Nenhum artigo foi capturado.",
+                    "artigos": [],
+                }
+            ), 200
+
         return jsonify(data)
     except json.JSONDecodeError:
         return jsonify({"error": "Erro ao ler dados", "artigos": []}), 500

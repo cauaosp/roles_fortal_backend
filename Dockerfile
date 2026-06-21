@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 5001
+RUN chmod +x setup.sh
 
-CMD ["python", "site.py"]
+CMD ["./setup.sh"]
