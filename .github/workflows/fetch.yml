@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: release/production
 
       - name: Verificar arquivos
         run: |
