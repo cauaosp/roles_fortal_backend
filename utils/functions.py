@@ -36,7 +36,7 @@ def parse_data_journal(data):
         mes = MESES[partes[1]]
         ano = int(partes[2])
 
-        return datetime(ano, mes, dia).strftime("%Y-%m-%d %H:%M:%S")
+        return datetime(ano, mes, dia).strftime("%Y-%m-%d")
     except Exception:
         return data
 
@@ -630,33 +630,33 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
     "Diário do Nordeste": {
         "func": fetch_dn,
         "params": JORNAIS_MAP["dn"],
     },
-    # "O Estado CE": {
-    #     "func": fetch_oestadoce,
-    #     "params": JORNAIS_MAP["oestadoce"],
-    # },
-    # "Verdes Mares": {
-    #     "func": fetch_verdemares,
-    #     "params": JORNAIS_MAP["verdemares"],
-    # },
-    # "Ceará Agora": {
-    #     "func": fetch_cearaagora,
-    #     "params": JORNAIS_MAP["cearaagora"],
-    # },
-    # "Terra da Luz": {
-    #     "func": fetch_terra_da_luz,
-    #     "params": JORNAIS_MAP["terra_da_luz"],
-    # },
-    # "Tribunal de Contas do Ceará": {
-    #     "func": fetch_tce,
-    #     "params": JORNAIS_MAP["tce"],
-    # },
-    # "Secretaria de Cultura do Ceará": {
-    #     "func": fetch_secult,
-    #     "params": JORNAIS_MAP["secult"],
-    # },
+    "O Estado CE": {
+        "func": fetch_oestadoce,
+        "params": JORNAIS_MAP["oestadoce"],
+    },
+    "Verdes Mares": {
+        "func": fetch_verdemares,
+        "params": JORNAIS_MAP["verdemares"],
+    },
+    "Ceará Agora": {
+        "func": fetch_cearaagora,
+        "params": JORNAIS_MAP["cearaagora"],
+    },
+    "Terra da Luz": {
+        "func": fetch_terra_da_luz,
+        "params": JORNAIS_MAP["terra_da_luz"],
+    },
+    "Tribunal de Contas do Ceará": {
+        "func": fetch_tce,
+        "params": JORNAIS_MAP["tce"],
+    },
+    "Secretaria de Cultura do Ceará": {
+        "func": fetch_secult,
+        "params": JORNAIS_MAP["secult"],
+    },
 }
