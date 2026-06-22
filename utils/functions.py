@@ -9,7 +9,7 @@ from typing import Any, Dict
 import aiohttp
 import requests
 from bs4 import BeautifulSoup
-from utils.const import JORNAIS_MAP
+from utils.const import JORNAIS_MAP, MESES
 
 
 def creation_time():
@@ -23,6 +23,22 @@ def clear_html_string(texto):
 
     subtitulo = re.sub(r"<[^>]+>", "", texto)
     return subtitulo[:250].strip()
+
+
+def parse_data_journal(data):
+    if not data:
+        return None
+
+    try:
+        partes = data.lower().split(" de ")
+
+        dia = int(partes[0])
+        mes = MESES[partes[1]]
+        ano = int(partes[2])
+
+        return datetime(ano, mes, dia).strftime("%Y-%m-%d %H:%M:%S")
+    except Exception:
+        return data
 
 
 async def fetch_opovo(session, url, params, headers):
@@ -116,8 +132,8 @@ async def fetch_dn(session, url, headers):
                         data_tag = artigo.find(
                             "div", class_=lambda c: c and "text-slate-500" in c
                         )
-                        data_publicacao = (
-                            data_tag.get_text(" ", strip=True) if data_tag else None
+                        data_publicacao = parse_data_journal(
+                            data_tag.get_text(" ", strip=True)
                         )
 
                         link_tag = artigo.find(
@@ -614,33 +630,33 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
     "Diário do Nordeste": {
         "func": fetch_dn,
         "params": JORNAIS_MAP["dn"],
     },
-    "O Estado CE": {
-        "func": fetch_oestadoce,
-        "params": JORNAIS_MAP["oestadoce"],
-    },
-    "Verdes Mares": {
-        "func": fetch_verdemares,
-        "params": JORNAIS_MAP["verdemares"],
-    },
-    "Ceará Agora": {
-        "func": fetch_cearaagora,
-        "params": JORNAIS_MAP["cearaagora"],
-    },
-    "Terra da Luz": {
-        "func": fetch_terra_da_luz,
-        "params": JORNAIS_MAP["terra_da_luz"],
-    },
-    "Tribunal de Contas do Ceará": {
-        "func": fetch_tce,
-        "params": JORNAIS_MAP["tce"],
-    },
-    "Secretaria de Cultura do Ceará": {
-        "func": fetch_secult,
-        "params": JORNAIS_MAP["secult"],
-    },
+    # "O Estado CE": {
+    #     "func": fetch_oestadoce,
+    #     "params": JORNAIS_MAP["oestadoce"],
+    # },
+    # "Verdes Mares": {
+    #     "func": fetch_verdemares,
+    #     "params": JORNAIS_MAP["verdemares"],
+    # },
+    # "Ceará Agora": {
+    #     "func": fetch_cearaagora,
+    #     "params": JORNAIS_MAP["cearaagora"],
+    # },
+    # "Terra da Luz": {
+    #     "func": fetch_terra_da_luz,
+    #     "params": JORNAIS_MAP["terra_da_luz"],
+    # },
+    # "Tribunal de Contas do Ceará": {
+    #     "func": fetch_tce,
+    #     "params": JORNAIS_MAP["tce"],
+    # },
+    # "Secretaria de Cultura do Ceará": {
+    #     "func": fetch_secult,
+    #     "params": JORNAIS_MAP["secult"],
+    # },
 }
