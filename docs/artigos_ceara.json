@@ -1,6 +1,26 @@
 {
     "O povo": [
         {
+            "titulo": "Museu de IA oferece imersão sensorial na Floresta Amazônica",
+            "subtitulo": "Novo museu em Los Angeles gera arte multissensorial com auxílio de inteligência artificial criando cenários, como a floresta amazônica",
+            "categoria": "Vida&Arte",
+            "autor": "AFP",
+            "dataPublicacao": "2026-06-22 19:18:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/06/22/museu-de-ia-oferece-imersao-sensorial-na-floresta-amazonica.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Marco Nanini chega a Fortaleza com o espetáculo ‘Fim de Partida’",
+            "subtitulo": "A apresentação adapta o texto homônimo do dramaturgo irlandês Samuel Beckett escrito sob o impacto da Segunda Guerra Mundial",
+            "categoria": "Agenda",
+            "autor": "Penélope Menezes",
+            "dataPublicacao": "2026-06-22 17:28:00",
+            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/22/marco-nanini-chega-a-fortaleza-com-o-espetaculo-fim-de-partida.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-22 23:57:23"
+        },
+        {
             "titulo": "Sabrina Sato e Nicolas Prattes anunciam gravidez com vídeo; confira",
             "subtitulo": "Após enfrentar desafios e perdas gestacionais, apresentadora confirma nova gestação em vídeo emocionante narrado pela filha Zoe",
             "categoria": "Vida&Arte",
@@ -8,7 +28,7 @@
             "dataPublicacao": "2026-06-22 13:39:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/22/sabrina-sato-e-nicolas-prattes-anunciam-gravidez-assista-video.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  22 de junho(22/06)",
@@ -18,7 +38,7 @@
             "dataPublicacao": "2026-06-22 09:00:13",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/22/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-22-de-junho-22-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Em meio ao calor extremo, França proíbe álcool em festival de música",
@@ -28,7 +48,7 @@
             "dataPublicacao": "2026-06-22 00:04:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/22/em-meio-ao-calor-extremo-franca-proibe-alcool-em-festival-de-musica.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Mordida de macaco pode ter causado morte de atriz de novela turca",
@@ -38,7 +58,7 @@
             "dataPublicacao": "2026-06-21 11:22:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/21/mordida-de-macaco-pode-ter-causado-morte-de-atriz-de-novela-turca.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Ator de Breaking Bad converte-se ao Islã durante gravação de filme",
@@ -48,7 +68,7 @@
             "dataPublicacao": "2026-06-21 10:22:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/21/ator-de-breaking-bad-converte-se-ao-isla-durante-gravacao-de-filme.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Última parada, Canadá: natureza, acolhimento e multiculturalismo ",
@@ -58,7 +78,7 @@
             "dataPublicacao": "2026-06-21 10:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/21/ultima-parada-canada-natureza-acolhimento-e-multiculturalismo.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  21 de junho(21/06)",
@@ -68,7 +88,7 @@
             "dataPublicacao": "2026-06-21 09:00:14",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/21/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-21-de-junho-21-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Segunda parada: Estados Unidos, patriotismo e estilos de vida",
@@ -78,7 +98,7 @@
             "dataPublicacao": "2026-06-20 11:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/20/segunda-parada-estados-unidos-patriotismo-e-estilos-de-vida.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  20 de junho(20/06)",
@@ -88,7 +108,7 @@
             "dataPublicacao": "2026-06-20 09:00:14",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/20/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-20-de-junho-20-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Candy Crush: como o game conquistou o Brasil e coroou campeã baiana",
@@ -98,7 +118,7 @@
             "dataPublicacao": "2026-06-19 23:22:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/candy-crush-como-game-coroou-uma-campea-mundial-brasileira.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Nem todo amor é cura: Olivia Rodrigo explora contradições do amor real em novo álbum",
@@ -108,7 +128,7 @@
             "dataPublicacao": "2026-06-19 20:30:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/nem-todo-amor-e-cura-olivia-rodrigo-explora-contradicoes-do-amor-real-em-novo-album.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "O que fazer em Fortaleza? Veja festas para curtir neste final de semana",
@@ -118,7 +138,7 @@
             "dataPublicacao": "2026-06-19 15:58:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/19/o-que-fazer-em-fortaleza-veja-festas-para-curtir-neste-final-de-semana.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Festival do Pratinho chega à 4ª edição com opções de R$10 a R$35",
@@ -128,7 +148,7 @@
             "dataPublicacao": "2026-06-19 15:56:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/19/festival-do-pratinho-chega-a-4-edicao-com-opcoes-de-rs10-a-rs35.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Pause: episódio mergulha na história e nos benefícios do Yoga",
@@ -138,7 +158,7 @@
             "dataPublicacao": "2026-06-19 15:43:58",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/pause-um-mergulho-na-historia-e-nos-beneficios-do-yoga.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Mostra gratuita exibe filmes brasileiros do Prêmio Grande Otelo",
@@ -148,7 +168,7 @@
             "dataPublicacao": "2026-06-19 15:11:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/19/cine-sao-luiz-exibe-filmes-brasileiros-do-premio-grande-otelo.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "MIS inicia programação com aniversário da Galeria da Liberdade",
@@ -158,7 +178,7 @@
             "dataPublicacao": "2026-06-19 14:21:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/19/mis-inicia-programacao-com-aniversario-da-galeria-da-liberdade.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Emiciomar lança novo álbum: 'Manifesto em defesa da felicidade'",
@@ -168,7 +188,7 @@
             "dataPublicacao": "2026-06-19 14:14:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/emiciomar-lanca-novo-album-manifesto-em-defesa-da-felicidade.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "HBO Max, Prime Video e Netflix : as estreias da semana (15 a 21/06)",
@@ -178,7 +198,7 @@
             "dataPublicacao": "2026-06-19 11:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/hbo-max-prime-video-e-netflix-as-estreias-da-semana-15-a-21-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  19 de junho(19/06)",
@@ -188,7 +208,7 @@
             "dataPublicacao": "2026-06-19 09:00:14",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/19/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-19-de-junho-19-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Uma Copa do Mundo multicultural: primeira parada, México ",
@@ -198,7 +218,7 @@
             "dataPublicacao": "2026-06-19 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/uma-copa-do-mundo-multicultural-primeira-parada-mexico.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Sessão da Tarde hoje: que filme passa na TV Globo sexta, 19/06/2026",
@@ -208,7 +228,7 @@
             "dataPublicacao": "2026-06-19 00:15:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/19/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-sexta-19-06-2026.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Martinho da Vila faz show de despedida com Mart'nália em Fortaleza",
@@ -218,7 +238,7 @@
             "dataPublicacao": "2026-06-18 18:26:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/18/martinho-da-vila-faz-show-de-despedida-com-martnalia-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Exposição gratuita sobre ancestralidade e memória ocupa o Curió",
@@ -228,7 +248,7 @@
             "dataPublicacao": "2026-06-18 17:25:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/18/exposicao-gratuita-sobre-ancestralidade-e-memoria-ocupa-o-curio.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "GTA 6: Rockstar anuncia pré-venda e capa, além de updates para antecessor",
@@ -238,7 +258,7 @@
             "dataPublicacao": "2026-06-18 12:26:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/18/gta-6-rockstar-anuncia-pre-venda-capa-e-atualizacoes.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Ex-guitarrista da banda de metal Helloween faz show em Fortaleza",
@@ -248,7 +268,7 @@
             "dataPublicacao": "2026-06-18 11:42:27",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/18/ex-guitarrista-da-banda-de-metal-helloween-faz-show-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "80 anos de Maria Bethânia: exposição em Fortaleza homenageia cantora",
@@ -258,7 +278,7 @@
             "dataPublicacao": "2026-06-18 09:35:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/18/80-anos-de-maria-bethania-exposicao-em-fortaleza-homenageia-cantora.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  18 de junho(18/06)",
@@ -268,7 +288,7 @@
             "dataPublicacao": "2026-06-18 09:00:16",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/18/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-18-de-junho-18-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Dez livros para compreender diversidade, direitos e identidade",
@@ -278,32 +298,84 @@
             "dataPublicacao": "2026-06-18 00:03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/18/dez-livros-para-compreender-diversidade-direitos-e-identidade.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Pixar na era da IA: tecnologias, Toy Story e outras animações",
-            "subtitulo": "Em entrevista ao O POVO, a executiva da Pixar Lindsey Collins fala sobre Toy Story 5 e como a Pixar vem usando IA em novos filmes e em sequências",
-            "categoria": "Vida&Arte",
-            "autor": "Arthur Gadelha",
-            "dataPublicacao": "2026-06-17 16:59:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/06/17/pixar-na-era-da-ia-tecnologias-toy-story-e-outras-animacoes.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Peça cearense inspirada no clássico Drácula estreia em Fortaleza",
-            "subtitulo": "A produção cearense \"Drácula – A Lenda da Sombra\" propõe uma imersão no universo do vampiro, combinando poesia, teatro e elementos visuais",
-            "categoria": "Agenda",
-            "autor": "Laíssa Esmeraldo/ Especial para O POVO",
-            "dataPublicacao": "2026-06-17 15:49:00",
-            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/17/peca-cearense-inspirada-no-classico-dracula-estreia-em-fortaleza.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:23"
         }
     ],
     "Diário do Nordeste": [],
     "O Estado CE": [],
     "Verdes Mares": [
+        {
+            "titulo": "Polícia apreende 6kg de skunk em encomenda enviada do RJ para Fortaleza",
+            "subtitulo": "Os agentes prenderam o destinatário da droga, um homem de 42 anos com antecedentes criminais por tráfico de drogas.",
+            "categoria": "G1",
+            "dataPublicacao": "Tue, 23 Jun 2026 00:38:14 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/policia-apreende-6kg-de-skunk-em-encomenda-enviada-do-rj-para-fortaleza.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Vídeo: cão da raça Shih Tzu é resgatado após ficar preso em cerca elétrica",
+            "subtitulo": "O Corpo de Bombeiros usou técnicas adequadas para retirar o animal com segurança. O cão não apresentava ferimentos aparentes após o resgate.",
+            "categoria": "G1",
+            "dataPublicacao": "Tue, 23 Jun 2026 00:28:59 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/video-cao-da-raca-shih-tzu-e-resgatado-apos-ficar-preso-em-cerca-eletrica.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Dono de pizzaria é morto a tiros no estabelecimento comercial em Fortaleza",
+            "subtitulo": "A vítima foi identificada como José Everlanio Nobre, de 38 anos. O suspeito de cometer o crime fugiu em seguida.",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 23:51:16 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/dono-de-pizzaria-e-morto-a-tiros-no-estabelecimento-comercial-em-fortaleza.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Deputado Yury do Paredão enviou emendas para shows de Jonas Esticado, que é sócio do parlamentar",
+            "subtitulo": "O artista se apresentou em cinco cidades, recebendo R$ 300 mil em cada uma. O deputado federal é o solicitante de cada emenda.",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 22:10:21 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/deputado-yury-do-paredao-enviou-emendas-para-shows-de-jonas-esticado-que-e-socio-do-parlamentar.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Motociclista de aplicativo é condenado por homicídio culposo contra passageiro atropelado por ônibus em Fortaleza",
+            "subtitulo": "O Ministério Público pediu a condenação do réu por homicídio doloso (quando há intenção ou se assume o risco de matar), mas a acusação não foi aceita pelos jurados.",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 20:49:34 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/motociclista-e-condenado-a-3-anos-de-prisao-por-morte-de-passageiro-atropelado-por-onibus.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Imposto de Renda 2026: 218 mil contribuintes do Ceará devem receber restituição no 2º lote; veja quando",
+            "subtitulo": "O valor pago aos contribuintes do Ceará será de mais de R$ R$ 427 milhões. No Brasil, esse lote é o maior da história, de acordo com a Receita Federal.",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 19:53:29 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/imposto-de-renda-2026-218-mil-contribuintes-do-ceara-devem-receber-restituicao-no-2o-lote-veja-quando.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Engavetamento com sete veículos deixa duas pessoas feridas no Quarto Anel Viário",
+            "subtitulo": "Segundo a polícia, um carro freou de forma repentina e causou colisões em sequência. O motorista do veículo que teria provocado o acidente fugiu do local.",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 19:10:18 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/engavetamento-com-sete-veiculos-deixa-duas-pessoas-feridas-no-quarto-anel-viario.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
+        {
+            "titulo": "Sebrae aposta em inovação e apoio às startups por meio do Sebraelab",
+            "subtitulo": "Segundo ciclo do Sebraelab oferece um ambiente de aprendizado e desenvolvimento para os negócios de inovação",
+            "categoria": "G1",
+            "dataPublicacao": "Mon, 22 Jun 2026 18:34:48 -0000",
+            "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/06/22/sebrae-aposta-em-inovacao-e-apoio-as-startups-por-meio-do-sebraelab.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-22 23:57:24"
+        },
         {
             "titulo": "Vazamento de gás natural em obras do metrô interdita ruas de Fortaleza e restringe circulação da população",
             "subtitulo": "Vias foram bloqueadas no na manhã desta segunda-feira (22). Vazamento foi contido durante a manhã, e ocorrência não teve registro de feridos.",
@@ -311,7 +383,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 15:06:01 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/vazamento-de-gas-natural-em-obras-do-metro-interdita-ruas-de-fortaleza-e-restringe-circulacao-da-populacao.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "O que levou engenheira de SP a largar tudo para viver em praia paradisíaca no Ceará",
@@ -320,7 +392,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 12:59:47 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/o-que-levou-engenheira-de-sp-a-largar-tudo-para-viver-em-praia-paradisiaca-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Duas pessoas morrem e seis ficam feridas em colisão entre três carros no Ceará ",
@@ -329,7 +401,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 12:35:11 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/duas-pessoas-morrem-e-seis-ficam-feridas-em-colisao-entre-tres-carros-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Morre Maria Ivete, irmã do humorista Renato Aragão",
@@ -338,7 +410,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 11:23:57 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/morre-maria-ivete-irma-do-humorista-renato-aragao.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Lumiar, de PE, vence etapa regional do Festival de Quadrilhas Juninas da TV Globo 2026 com enredo sobre patriarcado e coronelismo; veja ranking",
@@ -347,7 +419,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 11:05:16 -0000",
             "link": "https://g1.globo.com/pe/pernambuco/sao-joao/noticia/2026/06/22/lumiar-de-pe-vence-etapa-regional-do-festival-de-quadrilhas-juninas-da-tv-globo-2026-com-enredo-sobre-patriarcado-e-coronelismo-veja-ranking.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Carro bate na traseira de ônibus estacionado e fica prensado sob veículo; vídeo",
@@ -356,7 +428,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 10:37:58 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/carro-bate-na-traseira-de-onibus-estacionado-e-fica-prensado-sob-veiculo-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Personal trainer morto ao tentar pegar a arma de PM no Ceará estava em surto psicótico, diz advogado",
@@ -365,7 +437,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 10:20:53 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/personal-trainer-morto-ao-tentar-pegar-a-arma-de-pm-no-ceara-estava-em-surto-psicotico-diz-advogado.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Nove bairros de Fortaleza ficarão sem água nesta terça-feira; veja a lista",
@@ -374,7 +446,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 08:55:53 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/22/nove-bairros-de-fortaleza-ficarao-sem-agua-nesta-terca-feira-veja-a-lista.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Concursos da Alece e TJCE encerram inscrições nesta segunda (22); confira vagas abertas no Ceará",
@@ -383,7 +455,7 @@
             "dataPublicacao": "Mon, 22 Jun 2026 08:03:17 -0000",
             "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/06/22/concursos-da-alece-e-tjce-encerram-inscricoes-nesta-segunda-22-confira-vagas-abertas-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Missa de 7º dia reúne familiares e amigos de vítimas de acidente com ônibus de time de basquete",
@@ -392,7 +464,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 22:34:25 -0000",
             "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/06/21/missa-de-7o-dia-reune-familiares-e-amigos-de-vitimas-de-acidente-com-onibus-de-time-de-basquete.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Chefe de facção na Região Metropolitana de Fortaleza é preso",
@@ -401,7 +473,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 18:18:46 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/chefe-de-faccao-na-regiao-metropolitana-de-fortaleza-e-preso.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Motociclista vai a julgamento nesta segunda (22) por morte de passageiro atropelado por ônibus",
@@ -410,7 +482,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 17:11:11 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/motociclista-vai-a-julgamento-nesta-segunda-22-por-morte-de-passageiro-atropelado-por-onibus.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Dois motociclistas morrem em acidentes em rodovias federais neste fim de semana no Ceará",
@@ -419,7 +491,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 14:31:02 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/dois-motociclistas-morrem-em-acidentes-em-rodovias-federais-neste-fim-de-semana-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Pamonha na palha do milho: aprenda receita tradicional da festa de São João",
@@ -428,7 +500,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 13:55:52 -0000",
             "link": "https://g1.globo.com/ce/ceara/receitas/noticia/2026/06/21/pamonha-na-palha-do-milho-aprenda-receita-tradicional-da-festa-de-sao-joao.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Papa Leão XIV faz homenagem a jovens mortos em acidente com time de basquete no Ceará; veja vídeo",
@@ -437,7 +509,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 11:43:48 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/papa-leao-xiv-faz-homenagem-a-jovens-mortos-em-acidente-com-time-de-basquete-no-ceara-veja-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Cientistas usam ‘drones termais’ e encontram animais noturnos até 20 vezes mais rápido; veja vídeo",
@@ -446,7 +518,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 08:00:38 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/cientistas-usam-drones-termais-e-encontram-animais-noturnos-ate-20-vezes-mais-rapido-veja-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "‘Por que eu vou embora?’: engenheira de SP decide ‘largar tudo’ e viver na praia de Jericoacoara, no Ceará",
@@ -455,7 +527,7 @@
             "dataPublicacao": "Sun, 21 Jun 2026 07:01:15 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/21/por-que-eu-vou-embora-engenheira-de-sp-decide-largar-tudo-e-viver-na-praia-de-jericoacoara-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Mostra de carros antigos homenageia títulos do Brasil na Copa do Mundo; evento gratuito ocorre na Arena Castelão",
@@ -464,7 +536,7 @@
             "dataPublicacao": "Sat, 20 Jun 2026 20:39:48 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/mostra-de-carros-antigos-homenageia-titulos-do-brasil-na-copa-do-mundo-evento-gratuito-ocorre-na-arena-castelao.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Defensora pública demitida por descumprir função é reintegrada ao cargo após 3 meses",
@@ -473,7 +545,7 @@
             "dataPublicacao": "Sat, 20 Jun 2026 19:15:04 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/defensora-publica-demitida-por-descumprir-funcao-e-reintegrada-ao-cargo-apos-3-meses.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Dupla armada invade bar e mata cliente que assistia a jogo do Brasil; veja vídeo",
@@ -482,7 +554,7 @@
             "dataPublicacao": "Sat, 20 Jun 2026 19:07:09 -0000",
             "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/06/20/dupla-armada-invade-bar-e-mata-cliente-que-assistia-a-jogo-do-brasil-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Estudante compra celular de R$ 3,5 mil pela internet e recebe livro e capinha em Fortaleza",
@@ -491,7 +563,7 @@
             "dataPublicacao": "Sat, 20 Jun 2026 18:29:52 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/estudante-compra-celular-de-r-35-mil-e-recebe-livro-e-capinha-em-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         },
         {
             "titulo": "Suspeito de matar proprietário de óticas é preso no interior do Ceará",
@@ -500,154 +572,261 @@
             "dataPublicacao": "Sat, 20 Jun 2026 16:44:00 -0000",
             "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/06/20/suspeito-de-matar-proprietario-de-oticas-e-preso-no-interior-do-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Carro com reboque capota e derruba poste em rodovia na Grande Fortaleza",
-            "subtitulo": "Veículo perdeu o controle ao encostar na lateral de um ônibus enquanto mudava de faixa.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 15:40:10 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/carro-com-reboque-capota-e-derruba-poste-em-rodovia-na-grande-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "VÍDEO: Policial militar de folga salva recém-nascido engasgado em Fortaleza",
-            "subtitulo": "O cabo Francisco Paiva estava assistindo ao jogo do Brasil contra o Haiti, pela Copa do Mundo 2026, quando ouviu os pedidos de socorro dos pais da criança.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 14:10:14 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/video-policial-militar-de-folga-salva-recem-nascido-engasgado-em-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Motorista de topique morre em colisão com caminhão em rodovia no interior do Ceará",
-            "subtitulo": "Três pessoas ficaram feridas. O motorista do caminhão relatou à polícia que o veículo perdeu os freios na descida de uma ladeira.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 13:20:19 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/motorista-de-topique-morre-em-colisao-com-caminhao-em-rodovia-no-interior-do-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Ave silvestre ferida é resgatada pela Guarda Municipal em praça de Fortaleza; veja vídeo",
-            "subtitulo": "Animal, conhecido pelo canto forte e ritmado, foi encaminhado a um instituto, para acompanhamento de uma equipe especializada.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 10:55:45 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/ave-silvestre-ferida-e-resgatada-pela-guarda-municipal-em-praca-de-fortaleza-veja-video.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Crato 262 anos: a luta para salvar a memória arquitetônica de uma das primeiras cidades do Cariri ",
-            "subtitulo": "Para reverter esse cenário de esquecimento, um grupo de historiadores e arquitetos desenvolve um trabalho tridimensional através de fotografias antigas, outros mapeamentos e dados históricos.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 09:00:35 -0000",
-            "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/06/20/crato-262-anos-a-luta-para-salvar-a-memoria-arquitetonica-de-uma-das-primeiras-cidades-do-cariri.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Feminicídios crescem 46% no Ceará neste ano; casos de violência contra a mulher também aumentam",
-            "subtitulo": "Dados oficiais mostram que o estado teve crescimento na violência de gênero entre janeiro e maio de 2026 quando comparado a igual período do ano passado.",
-            "categoria": "G1",
-            "dataPublicacao": "Sat, 20 Jun 2026 08:00:31 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/20/feminicidios-crescem-46percent-no-ceara-neste-ano-casos-de-violencia-contra-a-mulher-tambem-aumentam.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Confira a programação de festivais juninos de Fortaleza no fim de semana de 20 e 21 de junho",
-            "subtitulo": "As programações ocorrem nos bairros Pirambu, Centro e Aldeota, reunindo grupos infantis e quadrilhas adultas.",
-            "categoria": "G1",
-            "dataPublicacao": "Fri, 19 Jun 2026 22:43:01 -0000",
-            "link": "https://g1.globo.com/ce/ceara/saojoao/noticia/2026/06/19/confira-a-programacao-de-festivais-juninos-de-fortaleza-no-final-de-semana-de-20-e-21-de-junho.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Personal trainer é morto ao tentar pegar a arma de PM no interior do Ceará, diz polícia",
-            "subtitulo": "A Polícia Militar afirmou que o suspeito desobedeceu às determinações policiais e avançou em direção à viatura. A defesa do suspeito pede 'rigor, transparência e celeridade na apuração dos fatos'.",
-            "categoria": "G1",
-            "dataPublicacao": "Fri, 19 Jun 2026 22:33:50 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/19/homem-e-morto-ao-tentar-pegar-a-arma-de-pm-no-interior-do-ceara-diz-policia.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-22 14:50:05"
+            "createdAt": "2026-06-22 23:57:24"
         }
     ],
     "Ceará Agora": [],
     "Terra da Luz": [
         {
-            "titulo": "Economia: Mercado eleva inflação e vê Selic a 14% Boletim Focus aponta nova alta na projeção do IPCA para 2026, enquanto analistas estimam taxa básica de juros em 14% ao ano",
-            "subtitulo": "22 de junho de 2026 – A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, subiu de 5,3% para 5,33% em 2026. A estimativa […]",
+            "titulo": "Turismo: Brasil bate recorde em voos domésticos País ultrapassa 42 milhões de passageiros em viagens nacionais até maio de 2026; voos internacionais também registram alta histórica",
+            "subtitulo": "22 de junho de 2026 – O Brasil registrou recorde na movimentação de passageiros em voos domésticos nos primeiros cinco meses de 2026. Segundo dados compilados pelo Ministério do Turismo e divulgados nesta segunda-feira (22) pela […]",
             "categoria": [
                 "Principal"
             ],
             "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-22T14:17:56",
-            "link": "https://portalterradaluz.com.br/principal/economia-mercado-eleva-inflacao-e-ve-selic-a-14/",
+            "dataPublicacao": "2026-06-22T21:05:09",
+            "link": "https://portalterradaluz.com.br/principal/turismo-brasil-bate-recorde-em-voos-domesticos/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Copa: Martinelli admite atuar no lugar de Raphinha Atacante do Arsenal diz preferir jogar pela esquerda, mas se coloca à disposição de Ancelotti para duelo contra a Escócia; Neymar volta aos treinos e anima elenco",
+            "subtitulo": "22 de junho de 2026 – O atacante Gabriel Martinelli afirmou que prefere atuar pela ponta esquerda, mas deixou claro que está à disposição do técnico Carlo Ancelotti para jogar pela direita, caso seja necessário, no […]",
+            "categoria": [
+                "Principal"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T20:37:21",
+            "link": "https://portalterradaluz.com.br/principal/copa-martinelli-admite-atuar-no-lugar-de-raphinha/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Educação: Ceará pode ampliar adesão à OLITEF Mais de 2.700 escolas cearenses ainda podem se inscrever na Olimpíada do Tesouro Direto de Educação Financeira e concorrer a prêmios de até R$ 100 mil",
+            "subtitulo": "22 de junho de 2026 – Mais de 2.700 escolas do Ceará ainda podem se inscrever na OLITEF 2026, a Olimpíada do Tesouro Direto de Educação Financeira, iniciativa promovida pela B3 e pelo Tesouro Nacional para […]",
+            "categoria": [
+                "Principal"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T18:38:32",
+            "link": "https://portalterradaluz.com.br/principal/educacao-ceara-pode-ampliar-adesao-a-olitef/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Aviação: Anac libera duas aéreas estrangeiras no Brasil Wamos Air, da Espanha, e Air Peace, da Nigéria, receberam autorização para operar transporte aéreo internacional de passageiros e cargas com origem ou destino no país",
+            "subtitulo": "22 de junho de 2026 – A Agência Nacional de Aviação Civil (Anac) autorizou duas novas companhias aéreas estrangeiras a operar no Brasil. A espanhola Wamos Air S.A. e a nigeriana Air Peace Ltd. receberam aval […]",
+            "categoria": [
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T17:45:19",
+            "link": "https://portalterradaluz.com.br/economia-negocios/aviacao-anac-libera-duas-aereas-estrangeiras-no-brasil/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Copa: Messi vira maior artilheiro das Copas Camisa 10 marca duas vezes contra a Áustria, chega a 18 gols em Mundiais e supera Klose no ranking histórico da Copa do Mundo",
+            "subtitulo": "22 de junho de 2026 – Lionel Messi escreveu mais um capítulo histórico no futebol mundial. O camisa 10 da Argentina marcou duas vezes na vitória por 2 a 0 sobre a Áustria, nesta segunda-feira (22), […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T16:48:06",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-messi-vira-maior-artilheiro-das-copas/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Negócios: Irregularidades podem gerar prejuízos às empresas Falta de documentação adequada em imóveis e operações pode resultar em multas, interdições e perda de valor de ativos",
+            "subtitulo": "22 de junho de 2026 – A irregularidade documental continua sendo um dos desafios mais silenciosos enfrentados por empresas de diferentes portes e segmentos no Brasil. Problemas como alvarás vencidos, licenças incompatíveis com a atividade exercida […",
+            "categoria": [
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T16:46:12",
+            "link": "https://portalterradaluz.com.br/economia-negocios/negocios-irregularidades-podem-gerar-prejuizos-as-empresas/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Cultura: Festival MI lança 21ª edição com shows na Estação Má Dame e O Cheiro do Queijo comandam evento que apresenta programação do Festival Música na Ibiapaba 2026",
+            "subtitulo": "22 de junho de 2026 – A 21ª edição do Festival MI – Música na Ibiapaba será oficialmente lançada em Fortaleza no próximo dia 26 de junho, a partir das 18h, na Estação das Artes. O […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T16:35:05",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-festival-mi-lanca-21a-edicao-com-shows-na-estacao/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Meio Ambiente: Caatinga ganha novas áreas protegidas Associação Caatinga avança na criação de duas novas RPPNs e na ampliação de quatro unidades de conservação no Ceará",
+            "subtitulo": "22 de junho de 2026 – A Associação Caatinga iniciou uma nova etapa de fortalecimento da conservação ambiental no Ceará, com ações voltadas à criação de duas novas Reservas Particulares do Patrimônio Natural (RPPNs) e à […]",
+            "categoria": [
+                "Destaques",
+                "Notícias"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T16:12:54",
+            "link": "https://portalterradaluz.com.br/destaques/meio-ambiente-caatinga-ganha-novas-areas-protegidas/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Economia: C.Rolim reinaugura maior loja no Centro de Fortaleza Marca cearense moderniza unidade da Rua General Sampaio e reforça aposta no fortalecimento do principal polo comercial do Ceará",
+            "subtitulo": "22 de junho de 2026 – O Centro de Fortaleza ganhará um novo impulso para o comércio local com a reinauguração da maior loja da C.Rolim Moda na região. A tradicional marca cearense, com 73 anos […]",
+            "categoria": [
+                "Curtas",
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T16:03:14",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-c-rolim-reinaugura-maior-loja-no-centro-de-fortaleza/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Mercado: Petróleo cai com negociações entre EUA e Irã Preços recuam após relatos de avanços nas conversas sobre o Oriente Médio e expectativa de maior estabilidade no Estreito de Ormuz",
+            "subtitulo": "22 de junho de 2026 – Os preços do petróleo operam em queda nesta segunda-feira (22), após relatos de que autoridades dos Estados Unidos e do Irã avançaram nas negociações sobre a crise no Oriente Médio. […]",
+            "categoria": [
+                "Curtas",
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T15:47:33",
+            "link": "https://portalterradaluz.com.br/economia-negocios/mercado-petroleo-cai-com-negociacoes-entre-eua-e-ira/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Copa: Neymar treina sem limitações e pode estrear pelo Brasil Atacante participou das atividades com o grupo pelo segundo dia consecutivo e aumenta expectativa para duelo contra a Escócia",
+            "subtitulo": "22 de junho de 2026 – A Seleção Brasileira realizou nesta segunda-feira (22) a primeira atividade com elenco completo focada no confronto diante da Escócia, válido pela terceira e última rodada da fase de grupos da […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T15:45:29",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-neymar-treina-sem-limitacoes-e-pode-estrear-pelo-brasil/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Saúde: Festas juninas elevam risco de queimaduras infantis Sociedade Brasileira de Pediatria alerta para aumento de acidentes com fogueiras, fogos de artifício e líquidos quentes durante o período festivo",
+            "subtitulo": "22 de junho de 2026 – As tradicionais festas juninas e julinas trazem alegria, cultura e celebração para milhões de brasileiros, mas também acendem um alerta importante para a segurança de crianças e adolescentes. A Sociedade […]",
+            "categoria": [
+                "Destaques",
+                "Notícias"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T15:37:18",
+            "link": "https://portalterradaluz.com.br/destaques/saude-festas-juninas-elevam-risco-de-queimaduras-infantis/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Cultura: Dragão e Bece recebem Marcelino Freire e Tércia Escritores premiados participam do programa Margem da Palavra em encontro gratuito sobre literatura, escrita e imagem",
+            "subtitulo": "22 de junho de 2026 – O Centro Dragão do Mar de Arte e Cultura e a Biblioteca Pública Estadual do Ceará (Bece) promovem, nesta terça-feira (23), às 19h, mais uma edição do programa Margem da […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T15:27:50",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-dragao-e-bece-recebem-marcelino-freire-e-tercia/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Serviço: Creci Itinerante amplia atendimentos em Fortaleza e RMF Programa do Creci Ceará oferece orientação gratuita sobre mercado imobiliário e serviços para corretores de imóveis entre os dias 22 e 26 de junho",
+            "subtitulo": "22 de junho de 2026 – O Conselho Regional de Corretores de Imóveis do Ceará (Creci-CE) realiza, entre os dias 22 e 26 de junho, mais uma edição do programa Creci Itinerante, levando atendimento presencial a […]",
+            "categoria": [
+                "Curtas",
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-22T14:50:23",
+            "link": "https://portalterradaluz.com.br/economia-negocios/servico-creci-itinerante-amplia-atendimentos-em-fortaleza-e-rmf/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
+        },
+        {
+            "titulo": "Economia: Mercado eleva inflação e vê Selic a 14% Boletim Focus aponta nova alta na projeção do IPCA para 2026, enquanto analistas estimam taxa básica de juros em 14% ao ano",
+            "subtitulo": "22 de junho de 2026 – A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, subiu de 5,3% para 5,33% em 2026. A estimativa […]",
+            "categoria": [
+                "Curtas",
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Hermann Hesse Feitosa Alexandrino",
+            "dataPublicacao": "2026-06-22T14:17:56",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-mercado-eleva-inflacao-e-ve-selic-a-14/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Segurança: Crime usa aluguel para lavar dinheiro Autoridades monitoram uso de imóveis por temporada para ocultar patrimônio de origem ilícita e transformar recursos do crime em renda aparentemente legal",
             "subtitulo": "22 de junho de 2026 – Autoridades públicas monitoram o uso de imóveis por temporada por organizações criminosas como possível estratégia para ocultar patrimônio obtido com práticas ilícitas, como tráfico de drogas, tráfico de armas, homicídios […]",
             "categoria": [
-                "Principal"
+                "Destaques",
+                "Notícias"
             ],
             "autor": "Hermann Hesse Feitosa Alexandrino",
             "dataPublicacao": "2026-06-22T13:56:37",
-            "link": "https://portalterradaluz.com.br/principal/seguranca-crime-usa-aluguel-para-lavar-dinheiro/",
+            "link": "https://portalterradaluz.com.br/destaques/seguranca-crime-usa-aluguel-para-lavar-dinheiro/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Educação: Candidatos têm até hoje para pagar Enem Taxa de inscrição do Enem 2026, no valor de R$ 85, pode ser paga até 23h59 desta segunda-feira por candidatos não isentos",
             "subtitulo": "22 de junho de 2026 – Os candidatos ao Exame Nacional do Ensino Médio (Enem) 2026 têm até as 23h59 desta segunda-feira (22) para pagar a taxa de inscrição, no valor de R$ 85. A Guia […]",
             "categoria": [
-                "Principal"
+                "Destaques",
+                "Notícias"
             ],
             "autor": "Hermann Hesse Feitosa Alexandrino",
             "dataPublicacao": "2026-06-22T13:46:45",
-            "link": "https://portalterradaluz.com.br/principal/educacao-candidatos-tem-ate-hoje-para-pagar-enem/",
+            "link": "https://portalterradaluz.com.br/destaques/educacao-candidatos-tem-ate-hoje-para-pagar-enem/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Saúde: São João exige cuidado com açúcar Nutricionista alerta para o excesso de doces e bebidas açucaradas nas festas juninas e orienta como aproveitar as comidas típicas com equilíbrio",
             "subtitulo": "22 de junho de 2026 – O aroma do milho cozido, o brilho dos amendoins caramelizados e o sabor das receitas tradicionais anunciam a chegada do São João. Mas, por trás da mesa farta e colorida […]",
             "categoria": [
+                "Destaques",
                 "Notícias"
             ],
             "autor": "Hermann Hesse Feitosa Alexandrino",
             "dataPublicacao": "2026-06-22T10:52:13",
-            "link": "https://portalterradaluz.com.br/noticias/saude-sao-joao-exige-cuidado-com-acucar/",
+            "link": "https://portalterradaluz.com.br/destaques/saude-sao-joao-exige-cuidado-com-acucar/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Saúde: Anvisa libera parte dos produtos da Ypê Agência reduziu alcance da suspensão após analisar documentos e testes apresentados pela fabricante, mas manteve restrição para lotes antigos",
             "subtitulo": "22 de junho de 2026 – A Agência Nacional de Vigilância Sanitária (Anvisa) reduziu o alcance da suspensão que atingia produtos da Ypê e passou a restringir a medida apenas a lotes mais antigos de detergentes, […]",
             "categoria": [
+                "Curtas",
                 "Economia &amp; Negócios"
             ],
             "autor": "Hermann Hesse Feitosa Alexandrino",
             "dataPublicacao": "2026-06-22T09:37:26",
             "link": "https://portalterradaluz.com.br/economia-negocios/saude-anvisa-libera-parte-dos-produtos-da-ype/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Mundo: Keir Starmer anuncia renúncia ao governo britânico Primeiro-ministro do Reino Unido deixará o cargo após meses de pressão política e disputa interna no Partido Trabalhista",
             "subtitulo": "22 de junho de 2026 – O primeiro-ministro do Reino Unido, Keir Starmer, anunciou nesta segunda-feira (22) que deixará o comando do governo britânico. A declaração foi feita à imprensa em frente à sede do governo, […]",
             "categoria": [
+                "Destaques",
                 "Notícias"
             ],
             "autor": "Erica Barretto",
             "dataPublicacao": "2026-06-22T07:00:28",
-            "link": "https://portalterradaluz.com.br/noticias/mundo-keir-starmer-anuncia-renuncia-ao-governo-britanico/",
+            "link": "https://portalterradaluz.com.br/destaques/mundo-keir-starmer-anuncia-renuncia-ao-governo-britanico/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Copa: Argentina e França buscam vaga nas oitavas nesta segunda Messi e Mbappé lideram suas seleções em jogos decisivos pela fase de grupos da Copa do Mundo de 2026 nos Estados Unidos",
@@ -659,7 +838,7 @@
             "dataPublicacao": "2026-06-22T06:39:21",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-argentina-e-franca-buscam-vaga-nas-oitavas-nesta-segunda/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Segurança: Cocaína em madeira pode ser recorde no país Operação Timber Shield apreende carga com cocaína líquida misturada em madeira na fronteira com a Bolívia; estimativa pode chegar a 50 toneladas da droga",
@@ -672,7 +851,7 @@
             "dataPublicacao": "2026-06-21T22:03:55",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-cocaina-em-madeira-pode-ser-recorde-no-pais/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Meio Ambiente: Tubarões revelam contaminação no mar Estudo do projeto EcoShark encontrou sertralina no cérebro de tubarões-martelo no Rio de Janeiro e alerta para impacto de fármacos nos oceanos",
@@ -685,7 +864,7 @@
             "dataPublicacao": "2026-06-21T16:32:00",
             "link": "https://portalterradaluz.com.br/destaques/meio-ambiente-tubaroes-revelam-contaminacao-no-mar/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Ginástica: Rebeca Andrade é ouro no Pan do Rio Maior medalhista olímpica do Brasil vence a final do salto, enquanto país soma duas pratas e quatro bronzes na ginástica artística",
@@ -697,7 +876,7 @@
             "dataPublicacao": "2026-06-21T14:42:11",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/ginastica-rebeca-e-ouro-no-pan-do-rio/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Copa: Neymar volta a treinar com o elenco Camisa 10 participou de atividade com bola ao lado do grupo e aumenta expectativa de retorno contra a Escócia pela Copa do Mundo",
@@ -709,7 +888,7 @@
             "dataPublicacao": "2026-06-21T13:04:52",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-neymar-volta-a-treinar-com-o-elenco/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Opinião: A América Latina produz a audiência. Está na hora de participar do valor que ela cria Por Ricardo Podval, empreendedor social e Partner & Chief Social Officer (CSO) do BORA",
@@ -721,7 +900,7 @@
             "dataPublicacao": "2026-06-21T12:43:50",
             "link": "https://portalterradaluz.com.br/artigos/opiniao-a-america-latina-produz-a-audiencia-esta-na-hora-de-participar-do-valor-que-ela-cria/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Copa: Ancelotti já usa 77% do elenco do Brasil Técnico da Seleção Brasileira acionou 20 dos 26 convocados nas duas primeiras rodadas da Copa do Mundo",
@@ -733,7 +912,7 @@
             "dataPublicacao": "2026-06-21T11:36:03",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-ancelotti-ja-usa-77-do-elenco-do-brasil/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Finanças: Casais esquecem aposentadoria no planejamento Especialistas alertam que falta de diálogo sobre dinheiro pode comprometer a segurança financeira e a qualidade de vida na fase pós-carreira",
@@ -746,7 +925,7 @@
             "dataPublicacao": "2026-06-21T11:23:45",
             "link": "https://portalterradaluz.com.br/economia-negocios/financas-casais-esquecem-aposentadoria-no-planejamento/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Copa: Japão goleia Tunísia em jogo histórico Seleção japonesa vence por 4 a 0 no milésimo jogo da história das Copas do Mundo e fica perto da classificação no Grupo F",
@@ -758,7 +937,7 @@
             "dataPublicacao": "2026-06-21T06:23:52",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-japao-goleia-tunisia-em-jogo-historico/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         },
         {
             "titulo": "Diplomacia: EUA e Irã negociam trégua na Suíça Delegações discutem neste domingo temas sensíveis como guerra no Líbano, Estreito de Ormuz e programa nuclear iraniano em meio a tensões no Oriente Médio",
@@ -771,187 +950,35 @@
             "dataPublicacao": "2026-06-21T06:16:07",
             "link": "https://portalterradaluz.com.br/destaques/diplomacia-eua-e-ira-negociam-tregua-na-suica/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Investigação: Vorcaro busca nova defesa para delação Dono do Banco Master prepara terceira proposta de colaboração premiada após negativas da Polícia Federal e da Procuradoria-Geral da República",
-            "subtitulo": "21 de junho de 2026 – Familiares de Daniel Vorcaro procuraram, durante a última semana, ao menos três escritórios de advocacia de Brasília em busca de um novo nome para assumir a defesa do dono do […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-21T06:06:39",
-            "link": "https://portalterradaluz.com.br/destaques/investigacao-vorcaro-busca-nova-defesa-para-delacao/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Loterias: Mega-Sena paga prêmio de R$ 39 milhões Concurso 3021 teve uma aposta ganhadora na faixa principal; dezenas sorteadas foram 46, 19, 16, 58, 22 e 24",
-            "subtitulo": "21 de junho de 2026 – O concurso 3021 da Mega-Sena, sorteado na noite deste sábado (20), em São Paulo, teve uma aposta ganhadora na faixa principal. O prêmio pago foi de R$ 39.427.096,38. As dezenas […]",
-            "categoria": [
-                "Curtas",
-                "Economia &amp; Negócios"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-21T05:53:47",
-            "link": "https://portalterradaluz.com.br/economia-negocios/loterias-mega-sena-paga-premio-de-r-39-milhoes/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Opinião: Ceará virando pedra Por Ph.D. Nizomar Falcão, engenheiro agrônomo da Ematerce",
-            "subtitulo": "20 de junho de 2026 – O Ceará tem 20% do território em processo de desertificação. É 1/5 do Estado virando pedra. É preciso urgentemente de um plano de Recaatingamento e a solução não é cara […]",
-            "categoria": [
-                "Artigos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T21:18:25",
-            "link": "https://portalterradaluz.com.br/artigos/opiniao-ceara-virando-pedra/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Copa: Alemanha vira no fim e avança às oitavas Com dois gols de Deniz Undav no segundo tempo, seleção alemã bate Costa do Marfim por 2 a 1 e garante vaga no mata-mata da Copa do Mundo",
-            "subtitulo": "20 de junho de 2026 – A Alemanha venceu a Costa do Marfim por 2 a 1, na tarde deste sábado (20), pela segunda rodada do Grupo E da Copa do Mundo. A seleção africana saiu […]",
-            "categoria": [
-                "Turismo, Esporte e Eventos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T20:15:42",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-alemanha-vira-no-fim-e-avanca-as-oitavas/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Oriente: Irã alerta navios no Estreito de Ormuz Guarda Revolucionária iraniana advertiu embarcações contra travessia após anúncio de fechamento da hidrovia estratégica para o comércio global de energia",
-            "subtitulo": "20 de junho de 2026 – A divisão naval da Guarda Revolucionária Islâmica do Irã (IRGC) alertou embarcações para que não se aproximem do Estreito de Ormuz, após Teerã declarar o fechamento da hidrovia neste sábado […]",
-            "categoria": [
-                "Curtas",
-                "Economia &amp; Negócios"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T20:01:41",
-            "link": "https://portalterradaluz.com.br/economia-negocios/oriente-ira-alerta-navios-no-estreito-de-ormuz/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Esporte: Raphinha tem lesão confirmada pela CBF Atacante da Seleção Brasileira sofreu lesão muscular na região posterior da coxa direita e será acompanhado pelo departamento médico durante a Copa",
-            "subtitulo": "20 de junho de 2026 – A Confederação Brasileira de Futebol (CBF) informou, neste sábado (20), que o atacante Raphinha passou por exames de imagem que confirmaram uma lesão muscular na região posterior da coxa direita. […]",
-            "categoria": [
-                "Turismo, Esporte e Eventos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T18:52:17",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-raphinha-tem-lesao-confirmada-pela-cbf/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Turismo: Rota das Falésias amplia promoção nacional Destino do litoral leste cearense participa de ações no Ceará, Paraná e Brasília para fortalecer a comercialização turística e atrair novos visitantes",
-            "subtitulo": "20 de junho de 2026 – A Rota das Falésias segue fortalecendo sua presença no mercado turístico nacional por meio de uma série de ações estratégicas de promoção, relacionamento comercial e capacitação de agentes de viagens. […]",
-            "categoria": [
-                "Turismo, Esporte e Eventos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T18:28:02",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/turismo-rota-das-falesias-amplia-promocao-nacional/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Alerta: Governo apura falhas na Defesa Civil Ministério identificou 10 alertas indevidos enviados durante a madrugada; sistema foi retirado do ar e Polícia Federal foi acionada para investigar o caso",
-            "subtitulo": "20 de junho de 2026 – O Ministério da Integração e do Desenvolvimento Regional informou que identificou 10 alertas indevidos nos sistemas da Defesa Civil durante a madrugada deste sábado (20). A informação foi confirmada pelo […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T14:29:30",
-            "link": "https://portalterradaluz.com.br/destaques/alerta-governo-apura-falhas-na-defesa-civil/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Copa: Ancelotti prevê Neymar contra Escócia Técnico da Seleção Brasileira afirma que camisa 10 deve voltar aos treinos com o grupo e ficar disponível para duelo decisivo do Grupo C",
-            "subtitulo": "20 de junho de 2026 – O técnico da Seleção Brasileira, Carlo Ancelotti, deu uma nova previsão para o retorno de Neymar aos gramados na Copa do Mundo de 2026. Segundo o treinador italiano, o camisa […]",
-            "categoria": [
-                "Turismo, Esporte e Eventos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-20T12:55:56",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-ancelotti-preve-neymar-contra-escocia/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Apostas: Autoexclusão bloqueia 700 mil usuários Ferramenta do governo permite que apostadores sejam excluídos de plataformas online e deixem de receber publicidade do setor",
-            "subtitulo": "19 de junho de 2026 – O ministro da Fazenda, Dario Durigan, informou nesta sexta-feira (19) que quase 700 mil pessoas já utilizaram a ferramenta do governo federal de autoexclusão em plataformas e aplicativos de apostas […]",
-            "categoria": [
-                "Curtas",
-                "Economia &amp; Negócios"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-19T17:56:29",
-            "link": "https://portalterradaluz.com.br/economia-negocios/apostas-autoexclusao-bloqueia-700-mil-usuarios/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Opinião: A saga dos Aprendizes – Histórias de uma batalha parlamentar Por Humberto Casagrande, engenheiro e CEO do CIEE",
-            "subtitulo": "19 de junho de 2026 – No dia 10 de junho cheguei logo cedo na sala da Comissão de Assuntos Sociais do Senado, animado com a possibilidade de que, finalmente, após sete anos de luta, estaríamos […]",
-            "categoria": [
-                "Artigos"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-19T17:23:42",
-            "link": "https://portalterradaluz.com.br/artigos/opiniao-a-saga-dos-aprendizes-historias-de-uma-batalha-parlamentar/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Educação: Jovens são premiados no Programa Ceará de Valores Primeira edição da iniciativa reuniu mais de 16 mil estudantes e reconheceu projetos de impacto social e econômico em 16 cidades-polo",
-            "subtitulo": "19 de junho de 2026 – A primeira edição do Programa Ceará de Valores foi encerrada nesta sexta-feira (19), com uma cerimônia de premiação realizada no Hotel Vila Galé, em Fortaleza. A iniciativa mobilizou mais de […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-19T16:57:07",
-            "link": "https://portalterradaluz.com.br/destaques/educacao-jovens-sao-premiados-no-programa-ceara-de-valores/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Cultura: Jovens mantêm viva tradição das quadrilhas no Ceará Festejo Ceará Junino reúne 30 grupos infantis e juvenis que garantem a renovação e a continuidade da cultura popular cearense",
-            "subtitulo": "19 de junho de 2026 – Ao som da sanfona, do triângulo e da zabumba, crianças e jovens seguem garantindo a continuidade das quadrilhas juninas no Ceará. No 26º Festejo Ceará Junino, promovido pelo Governo do […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-19T15:38:11",
-            "link": "https://portalterradaluz.com.br/destaques/cultura-jovens-mantem-viva-tradicao-das-quadrilhas-no-ceara/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
-        },
-        {
-            "titulo": "Educação: Jogo valoriza cultura do Cariri e aposta na inclusão Projeto da UFC e Fundação Casa Grande transforma lendas, personagens e patrimônios da Chapada do Araripe em experiência educativa acessível",
-            "subtitulo": "19 de junho de 2026 – A Universidade Federal do Ceará (UFC), em parceria com a Fundação Casa Grande, desenvolveu o jogo de tabuleiro “Imaginário Cariri”, uma iniciativa que une educação, cultura e acessibilidade para valorizar […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-19T15:29:44",
-            "link": "https://portalterradaluz.com.br/destaques/educacao-jogo-valoriza-cultura-do-cariri-e-aposta-na-inclusao/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-22 14:50:05"
+            "created_at": "2026-06-22 23:57:23"
         }
     ],
     "Tribunal de Contas do Ceará": [],
     "Secretaria de Cultura do Ceará": [
+        {
+            "titulo": "Dentro do Som recebe Ingrid Sales em tributo a Elis Regina no Cineteatro São Luiz",
+            "subtitulo": "Cantora cearense apresenta clássicos da música brasileira que marcaram a trajetória de uma das maiores vozes do país O Cineteatro São Luiz recebe, no dia 2 de julho (quinta-feira), às 19h, mais uma edição do projeto Dentro do Som, com o espetáculo “I",
+            "categoria": [
+                "Notícias"
+            ],
+            "autor": "Thais Martins",
+            "dataPublicacao": "2026-06-22T16:24:42",
+            "link": "https://www.ce.gov.br/secult/2026/06/22/dentro-do-som-recebe-ingrid-sales-em-tributo-a-elis-regina-no-cineteatro-sao-luiz/",
+            "jornal": "secult",
+            "created_at": "2026-06-22 23:57:28"
+        },
+        {
+            "titulo": "Semana na Pinacoteca do Ceará oferece nova exposição, performance e oficinas ",
+            "subtitulo": "De quarta (24) a domingo (28), o museu traz ainda atividades práticas de criação, Kemetic Yoga e Ateliê Criança Cria inspirado na itinerância da 36ª Bienal de São Paulo Nova exposição, oficina de modelagem em argila, confecção de objetos de apego par",
+            "categoria": [
+                "Notícias"
+            ],
+            "autor": "Thais Martins",
+            "dataPublicacao": "2026-06-22T15:34:24",
+            "link": "https://www.ce.gov.br/secult/2026/06/22/semana-na-pinacoteca-do-ceara-oferece-nova-exposicao-performance-e-oficinas/",
+            "jornal": "secult",
+            "created_at": "2026-06-22 23:57:28"
+        },
         {
             "titulo": "Hub Cultural Porto Dragão celebra sete anos fortalecendo a circulação da cultura cearense",
             "subtitulo": "Equipamento realiza programação plural e gratuita de aniversário de 1 a 3 de julho Em julho, o Hub Cultural Porto Dragão completa sete anos de existência e consolida seu papel como agente de promoção à circulação da arte e cultura do Ceará. Com o tem",
@@ -962,7 +989,7 @@
             "dataPublicacao": "2026-06-22T14:13:54",
             "link": "https://www.ce.gov.br/secult/2026/06/22/hub-cultural-porto-dragao-celebra-sete-anos-fortalecendo-a-circulacao-da-cultura-cearense/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "MIS CE recebe a Orquestra de Câmara Heitor Villa-Lobos com o concerto “As Lendas da Sanfona”",
@@ -974,7 +1001,7 @@
             "dataPublicacao": "2026-06-22T13:45:48",
             "link": "https://www.ce.gov.br/secult/2026/06/22/mis-ce-recebe-a-orquestra-de-camara-heitor-villa-lobos-com-o-concerto-as-lendas-da-sanfona/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "“A Voz dos Encantos”: documentário percorre ancestralidade e espiritualidade de povos indígenas do Ceará",
@@ -986,7 +1013,7 @@
             "dataPublicacao": "2026-06-22T12:10:26",
             "link": "https://www.ce.gov.br/secult/2026/06/22/a-voz-dos-encantos-documentario-percorre-ancestralidade-e-espiritualidade-de-povos-indigenas-do-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Moda e economia criativa são destaques no 3º Festival Ceará da Diversidade",
@@ -998,7 +1025,7 @@
             "dataPublicacao": "2026-06-22T11:55:16",
             "link": "https://www.ce.gov.br/secult/2026/06/22/moda-e-economia-criativa-sao-destaques-no-3o-festival-ceara-da-diversidade/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Centro Dragão do Mar recebe 3° Festival Ceará da Diversidade e encontro literário em nova edição do Margem da Palavra ",
@@ -1010,7 +1037,7 @@
             "dataPublicacao": "2026-06-22T11:48:01",
             "link": "https://www.ce.gov.br/secult/2026/06/22/centro-dragao-do-mar-recebe-3-festival-ceara-da-diversidade-e-encontro-literario-em-nova-edicao-do-margem-da-palavra/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Teatro de rua e memórias de calçada ocupam a Pinacoteca do Ceará com a performance “Mulambo” do Grupo Garajal",
@@ -1022,7 +1049,7 @@
             "dataPublicacao": "2026-06-22T11:33:40",
             "link": "https://www.ce.gov.br/secult/2026/06/22/teatro-de-rua-e-memorias-de-calcada-ocupam-a-pinacoteca-do-ceara-com-a-performance-mulambo-do-grupo-garajal/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Bece celebra o Mês do Orgulho LGBTI+ com programação gratuita dedicada à literatura, memória e diversidade",
@@ -1034,7 +1061,7 @@
             "dataPublicacao": "2026-06-22T10:40:07",
             "link": "https://www.ce.gov.br/secult/2026/06/22/bece-celebra-o-mes-do-orgulho-lgbti-com-programacao-gratuita-dedicada-a-literatura-memoria-e-diversidade/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "PAKU 2026: KUYA realiza evento que une design e cultura geek em três dias de programação gratuita no Complexo Cultural Estação das Artes",
@@ -1046,7 +1073,7 @@
             "dataPublicacao": "2026-06-19T17:00:00",
             "link": "https://www.ce.gov.br/secult/2026/06/19/paku-2026-kuya-realiza-evento-que-une-design-e-cultura-geek-em-tres-dias-de-programacao-gratuita-no-complexo-cultural-estacao-das-artes/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Dia do Cinema Brasileiro: Governo do Ceará avança o setor audiovisual e leva histórias cearenses para o mundo",
@@ -1058,7 +1085,7 @@
             "dataPublicacao": "2026-06-19T16:51:05",
             "link": "https://www.ce.gov.br/secult/2026/06/19/dia-do-cinema-brasileiro-governo-do-ceara-avanca-o-setor-audiovisual-e-leva-historias-cearenses-para-o-mundo/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Chiquinha Gonzaga: espetáculo do curso de longa duração em música do CCBJ celebra a primeira maestrina do Brasil",
@@ -1070,7 +1097,7 @@
             "dataPublicacao": "2026-06-19T16:27:31",
             "link": "https://www.ce.gov.br/secult/2026/06/19/chiquinha-gonzaga-espetaculo-do-curso-de-longa-duracao-em-musica-do-ccbj-celebra-a-primeira-maestrina-do-brasil/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Secult Ceará divulga boletim informativo com atualização dos editais",
@@ -1082,7 +1109,7 @@
             "dataPublicacao": "2026-06-19T14:39:04",
             "link": "https://www.ce.gov.br/secult/2026/06/19/secult-ceara-divulga-boletim-informativo-com-atualizacao-dos-editais/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Cineteatro São Luiz recebe videoarte e roda de conversa sobre memórias e afetos de morar no Centro de Fortaleza",
@@ -1094,7 +1121,7 @@
             "dataPublicacao": "2026-06-19T09:47:58",
             "link": "https://www.ce.gov.br/secult/2026/06/19/cineteatro-sao-luiz-recebe-videoarte-e-roda-de-conversa-sobre-memorias-e-afetos-de-morar-no-centro-de-fortaleza/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Mercado AlimentaCE realiza 4ª edição do Festival do Pratinho com gastronomia e quadrilha junina no dia 28 de junho",
@@ -1106,7 +1133,7 @@
             "dataPublicacao": "2026-06-18T15:03:19",
             "link": "https://www.ce.gov.br/secult/2026/06/18/mercado-alimentace-realiza-4a-edicao-do-festival-do-pratinho-com-gastronomia-e-quadrilha-junina-no-dia-28-de-junho/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Grupo Teatro Novo celebra 80 anos de Jane Azeredo com o espetáculo “29.200” no Cineteatro São Luiz",
@@ -1118,7 +1145,7 @@
             "dataPublicacao": "2026-06-18T14:57:29",
             "link": "https://www.ce.gov.br/secult/2026/06/18/grupo-teatro-novo-celebra-80-anos-de-jane-azeredo-com-o-espetaculo-29-200-no-cineteatro-sao-luiz/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": " Alinne Rosa, Vanessa A Cantora e Getúlio Abelha estão entre as atrações do 3º Festival Ceará da Diversidade",
@@ -1130,7 +1157,7 @@
             "dataPublicacao": "2026-06-18T13:48:41",
             "link": "https://www.ce.gov.br/secult/2026/06/18/alinne-rosa-vanessa-a-cantora-e-getulio-abelha-estao-entre-as-atracoes-do-3o-festival-ceara-da-diversidade/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Com apoio da Secult, documentário sobre Resistência em Gaza é destaque no CineDramaturgias em Fortaleza ",
@@ -1142,7 +1169,7 @@
             "dataPublicacao": "2026-06-18T13:43:37",
             "link": "https://www.ce.gov.br/secult/2026/06/18/com-apoio-da-secult-documentario-sobre-resistencia-em-gaza-e-destaque-no-cinedramaturgias-em-fortaleza/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Do Rio de Janeiro para o Curió: Exposição MANDINGUEIRA ocupa periferia de Fortaleza em nova edição",
@@ -1154,7 +1181,7 @@
             "dataPublicacao": "2026-06-18T12:31:20",
             "link": "https://www.ce.gov.br/secult/2026/06/18/do-rio-de-janeiro-para-o-curio-exposicao-mandingueira-ocupa-periferia-de-fortaleza-em-nova-edicao/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Live-action de “Como Treinar o Seu Dragão” e animação “Os Caras Malvados 2” chegam ao Cineteatro São Luiz em programação gratuita de férias",
@@ -1166,7 +1193,7 @@
             "dataPublicacao": "2026-06-18T12:26:25",
             "link": "https://www.ce.gov.br/secult/2026/06/18/live-action-de-como-treinar-o-seu-dragao-e-animacao-os-caras-malvados-2-chegam-ao-cineteatro-sao-luiz-em-programacao-gratuita-de-ferias/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Centro Dragão do Mar e Bece recebem Marcelino Freire e Tércia Montenegro no programa Margem da Palavra",
@@ -1178,7 +1205,7 @@
             "dataPublicacao": "2026-06-18T12:13:25",
             "link": "https://www.ce.gov.br/secult/2026/06/18/centro-dragao-do-mar-e-bece-recebem-marcelino-freire-e-tercia-montenegro-no-programa-margem-da-palavra/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Estação Férias reúne Chico Chico, DJ Nyack, O Cheiro do Queijo e mais de 20 atrações gratuitas na Estação das Artes",
@@ -1190,7 +1217,7 @@
             "dataPublicacao": "2026-06-18T11:28:07",
             "link": "https://www.ce.gov.br/secult/2026/06/18/estacao-ferias-reune-chico-chico-dj-nyack-o-cheiro-do-queijo-e-mais-de-20-atracoes-gratuitas-na-estacao-das-artes/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Espetáculo “Touro (Bull)” e encerramento da exposição “Torém – Tear dos Encantados” são destaques da semana no Teatro Carlos Câmara",
@@ -1202,7 +1229,7 @@
             "dataPublicacao": "2026-06-18T11:18:05",
             "link": "https://www.ce.gov.br/secult/2026/06/18/espetaculo-touro-bull-e-encerramento-da-exposicao-torem-tear-dos-encantados-sao-destaques-da-semana-no-teatro-carlos-camara/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Curso promovido pelo Sobrado Dr. José Lourenço discute reflexões sobre corpo e a própria imagem",
@@ -1214,7 +1241,7 @@
             "dataPublicacao": "2026-06-17T11:40:53",
             "link": "https://www.ce.gov.br/secult/2026/06/17/curso-promovido-pelo-sobrado-dr-jose-lourenco-discute-reflexoes-sobre-corpo-e-a-propria-imagem/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Exposição itinerante “Memórias em Movimento”, do Museu Ferroviário, desembarca em Redenção nesta sexta (19)",
@@ -1226,7 +1253,7 @@
             "dataPublicacao": "2026-06-17T11:33:57",
             "link": "https://www.ce.gov.br/secult/2026/06/17/exposicao-itinerante-memorias-em-movimento-do-museu-ferroviario-desembarca-em-redencao-nesta-sexta-19/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Estação das Artes celebra cultura pop com Dark Phoenix e Super Geek neste sábado (20)",
@@ -1238,7 +1265,7 @@
             "dataPublicacao": "2026-06-17T11:29:24",
             "link": "https://www.ce.gov.br/secult/2026/06/17/estacao-das-artes-celebra-cultura-pop-com-dark-phoenix-e-super-geek-neste-sabado-20/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Secult Ceará e Theatro José de Alencar divulgam resultados preliminares das Convocatórias para as Artes Cênicas 2026/2027 e Rotas Cênicas SET Ceará",
@@ -1250,7 +1277,7 @@
             "dataPublicacao": "2026-06-17T11:03:22",
             "link": "https://www.ce.gov.br/secult/2026/06/17/secult-ceara-e-theatro-jose-de-alencar-divulgam-resultados-preliminares-das-convocatorias-para-as-artes-cenicas-2026-2027-e-rotas-cenicas-set-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "12º Festival Alberto Nepomuceno realiza últimas ações com pioneira DJ Renatinha e a mestra têxtil Virgínia Fukuda",
@@ -1262,7 +1289,7 @@
             "dataPublicacao": "2026-06-17T10:59:28",
             "link": "https://www.ce.gov.br/secult/2026/06/17/12o-festival-alberto-nepomuceno-realiza-ultimas-acoes-com-pioneira-dj-renatinha-e-a-mestra-textil-virginia-fukuda/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "De geração em geração: jovens garantem a continuidade das quadrilhas juninas no Ceará",
@@ -1274,7 +1301,7 @@
             "dataPublicacao": "2026-06-17T10:50:16",
             "link": "https://www.ce.gov.br/secult/2026/06/17/de-geracao-em-geracao-jovens-garantem-a-continuidade-das-quadrilhas-juninas-no-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         },
         {
             "titulo": "Hortas Comunitárias AlimentaCE fortalecem vínculos, ampliam acesso à alimentação e transformam territórios em Fortaleza",
@@ -1286,31 +1313,7 @@
             "dataPublicacao": "2026-06-17T10:45:22",
             "link": "https://www.ce.gov.br/secult/2026/06/17/hortas-comunitarias-alimentace-fortalecem-vinculos-ampliam-acesso-a-alimentacao-e-transformam-territorios-em-fortaleza/",
             "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
-        },
-        {
-            "titulo": "Fortaleza recebe superprodução teatral cearense “Drácula – A Lenda da Sombra” no Cineteatro São Luiz",
-            "subtitulo": "Espetáculo inspirado no clássico de Bram Stoker chega ao palco do equipamento cultural com única apresentação no dia 27 de junho Fortaleza volta a receber uma experiência teatral épica e sensorial com a apresentação de “Drácula – A Lenda da Sombra”,",
-            "categoria": [
-                "Rece"
-            ],
-            "autor": "Thais Martins",
-            "dataPublicacao": "2026-06-17T10:24:47",
-            "link": "https://www.ce.gov.br/secult/2026/06/17/fortaleza-recebe-superproducao-teatral-cearense-dracula-a-lenda-da-sombra-no-cineteatro-sao-luiz/",
-            "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
-        },
-        {
-            "titulo": "Dia do Cinema Brasileiro é celebrado no Cinema do Dragão com sete filmes em exibição, entre clássicos restaurados e lançamentos",
-            "subtitulo": "Com três sessões gratuitas, a cine-semana destaca a produção nacional com obras premiadas e documentais De 18 a 25 de junho, obras cinematográficas cearenses, títulos contemporâneos, clássicos restaurados e longas-metragens que dialogam com diferente",
-            "categoria": [
-                "Rece"
-            ],
-            "autor": "Thais Martins",
-            "dataPublicacao": "2026-06-16T13:55:16",
-            "link": "https://www.ce.gov.br/secult/2026/06/16/dia-do-cinema-brasileiro-e-celebrado-no-cinema-do-dragao-com-sete-filmes-em-exibicao-entre-classicos-restaurados-e-lancamentos/",
-            "jornal": "secult",
-            "created_at": "2026-06-22 14:50:10"
+            "created_at": "2026-06-22 23:57:28"
         }
     ]
 }
