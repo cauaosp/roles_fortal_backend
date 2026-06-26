@@ -1,6 +1,66 @@
 {
     "O povo": [
         {
+            "titulo": "Cego Aderaldo e E.T se encontram em novo livro de cordel",
+            "subtitulo": "Mestre da cultura e poeta cearense, Klévisson Viana lança livro de cordel 'Grande peleja de Cego Aderaldo com um extraterrestre nas terras do Quixadá'",
+            "categoria": "Vida&Arte",
+            "autor": "Julia Vasconcelos",
+            "dataPublicacao": "2026-06-26 11:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/06/26/cego-aderaldo-e-e-t-se-encontram-em-novo-livro-de-cordel.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Netflix, Disney+ e Prime Video: as estreias da semana (22 a 28/06)",
+            "subtitulo": "O Vida&Arte selecionou filmes e séries que chegam aos catálogos dos principais streamings de 22 a 28 de junho de 2026. Confira lista",
+            "categoria": "Vida&Arte",
+            "autor": "Carolina Passos",
+            "dataPublicacao": "2026-06-26 11:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/06/26/netflix-disney-e-prime-video-as-estreias-da-semana-22-a-28-06.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "O que fazer em Fortaleza no fim de semana? Veja agenda de festas e shows",
+            "subtitulo": "Confira o que fazer em Fortaleza neste fim de semana de 26 a 28 de junho . Veja opções de festas e shows em diversos bairros da capital cearense",
+            "categoria": "Vida&Arte",
+            "autor": "Carolina Passos",
+            "dataPublicacao": "2026-06-26 11:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/06/26/o-que-fazer-em-fortaleza-no-fim-de-semana-veja-agenda-de-festas-e-shows.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Artista sertaneja e PCD estreia espetáculo no Dragão do Mar",
+            "subtitulo": "Show autoral \"Flor de Mandacaru\" une slam, acessibilidade e crítica social em uma interpretação sensível sobre solidão",
+            "categoria": "Agenda",
+            "autor": "Giulia Araújo/ Especial para O POVO",
+            "dataPublicacao": "2026-06-26 10:55:00",
+            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/26/artista-sertaneja-e-pcd-estreia-espetaculo-no-dragao-do-mar.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  26 de junho(26/06)",
+            "subtitulo": "Veja programação - com estreia, horários de hoje, sexta, 26 de junho(26/06), dos cinemas de Fortaleza.",
+            "categoria": "Cinema",
+            "autor": "Ingresso.com",
+            "dataPublicacao": "2026-06-26 09:00:14",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/26/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-26-de-junho-26-06.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Wagner Moura 50 anos: confira 20 trabalhos do ator no cinema",
+            "subtitulo": "De \"Tropa de Elite\" a \"O Agente Secreto\": o ator baiano Wagner Moura completa 50 anos de idade e acumula filmografia com clássicos do cinema brasileiro",
+            "categoria": "Cinema",
+            "autor": null,
+            "dataPublicacao": "2026-06-26 09:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/26/wagner-moura-50-anos-confira-20-trabalhos-do-ator-no-cinema.html",
+            "jornal": "opovo",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
             "titulo": "Vitor Kley apresenta nova turnê em Fortaleza; saiba mais",
             "subtitulo": "Cantor se apresenta no Teatro RioMar, em 28 de novembro, com a turnê \"Sozinho e Bem Acompanhado: Voz, Violão e Vocês\"",
             "categoria": "Agenda",
@@ -8,7 +68,7 @@
             "dataPublicacao": "2026-06-25 18:59:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/25/vitor-kley-apresenta-nova-turne-em-fortaleza-saiba-mais.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Olivia Rodrigo lança festival beneficente com lineup feminina",
@@ -18,7 +78,7 @@
             "dataPublicacao": "2026-06-25 18:42:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/25/olivia-rodrigo-lanca-festival-beneficente-com-lineup-feminina.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Bateu a fome na madrugada? Veja 7 opções de lanches em Fortaleza",
@@ -28,7 +88,7 @@
             "dataPublicacao": "2026-06-25 11:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/25/bateu-a-fome-na-madrugada-veja-7-opcoes-de-lanches-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Amor junino: noivos de quadrilha se apaixonam de verdade e têm filhos",
@@ -38,7 +98,7 @@
             "dataPublicacao": "2026-06-25 09:04:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/25/noivos-de-quadrilha-junina-se-apaixonam-de-verdade-e-tem-filhos.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  25 de junho(25/06)",
@@ -48,7 +108,7 @@
             "dataPublicacao": "2026-06-25 09:00:17",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/25/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-25-de-junho-25-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Pré-venda de GTA 6 tem início no Brasil; veja valores",
@@ -58,7 +118,7 @@
             "dataPublicacao": "2026-06-25 00:09:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/25/pre-venda-de-gta-6-tem-inicio-no-brasil-veja-valores.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Exposição gratuita une trabalhos de Marcius Galan e Raul Mourão",
@@ -68,7 +128,7 @@
             "dataPublicacao": "2026-06-24 16:18:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/24/exposicao-gratuita-une-trabalhos-de-marcius-galan-e-raul-mourao.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cinebiografia de Marta, estrela do futebol feminino, estreia em 2027",
@@ -78,7 +138,7 @@
             "dataPublicacao": "2026-06-24 13:52:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/filme/2026/06/24/com-alice-carvalho-cinebiografia-de-marta-estreia-em-2027.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Supergirl: Nova DC ou velha Marvel?",
@@ -88,7 +148,7 @@
             "dataPublicacao": "2026-06-24 12:59:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/24/supergirl-nova-dc-ou-velha-marvel.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Nanda Tsunami estreia em Fortaleza com turnê \"EDQEMA\" em outubro",
@@ -98,7 +158,7 @@
             "dataPublicacao": "2026-06-24 11:43:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/24/nanda-tsunami-estreia-em-fortaleza-com-turne-edqema-em-outubro.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Brasil x Escócia: 8 shoppings para assistir à Copa em Fortaleza",
@@ -108,7 +168,7 @@
             "dataPublicacao": "2026-06-24 10:00:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/24/brasil-x-escocia-8-shoppings-para-assistir-a-copa-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Podcast cearense sobre arte contemporânea anuncia nova temporada",
@@ -118,7 +178,7 @@
             "dataPublicacao": "2026-06-24 09:35:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/24/podcast-cearense-sobre-arte-contemporanea-anuncia-nova-temporada.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  24 de junho(24/06)",
@@ -128,7 +188,7 @@
             "dataPublicacao": "2026-06-24 09:00:15",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/24/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-24-de-junho-24-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cearenses são aprovadas em festival francês de violoncelo",
@@ -138,7 +198,7 @@
             "dataPublicacao": "2026-06-24 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/24/cearenses-sao-aprovadas-em-festival-frances-de-violoncelo.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "São João Batista, o precursor da igreja celebrado em 24 de junho",
@@ -148,7 +208,7 @@
             "dataPublicacao": "2026-06-24 04:46:00",
             "link": "https://www.opovo.com.br/vidaearte/sao-joao/2026/06/24/sao-joao-batista-o-precursor-da-igreja-celebrado-em-24-de-junho.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Jornalista do O POVO é renovado como jurado do Globo de Ouro",
@@ -158,7 +218,7 @@
             "dataPublicacao": "2026-06-23 18:42:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/23/jornalista-do-o-povo-e-renovado-como-jurado-do-globo-de-ouro.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Mostra de Cinema de Ouro Preto terá homenagem para Helena Solberg",
@@ -168,7 +228,7 @@
             "dataPublicacao": "2026-06-23 18:01:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/23/mostra-de-cinema-de-ouro-preto-tera-homenagem-para-helena-solberg.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Alcione faz show em Fortaleza celebrando 50 anos de carreira",
@@ -178,7 +238,7 @@
             "dataPublicacao": "2026-06-23 17:22:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/23/alcione-faz-show-em-fortaleza-celebrando-50-anos-de-carreira.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Projeto de fotografia retrata homenagens aos mortos no Cariri",
@@ -188,7 +248,7 @@
             "dataPublicacao": "2026-06-23 17:18:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/23/projeto-de-fotografia-retrata-homenagens-aos-mortos-no-cariri.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cícero traz show de 15 anos de Canções de Apartamento a Fortaleza",
@@ -198,7 +258,7 @@
             "dataPublicacao": "2026-06-23 13:19:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/23/cicero-celebra-15-anos-de-cancoes-de-apartamento-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Brasil x Escócia: veja 10 locais para assistir à Copa em Fortaleza",
@@ -208,7 +268,7 @@
             "dataPublicacao": "2026-06-23 11:32:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/23/brasil-x-escocia-veja-10-locais-para-assistir-a-copa-em-fortaleza.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Caderno de Mozart com lições de composição é encontrado em Paris",
@@ -218,7 +278,7 @@
             "dataPublicacao": "2026-06-23 11:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/06/23/caderno-de-mozart-com-licoes-de-composicao-e-encontrado-em-paris.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  23 de junho(23/06)",
@@ -228,7 +288,7 @@
             "dataPublicacao": "2026-06-23 09:00:13",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/23/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-23-de-junho-23-06.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Adaptação musical de A Cigarra e a Formiga aborda o valor da arte",
@@ -238,72 +298,84 @@
             "dataPublicacao": "2026-06-23 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/23/adaptacao-musical-de-a-cigarra-e-a-formiga-aborda-o-valor-da-arte.html",
             "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Museu de IA oferece imersão sensorial na Floresta Amazônica",
-            "subtitulo": "Novo museu em Los Angeles gera arte multissensorial com auxílio de inteligência artificial criando cenários, como a floresta amazônica",
-            "categoria": "Vida&Arte",
-            "autor": "AFP",
-            "dataPublicacao": "2026-06-22 19:18:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/06/22/museu-de-ia-oferece-imersao-sensorial-na-floresta-amazonica.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Marco Nanini chega a Fortaleza com o espetáculo ‘Fim de Partida’",
-            "subtitulo": "A apresentação adapta o texto homônimo do dramaturgo irlandês Samuel Beckett escrito sob o impacto da Segunda Guerra Mundial",
-            "categoria": "Agenda",
-            "autor": "Penélope Menezes",
-            "dataPublicacao": "2026-06-22 17:28:00",
-            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/06/22/marco-nanini-chega-a-fortaleza-com-o-espetaculo-fim-de-partida.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Sabrina Sato e Nicolas Prattes anunciam gravidez com vídeo; confira",
-            "subtitulo": "Após enfrentar desafios e perdas gestacionais, apresentadora confirma nova gestação em vídeo emocionante narrado pela filha Zoe",
-            "categoria": "Vida&Arte",
-            "autor": "Arthur Albano",
-            "dataPublicacao": "2026-06-22 13:39:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/06/22/sabrina-sato-e-nicolas-prattes-anunciam-gravidez-assista-video.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  22 de junho(22/06)",
-            "subtitulo": "Veja programação - com estreia, horários de hoje, segunda, 22 de junho(22/06), dos cinemas de Fortaleza.",
-            "categoria": "Cinema",
-            "autor": "Ingresso.com",
-            "dataPublicacao": "2026-06-22 09:00:13",
-            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/06/22/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-22-de-junho-22-06.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Em meio ao calor extremo, França proíbe álcool em festival de música",
-            "subtitulo": "Governo adota medida enquanto milhões se preparam para a tradicional Fête de la Musique sob temperaturas que podem ultrapassar 40 graus.",
-            "categoria": "Vida&Arte",
-            "autor": "DW",
-            "dataPublicacao": "2026-06-22 00:04:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/06/22/em-meio-ao-calor-extremo-franca-proibe-alcool-em-festival-de-musica.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Mordida de macaco pode ter causado morte de atriz de novela turca",
-            "subtitulo": "A morte da atriz turca Ece Irtem, aos 35 anos, causou grande comoção entre os fãs de produções turcas no Brasil",
-            "categoria": "Vida&Arte",
-            "autor": "Arthur Albano",
-            "dataPublicacao": "2026-06-21 11:22:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/06/21/mordida-de-macaco-pode-ter-causado-morte-de-atriz-de-novela-turca.html",
-            "jornal": "opovo",
-            "createdAt": "2026-06-26 00:28:22"
+            "createdAt": "2026-06-26 11:20:29"
         }
     ],
     "Diário do Nordeste": [],
     "O Estado CE": [],
     "Verdes Mares": [
+        {
+            "titulo": "Após confirmação de identidade por DNA, casal que morreu carbonizado é velado com desfile pela cidade ",
+            "subtitulo": "Devido ao estado em que as vítimas ficaram, Pefoce colheu amostras dos familiares para comprovar a identificação das vítimas.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 14:07:30 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/apos-confirmacao-de-identidade-por-dna-casal-que-morreu-carbonizado-e-velado-com-desfile-pela-cidade.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Brasil x Japão na Copa: jogo na segunda-feira altera horários de comércio e serviços em Fortaleza",
+            "subtitulo": "Partida entre Brasil e Japão acontece às 14h. Horário do jogo pode alterar funcionamento do comércio e de serviços na capital.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 13:06:51 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/brasil-x-japao-na-copa-jogo-na-segunda-feira-altera-horarios-de-comercio-e-servicos-em-fortaleza.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Expediente do serviço público de Fortaleza será reduzido na segunda devido ao jogo do Brasil na Copa",
+            "subtitulo": "A informação foi divulgada pelo prefeito Evandro Leitão nesta sexta-feira (26).",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 12:47:14 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/expediente-do-servico-publico-de-fortaleza-sera-reduzido-na-segunda-devido-ao-jogo-do-brasil-na-copa.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Suspeito de matar a companheira em São Paulo é preso no Ceará",
+            "subtitulo": "Homem foi achado em uma pousada na cidade de Iracema, no interior do estado. No momendo da abordagem, ele apresentou uma identidade falsa para tentar enganar os policiais.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 10:27:09 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/suspeito-de-matar-a-companheira-em-sao-paulo-e-preso-no-ceara.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Polícia encontra acampamento no Ceará com toneladas de maconha e estrutura de 'trabalho'",
+            "subtitulo": "Segundo a investigação, o cultivo ocupava uma área de quase três hectares. Os suspeitos fugiram após a chegada dos policiais, em Acopiara.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 10:14:14 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/policia-encontra-acampamento-no-ceara-com-toneladas-de-maconha-e-estrutura-de-trabalho.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Mulher é presa por injúria e racismo após impedir colega de trabalho trans de usar o banheiro feminino no Ceará",
+            "subtitulo": "Suspeita ainda proferiu diversos xingamentos homofóbicos contra a vítima e alegou que a colega iria contaminar as demais funcionárias com doenças sexualmente transmissíveis.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 09:27:10 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/mulher-e-presa-por-injuria-e-racismo-apos-impedir-colega-de-trabalho-trans-de-usar-o-banheiro-feminino-no-ceara.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Advogado é indiciado por cobrar R$ 12 mil de cliente com a promessa de subornar policiais e mudar depoimento",
+            "subtitulo": "A mulher foi testemunha de uma investigação contra o ex-companheiro dela por perseguição. Ela procurou o advogado para mudar o depoimento.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 08:02:36 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/advogado-e-indiciado-por-cobrar-r-12-mil-de-cliente-com-a-promessa-de-subornar-policiais-e-mudar-depoimento.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "'Aconteceu um milagre', diz cantor Kelvy Pablo após acidente com ônibus da banda no Ceará",
+            "subtitulo": "Veículo colidiu com um barranco às margens da CE-469, em Crateús, após apresenta falha nos freios na descida de uma ladeira.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 26 Jun 2026 05:00:16 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/26/aconteceu-um-milagre-diz-cantor-kelvy-pablo-apos-acidente-com-onibus-da-banda-no-ceara.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-06-26 11:20:29"
+        },
         {
             "titulo": "A 100 dias das eleições, veja pré-candidatos a governo e Senado em 26 estados e no DF",
             "subtitulo": "Para fazer a lista dos possíveis candidatos, o g1 considerou apenas aqueles que anunciaram publicamente a pré-candidatura. Cenário ainda pode mudar em alguns casos, a depender das convenções partidárias que acontecem entre 20 de julho e 5 de agosto.",
@@ -311,7 +383,7 @@
             "dataPublicacao": "Fri, 26 Jun 2026 03:00:34 -0000",
             "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/06/26/a-100-dias-das-eleicoes-veja-pre-candidatos-a-governo-e-senado-em-26-estados-e-no-df.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "São João de Maracanaú: próximo fim de semana tem shows de Gusttavo Lima, Simone Mendes, Alok, Raça Negra e mais",
@@ -320,7 +392,7 @@
             "dataPublicacao": "Fri, 26 Jun 2026 00:52:49 -0000",
             "link": "https://g1.globo.com/ce/ceara/saojoao/noticia/2026/06/25/sao-joao-de-maracanau-proximo-fim-de-semana-tem-shows-de-gusttavo-lima-simone-mendes-alok-raca-negra-e-mais.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Foragido é indiciado por homicídio de campeão de vaquejada no Ceará",
@@ -329,7 +401,7 @@
             "dataPublicacao": "Fri, 26 Jun 2026 00:11:12 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/foragido-e-indiciado-por-homicidio-de-campeao-de-vaquejada-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Empresário ‘Rei do Bolão’ é um dos ganhadores de prêmio de R$ 1,57 milhão da Lotofácil",
@@ -338,7 +410,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 23:25:51 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/empresario-rei-do-bolao-e-um-dos-ganhadores-de-premio-de-r-157-milhao-da-lotofacil.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Quatro suspeitos são presos por ligação com carga de 1 tonelada de maconha apreendida no Ceará",
@@ -347,7 +419,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 23:06:30 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/quatro-suspeitos-sao-presos-por-ligacao-com-apreensao-de-1-tonelada-de-maconha-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Presidente do Ceará diz que filha recebeu caixa de chocolate com explosivo dentro",
@@ -356,7 +428,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 21:59:37 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/presidente-do-ceara-diz-que-filha-recebeu-caixa-de-chocolate-com-explosivo-dentro.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Ciro Gomes diz que 'não viu e não vai ver' vídeo de Michelle e que crise com Flávio Bolsonaro não envolve 'paróquia' local",
@@ -365,7 +437,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 21:23:15 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/25/ciro-gomes-diz-que-nao-viu-e-nao-vai-ver-video-de-michelle-e-que-crise-com-flavio-bolsonaro-nao-envolve-paroquia-local.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Eduardo Girão agradece apoio de Michelle após vídeo sobre briga com Flávio Bolsonaro por disputa ao governo no Ceará",
@@ -374,7 +446,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 20:33:26 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/25/eduardo-girao-agradece-apoio-de-michelle-apos-video-sobre-briga-com-flavio-bolsonaro-por-disputa-ao-governo-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Inova Norte movimenta ecossistema de inovação com programação gratuita em Sobral",
@@ -383,7 +455,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 20:15:22 -0000",
             "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/06/25/inova-norte-movimenta-ecossistema-de-inovacao-com-programacao-gratuita-em-sobral.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Evandro Leitão chama Ciro Gomes de 'mau-caráter' após acusação de ligação com PCC",
@@ -392,7 +464,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 19:47:50 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/25/prefeito-de-fortaleza-evandro-leitao-chama-ciro-gomes-de-mau-carater-apos-acusacao-de-ligacao-com-pcc.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Pivô de crise entre Michelle e Flávio Bolsonaro, André Fernandes reafirmou apoio a Ciro Gomes um dia antes de vídeo da ex-primeira-dama",
@@ -401,7 +473,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 19:10:24 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/25/pivo-de-crise-entre-michelle-e-flavio-bolsonaro-andre-fernandes-reafirmou-apoio-a-ciro-gomes-um-dia-antes-de-video-da-ex-primeira-dama.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Governador Elmano critica oposição após crise entre Michelle e Flávio Bolsonaro: 'incoerência política'",
@@ -410,7 +482,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 18:34:51 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/25/governador-elmano-comenta-crise-de-michelle-e-flavio-bolsonaro-composicao-feita-pela-nossa-oposicao-e-absolutamente-estranha.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Filho de Bebeto do Choró, ex-prefeito foragido, é solto com uso de tornozeleira eletrônica",
@@ -419,7 +491,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 17:53:44 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/filho-de-bebeto-do-choro-ex-prefeito-foragido-e-solto-com-uso-de-tornozeleira-eletronica.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "O empreendedorismo como instrumento de inclusão produtiva no Brasil",
@@ -428,7 +500,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 16:57:22 -0000",
             "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/06/25/o-empreendedorismo-como-instrumento-de-inclusao-produtiva-no-brasil.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Expediente do serviço público do Ceará vai ser reduzido na segunda devido ao jogo do Brasil na Copa",
@@ -437,7 +509,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 16:49:09 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/expediente-do-servico-publico-do-ceara-vai-ser-reduzido-na-segunda-devido-ao-jogo-do-brasil-na-copa.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Ônibus com cantor Kelvy Pablo e banda sofre acidente no interior do Ceará",
@@ -446,7 +518,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 14:55:32 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/onibus-com-cantor-kelvy-pablo-e-banda-sofre-acidente-no-interior-do-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Corpos de engenheiro e biomédica que morreram carbonizados passarão por exame de DNA antes do sepultamento",
@@ -455,7 +527,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 13:41:53 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/corpos-de-engenheiro-e-biomedica-que-morreram-carbonizados-passarao-por-exame-de-dna-antes-do-sepultamento.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Marca britânica vai fabricar carros elétricos no Ceará e deve gerar 600 empregos",
@@ -464,7 +536,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 13:31:41 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/carros-eletricos-fabricados-no-ceara-custarao-a-partir-de-r-129-mil-e-devem-gerar-600-empregos-diretos.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Micro-ônibus pega fogo na Av. Bezerra de Menezes, em Fortaleza; vídeo",
@@ -473,7 +545,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 12:58:10 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/micro-onibus-pega-fogo-na-av-bezerra-de-menezes-em-fortaleza-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Técnica de enfermagem do Samu é agredida durante atendimento em Fortaleza",
@@ -482,7 +554,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 10:51:31 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/tecnica-de-enfermagem-do-samu-e-agredida-durante-atendimento-em-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Kitesurfista é resgatado com auxílio de aeronave após ficar à deriva no mar na Grande Fortaleza; veja vídeo",
@@ -491,7 +563,7 @@
             "dataPublicacao": "Thu, 25 Jun 2026 09:12:18 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/kitesurfista-e-resgatado-com-auxilio-de-aeronave-apos-ficar-a-deriva-no-mar-na-grande-fortaleza-veja-video.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Empresa britânica vai fabricar dois modelos de carros elétricos no Ceará",
@@ -500,142 +572,148 @@
             "dataPublicacao": "Thu, 25 Jun 2026 03:01:14 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/25/empresa-britanica-vai-fabricar-dois-modelos-de-carros-eletricos-no-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Quem é quem na disputa eleitoral do Ceará que levou ao racha entre Michelle e Flávio Bolsonaro",
-            "subtitulo": "Briga teve início durante articulação de candidaturas e apoios do PL ao Governo do Ceará e os candidatos do estado ao Senado em 2026.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 23:44:59 -0000",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/06/24/quem-e-quem-na-confusao-que-gerou-racha-entre-michelle-e-flavio-bolsonaro.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Maior feira agropecuária do Nordeste, PEC Brasil começa nesta quinta em Fortaleza",
-            "subtitulo": "Evento realizado no Centro de Eventos do Ceará espera atrair mais de 100 mil visitantes até sábado (27). Expectativa é movimentar R$ 150 milhões em negócios com 600 empresas.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 21:00:08 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/maior-feira-agropecuaria-do-nordeste-pec-brasil-comeca-nesta-quinta-em-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Homem é preso por matar suspeito de estuprar a companheira dele no Ceará",
-            "subtitulo": "Segundo a polícia, momento antes do assassinato, o suspeito de estupro passou pela residência do casal e teria proferido ofensa contra ele e a companheira.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 20:15:46 -0000",
-            "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/06/24/homem-e-preso-por-matar-suspeito-de-estuprar-a-companheira-dele-no-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Caso Clarissa: justiça marca julgamento de ex-namorado por matar enfermeira com 34 facadas",
-            "subtitulo": "Matheus Anthony Lima foi denunciado por feminicídio pela morte de Clarissa Costa Gomes, ocorrida em julho de 2025, em Fortaleza. O acusado está em prisão preventiva.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 19:44:39 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/caso-clarissa-justica-marca-julgamento-de-ex-namorado-por-matar-enfermeira-com-34-facadas.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Gerente bancário é suspeito de vazar dados de cerca de 180 clientes no Ceará",
-            "subtitulo": "O suspeito foi alvo de mandado de busca e apreensão cumprido pela PF. Um notebook e um celular foram apreendidos no Eusébio, na região metropolitana de Fortaleza.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 19:19:15 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/gerente-bancario-e-suspeito-de-vazar-dados-de-cerca-de-180-clientes-no-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Peixe 'Neymar' ganha reforço de 'Endrick' e 'Vini Jr.' e volta a prever placar de jogos do Brasil",
-            "subtitulo": "O pescador Zé Laurindo de Sá diz que se inspirou no polvo que previa o placar das partidas em 2010.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 18:08:32 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/goleadores-peixe-neymar-ganha-reforco-de-endrick-e-vini-jr-e-palpita-placar-de-jogo-do-brasil.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Preso por morte de universitária tem casa incendiada e atingida por tiros no Ceará; vídeo",
-            "subtitulo": "Polícia da cidade de Morrinhos, no interior do estado, registrou o caso como crime de incolumidade pública e investiga para descobrir a autoria do ataque.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 16:14:31 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/preso-por-morte-de-universitaria-tem-casa-incendiada-e-atingida-por-tiros-no-ceara-video.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
-        },
-        {
-            "titulo": "Filho de ex-prefeito foragido do Ceará é preso por suspeita de lavagem de dinheiro",
-            "subtitulo": "A prisão aconteceu durante uma operação para cumprir mandados de busca e apreensão realizada pelo Ministério Público Eleitoral e a Polícia Federal contra o ex-prefeito de Choró, Bebeto Queiroz.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 24 Jun 2026 15:01:43 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/06/24/filho-de-ex-prefeito-foragido-do-ceara-e-preso-por-suspeita-de-lavagem-de-dinheiro.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-06-26 00:28:23"
+            "createdAt": "2026-06-26 11:20:29"
         }
     ],
     "Ceará Agora": [],
     "Terra da Luz": [
         {
-            "titulo": "Tragédia: Mortos em terremotos na Venezuela chegam a 188 Autoridades informam que mais de 1.500 pessoas ficaram feridas; equipes seguem buscas por desaparecidos e vítimas sob escombros",
-            "subtitulo": "25 de junho de 2026 – O número de mortos em decorrência dos fortes terremotos que atingiram a Venezuela na quarta-feira (24) subiu para 188, segundo informações divulgadas nesta quinta-feira (25) por Jorge Rodríguez, presidente da […]",
+            "titulo": "Esporte: Copa 2026 encerra grupos com duelos decisivos hoje Noruega x França e Uruguai x Espanha são os principais confrontos da rodada que define classificados e líderes dos grupos G, H e I",
+            "subtitulo": "26 de junho de 2026 – A primeira fase da Copa do Mundo de 2026 entra em sua reta final nesta sexta-feira (26), com a disputa da terceira e última rodada dos grupos G, H e […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-26T07:54:01",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-copa-2026-encerra-grupos-com-duelos-decisivos-hoje/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Esporte: Brasil inicia contagem para Copa Feminina de 2027 Falta um ano para o Mundial da FIFA, que terá Fortaleza entre as oito cidades-sede e celebração marcada por mural artístico na Praia de Iracema",
+            "subtitulo": "26 de junho de 2026 – Falta um ano para a Copa do Mundo Feminina da FIFA 2027™, e o Brasil deu início à contagem regressiva para receber, pela primeira vez, o maior torneio de futebol […]",
+            "categoria": [
+                "Turismo, Esporte e Eventos"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-26T07:45:42",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-brasil-inicia-contagem-para-copa-feminina-de-2027/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Cultura: Feira do Cordel reúne atrações musicais em Fortaleza Eugênio Leandro, Edmar Gonçalves, Pingo de Fortaleza e outros artistas integram a programação gratuita da 7ª Feira do Cordel Brasileiro na CAIXA Cultural",
+            "subtitulo": "26 de junho de 2026 – A 7ª Feira do Cordel Brasileiro segue movimentando a CAIXA Cultural Fortaleza até domingo (28), com uma programação gratuita que reúne música, poesia, repente, embolada, teatro, oficinas, exposição e lançamentos […]",
             "categoria": [
                 "Principal"
             ],
             "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-25T16:09:32",
-            "link": "https://portalterradaluz.com.br/principal/tragedia-mortos-em-terremotos-na-venezuela-chegam-a-188/",
+            "dataPublicacao": "2026-06-26T06:34:56",
+            "link": "https://portalterradaluz.com.br/principal/cultura-feira-do-cordel-reune-atracoes-musicais-em-fortaleza/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Mundo: Desaparecidos em terremoto na Venezuela passam de 40 mil Plataforma criada pela sociedade civil reúne informações sobre vítimas, enquanto número oficial de mortos chega a 235 e feridos supera 1,5 mil",
+            "subtitulo": "26 de junho de 2026 – O número de pessoas desaparecidas após os dois terremotos que atingiram a Venezuela na noite de quarta-feira (24) pode ultrapassar 40 mil, segundo informações da plataforma Desaparecidos Terremoto Venezuela, criada […]",
+            "categoria": [
+                "Principal"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-26T06:20:33",
+            "link": "https://portalterradaluz.com.br/principal/mundo-desaparecidos-em-terremoto-na-venezuela-passam-de-40-mil/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Economia: Grupo Controller destaca gestão no agro durante PEC Brasil Empresa participa da PEC Brasil 2026, em Fortaleza, apresentando soluções em contabilidade, auditoria e consultoria voltadas às necessidades do agronegócio",
+            "subtitulo": "26 de junho de 2026 – O Grupo Controller participa da PEC Brasil 2026, considerada a maior feira indoor do agronegócio do país, realizada entre os dias 25 e 27 de junho, em Fortaleza. O evento […]",
+            "categoria": [
+                "Economia &amp; Negócios"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-26T06:04:33",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-grupo-controller-destaca-gestao-no-agro-durante-pec-brasil/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Cultura: Projeto cultural impacta 50 mil pessoas no Ceará Iniciativa do Instituto Dragão do Mar promoveu formação, espetáculos, exposição, acessibilidade e fortaleceu o acesso às artes em diferentes espaços culturais do estado",
+            "subtitulo": "26 de junho de 2026 – O projeto inédito Cultura nas Trincheiras da Alegria consolidou-se como uma das maiores iniciativas culturais realizadas recentemente no Ceará, beneficiando cerca de 50 mil pessoas por meio de ações de […]",
+            "categoria": [
+                "Destaques",
+                "Notícias"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-26T05:58:44",
+            "link": "https://portalterradaluz.com.br/destaques/cultura-projeto-cultural-impacta-50-mil-pessoas-no-ceara/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
+        },
+        {
+            "titulo": "Tragédia: Mortos em terremotos na Venezuela chegam a 188 Autoridades informam que mais de 1.500 pessoas ficaram feridas; equipes seguem buscas por desaparecidos e vítimas sob escombros",
+            "subtitulo": "25 de junho de 2026 – O número de mortos em decorrência dos fortes terremotos que atingiram a Venezuela na quarta-feira (24) subiu para 188, segundo informações divulgadas nesta quinta-feira (25) por Jorge Rodríguez, presidente da […]",
+            "categoria": [
+                "Destaques",
+                "Notícias"
+            ],
+            "autor": "Erica Barretto",
+            "dataPublicacao": "2026-06-25T16:09:32",
+            "link": "https://portalterradaluz.com.br/destaques/tragedia-mortos-em-terremotos-na-venezuela-chegam-a-188/",
+            "jornal": "portalterradaluz",
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Inclusão: Autistas vivenciam cultura no São João de Maracanaú Atividade promovida pela Associação Fortaleza Azul fortaleceu autonomia, interação social e participação comunitária de crianças e adolescentes",
             "subtitulo": "25 de junho de 2026 – Um grupo de 28 crianças e adolescentes com Transtorno do Espectro Autista (TEA), atendidos pela Associação Fortaleza Azul (FAZ), participou de uma atividade terapêutica em comunidade durante o São João […]",
             "categoria": [
-                "Principal"
+                "Destaques",
+                "Notícias"
             ],
             "autor": "Erica Barretto",
             "dataPublicacao": "2026-06-25T15:37:19",
-            "link": "https://portalterradaluz.com.br/principal/inclusao-autistas-vivenciam-cultura-no-sao-joao-de-maracanau/",
+            "link": "https://portalterradaluz.com.br/destaques/inclusao-autistas-vivenciam-cultura-no-sao-joao-de-maracanau/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Saúde: Anvisa proíbe suplemento e suspende lotes de creatina Agência identificou irregularidades em produto sem origem conhecida e determinou recolhimento de lotes de creatina com problemas de composição",
             "subtitulo": "25 de junho de 2026 – A Agência Nacional de Vigilância Sanitária (Anvisa) determinou a apreensão e a proibição da comercialização do suplemento alimentar em cápsulas da marca Artro100. A decisão foi publicada nesta quinta-feira (25) […]",
             "categoria": [
-                "Principal"
+                "Destaques",
+                "Notícias"
             ],
             "autor": "Erica Barretto",
             "dataPublicacao": "2026-06-25T15:30:40",
-            "link": "https://portalterradaluz.com.br/principal/saude-anvisa-proibe-suplemento-e-suspende-lotes-de-creatina/",
+            "link": "https://portalterradaluz.com.br/destaques/saude-anvisa-proibe-suplemento-e-suspende-lotes-de-creatina/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Mundo: Líderes prestam apoio à Venezuela após terremotos Países de diferentes continentes oferecem ajuda humanitária após desastre que já deixou mais de 160 mortos e centenas de feridos",
             "subtitulo": "25 de junho de 2026 – Chefes de Estado e líderes de diversas partes do mundo manifestaram solidariedade à Venezuela após os fortes terremotos de magnitudes 7,2 e 7,5 que atingiram o país na quarta-feira (24). […]",
             "categoria": [
+                "Destaques",
                 "Notícias"
             ],
             "autor": "Erica Barretto",
             "dataPublicacao": "2026-06-25T15:16:49",
-            "link": "https://portalterradaluz.com.br/noticias/mundo-lideres-prestam-apoio-a-venezuela-apos-terremotos/",
+            "link": "https://portalterradaluz.com.br/destaques/mundo-lideres-prestam-apoio-a-venezuela-apos-terremotos/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Negócios: Gestão estratégica impulsiona crescimento empresarial Especialistas apontam que liderança, planejamento e gestão são fundamentais para empresas que buscam crescer de forma sustentável",
             "subtitulo": "25 de junho de 2026 – Abrir uma empresa já representa um grande desafio para empreendedores. No entanto, garantir um crescimento sustentável e estruturado do negócio exige competências que vão além do conhecimento técnico sobre produtos […]",
             "categoria": [
+                "Curtas",
                 "Economia &amp; Negócios"
             ],
             "autor": "Erica Barretto",
             "dataPublicacao": "2026-06-25T15:09:40",
             "link": "https://portalterradaluz.com.br/economia-negocios/negocios-gestao-estrategica-impulsiona-crescimento-empresarial/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Esportes: Brasil goleia e avança às oitavas da Copa Seleção Brasileira vence a Escócia por 3 a 0, confirma liderança do Grupo C e vê Vini Jr. alcançar marca histórica no Mundial",
@@ -647,7 +725,7 @@
             "dataPublicacao": "2026-06-25T06:48:42",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/esportes-brasil-goleia-e-avanca-as-oitavas-da-copa/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Política: Jaques Wagner deixa liderança do governo Senador afirma que saída foi acertada com o presidente Lula e diz que foco será provar inocência e disputar a reeleição",
@@ -660,7 +738,7 @@
             "dataPublicacao": "2026-06-25T06:29:10",
             "link": "https://portalterradaluz.com.br/destaques/politica-jaques-wagner-deixa-lideranca-do-governo/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Tragédia: Terremotos na Venezuela deixam 32 mortos Tremores de magnitudes 7,2 e 7,5 provocaram desabamentos em Caracas; número de vítimas pode aumentar, segundo autoridades",
@@ -673,7 +751,7 @@
             "dataPublicacao": "2026-06-25T06:23:08",
             "link": "https://portalterradaluz.com.br/destaques/tragedia-terremotos-na-venezuela-deixam-32-mortos/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Turismo: Rota lança guia técnico de kitesurf Material institucional apresenta condições de vento, spots, infraestrutura e diferenciais do litoral leste cearense para praticantes e famílias",
@@ -685,7 +763,7 @@
             "dataPublicacao": "2026-06-24T18:35:27",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/turismo-rota-lanca-guia-tecnico-de-kitesurf/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Segurança: Pax avança no Ceará sob questionamentos Empresa testa sistema de videomonitoramento no Estado enquanto enfrenta investigações e suspensões envolvendo contratos em São Paulo, Paraná e Goiás",
@@ -698,7 +776,7 @@
             "dataPublicacao": "2026-06-24T18:17:25",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-pax-avanca-no-ceara-sob-questionamentos/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Espaço: Asteroide gigante passará próximo da Terra no sábado Corpo rochoso de até 1,6 quilômetro de diâmetro não representa risco de colisão e poderá ser observado com telescópios e binóculos potentes",
@@ -711,7 +789,7 @@
             "dataPublicacao": "2026-06-24T15:22:44",
             "link": "https://portalterradaluz.com.br/destaques/espaco-asteroide-gigante-passara-proximo-da-terra-no-sabado/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cultura: Daíra celebra Belchior em show no Cine São Luiz Espetáculo marca os 10 anos do projeto \"Amar e Mudar as Coisas\" e encerra mini turnê da artista pelo Ceará",
@@ -723,7 +801,7 @@
             "dataPublicacao": "2026-06-24T14:57:08",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-daira-celebra-belchior-em-show-no-cine-sao-luiz/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cidadania: Regional 7 recebe projeto Nossa Casa é de Todos Sessão plenária itinerante da Câmara de Fortaleza acontece nesta quinta-feira e aproxima população dos debates legislativos",
@@ -736,7 +814,7 @@
             "dataPublicacao": "2026-06-24T14:51:40",
             "link": "https://portalterradaluz.com.br/destaques/cidadania-regional-7-recebe-projeto-nossa-casa-e-de-todos/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Vacinação: Ceará recebe 29 mil doses da vacina Pneumo 20 Novo imunizante incorporado ao SUS protege crianças contra 20 sorotipos da bactéria causadora de pneumonia, meningite e outras doenças graves",
@@ -749,7 +827,7 @@
             "dataPublicacao": "2026-06-24T14:44:56",
             "link": "https://portalterradaluz.com.br/destaques/vacinacao-ceara-recebe-29-mil-doses-da-vacina-pneumo-20/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Cultura: Feira do Cordel celebra cultura popular CAIXA Cultural Fortaleza recebe programação gratuita com cantorias, repentes, shows, oficinas, exposição e feira de cordéis de 25 a 28 de junho",
@@ -761,7 +839,7 @@
             "dataPublicacao": "2026-06-24T11:07:11",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-feira-do-cordel-celebra-cultura-popular/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Tecnologia: China apresenta laser contra drones de guerra Equipamento portátil da série Lijian pode ser transportado por soldados e promete abater drones com laser de alta energia em campo de batalha",
@@ -774,7 +852,7 @@
             "dataPublicacao": "2026-06-24T08:26:45",
             "link": "https://portalterradaluz.com.br/destaques/tecnologia-china-apresenta-laser-contra-drones-de-guerra/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Geopolítica: Omã abre rotas temporárias em Ormuz País cria corredores provisórios no Estreito de Ormuz, diz que não cobrará pedágio e reforça prioridade à segurança da navegação",
@@ -787,7 +865,7 @@
             "dataPublicacao": "2026-06-24T08:04:54",
             "link": "https://portalterradaluz.com.br/economia-negocios/geopolitica-oma-abre-rotas-temporarias-em-ormuz/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Segurança: Tags viram ameaça contra mulheres em SP Dispositivos de rastreamento escondidos em carros, bolsas e objetos pessoais têm sido usados para perseguir mulheres; prática pode configurar crime de stalking",
@@ -800,7 +878,7 @@
             "dataPublicacao": "2026-06-24T07:50:36",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-tags-viram-ameaca-contra-mulheres-em-sp/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Copa: Brasil encara a Escócia e busca liderança do grupo Seleção Brasileira faz nesta quarta-feira o último jogo da fase de grupos da Copa do Mundo 2026 antes do início do mata-mata",
@@ -812,7 +890,7 @@
             "dataPublicacao": "2026-06-24T06:34:54",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-brasil-encara-a-escocia-e-busca-lideranca-do-grupo/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Segurança: Lula cria plataforma para combater roubo de celulares Decreto transforma o programa Celular Seguro em política permanente e cria banco nacional para rastrear aparelhos com restrição",
@@ -825,7 +903,7 @@
             "dataPublicacao": "2026-06-24T06:25:00",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-lula-cria-plataforma-para-combater-roubo-de-celulares/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Saúde: ANS quer ampliar cobertura da mamografia digital Proposta prevê que planos de saúde cubram o exame para qualquer pessoa com indicação médica, sem limite de idade ou gênero",
@@ -838,7 +916,7 @@
             "dataPublicacao": "2026-06-24T06:11:34",
             "link": "https://portalterradaluz.com.br/destaques/saude-ans-quer-ampliar-cobertura-da-mamografia-digital/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Sorte: Aposta de Manaus fatura R$ 2,8 milhões na Mega-Sena Concurso 3.022 teve uma única aposta vencedora das seis dezenas; próximo prêmio está estimado em R$ 3,5 milhões",
@@ -851,7 +929,7 @@
             "dataPublicacao": "2026-06-24T06:02:14",
             "link": "https://portalterradaluz.com.br/economia-negocios/sorte-aposta-de-manaus-fatura-r-28-milhoes-na-mega-sena/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Copa: Cristiano brilha e Portugal goleia o Uzbequistão Com dois gols de CR7, seleção portuguesa vence por 5 a 0 e assume momentaneamente a liderança do Grupo K",
@@ -863,7 +941,7 @@
             "dataPublicacao": "2026-06-23T16:49:01",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/copa-cristiano-brilha-e-portugal-goleia-o-uzbequistao/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         },
         {
             "titulo": "Economia: Festas juninas devem gerar R$ 2,4 bilhões em 2026 Tradição impulsiona turismo, gastronomia, comércio e empregos em diversas regiões do Brasil",
@@ -876,88 +954,47 @@
             "dataPublicacao": "2026-06-23T15:49:24",
             "link": "https://portalterradaluz.com.br/economia-negocios/economia-festas-juninas-devem-gerar-r-24-bilhoes-em-2026/",
             "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Mobilidade: Câmara aprova passe livre em férias e feriados Projeto amplia gratuidade no transporte para estudantes durante todo o ano em Fortaleza",
-            "subtitulo": "23 de junho de 2026 – A Câmara Municipal de Fortaleza aprovou nesta terça-feira (23) o Projeto de Lei Complementar nº 18/2026, que amplia o passe livre estudantil para os períodos de férias escolares, feriados e […]",
-            "categoria": [
-                "Curtas",
-                "Economia &amp; Negócios"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-23T15:31:34",
-            "link": "https://portalterradaluz.com.br/economia-negocios/mobilidade-camara-aprova-passe-livre-em-ferias-e-feriados/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Seleção: Brasil define time para duelo contra a Escócia Ancelotti ainda tem dúvida no ataque para substituir Raphinha na última rodada do Grupo C",
-            "subtitulo": "23 de junho de 2026 – A seleção brasileira encerrou nesta terça-feira (23) a preparação para o confronto decisivo contra a Escócia pela última rodada do Grupo C da Copa do Mundo de 2026. A partida […]",
-            "categoria": [
-                "Turismo, Esporte e Eventos"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-23T15:20:11",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/selecao-brasil-define-time-para-duelo-contra-a-escocia/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Saúde: Anvisa aprova novo remédio oral para câncer de mama Medicamento é indicado para pacientes com doença avançada e mutação genética específica",
-            "subtitulo": "23 de junho de 2026 – A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou o registro do medicamento Inluriyo® (tosilato de inlunestranto), uma nova opção de tratamento oral para pacientes com câncer de mama avançado ou […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-23T15:09:18",
-            "link": "https://portalterradaluz.com.br/destaques/saude-anvisa-aprova-novo-remedio-oral-para-cancer-de-mama/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Mundo: ONU lança operação para retirar marinheiros Mais de 11 mil profissionais ficaram retidos no Golfo Pérsico durante conflito entre Estados Unidos e Irã",
-            "subtitulo": "23 de junho de 2026 – A Organização Marítima Internacional (OMI), agência especializada da Organização das Nações Unidas (ONU), anunciou nesta terça-feira (23) uma operação de grande escala para auxiliar a retirada de mais de 11 […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Erica Barretto",
-            "dataPublicacao": "2026-06-23T14:56:38",
-            "link": "https://portalterradaluz.com.br/destaques/mundo-onu-lanca-operacao-para-retirar-marinheiros/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Cultura: Acopiara ganha ruas coloridas no esporte Pintura colaborativa mobiliza moradores, transforma vias públicas e fortalece o sentimento de pertencimento em diferentes bairros do município",
-            "subtitulo": "23 de junho de 2026 – A tradição de decorar ruas e espaços urbanos durante grandes eventos esportivos ganhou novos contornos em Acopiara, no interior do Ceará. Com a participação de moradores de diferentes bairros, uma […]",
-            "categoria": [
-                "Destaques",
-                "Notícias"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-23T14:29:07",
-            "link": "https://portalterradaluz.com.br/destaques/cultura-acopiara-ganha-ruas-coloridas-no-esporte/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
-        },
-        {
-            "titulo": "Agronegócio: PEC Brasil deve reunir 100 mil pessoas Nova marca do PEC Nordeste começa nesta quinta-feira, no Centro de Eventos do Ceará, com expectativa de movimentar mais de R$ 150 milhões em negócios",
-            "subtitulo": "23 de junho de 2026 – Começa nesta quinta-feira, 25 de junho, no Centro de Eventos do Ceará, em Fortaleza, a primeira edição da PEC Brasil, nova marca do tradicional PEC Nordeste, feira agropecuária promovida pela […]",
-            "categoria": [
-                "Curtas",
-                "Economia &amp; Negócios"
-            ],
-            "autor": "Hermann Hesse Feitosa Alexandrino",
-            "dataPublicacao": "2026-06-23T13:53:08",
-            "link": "https://portalterradaluz.com.br/economia-negocios/agronegocio-pec-brasil-deve-reunir-100-mil-pessoas/",
-            "jornal": "portalterradaluz",
-            "created_at": "2026-06-26 00:28:22"
+            "created_at": "2026-06-26 11:20:29"
         }
     ],
     "Tribunal de Contas do Ceará": [],
     "Secretaria de Cultura do Ceará": [
+        {
+            "titulo": "Férias no Cinema do Dragão celebra a sétima arte com Festa do Cinema Italiano, projeto Histórias do Cinema para Infância e exibições gratuitas",
+            "subtitulo": "Lançamento da Revista CINESE, clássicos restaurados e sessão especial do longa cearense “ADULTO/HOMEM” completam a agenda de julho Durante todo o mês de julho, pré-estreias, mostras temáticas, sessões especiais e rodas de conversa sobre os desafios d",
+            "categoria": [
+                "Notícias"
+            ],
+            "autor": "Thais Martins",
+            "dataPublicacao": "2026-06-26T11:10:20",
+            "link": "https://www.ce.gov.br/secult/2026/06/26/ferias-no-cinema-do-dragao-celebra-a-setima-arte-com-festa-do-cinema-italiano-projeto-historias-do-cinema-para-infancia-e-exibicoes-gratuitas/",
+            "jornal": "secult",
+            "created_at": "2026-06-26 11:20:35"
+        },
+        {
+            "titulo": "MIS CE abre seleção para financiamento de 10 obras artísticas multilinguagem inéditas para exibição no Museu",
+            "subtitulo": "Edital OCUPA MIS 2026 vai selecionar e financiar 10 obras digitais para exibição no Museu. Imagem: Obra de arte imersiva “Serpentine”, de Aspásia Mariana, durante a mostra OCUPA MIS 2024 O Museu da Imagem e do Som do Ceará (MIS CE) lança nesta quinta",
+            "categoria": [
+                "Rece"
+            ],
+            "autor": "Thais Martins",
+            "dataPublicacao": "2026-06-26T09:32:09",
+            "link": "https://www.ce.gov.br/secult/2026/06/26/mis-ce-abre-selecao-para-financiamento-de-10-obras-artisticas-multilinguagem-ineditas-para-exibicao-no-museu/",
+            "jornal": "secult",
+            "created_at": "2026-06-26 11:20:35"
+        },
+        {
+            "titulo": "Com apoio da Secult, 16º Festival Popular de Teatro de Fortaleza abre convocatória gratuita para grupos de todo o Brasil",
+            "subtitulo": "Há dezesseis anos, o Festival Popular de Teatro de Fortaleza cultiva uma sinergia rara entre as pessoas e a cidade. Entre o prisma e o poste, entre iluminar e colorir, ele surge novamente para transformar ruas, praças e terminais em cena viva. A Comp",
+            "categoria": [
+                "Projetos Apoiados"
+            ],
+            "autor": "Thais Martins",
+            "dataPublicacao": "2026-06-26T09:25:42",
+            "link": "https://www.ce.gov.br/secult/2026/06/26/com-apoio-da-secult-16o-festival-popular-de-teatro-de-fortaleza-abre-convocatoria-gratuita-para-grupos-de-todo-o-brasil/",
+            "jornal": "secult",
+            "created_at": "2026-06-26 11:20:35"
+        },
         {
             "titulo": "Nesta sexta e sábado Concha Acústica e Praça Verde recebem o 3º Festival Ceará da Diversidade",
             "subtitulo": "Programação inclui shows, discotecagem, feira de empreendedorismo e desfile de moda LGBTI+; o acesso é gratuito mediante a doação de 2kg de alimento. DJ Femo, Vanessa A Cantora e Angel History estão entre as atrações do festival Com o tema Vidas em m",
@@ -968,7 +1005,7 @@
             "dataPublicacao": "2026-06-25T14:46:58",
             "link": "https://www.ce.gov.br/secult/2026/06/25/nesta-sexta-e-sabado-concha-acustica-e-praca-verde-recebem-o-3o-festival-ceara-da-diversidade/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Nova sessão sobre a Constelação de Câncer integra programação de férias no Planetário Rubens de Azevedo",
@@ -980,7 +1017,7 @@
             "dataPublicacao": "2026-06-25T12:25:20",
             "link": "https://www.ce.gov.br/secult/2026/06/25/nova-sessao-sobre-a-constelacao-de-cancer-integra-programacao-de-ferias-no-planetario-rubens-de-azevedo/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Férias na Pinacoteca: programação especial movimenta o mês de julho",
@@ -992,7 +1029,7 @@
             "dataPublicacao": "2026-06-25T12:19:24",
             "link": "https://www.ce.gov.br/secult/2026/06/25/ferias-na-pinacoteca-programacao-especial-movimenta-o-mes-de-julho/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Início de julho no São Luiz tem programação gratuita com cinema, teatro, dança e cultura para toda a família",
@@ -1004,7 +1041,7 @@
             "dataPublicacao": "2026-06-25T10:01:39",
             "link": "https://www.ce.gov.br/secult/2026/06/25/inicio-de-julho-no-sao-luiz-tem-programacao-gratuita-com-cinema-teatro-danca-e-cultura-para-toda-a-familia/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Secult divulga a lista dos CEFICs emitidos no mês de junho de 2026",
@@ -1017,7 +1054,7 @@
             "dataPublicacao": "2026-06-25T09:40:02",
             "link": "https://www.ce.gov.br/secult/2026/06/25/secult-divulga-a-lista-dos-cefics-emitidos-no-mes-de-junho-de-2026/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Humor no Ceará pela RECE segue com programação gratuita de julho a dezembro nos equipamentos culturais da Secult Ceará",
@@ -1029,7 +1066,7 @@
             "dataPublicacao": "2026-06-24T16:38:51",
             "link": "https://www.ce.gov.br/secult/2026/06/24/humor-no-ceara-pela-rece-segue-com-programacao-gratuita-de-julho-a-dezembro-nos-equipamentos-culturais-da-secult-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "3° Encontro de Ferromodelismo chega ao Museu Ferroviário com maquetes gigantes e miniaturas de trens",
@@ -1041,7 +1078,7 @@
             "dataPublicacao": "2026-06-24T13:19:56",
             "link": "https://www.ce.gov.br/secult/2026/06/24/3-encontro-de-ferromodelismo-chega-ao-museu-ferroviario-com-maquetes-gigantes-e-miniaturas-de-trens/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Museu de Arte Contemporânea do Ceará inaugura programação no dia 18 de julho com cinco exposições inéditas",
@@ -1054,7 +1091,7 @@
             "dataPublicacao": "2026-06-24T11:19:29",
             "link": "https://www.ce.gov.br/secult/2026/06/24/museu-de-arte-contemporanea-do-ceara-inaugura-programacao-no-dia-18-de-julho-com-cinco-exposicoes-ineditas/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Documentário sobre jangadeiros restaurado e digitalizado no MIS CE é exibido em mostra de cinema de Ouro Preto (MG)",
@@ -1067,7 +1104,7 @@
             "dataPublicacao": "2026-06-24T11:14:08",
             "link": "https://www.ce.gov.br/secult/2026/06/24/documentario-sobre-jangadeiros-restaurado-e-digitalizado-no-mis-ce-e-exibido-em-mostra-de-cinema-de-ouro-preto-mg/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Projeto Entremares, da Porto Iracema, amplia experiências educativas promovendo formações artísticas em escolas da rede pública do Ceará",
@@ -1080,7 +1117,7 @@
             "dataPublicacao": "2026-06-24T11:09:03",
             "link": "https://www.ce.gov.br/secult/2026/06/24/projeto-entremares-da-porto-iracema-amplia-experiencias-educativas-promovendo-formacoes-artisticas-em-escolas-da-rede-publica-do-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Secult Ceará abre inscrições para composição do Comitê Executivo de Expressões Culturais Afro-brasileiras",
@@ -1092,7 +1129,7 @@
             "dataPublicacao": "2026-06-24T11:08:28",
             "link": "https://www.ce.gov.br/secult/2026/06/24/secult-ceara-abre-inscricoes-para-composicao-do-comite-executivo-de-expressoes-culturais-afro-brasileiras/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Com apoio da Secult, Quadrilha “Rochedo dos Matutinos” segue ciclo de apresentações no Ceará com o tema Epifania: Festa de Reis",
@@ -1105,7 +1142,7 @@
             "dataPublicacao": "2026-06-24T11:04:47",
             "link": "https://www.ce.gov.br/secult/2026/06/24/com-apoio-da-secult-quadrilha-rochedo-dos-matutinos-segue-ciclo-de-apresentacoes-no-ceara-com-o-tema-epifania-festa-de-reis/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Com apoio da Secult, projeto O Sonho e o Som, da Prefeitura de Fortaleza, seleciona 20 artistas ou bandas para gravação e lançamento de músicas autorais",
@@ -1117,7 +1154,7 @@
             "dataPublicacao": "2026-06-24T10:55:06",
             "link": "https://www.ce.gov.br/secult/2026/06/24/com-apoio-da-secult-projeto-o-sonho-e-o-som-da-prefeitura-de-fortaleza-seleciona-20-artistas-ou-bandas-para-gravacao-e-lancamento-de-musicas-autorais/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "São João, tradição popular e artes da cena movimentam a programação do Teatro Carlos Câmara nesta semana",
@@ -1130,7 +1167,7 @@
             "dataPublicacao": "2026-06-24T10:42:13",
             "link": "https://www.ce.gov.br/secult/2026/06/24/sao-joao-tradicao-popular-e-artes-da-cena-movimentam-a-programacao-do-teatro-carlos-camara-nesta-semana/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Chico Chico, Má Dame e O Cheiro do Queijo são destaque no primeiro fim de semana da Estação Férias",
@@ -1143,7 +1180,7 @@
             "dataPublicacao": "2026-06-24T10:36:28",
             "link": "https://www.ce.gov.br/secult/2026/06/24/chico-chico-ma-dame-e-o-cheiro-do-queijo-sao-destaque-no-primeiro-fim-de-semana-da-estacao-ferias/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Galocantô: Quinteto carioca chega ao TJA com show em homenagem a Luiz Carlos da Vila (1949–2008)",
@@ -1156,7 +1193,7 @@
             "dataPublicacao": "2026-06-23T16:51:56",
             "link": "https://www.ce.gov.br/secult/2026/06/23/galocanto-quinteto-carioca-chega-ao-tja-com-show-em-homenagem-a-luiz-carlos-da-vila-1949-2008/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Com oficinas e atividades lúdicas, MIS CE divulga programação de férias para crianças e adolescentes",
@@ -1169,7 +1206,7 @@
             "dataPublicacao": "2026-06-23T16:24:10",
             "link": "https://www.ce.gov.br/secult/2026/06/23/com-oficinas-e-atividades-ludicas-mis-ce-divulga-programacao-de-ferias-para-criancas-e-adolescentes/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Cinema do Dragão estreia suspenses marcados por histórias de amor e pelos dilemas do conservadorismo contemporâneo ",
@@ -1182,7 +1219,7 @@
             "dataPublicacao": "2026-06-23T16:17:42",
             "link": "https://www.ce.gov.br/secult/2026/06/23/cinema-do-dragao-estreia-suspenses-marcados-por-historias-de-amor-e-pelos-dilemas-do-conservadorismo-contemporaneo/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Exposição une xilogravura, cordel e memória na abertura da IV Semana Cego Aderaldo de Arte-Poesia",
@@ -1195,7 +1232,7 @@
             "dataPublicacao": "2026-06-23T15:39:01",
             "link": "https://www.ce.gov.br/secult/2026/06/23/exposicao-une-xilogravura-cordel-e-memoria-na-abertura-da-iv-semana-cego-aderaldo-de-arte-poesia/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Com apoio da Secult, Cia Teatral Acontece promove oficinas, palestras, treinamentos e apresentações teatrais gratuitas",
@@ -1208,7 +1245,7 @@
             "dataPublicacao": "2026-06-23T11:06:46",
             "link": "https://www.ce.gov.br/secult/2026/06/23/com-apoio-da-secult-cia-teatral-acontece-promove-oficinas-palestras-treinamentos-e-apresentacoes-teatrais-gratuitas/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Mostra de Finalistas do 25º Prêmio Grande Otelo chega a Fortaleza com sessões gratuitas no Cineteatro São Luiz",
@@ -1221,7 +1258,7 @@
             "dataPublicacao": "2026-06-23T11:01:02",
             "link": "https://www.ce.gov.br/secult/2026/06/23/mostra-de-finalistas-do-25o-premio-grande-otelo-chega-a-fortaleza-com-sessoes-gratuitas-no-cineteatro-sao-luiz-2/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Casa de Saberes Cego Aderaldo realiza a IV Semana Cego Aderaldo de Arte-Poesia",
@@ -1234,7 +1271,7 @@
             "dataPublicacao": "2026-06-23T10:43:06",
             "link": "https://www.ce.gov.br/secult/2026/06/23/casa-de-saberes-cego-aderaldo-realiza-a-iv-semana-cego-aderaldo-de-arte-poesia/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Dentro do Som recebe Ingrid Sales em tributo a Elis Regina no Cineteatro São Luiz",
@@ -1247,7 +1284,7 @@
             "dataPublicacao": "2026-06-22T16:24:42",
             "link": "https://www.ce.gov.br/secult/2026/06/22/dentro-do-som-recebe-ingrid-sales-em-tributo-a-elis-regina-no-cineteatro-sao-luiz/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Semana na Pinacoteca do Ceará oferece nova exposição, performance e oficinas ",
@@ -1260,7 +1297,7 @@
             "dataPublicacao": "2026-06-22T15:34:24",
             "link": "https://www.ce.gov.br/secult/2026/06/22/semana-na-pinacoteca-do-ceara-oferece-nova-exposicao-performance-e-oficinas/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "Hub Cultural Porto Dragão celebra sete anos fortalecendo a circulação da cultura cearense",
@@ -1273,7 +1310,7 @@
             "dataPublicacao": "2026-06-22T14:13:54",
             "link": "https://www.ce.gov.br/secult/2026/06/22/hub-cultural-porto-dragao-celebra-sete-anos-fortalecendo-a-circulacao-da-cultura-cearense/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "MIS CE recebe a Orquestra de Câmara Heitor Villa-Lobos com o concerto “As Lendas da Sanfona”",
@@ -1286,7 +1323,7 @@
             "dataPublicacao": "2026-06-22T13:45:48",
             "link": "https://www.ce.gov.br/secult/2026/06/22/mis-ce-recebe-a-orquestra-de-camara-heitor-villa-lobos-com-o-concerto-as-lendas-da-sanfona/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         },
         {
             "titulo": "“A Voz dos Encantos”: documentário percorre ancestralidade e espiritualidade de povos indígenas do Ceará",
@@ -1298,43 +1335,7 @@
             "dataPublicacao": "2026-06-22T12:10:26",
             "link": "https://www.ce.gov.br/secult/2026/06/22/a-voz-dos-encantos-documentario-percorre-ancestralidade-e-espiritualidade-de-povos-indigenas-do-ceara/",
             "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
-        },
-        {
-            "titulo": "Moda e economia criativa são destaques no 3º Festival Ceará da Diversidade",
-            "subtitulo": "O desfile acontece no sábado (27) na Praça Verde do Centro Dragão do Mar de Arte e Cultura. O festival acontece também no dia 26, na Concha Acústica da UFC. Acesso a cada local:: doação de 2 kg de alimentos não perecíveis. Feira terá 25 expositores d",
-            "categoria": [
-                "Notícias"
-            ],
-            "autor": "Thais Martins",
-            "dataPublicacao": "2026-06-22T11:55:16",
-            "link": "https://www.ce.gov.br/secult/2026/06/22/moda-e-economia-criativa-sao-destaques-no-3o-festival-ceara-da-diversidade/",
-            "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
-        },
-        {
-            "titulo": "Centro Dragão do Mar recebe 3° Festival Ceará da Diversidade e encontro literário em nova edição do Margem da Palavra ",
-            "subtitulo": "Shows gratuitos de Getúlio Abelha (foto) e Alinne Rosa, música instrumental e atividades juninas movimentam a semana no centro cultural  A nova semana no Centro Dragão do Mar de Arte e Cultura — espaço que integra a Rede Pública de Equipamentos Cultu",
-            "categoria": [
-                "Notícias"
-            ],
-            "autor": "Thais Martins",
-            "dataPublicacao": "2026-06-22T11:48:01",
-            "link": "https://www.ce.gov.br/secult/2026/06/22/centro-dragao-do-mar-recebe-3-festival-ceara-da-diversidade-e-encontro-literario-em-nova-edicao-do-margem-da-palavra/",
-            "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
-        },
-        {
-            "titulo": "Teatro de rua e memórias de calçada ocupam a Pinacoteca do Ceará com a performance “Mulambo” do Grupo Garajal",
-            "subtitulo": "Com início na Praça da Estação, a ação artística gratuita ocorre no sábado (27) e propõe um diálogo sobre a memória dos espaços de feiras e a valorização de “povos da rua” Um carrinho de feira carregado de retalhos, farrapos e memórias de calçada con",
-            "categoria": [
-                "Notícias"
-            ],
-            "autor": "Thais Martins",
-            "dataPublicacao": "2026-06-22T11:33:40",
-            "link": "https://www.ce.gov.br/secult/2026/06/22/teatro-de-rua-e-memorias-de-calcada-ocupam-a-pinacoteca-do-ceara-com-a-performance-mulambo-do-grupo-garajal/",
-            "jornal": "secult",
-            "created_at": "2026-06-26 00:28:27"
+            "created_at": "2026-06-26 11:20:35"
         }
     ]
 }
