@@ -36,7 +36,7 @@ async def fetch_opovo(session, url, params, headers):
 
             data = await response.json()
 
-            created_at = creation_time()
+            createdAt = creation_time()
 
             for item in data:
                 try:
@@ -49,7 +49,7 @@ async def fetch_opovo(session, url, params, headers):
                             "dataPublicacao": item["dt_matia_publi"],
                             "link": "https://www.opovo.com.br" + item["ds_matia_path"],
                             "jornal": "opovo",
-                            "createdAt": created_at,
+                            "createdAt": createdAt,
                         }
                     )
                 except KeyError:
@@ -70,19 +70,30 @@ async def fetch_dn(session, url, headers):
         try:
             async with session.get(url_paged, headers=headers) as response:
                 if response.status != 200:
-                    print(f"Erro HTTP {response.status} para opovo")
+                    print(f"Erro HTTP {response.status} para Diario do Nordeste")
                     return dn_articles
 
                 html = await response.text()
-
                 soup = BeautifulSoup(html, "html.parser")
 
-                feed = soup.find("div", id="teasers-feed")
+                script = soup.find("script", type="application/ld+json")
+                artigos_json = {}
 
-                if not feed:
+                if script and script.string:
+                    dados = json.loads(script.string)
+
+                    for item in dados.get("@graph", []):
+                        if item.get("@type") != "CollectionPage":
+                            continue
+
+                        for noticia in item.get("hasPart", []):
+                            artigos_json[noticia["url"]] = noticia
+
+                artigos = [h2.find_parent("div") for h2 in soup.find_all("h2")]
+
+                if not artigos:
+                    print("Nenhum artigo encontrado!")
                     return dn_articles
-
-                artigos = feed.find_all("div", attrs={"data-js": "teaser"})
 
                 for artigo in artigos:
                     if len(dn_articles) >= 30:
@@ -90,43 +101,36 @@ async def fetch_dn(session, url, headers):
 
                     try:
                         titulo_tag = artigo.find("h2")
-                        titulo = (
-                            titulo_tag.get_text(" ", strip=True) if titulo_tag else None
-                        )
+                        if not titulo_tag:
+                            continue
 
-                        subtitulo_tag = artigo.find("p", class_="text-lead")
-                        subtitulo = clear_html_string(subtitulo_tag.get_text())
+                        titulo = titulo_tag.get_text(" ", strip=True)
 
-                        categoria_tag = artigo.find(
-                            "a", class_=lambda c: c and "uppercase" in c
-                        )
-                        categoria = (
-                            categoria_tag.get_text(" ", strip=True)
-                            if categoria_tag
+                        link_tag = titulo_tag.find_parent("a", href=True)
+                        link = link_tag["href"] if link_tag else None
+
+                        dados_artigo = artigos_json.get(link, {})
+
+                        autor = (
+                            dados_artigo.get("author", {}).get("name")
+                            if dados_artigo.get("author")
                             else None
                         )
 
-                        autor_tag = artigo.find(
-                            "div", class_=lambda c: c and "font-bold" in c
-                        )
-                        autor = (
-                            autor_tag.get_text(" ", strip=True) if autor_tag else None
-                        )
+                        data_publicacao = dados_artigo.get("datePublished")
 
-                        data_tag = artigo.find(
-                            "div", class_=lambda c: c and "text-slate-500" in c
-                        )
-                        data_publicacao = (
-                            data_tag.get_text(" ", strip=True) if data_tag else None
-                        )
+                        links = artigo.find_all("a", href=True)
 
-                        link_tag = artigo.find(
-                            "a",
-                            href=True,
-                            attrs={"aria-label": True},
-                        )
+                        categoria = None
+                        subtitulo = None
 
-                        link = link_tag["href"] if link_tag else None
+                        if len(links) >= 2:
+                            categoria = links[0].get_text(" ", strip=True)
+
+                        if len(links) >= 3:
+                            subtitulo = clear_html_string(
+                                links[2].get_text(" ", strip=True)
+                            )
 
                         dn_articles.append(
                             {
@@ -142,10 +146,10 @@ async def fetch_dn(session, url, headers):
                         )
 
                     except Exception as e:
-                        print(f"Erro ao processar artigo: {e}")
+                        print(f"Erro ao processar artigo do Diario do Nordeste: {e}")
 
-        except KeyError:
-            print("Erro no fetch dos dados")
+        except Exception as e:
+            print(f"Erro no fetch dos dados do Diario do Nordeste: {e}")
 
     return dn_articles
 
@@ -161,7 +165,7 @@ async def fetch_oestadoce(session, url, params, headers):
 
             data = await response.json()
 
-            created_at = creation_time()
+            createdAt = creation_time()
 
             for item in data:
                 try:
@@ -183,7 +187,7 @@ async def fetch_oestadoce(session, url, params, headers):
                             "dataPublicacao": item["date"],
                             "link": item["link"],
                             "jornal": "oestadoce",
-                            "createdAt": created_at,
+                            "createdAt": createdAt,
                         }
                     )
                 except KeyError:
@@ -312,7 +316,7 @@ async def fetch_cearaagora(session, url, params, headers):
                         "dataPublicacao": item["date"],
                         "link": item["link"],
                         "jornal": "cearaagora",
-                        "created_at": creation_time(),
+                        "createdAt": creation_time(),
                     }
                 )
             except KeyError:
@@ -472,7 +476,7 @@ async def fetch_terra_da_luz(session, url, params, headers):
                         "dataPublicacao": item["date"],
                         "link": item["link"],
                         "jornal": "portalterradaluz",
-                        "created_at": creation_time(),
+                        "createdAt": creation_time(),
                     }
                 )
             except KeyError:
@@ -538,7 +542,7 @@ async def fetch_secult(session, url, params, headers):
                         "dataPublicacao": dataPublicacao,
                         "link": link,
                         "jornal": "secult",
-                        "created_at": creation_time(),
+                        "createdAt": creation_time(),
                     }
                 )
     except KeyError:
