@@ -13,38 +13,54 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: release/production
+      # Checkout da MAIN (código fonte)
+      - name: Checkout main
+        uses: actions/checkout@v4
 
       - name: Verificar arquivos
         run: |
           pwd
           ls -la
 
-      - uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Instalar dependências
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Executar fetcher
-        run: python fetch_articles.py
-
-      - name: Copiar json para docs
         run: |
-          mkdir -p docs
-          cp data/artigos_ceara.json docs/artigos_ceara.json
+          python fetch_articles.py
 
-      - name: Commit
+      # Clona a branch de produção em outra pasta
+      - name: Checkout release/production
+        uses: actions/checkout@v4
+        with:
+          ref: release/production
+          path: release
+
+      - name: Copiar JSON para release
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          mkdir -p release/docs
+          cp data/artigos_ceara.json release/docs/artigos_ceara.json
+
+      - name: Commit e Push
+        run: |
+          cd release
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add docs/artigos_ceara.json
 
-          git diff --cached --quiet && exit 0
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração encontrada."
+            exit 0
+          fi
 
           git commit -m "Atualiza artigos"
-          git push
+          git push origin release/production
