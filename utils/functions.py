@@ -4,6 +4,7 @@ import json
 import re
 import time
 from datetime import datetime, timedelta, timezone
+from math import e
 from typing import Any, Dict
 
 import aiohttp
@@ -487,7 +488,7 @@ async def fetch_terra_da_luz(session, url, params, headers):
     return articles
 
 
-async def fetch_secult(session, url, params, headers):
+async def fetch_jangadeiro(session, url, params, headers):
     articles = []
 
     try:
@@ -500,51 +501,28 @@ async def fetch_secult(session, url, params, headers):
                 print(f"Erro HTTP {response.status} para secult")
                 return articles
 
-            items = await response.json()
+            data = await response.json()
 
-            for item in items:
-                titulo = item["title"]["rendered"]
+            createdAt = creation_time()
 
-                subtitulo_puro = item["excerpt"]["rendered"]
-                subtitulo = clear_html_string(
-                    BeautifulSoup(subtitulo_puro, "html.parser").get_text(
-                        " ", strip=True
+            for item in data:
+                try:
+                    subtitulo = clear_html_string(item["excerpt"]["rendered"])
+
+                    articles.append(
+                        {
+                            "titulo": item["title"]["rendered"],
+                            "subtitulo": subtitulo,
+                            "categoria": None,
+                            "autor": None,
+                            "dataPublicacao": item["date"],
+                            "link": item["link"],
+                            "jornal": "jangadeiro",
+                            "createdAt": createdAt,
+                        }
                     )
-                )
-
-                categorias = []
-
-                if "_embedded" in item and "wp:term" in item["_embedded"]:
-                    termos = item["_embedded"]["wp:term"]
-                    for taxonomia in termos:
-                        if taxonomia and len(taxonomia) > 0:
-                            primeiro_termo = taxonomia[0]
-                            if primeiro_termo.get("taxonomy") == "category":
-                                for cat in taxonomia:
-                                    categorias.append(cat.get("name"))
-                                break
-
-                autor_nome = None
-
-                if "yoast_head_json" in item:
-                    autor_nome = item["yoast_head_json"].get("author")
-
-                dataPublicacao = item["date"]
-
-                link = item["link"]
-
-                articles.append(
-                    {
-                        "titulo": titulo,
-                        "subtitulo": subtitulo,
-                        "categoria": categorias,
-                        "autor": autor_nome,
-                        "dataPublicacao": dataPublicacao,
-                        "link": link,
-                        "jornal": "secult",
-                        "createdAt": creation_time(),
-                    }
-                )
+                except KeyError as e:
+                    print("Erro no processamento do item: ", e)
     except KeyError:
         print("Erro no fetch dos dados")
 
@@ -618,33 +596,33 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
-    "Diário do Nordeste": {
-        "func": fetch_dn,
-        "params": JORNAIS_MAP["dn"],
-    },
-    "O Estado CE": {
-        "func": fetch_oestadoce,
-        "params": JORNAIS_MAP["oestadoce"],
-    },
-    "Verdes Mares": {
-        "func": fetch_verdemares,
-        "params": JORNAIS_MAP["verdemares"],
-    },
-    "Ceará Agora": {
-        "func": fetch_cearaagora,
-        "params": JORNAIS_MAP["cearaagora"],
-    },
-    "Terra da Luz": {
-        "func": fetch_terra_da_luz,
-        "params": JORNAIS_MAP["terra_da_luz"],
-    },
-    "Tribunal de Contas do Ceará": {
-        "func": fetch_tce,
-        "params": JORNAIS_MAP["tce"],
-    },
-    "Secretaria de Cultura do Ceará": {
-        "func": fetch_secult,
-        "params": JORNAIS_MAP["secult"],
+    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    # "Diário do Nordeste": {
+    #     "func": fetch_dn,
+    #     "params": JORNAIS_MAP["dn"],
+    # },
+    # "O Estado CE": {
+    #     "func": fetch_oestadoce,
+    #     "params": JORNAIS_MAP["oestadoce"],
+    # },
+    # "Verdes Mares": {
+    #     "func": fetch_verdemares,
+    #     "params": JORNAIS_MAP["verdemares"],
+    # },
+    # "Ceará Agora": {
+    #     "func": fetch_cearaagora,
+    #     "params": JORNAIS_MAP["cearaagora"],
+    # },
+    # "Terra da Luz": {
+    #     "func": fetch_terra_da_luz,
+    #     "params": JORNAIS_MAP["terra_da_luz"],
+    # },
+    # "Tribunal de Contas do Ceará": {
+    #     "func": fetch_tce,
+    #     "params": JORNAIS_MAP["tce"],
+    # },
+    "Jornal Jangadeiro": {
+        "func": fetch_jangadeiro,
+        "params": JORNAIS_MAP["jangadeiro"],
     },
 }

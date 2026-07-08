@@ -39,8 +39,8 @@ JORNAIS_MAP = {
         "params": {"page": "1", "per_page": "30"},
         "headers": {"User-Agent": "Mozilla/5.0"},
     },
-    "secult": {
-        "url": "https://www.secult.ce.gov.br/wp-json/wp/v2/posts",
+    "jangadeiro": {
+        "url": "https://www.jangadeiro.com.br/wp-json/wp/v2/posts",
         "params": {
             "_embed": "true",
             "per_page": "30",
