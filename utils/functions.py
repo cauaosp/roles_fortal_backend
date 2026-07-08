@@ -255,7 +255,7 @@ async def fetch_cearaagora(session, url, params, headers):
         async with session.get(url, params=params, headers=headers) as response:
 
             if response.status != 200:
-                print(f"Erro HTTP {response.status} para o estado")
+                print(f"Erro HTTP {response.status} para o cearaagora")
                 return articles
 
             data = await response.json()
@@ -298,7 +298,7 @@ async def fetch_tce(session, url, params, headers):
                 headers=headers,
             ) as response:
                 if response.status != 200:
-                    print(f"Erro na requisição: {response.status}")
+                    print(f"Erro {response.status} na requisição do TCE!")
                     continue
 
                 xml_response = await response.text()
