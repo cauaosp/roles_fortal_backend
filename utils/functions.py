@@ -249,79 +249,37 @@ async def fetch_verdemares(session, url, headers):
 
 
 async def fetch_cearaagora(session, url, params, headers):
-    # 14 - ceara / 49 - fortaleza / 28 - cultura / 13 - interior / 146 - tecnologia / 25 - grandefortaleza / 16 - educação
-    categories_approved = [14, 49, 28, 13, 146, 25, 16]
     articles = []
 
     try:
-        fetch_posts = session.get(url, params=params, headers=headers)
+        async with session.get(url, params=params, headers=headers) as response:
 
-        url_autor = "https://cearaagora.com.br/wp-json/wp/v2/users/"
-        fetch_author = session.get(url_autor, headers=headers)
+            if response.status != 200:
+                print(f"Erro HTTP {response.status} para o estado")
+                return articles
 
-        url_categoria = (
-            "https://cearaagora.com.br/wp-json/wp/v2/categories?per_page=100"
-        )
-        fetch_categories = session.get(url_categoria, headers=headers)
+            data = await response.json()
 
-        fetch_posts, fetch_author, fetch_categories = await asyncio.gather(
-            fetch_posts, fetch_author, fetch_categories
-        )
+            createdAt = creation_time()
 
-        users_data = await fetch_author.json()
-        users_map = {user["id"]: user["name"] for user in users_data}
-        categories_data = await fetch_categories.json()
-        categories_map = {
-            category["id"]: category["name"] for category in categories_data
-        }
+            for item in data:
+                try:
+                    subtitle = clear_html_string(item["excerpt"]["rendered"])
 
-        items = await fetch_posts.json()
-
-        if fetch_posts.status != 200:
-            print(f"Erro HTTP {fetch_posts.status} para cearaagora")
-            return articles
-
-        for item in items:
-            if len(articles) >= 30:
-                break
-
-            try:
-                valid_article = False
-                categories = []
-
-                for category_id in item.get("categories", []):
-                    if category_id in categories_approved:
-                        valid_article = True
-
-                    category_name = categories_map.get(category_id)
-
-                    if category_name and category_name.lower().startswith("destaque"):
-                        category_name = "Destaque"
-
-                    if category_name and category_name.lower() != "sem categoria":
-                        categories.append(category_name)
-
-                if not valid_article:
-                    continue
-
-                author_id = item.get("author")
-                author_name = users_map.get(author_id)
-                subtitle = clear_html_string(item["excerpt"]["rendered"])
-
-                articles.append(
-                    {
-                        "titulo": item["title"]["rendered"],
-                        "subtitulo": subtitle,
-                        "categoria": categories,
-                        "autor": author_name,
-                        "dataPublicacao": item["date"],
-                        "link": item["link"],
-                        "jornal": "cearaagora",
-                        "createdAt": creation_time(),
-                    }
-                )
-            except KeyError:
-                print(f"Erro no item: {item}")
+                    articles.append(
+                        {
+                            "titulo": item["title"]["rendered"],
+                            "subtitulo": subtitle,
+                            "categoria": None,
+                            "autor": None,
+                            "dataPublicacao": item["date"],
+                            "link": item["link"],
+                            "jornal": "cearaagora",
+                            "createdAt": createdAt,
+                        }
+                    )
+                except KeyError:
+                    print(f"Erro no item: {item}")
     except requests.exceptions.RequestException as e:
         print(f"Erro de conexão: {e}")
 
@@ -596,31 +554,31 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
-    # "Diário do Nordeste": {
-    #     "func": fetch_dn,
-    #     "params": JORNAIS_MAP["dn"],
-    # },
-    # "O Estado CE": {
-    #     "func": fetch_oestadoce,
-    #     "params": JORNAIS_MAP["oestadoce"],
-    # },
-    # "Verdes Mares": {
-    #     "func": fetch_verdemares,
-    #     "params": JORNAIS_MAP["verdemares"],
-    # },
-    # "Ceará Agora": {
-    #     "func": fetch_cearaagora,
-    #     "params": JORNAIS_MAP["cearaagora"],
-    # },
-    # "Terra da Luz": {
-    #     "func": fetch_terra_da_luz,
-    #     "params": JORNAIS_MAP["terra_da_luz"],
-    # },
-    # "Tribunal de Contas do Ceará": {
-    #     "func": fetch_tce,
-    #     "params": JORNAIS_MAP["tce"],
-    # },
+    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    "Diário do Nordeste": {
+        "func": fetch_dn,
+        "params": JORNAIS_MAP["dn"],
+    },
+    "O Estado CE": {
+        "func": fetch_oestadoce,
+        "params": JORNAIS_MAP["oestadoce"],
+    },
+    "Verdes Mares": {
+        "func": fetch_verdemares,
+        "params": JORNAIS_MAP["verdemares"],
+    },
+    "Ceará Agora": {
+        "func": fetch_cearaagora,
+        "params": JORNAIS_MAP["cearaagora"],
+    },
+    "Terra da Luz": {
+        "func": fetch_terra_da_luz,
+        "params": JORNAIS_MAP["terra_da_luz"],
+    },
+    "Tribunal de Contas do Ceará": {
+        "func": fetch_tce,
+        "params": JORNAIS_MAP["tce"],
+    },
     "Jornal Jangadeiro": {
         "func": fetch_jangadeiro,
         "params": JORNAIS_MAP["jangadeiro"],
