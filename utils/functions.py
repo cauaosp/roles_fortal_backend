@@ -281,7 +281,7 @@ async def fetch_cearaagora(session, url, params, headers):
                 except KeyError:
                     print(f"Erro no item: {item}")
     except requests.exceptions.RequestException as e:
-        print(f"Erro de conexão: {e}")
+        print(f"Erro no fetch do Ceará Agora: {e}")
 
     return articles
 
