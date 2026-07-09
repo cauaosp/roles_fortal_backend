@@ -253,9 +253,9 @@ async def fetch_cearaagora(session, url, params, headers):
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
-
             if response.status != 200:
                 print(f"Erro HTTP {response.status} para o cearaagora")
+                print(f"Error: {response.text}")
                 return articles
 
             data = await response.json()
@@ -374,74 +374,40 @@ async def fetch_tce(session, url, params, headers):
 async def fetch_terra_da_luz(session, url, params, headers):
     articles = []
 
-    try:
-        post_task = session.get(url, params=params, headers=headers)
+    async with session.get(url, params=params, headers=headers) as response:
+        try:
+            items = await response.json()
 
-        users_response = session.get(
-            url="https://portalterradaluz.com.br/wp-json/wp/v2/users",
-            headers=headers,
-        )
+            for item in items:
+                try:
 
-        categories_response = session.get(
-            url="https://portalterradaluz.com.br/wp-json/wp/v2/categories",
-            headers=headers,
-        )
+                    titulo_html = item["title"]["rendered"]
+                    excerpt_html = item["excerpt"]["rendered"]
 
-        post_task, users_response, categories_response = await asyncio.gather(
-            post_task,
-            users_response,
-            categories_response,
-        )
+                    titulo = BeautifulSoup(titulo_html, "html.parser").get_text(
+                        " ", strip=True
+                    )
 
-        users_data = await users_response.json()
+                    subtitulo = clear_html_string(
+                        BeautifulSoup(excerpt_html, "html.parser").get_text(" ", strip=True)
+                    )
 
-        authors_map = {user["id"]: user["name"] for user in users_data}
-
-        categories_data = await categories_response.json()
-
-        categories_map = {
-            category["id"]: category["name"] for category in categories_data
-        }
-
-        items = await post_task.json()
-
-        for item in items:
-            try:
-                categories = []
-                categories_list = item["categories"]
-                for category_id in categories_list:
-                    categories.append(categories_map.get(category_id))
-
-                author_id = item["author"]
-                author_name = authors_map.get(author_id)
-
-                titulo_html = item["title"]["rendered"]
-                excerpt_html = item["excerpt"]["rendered"]
-
-                titulo = BeautifulSoup(titulo_html, "html.parser").get_text(
-                    " ", strip=True
-                )
-
-                subtitulo = clear_html_string(
-                    BeautifulSoup(excerpt_html, "html.parser").get_text(" ", strip=True)
-                )
-
-                articles.append(
-                    {
-                        "titulo": titulo,
-                        "subtitulo": subtitulo,
-                        "categoria": categories,
-                        "autor": author_name,
-                        "dataPublicacao": item["date"],
-                        "link": item["link"],
-                        "jornal": "portalterradaluz",
-                        "createdAt": creation_time(),
-                    }
-                )
-            except KeyError:
-                print(f"Erro no item: {item}")
-    except KeyError as e:
-        print(f"Erro no fetch dos dados terra da luz: {e}")
+                    articles.append(
+                        {
+                            "titulo": titulo,
+                            "subtitulo": subtitulo,
+                            "categoria": None,
+                            "autor": None,
+                            "dataPublicacao": item["date"],
+                            "link": item["link"],
+                            "jornal": "portalterradaluz",
+                            "createdAt": creation_time(),
+                        }
+                    )
+                except KeyError:
+                    print(f"Erro no item: {item}")
+        except KeyError as e:
+            print(f"Erro no fetch dos dados terra da luz: {e}")
 
     return articles
 

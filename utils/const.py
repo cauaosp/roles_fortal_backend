@@ -25,7 +25,9 @@ JORNAIS_MAP = {
     "cearaagora": {
         "url": "https://cearaagora.com.br/wp-json/wp/v2/posts",
         "params": {"page": "1", "per_page": "30"},
-        "headers": {"User-Agent": "Mozilla/5.0"},
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        },
     },
     "tce": {
         "url": "https://www.tce.ce.gov.br/comunicacao/noticias",
