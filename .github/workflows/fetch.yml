@@ -48,12 +48,6 @@ jobs:
           -H "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
           https://cearaagora.com.br/wp-json/wp/v2/posts
 
-      - name: Testar Terra da Luz
-        run: |
-          nslookup portalterradaluz.com.br
-          ping -c 3 portalterradaluz.com.br || true
-          curl -v https://portalterradaluz.com.br || true
-
       - name: Executar fetcher
         run: |
           python fetch_articles.py
