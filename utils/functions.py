@@ -12,11 +12,9 @@ import requests
 from bs4 import BeautifulSoup
 from utils.const import JORNAIS_MAP
 
-
 def creation_time():
     fuso_brasilia = timezone(timedelta(hours=-3))
     return datetime.now(fuso_brasilia).strftime("%Y-%m-%d %H:%M:%S")
-
 
 def clear_html_string(texto):
     if not texto:
@@ -24,7 +22,6 @@ def clear_html_string(texto):
 
     subtitulo = re.sub(r"<[^>]+>", "", texto)
     return subtitulo[:250].strip()
-
 
 async def log_html(response, name):
     print(f"\nLOG da função: {name}")
@@ -38,7 +35,6 @@ async def log_html(response, name):
         print("3 - Primeiros 1000 caracteres: ", data[:1000])
 
     print("-*-"*20)
-
 
 async def fetch_opovo(session, url, params, headers):
     opovo_articles = []
@@ -74,7 +70,6 @@ async def fetch_opovo(session, url, params, headers):
         print(f"Erro ao buscar opovo: {e}")
 
     return opovo_articles
-
 
 async def fetch_dn(session, url, headers):
     dn_articles = []
@@ -168,53 +163,105 @@ async def fetch_dn(session, url, headers):
 
     return dn_articles
 
-
-async def fetch_oestadoce(session, url, params, headers):
-    oestadoce_articles = []
+async def fetch_oestadoce(session, url, headers):
+    articles = []
 
     try:
-        async with session.get(url, params=params, headers=headers) as response:
-            await log_html(response, "O ESTADO CE")
+        created_at = creation_time()
 
-            if response.status != 200:
-                print(f"Erro HTTP {response.status} para o estado")
-                return oestadoce_articles
+        for page in range(1, 4):
 
-            data = await response.json()
+            page_url = (
+                "https://oestadoce.com.br/category/geral/"
+                if page == 1
+                else f"https://oestadoce.com.br/category/geral/page/{page}/"
+            )
 
-            createdAt = creation_time()
+            async with session.get(page_url, headers=headers) as response:
+                await log_html(response, "CEARÁ AGORA")
 
-            for item in data:
-                try:
-                    subtitulo = clear_html_string(item["excerpt"]["rendered"])
-
-                    categorias = (
-                        item.get("yoast_head_json", {})
-                        .get("schema", {})
-                        .get("@graph", [{}])[0]
-                        .get("articleSection", [])
-                    )
-
-                    oestadoce_articles.append(
-                        {
-                            "titulo": item["title"]["rendered"],
-                            "subtitulo": subtitulo,
-                            "categoria": categorias,
-                            "autor": item.get("yoast_head_json", {}).get("author"),
-                            "dataPublicacao": item["date"],
-                            "link": item["link"],
-                            "jornal": "oestadoce",
-                            "createdAt": createdAt,
-                        }
-                    )
-                except KeyError:
-                    print("Erro ao processar item:", item)
+                if response.status != 200:
+                    print(f"Erro HTTP {response.status} para O Estado CE")
                     continue
-    except KeyError as e:
-        print(f"Erro ao buscar dados do oestadoce {e}")
 
-    return oestadoce_articles
+                html = await response.text()
 
+                soup = BeautifulSoup(html, "html.parser")
+
+                noticias = soup.select(
+                    ".td_module_wrap, .tdb_module_loop, .td_module_flex"
+                )
+
+                for noticia in noticias:
+
+                    try:
+
+                        titulo_tag = noticia.select_one("h3.entry-title a")
+
+                        if not titulo_tag:
+                            continue
+
+                        titulo = titulo_tag.get_text(" ", strip=True)
+
+                        link = titulo_tag["href"]
+
+                        resumo_tag = noticia.select_one(".td-excerpt")
+
+                        subtitulo = (
+                            clear_html_string(
+                                resumo_tag.get_text(" ", strip=True)
+                            )
+                            if resumo_tag
+                            else None
+                        )
+
+                        categoria_tag = noticia.select_one("a.td-post-category")
+
+                        categoria = (
+                            categoria_tag.get_text(strip=True)
+                            if categoria_tag
+                            else None
+                        )
+
+                        autor = None
+
+                        autor_img = noticia.select_one(".tdb-author-photo img")
+
+                        if autor_img:
+                            autor = autor_img.get("alt")
+
+                        data_tag = noticia.select_one("time.entry-date")
+
+                        data_publicacao = (
+                            data_tag.get("datetime")
+                            if data_tag
+                            else None
+                        )
+
+                        articles.append(
+                            {
+                                "titulo": titulo,
+                                "subtitulo": subtitulo,
+                                "categoria": categoria,
+                                "autor": autor,
+                                "dataPublicacao": data_publicacao,
+                                "link": link,
+                                "jornal": "oestadoce",
+                                "createdAt": created_at,
+                            }
+                        )
+
+                        if len(articles) >= 30:
+                            return articles
+
+                    except Exception as e:
+                        print(e)
+                        continue
+
+    except Exception as e:
+        print(f"Erro no scraper do O Estado CE: {e}")
+
+    return articles
 
 async def fetch_verdemares(session, url, headers):
     articles = []
@@ -263,7 +310,6 @@ async def fetch_verdemares(session, url, headers):
 
     return articles
 
-
 async def fetch_cearaagora(session, url, params, headers):
     articles = []
 
@@ -302,7 +348,6 @@ async def fetch_cearaagora(session, url, params, headers):
         print(f"Erro no fetch do Ceará Agora: {e}")
 
     return articles
-
 
 async def fetch_tce(session, url, params, headers):
     articles = []
@@ -388,7 +433,6 @@ async def fetch_tce(session, url, params, headers):
 
     return articles
 
-
 async def fetch_terra_da_luz(session, url, params, headers):
     articles = []
 
@@ -428,7 +472,6 @@ async def fetch_terra_da_luz(session, url, params, headers):
             print(f"Erro no fetch dos dados terra da luz: {e}")
 
     return articles
-
 
 async def fetch_jangadeiro(session, url, params, headers):
     articles = []
@@ -470,22 +513,21 @@ async def fetch_jangadeiro(session, url, params, headers):
 
     return articles
 
-
 async def scraping_limitado(session, sem, nome: str, config: Dict[str, Any]):
     async with sem:
         print(f"[{time.strftime('%H:%M:%S')}] 🔍 Iniciando: {nome}")
         try:
             func = config["func"]
-            params = config["params"]
+            urlParameters = config["urlParameters"]
 
-            if "params" in params and "headers" in params:
+            if "params" in urlParameters and "headers" in urlParameters:
                 resultado = await func(
-                    session, params["url"], params.get("params", {}), params["headers"]
+                    session, urlParameters["url"], urlParameters.get("params", {}), urlParameters["headers"]
                 )
-            elif "headers" in params:
-                resultado = await func(session, params["url"], params["headers"])
+            elif "params" not in urlParameters and "headers" in urlParameters:
+                resultado = await func(session, urlParameters["url"], urlParameters["headers"])
             else:
-                resultado = await func(session, params["url"])
+                resultado = await func(session, urlParameters["url"])
 
             print(
                 f"[{time.strftime('%H:%M:%S')}] ✅ Fim: {nome} - {len(resultado)} artigos"
@@ -498,7 +540,6 @@ async def scraping_limitado(session, sem, nome: str, config: Dict[str, Any]):
 
             traceback.print_exc()
             return nome, []
-
 
 async def fetch_concurrent(limit: int = 4):
     data = {nome: [] for nome in FUNCTIONS_MAP.keys()}
@@ -536,35 +577,34 @@ async def fetch_concurrent(limit: int = 4):
 
     return data
 
-
 FUNCTIONS_MAP = {
-    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    # "O povo": {"func": fetch_opovo, "urlParameters": JORNAIS_MAP["opovo"]},
     # "Diário do Nordeste": {
     #     "func": fetch_dn,
-    #     "params": JORNAIS_MAP["dn"],
+    #     "urlParameters": JORNAIS_MAP["dn"],
     # },
     "O Estado CE": {
         "func": fetch_oestadoce,
-        "params": JORNAIS_MAP["oestadoce"],
+        "urlParameters": JORNAIS_MAP["oestadoce"],
     },
     # "Verdes Mares": {
     #     "func": fetch_verdemares,
-    #     "params": JORNAIS_MAP["verdemares"],
+    #     "urlParameters": JORNAIS_MAP["verdemares"],
     # },
     "Ceará Agora": {
         "func": fetch_cearaagora,
-        "params": JORNAIS_MAP["cearaagora"],
+        "urlParameters": JORNAIS_MAP["cearaagora"],
     },
     # "Terra da Luz": {
     #     "func": fetch_terra_da_luz,
-    #     "params": JORNAIS_MAP["terra_da_luz"],
+    #     "urlParameters": JORNAIS_MAP["terra_da_luz"],
     # },
     # "Tribunal de Contas do Ceará": {
     #     "func": fetch_tce,
-    #     "params": JORNAIS_MAP["tce"],
+    #     "urlParameters": JORNAIS_MAP["tce"],
     # },
     # "Jornal Jangadeiro": {
     #     "func": fetch_jangadeiro,
-    #     "params": JORNAIS_MAP["jangadeiro"],
+    #     "urlParameters": JORNAIS_MAP["jangadeiro"],
     # },
 }

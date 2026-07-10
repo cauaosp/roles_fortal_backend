@@ -22,8 +22,7 @@ JORNAIS_MAP = {
         "headers": DEFAULT_HEADERS,
     },
     "oestadoce": {
-        "url": "https://oestadoce.com.br/wp-json/wp/v2/posts",
-        "params": {"categories": "8", "page": "1", "per_page": "30"},
+        "url": "https://oestadoce.com.br/category/geral/",
         "headers": DEFAULT_HEADERS,
     },
     "verdemares": {
