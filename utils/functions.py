@@ -26,6 +26,20 @@ def clear_html_string(texto):
     return subtitulo[:250].strip()
 
 
+async def log_html(response, name):
+    print(f"\nLOG da função: {name}")
+    data = await response.text()
+
+    if response.headers:
+        print("1 - headers: ", response.headers)
+    if response.status:
+        print("2 - status: ", response.status)
+    if data:
+        print("3 - Primeiros 1000 caracteres: ", data[:1000])
+
+    print("-*-"*20)
+
+
 async def fetch_opovo(session, url, params, headers):
     opovo_articles = []
 
@@ -160,6 +174,8 @@ async def fetch_oestadoce(session, url, params, headers):
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
+            await log_html(response, "O ESTADO CE")
+
             if response.status != 200:
                 print(f"Erro HTTP {response.status} para o estado")
                 return oestadoce_articles
@@ -253,6 +269,8 @@ async def fetch_cearaagora(session, url, params, headers):
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
+            await log_html(response, "CEARÁ AGORA")
+
             if response.status != 200:
                 print(f"Erro HTTP {response.status} para o cearaagora")
                 print(f"Error: {response.text}")
@@ -520,33 +538,33 @@ async def fetch_concurrent(limit: int = 4):
 
 
 FUNCTIONS_MAP = {
-    "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
-    "Diário do Nordeste": {
-        "func": fetch_dn,
-        "params": JORNAIS_MAP["dn"],
-    },
+    # "O povo": {"func": fetch_opovo, "params": JORNAIS_MAP["opovo"]},
+    # "Diário do Nordeste": {
+    #     "func": fetch_dn,
+    #     "params": JORNAIS_MAP["dn"],
+    # },
     "O Estado CE": {
         "func": fetch_oestadoce,
         "params": JORNAIS_MAP["oestadoce"],
     },
-    "Verdes Mares": {
-        "func": fetch_verdemares,
-        "params": JORNAIS_MAP["verdemares"],
-    },
+    # "Verdes Mares": {
+    #     "func": fetch_verdemares,
+    #     "params": JORNAIS_MAP["verdemares"],
+    # },
     "Ceará Agora": {
         "func": fetch_cearaagora,
         "params": JORNAIS_MAP["cearaagora"],
     },
-    "Terra da Luz": {
-        "func": fetch_terra_da_luz,
-        "params": JORNAIS_MAP["terra_da_luz"],
-    },
-    "Tribunal de Contas do Ceará": {
-        "func": fetch_tce,
-        "params": JORNAIS_MAP["tce"],
-    },
-    "Jornal Jangadeiro": {
-        "func": fetch_jangadeiro,
-        "params": JORNAIS_MAP["jangadeiro"],
-    },
+    # "Terra da Luz": {
+    #     "func": fetch_terra_da_luz,
+    #     "params": JORNAIS_MAP["terra_da_luz"],
+    # },
+    # "Tribunal de Contas do Ceará": {
+    #     "func": fetch_tce,
+    #     "params": JORNAIS_MAP["tce"],
+    # },
+    # "Jornal Jangadeiro": {
+    #     "func": fetch_jangadeiro,
+    #     "params": JORNAIS_MAP["jangadeiro"],
+    # },
 }
