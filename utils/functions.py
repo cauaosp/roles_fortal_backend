@@ -578,33 +578,33 @@ async def fetch_concurrent(limit: int = 4):
     return data
 
 FUNCTIONS_MAP = {
-    # "O povo": {"func": fetch_opovo, "urlParameters": JORNAIS_MAP["opovo"]},
-    # "Diário do Nordeste": {
-    #     "func": fetch_dn,
-    #     "urlParameters": JORNAIS_MAP["dn"],
-    # },
+    "O povo": {"func": fetch_opovo, "urlParameters": JORNAIS_MAP["opovo"]},
+    "Diário do Nordeste": {
+        "func": fetch_dn,
+        "urlParameters": JORNAIS_MAP["dn"],
+    },
     "O Estado CE": {
         "func": fetch_oestadoce,
         "urlParameters": JORNAIS_MAP["oestadoce"],
     },
-    # "Verdes Mares": {
-    #     "func": fetch_verdemares,
-    #     "urlParameters": JORNAIS_MAP["verdemares"],
-    # },
+    "Verdes Mares": {
+        "func": fetch_verdemares,
+        "urlParameters": JORNAIS_MAP["verdemares"],
+    },
     "Ceará Agora": {
         "func": fetch_cearaagora,
         "urlParameters": JORNAIS_MAP["cearaagora"],
     },
-    # "Terra da Luz": {
-    #     "func": fetch_terra_da_luz,
-    #     "urlParameters": JORNAIS_MAP["terra_da_luz"],
-    # },
-    # "Tribunal de Contas do Ceará": {
-    #     "func": fetch_tce,
-    #     "urlParameters": JORNAIS_MAP["tce"],
-    # },
-    # "Jornal Jangadeiro": {
-    #     "func": fetch_jangadeiro,
-    #     "urlParameters": JORNAIS_MAP["jangadeiro"],
-    # },
+    "Terra da Luz": {
+        "func": fetch_terra_da_luz,
+        "urlParameters": JORNAIS_MAP["terra_da_luz"],
+    },
+    "Tribunal de Contas do Ceará": {
+        "func": fetch_tce,
+        "urlParameters": JORNAIS_MAP["tce"],
+    },
+    "Jornal Jangadeiro": {
+        "func": fetch_jangadeiro,
+        "urlParameters": JORNAIS_MAP["jangadeiro"],
+    },
 }

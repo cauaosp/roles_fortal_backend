@@ -1,6 +1,46 @@
 {
     "O Estado CE": [
         {
+            "titulo": "Prefeitura e sindicatos não chegam a acordo sobre PCCS da Guarda Municipal de Fortaleza",
+            "subtitulo": "Na reunião realizada na quinta-feira, a nova proposta antecipou o início da vigência para fevereiro de 2027",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T18:19:40-03:00",
+            "link": "https://oestadoce.com.br/geral/prefeitura-e-sindicatos-nao-chegam-a-acordo-sobre-pccs-da-guarda-municipal-de-fortaleza/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Prefeitura entrega requalificação do Jardim Japonês",
+            "subtitulo": "Intervenções receberam investimento por volta de R$ 340 mil e fazem parte de um conjunto de melhorias na Regional 2 de Fortaleza",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T15:41:19-03:00",
+            "link": "https://oestadoce.com.br/ceara/apos-um-ano-de-reforma-jardim-japones-volta-a-funcionar-integralmente/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Ceará: Polícia Civil empossa 56 investigadores, e total de agentes vai a 755",
+            "subtitulo": "Formação dos novos profissionais da segurança pública será realizada através da Academia Estadual de Segurança Pública do Ceará (Aesp)",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T12:25:37-03:00",
+            "link": "https://oestadoce.com.br/ceara/pcce-empossa-56-novos-investigadores-em-fortaleza/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "PM encontra nova plantação de maconha no Ceará e forças de segurança destroem área",
+            "subtitulo": "Plantio de área de aproximadamente 600m², no município de Redenção, foi destruída e incinerada, nesta quinta (9), afirma SSPDS",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T12:08:11-03:00",
+            "link": "https://oestadoce.com.br/ceara/pm-encontra-nova-plantacao-de-maconha-no-ceara-e-forcas-de-seguranca-destroem-area/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
             "titulo": "Copa do Mundo: Espanha e Bélgica disputam por vaga na semifinal da Copa do Mundo",
             "subtitulo": "Espanhóis vem de uma campanha consistente em busca do bicampeonato, enquanto experiente geração belga tenta manter vivo o sonho de conquistar um título inédito",
             "categoria": null,
@@ -8,47 +48,47 @@
             "dataPublicacao": "2026-07-09T23:00:56-03:00",
             "link": "https://oestadoce.com.br/geral/copa-do-mundo-espanha-e-belgica-disputam-por-vaga-na-semifinal-da-copa-do-mundo/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Ceará tem 163 barragens sem dados para agência classificar segurança dos reservatórios",
             "subtitulo": "Órgão federal, ANA aponta que informações da SRH são insuficientes para análise. Pasta estadual fala em dificuldade de acesso a dados de terceiros",
-            "categoria": null,
-            "autor": null,
+            "categoria": "Ceará",
+            "autor": "Júlia Lopes",
             "dataPublicacao": "2026-07-09T21:00:00-03:00",
             "link": "https://oestadoce.com.br/ceara/ceara-tem-163-barragens-sem-dados-para-agencia-classificar-seguranca-dos-reservatorios/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Quadrilhas e show de Marina Sena e Léo Santana: Uruoca realiza festival de 6 dias",
             "subtitulo": "Festejo e programação cultural vai até este domingo com tema “Mosaico Nordestino: A Riqueza da Nossa Diversidade”. Evento é gratuito",
-            "categoria": null,
-            "autor": null,
+            "categoria": "Arte + Agenda",
+            "autor": "Letícia Saraiva",
             "dataPublicacao": "2026-07-09T18:09:03-03:00",
             "link": "https://oestadoce.com.br/arte-agenda/quadrilhas-e-show-de-marina-sena-e-leo-santana-uruoca-realiza-festival-de-6-dias/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Irã volta a atacar bases americanas e acusa EUA de tentar ofuscar funeral de Khamenei",
             "subtitulo": "Segundo meios de comunicação estatais, sistema Patriot de interceptação de mísseis no Kuwait e sistema de alerta foram atingidos",
-            "categoria": null,
-            "autor": null,
+            "categoria": "Mundo",
+            "autor": "Kelly Hekally",
             "dataPublicacao": "2026-07-09T16:31:53-03:00",
             "link": "https://oestadoce.com.br/sem-categoria/ira-volta-a-atacar-bases-americanas-e-acusa-eua-de-tentar-ofuscar-funeral-de-khamenei/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "MP denuncia trio por envio de bomba caseira à filha do presidente do Ceará Sporting Club",
             "subtitulo": "Denúncia informa que material foi entregue na recepção da escola onde a adolescente estuda",
-            "categoria": null,
-            "autor": null,
+            "categoria": "Ceará",
+            "autor": "Júlia Lopes",
             "dataPublicacao": "2026-07-09T14:55:01-03:00",
             "link": "https://oestadoce.com.br/ceara/mp-denuncia-trio-por-envio-de-bomba-caseira-a-filha-do-presidente-do-ceara-sporting-club/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Integrante de facção criminosa do Espírito Santo é preso em Juazeiro do Norte",
@@ -58,7 +98,7 @@
             "dataPublicacao": "2026-07-09T14:02:56-03:00",
             "link": "https://oestadoce.com.br/ceara/integrante-de-faccao-criminosa-e-preso-em-juazeiro-do-norte/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Prefeitura entrega requalificação de 10 leitos de UTI do Instituto Dr. José Frota",
@@ -68,27 +108,117 @@
             "dataPublicacao": "2026-07-09T13:44:12-03:00",
             "link": "https://oestadoce.com.br/ceara/prefeitura-entrega-dez-novos-leitos-de-uti-para-o-ijf/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Fortaleza recebe o maior encontro nacional de lideranças comunitárias",
-            "subtitulo": "O Congresso da Conam reunirá representantes do Brasil e do exterior para definir estratégias de fortalecimento da participação popular e das políticas públicas",
-            "categoria": "Geral",
-            "autor": "Emanuel Santos",
-            "dataPublicacao": "2026-07-09T10:47:52-03:00",
-            "link": "https://oestadoce.com.br/geral/fortaleza-recebe-o-maior-encontro-nacional-de-liderancas-comunitarias/",
+            "titulo": "Prefeitura e sindicatos não chegam a acordo sobre PCCS da Guarda Municipal de Fortaleza",
+            "subtitulo": null,
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T18:19:40-03:00",
+            "link": "https://oestadoce.com.br/geral/prefeitura-e-sindicatos-nao-chegam-a-acordo-sobre-pccs-da-guarda-municipal-de-fortaleza/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "França e Marrocos abrem quartas de final da Copa do Mundo nesta quinta (9)",
-            "subtitulo": "De um lado, franceses tentam manter vivo sonho de conquistar o terceiro título mundial; do outro, marroquinos querem provar que podem surpreender",
-            "categoria": "Esportes",
-            "autor": "Cristiano Silva",
-            "dataPublicacao": "2026-07-09T01:51:29-03:00",
-            "link": "https://oestadoce.com.br/esportes/franca-e-marrocos-abrem-quartas-de-final-da-copa-do-mundo-nesta-quinta-9/",
+            "titulo": "Prefeitura entrega requalificação do Jardim Japonês",
+            "subtitulo": null,
+            "categoria": "Ceará",
+            "autor": null,
+            "dataPublicacao": "2026-07-10T15:41:19-03:00",
+            "link": "https://oestadoce.com.br/ceara/apos-um-ano-de-reforma-jardim-japones-volta-a-funcionar-integralmente/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Secretário de Trump convida Brasil para grupo contra extrema esquerda",
+            "subtitulo": null,
+            "categoria": "Mundo",
+            "autor": null,
+            "dataPublicacao": "2026-07-10T15:04:31-03:00",
+            "link": "https://oestadoce.com.br/mundo/secretario-de-trump-convida-brasil-para-grupo-contra-extrema-esquerda/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Capital cearense registra inflação de 3,97% no primeiro semestre e é a quarta maior do país",
+            "subtitulo": null,
+            "categoria": "Economia",
+            "autor": null,
+            "dataPublicacao": "2026-07-10T15:00:00-03:00",
+            "link": "https://oestadoce.com.br/home-carrossel/capital-cearense-registra-alta-de-397-no-primeiro-semestre-e-e-a-quarta-maior-do-pais/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Sana: Economia geek movimenta R$ 200 milhões em Fortaleza",
+            "subtitulo": null,
+            "categoria": "Economia",
+            "autor": null,
+            "dataPublicacao": "2026-07-10T14:57:51-03:00",
+            "link": "https://oestadoce.com.br/economia/sana-economia-geek-movimenta-r-200-milhoes-em-fortaleza/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Câmara determina perda do mandato de Dayany Bittencourt e Priscila Costa assume",
+            "subtitulo": null,
+            "categoria": "Política",
+            "autor": null,
+            "dataPublicacao": "2026-07-10T14:44:43-03:00",
+            "link": "https://oestadoce.com.br/politica/camara-determina-perda-do-mandato-de-dayany-e-pricila-costa-assume/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "PCCE empossa 56 novos investigadores em Fortaleza",
+            "subtitulo": "Formação dos novos profissionais da segurança pública será realizada através da Academia Estadual de Segurança Pública do Ceará (Aesp)",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T12:25:37-03:00",
+            "link": "https://oestadoce.com.br/ceara/pcce-empossa-56-novos-investigadores-em-fortaleza/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Vacinas contra covid-19 serão atualizadas para novas variantes",
+            "subtitulo": "Novas doses deverão ser adaptadas às variantes em circulação; imunizantes antigos poderão ser usados por até nove meses",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-10T11:25:40-03:00",
+            "link": "https://oestadoce.com.br/geral/vacinas-contra-covid-19-serao-atualizadas-para-novas-variantes/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Copa do Mundo: Espanha e Bélgica disputam por vaga na semifinal da Copa do Mundo",
+            "subtitulo": "Espanhóis vem de uma campanha consistente em busca do bicampeonato, enquanto experiente geração belga tenta manter vivo o sonho de conquistar um título inédito",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-09T23:00:56-03:00",
+            "link": "https://oestadoce.com.br/geral/copa-do-mundo-espanha-e-belgica-disputam-por-vaga-na-semifinal-da-copa-do-mundo/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Ceará tem 163 barragens sem dados para agência classificar segurança dos reservatórios",
+            "subtitulo": "Órgão federal, ANA aponta que informações da SRH são insuficientes para análise. Pasta estadual fala em dificuldade de acesso a dados de terceiros",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-09T21:00:00-03:00",
+            "link": "https://oestadoce.com.br/ceara/ceara-tem-163-barragens-sem-dados-para-agencia-classificar-seguranca-dos-reservatorios/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Quadrilhas e show de Marina Sena e Léo Santana: Uruoca realiza festival de 6 dias",
+            "subtitulo": "Festejo e programação cultural vai até este domingo com tema “Mosaico Nordestino: A Riqueza da Nossa Diversidade”. Evento é gratuito",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-07-09T18:09:03-03:00",
+            "link": "https://oestadoce.com.br/arte-agenda/quadrilhas-e-show-de-marina-sena-e-leo-santana-uruoca-realiza-festival-de-6-dias/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "Idosa retirada de trabalho análogo à escravidão está em acompanhamento de secretaria estadual",
@@ -98,7 +228,7 @@
             "dataPublicacao": "2026-07-08T19:30:00-03:00",
             "link": "https://oestadoce.com.br/geral/idosa-retirada-de-trabalho-analogo-a-escravidao-esta-em-acompanhamento-de-secretaria-estadual/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
             "titulo": "No interior do Ceará, polícia prende homem supeito de aplicar golpes em venda de passagens aéreas",
@@ -108,499 +238,369 @@
             "dataPublicacao": "2026-07-08T14:31:03-03:00",
             "link": "https://oestadoce.com.br/ceara/no-interior-do-ceara-policia-prende-homem-supeito-de-aplicar-golpes-em-venda-de-passagens-aereas/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Copa do Mundo: Espanha e Bélgica disputam por vaga na semifinal da Copa do Mundo",
-            "subtitulo": null,
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-07-09T23:00:56-03:00",
-            "link": "https://oestadoce.com.br/geral/copa-do-mundo-espanha-e-belgica-disputam-por-vaga-na-semifinal-da-copa-do-mundo/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Projeto do Estado deve estar acima de disputas locais, diz líder de Elmano após embate na Alece",
-            "subtitulo": null,
-            "categoria": "Política",
-            "autor": null,
-            "dataPublicacao": "2026-07-09T23:00:00-03:00",
-            "link": "https://oestadoce.com.br/ultimas/projeto-do-estado-deve-estar-acima-de-disputas-locais-diz-lider-de-elmano-apos-embate-na-alece/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "PF apura desvios em emendas de Chiquinho Brazão, condenado por morte de Marielle, no RJ",
-            "subtitulo": null,
-            "categoria": "Política",
-            "autor": null,
-            "dataPublicacao": "2026-07-09T22:00:00-03:00",
-            "link": "https://oestadoce.com.br/sem-categoria/pf-apura-desvios-em-emendas-de-chiquinho-brazao-condenado-por-morte-de-marielle-no-rj/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Aécio desiste de disputar a Presidência, e PSDB ficará sem candidato ao Planalto",
-            "subtitulo": null,
-            "categoria": "Política",
-            "autor": null,
-            "dataPublicacao": "2026-07-09T22:00:00-03:00",
-            "link": "https://oestadoce.com.br/politica/aecio-desiste-de-disputar-a-presidencia-e-psdb-ficara-sem-candidato-ao-planalto/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Flávio Bolsonaro chega em Fortaleza para evento “puro PL”, avaliam tucanos",
-            "subtitulo": null,
-            "categoria": "Política",
-            "autor": null,
-            "dataPublicacao": "2026-07-09T22:00:00-03:00",
-            "link": "https://oestadoce.com.br/politica/flavio-bolsonaro-chega-em-fortaleza-para-evento-puro-pl-avaliam-tucanos/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Supermercados movimentam R$ 11,6 bilhões e reforçam peso do varejo na economia cearense",
-            "subtitulo": null,
-            "categoria": "Economia",
-            "autor": null,
-            "dataPublicacao": "2026-07-09T22:00:00-03:00",
-            "link": "https://oestadoce.com.br/economia/supermercados-movimentam-r-116-bilhoes-e-reforcam-peso-do-varejo-na-economia-cearense/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Ministro da Educação apresenta plano de ampliação de ensino técnico",
-            "subtitulo": "O ministro da Educação, Leonardo Barchini, esteve nesta quarta-feira (24) presente à cerimônia de assinatura do Plano de Aplicação do Juros por Educação, programa que visa ampliar o número...",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-06-25T06:38:32-03:00",
-            "link": "https://oestadoce.com.br/geral/ministro-da-educacao-apresenta-plano-de-ampliacao-de-ensino-tecnico/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Cinco cidades cearenses entram no movimento Mutirão contra o Calor Extremo",
-            "subtitulo": "Para enfrentar o aumento do calor e as mudanças climáticas que são anunciadas com a possível vinda do...",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-06-25T00:01:00-03:00",
-            "link": "https://oestadoce.com.br/geral/cinco-cidades-cearenses-entram-no-movimento-mutirao-contra-o-calor-extremo/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Bombeiros resgatam homem à deriva no mar em Caucaia",
-            "subtitulo": "Homem estava em alto mar, na região do Icaraí praticando kitesurf quando caiu na água e não conseguiu levantar a pipa",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-06-24T14:57:22-03:00",
-            "link": "https://oestadoce.com.br/ceara/bombeiros-resgatam-homem-a-deriva-no-mar-em-caucaia/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Ceará tem previsão de chuvas isoladas para esta quarta (24)",
-            "subtitulo": "De acordo com a Funceme, há \"alta possibilidade\" de precipitações ocorrerem pela tarde, no noroeste do Estado",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-06-24T11:25:36-03:00",
-            "link": "https://oestadoce.com.br/ceara/ceara-tem-previsao-de-chuvas-isoladas-para-esta-quarta-24/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Beberibe celebra 134 anos de história com shows e o tradicional Festival Junino",
-            "subtitulo": "Conhecido pelas falésias, dunas e lagoas, o Município de Beberibe celebra no dia 4 de julho, 134 anos...",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-06-24T10:34:17-03:00",
-            "link": "https://oestadoce.com.br/geral/beberibe-celebra-134-anos-de-historia-com-shows-e-o-tradicional-festival-junino-2/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Operação Tapa-Buraco completa cerca de 10% de execução em 20 dias",
-            "subtitulo": "Intervenções viárias em Fortaleza chegam a duas novas regionais. Gestão quer superar os 111 km requalificados no ano passado",
+            "titulo": "180 bairros da Região Metropolitana de Fortaleza estão sem água nesta quarta (8)",
+            "subtitulo": "Nesta quarta-feira (8), ocorre até 21 horas a manutenção temporária dos serviços na Estação de Tratamento Gavião (ETA Gavião). A Companhia de Água e...",
             "categoria": "Ceará",
             "autor": "Júlia Lopes",
-            "dataPublicacao": "2026-06-22T22:00:00-03:00",
-            "link": "https://oestadoce.com.br/ceara/operacao-tapa-buraco-completa-cerca-de-10-de-execucao-em-20-dias/",
+            "dataPublicacao": "2026-07-08T11:37:38-03:00",
+            "link": "https://oestadoce.com.br/geral/180-bairros-da-regiao-metropolitana-de-fortaleza-estao-sem-agua-nesta-quarta-8/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Fortaleza terá 750 novas unidades de programa habitacional",
-            "subtitulo": "Obras devem ser concluídas em até 24 meses. Investimento de R$ 132 milhões será construído na avenida Carlos Jereissati, afirma Prefeitura",
+            "titulo": "Em pausa nesta quarta (8), seleções entram em regressiva de 10 dias para fim da Copa",
+            "subtitulo": "Faltando apenas 12 dias para a decisão, favoritos começam a se consolidar, sonhos permanecem vivos e cada jogo passa a valer um lugar na história",
+            "categoria": "Esportes",
+            "autor": "Dalila Lima",
+            "dataPublicacao": "2026-07-08T07:30:59-03:00",
+            "link": "https://oestadoce.com.br/esportes/a-contagem-regressiva-comecou-copa-entra-na-reta-final/",
+            "jornal": "oestadoce",
+            "createdAt": "2026-07-10 19:50:46"
+        },
+        {
+            "titulo": "Órgão municipal oferta cursos de extensão em Fortaleza, incluindo de idiomas",
+            "subtitulo": "Programação desenvolvida pelo Imparh contempla nove cursos de extensão em diferentes áreas do conhecimento",
             "categoria": "Ceará",
-            "autor": "Júlia Lopes",
-            "dataPublicacao": "2026-06-22T14:37:29-03:00",
-            "link": "https://oestadoce.com.br/geral/fortaleza-tera-750-novas-unidades-de-programa-habitacional/",
+            "autor": "Letícia Saraiva",
+            "dataPublicacao": "2026-07-07T18:52:58-03:00",
+            "link": "https://oestadoce.com.br/ceara/orgao-municipal-oferta-cursos-de-extensao-em-fortaleza-incluindo-de-idiomas/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Nove bairros de Fortaleza não terão água nesta terça (23)",
-            "subtitulo": "Suspensão temporária será para melhorias no abastecimento hídrico e deve se estender das 8h às 17h",
-            "categoria": "Ceará",
-            "autor": "Júlia Lopes",
-            "dataPublicacao": "2026-06-22T13:27:13-03:00",
-            "link": "https://oestadoce.com.br/ceara/nove-bairros-de-fortaleza-nao-terao-agua-nesta-terca-23/",
+            "titulo": "Brasil: 2 a cada 3 atendidas por violência doméstica já tinham sofrido agressões",
+            "subtitulo": "Dados são de 2024 e fazem parte do Atlas da Violência, estudo elaborado pelo Ipea e pelo Fórum Brasileiro de Segurança Pública",
+            "categoria": "Nacional",
+            "autor": "Kelly Hekally",
+            "dataPublicacao": "2026-07-07T12:00:00-03:00",
+            "link": "https://oestadoce.com.br/geral/brasil-2-a-cada-3-atendidas-por-violencia-domestica-ja-tinham-sofrido-agressoes/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Caravana de programa de passagem gratuita chega ao Cariri",
-            "subtitulo": "Iniciativa busca garantir a gratuidade no transporte público entre cidades para quem procura uma vaga no mercado de trabalho",
-            "categoria": "Ceará",
-            "autor": "Júlia Lopes",
-            "dataPublicacao": "2026-06-22T12:53:40-03:00",
-            "link": "https://oestadoce.com.br/geral/caravana-de-programa-de-passagem-gratuita-chega-ao-cariri/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Corrida solidária reúne 6 mil pessoas e arrecada quase 40 toneladas de alimentos",
-            "subtitulo": "Todo o material arrecadado será encaminhado às entidades credenciadas pelo programa “Ceará Sem Fome”, responsável por coordenar a distribuição dos donativos em diferentes regiões do Estado",
-            "categoria": "Geral",
-            "autor": "Cristiano Silva",
-            "dataPublicacao": "2026-06-22T03:08:29-03:00",
-            "link": "https://oestadoce.com.br/geral/corrida-solidaria-reune-6-mil-pessoas-e-arrecada-quase-40-toneladas-de-alimentos/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Secretária: obras para aumento de cirurgias do Gonzaguinha da Barra começam no próximo semestre",
-            "subtitulo": "Construções devem durar em torno de 6 meses, afirma Riane Azevedo, titular da pasta municipal",
-            "categoria": "Ceará",
-            "autor": "Júlia Lopes",
-            "dataPublicacao": "2026-06-21T20:00:00-03:00",
-            "link": "https://oestadoce.com.br/geral/secretaria-obras-para-aumento-de-cirurgias-do-gonzaguinha-da-barra-comecam-no-proximo-semestre/",
-            "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
-        },
-        {
-            "titulo": "Elmano responde sobre majoritária e diz que Camilo e Luizianne vão conversar",
+            "titulo": "PCCE empossa 56 novos investigadores em Fortaleza",
             "subtitulo": null,
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-06-25T12:18:29-03:00",
-            "link": "https://oestadoce.com.br/politica/elmano-responde-sobre-majoritaria-e-diz-que-camilo-e-luizianne-vao-conversar/",
+            "dataPublicacao": "2026-07-10T12:25:37-03:00",
+            "link": "https://oestadoce.com.br/ceara/pcce-empossa-56-novos-investigadores-em-fortaleza/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "“Ele pediu uma vaga no Senado, e não foi dado”, dispara Chagas a Mauro Filho",
+            "titulo": "PM encontra nova plantação de maconha no Ceará e forças de segurança destroem área",
             "subtitulo": null,
-            "categoria": "Política",
+            "categoria": "Ceará",
             "autor": null,
-            "dataPublicacao": "2026-06-25T09:21:55-03:00",
-            "link": "https://oestadoce.com.br/politica/ele-pediu-uma-vaga-no-senado-e-nao-foi-dado-dispara-chagas-a-mauro-filho/",
+            "dataPublicacao": "2026-07-10T12:08:11-03:00",
+            "link": "https://oestadoce.com.br/ceara/pm-encontra-nova-plantacao-de-maconha-no-ceara-e-forcas-de-seguranca-destroem-area/",
             "jornal": "oestadoce",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         }
     ],
     "Ceará Agora": [
         {
-            "titulo": "Empresária agredida pelo ex morre após mais de dois meses internada; caso pode virar feminicídio",
-            "subtitulo": "A luta pela vida de Izabela Leite terminou na noite desta quarta-feira (8). A empresária, de 30 anos, morreu por volta das 22h no Hospital Estadual Azevedo Lima (HEAL), no Fonseca, em Niterói, onde permanecia internada havia pouco mais de dois meses",
+            "titulo": "Discussão na Beira-Mar por suposta ofensa racista termina na polícia e mobiliza banhistas",
+            "subtitulo": "Uma discussão entre duas mulheres na Avenida Beira-Mar, em Fortaleza, terminou com a intervenção da Polícia Militar após uma delas acusar a outra de racismo. O desentendimento provocou acirramento dos ânimos e chamou a atenção de quem passava pelo lo",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T20:45:00",
-            "link": "https://cearaagora.com.br/empresaria-agredida-pelo-ex-morre-apos-mais-de-dois-meses-internada-caso-pode-virar-feminicidio/",
+            "dataPublicacao": "2026-07-10T19:31:26",
+            "link": "https://cearaagora.com.br/discussao-na-beira-mar-por-suposta-ofensa-racista-termina-na-policia-e-mobiliza-banhistas/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Decisão sobre corte do subsídio da gasolina ficou para semana que vem, diz ministro da Fazenda",
-            "subtitulo": "O ministro da Fazenda, Dario Durigan, afirmou, nesta quinta-feira (9) que a decisão sobre o corte do subsídio da gasolina ficou para semana que vem. Ele acrescentou que analisa o caso com cautela, mas &#8220;gostaria&#8221; de adotar a medida. — Onte",
+            "titulo": "Ciro Gomes terá candidatura ao Governo do Ceará lançada em ato no dia 1º de agosto",
+            "subtitulo": "A Federação PSDB-Cidadania realizará, no dia 1º de agosto, o ato político de lançamento da candidatura de Ciro Gomes ao Governo do Ceará. O evento acontecerá em Fortaleza, em local que ainda será definido, e marcará o início oficial da campanha do ex",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T20:30:00",
-            "link": "https://cearaagora.com.br/decisao-sobre-corte-do-subsidio-da-gasolina-ficou-para-semana-que-vem-diz-ministro-da-fazenda/",
+            "dataPublicacao": "2026-07-10T19:01:17",
+            "link": "https://cearaagora.com.br/ciro-gomes-tera-candidatura-ao-governo-do-ceara-lancada-em-ato-no-dia-1o-de-agosto/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Estudo aponta que canetas emagrecedoras ajudam a perder peso, mas têm benefícios limitados à saúde",
-            "subtitulo": "Apesar de ajudar significativamente na perda de peso, a maioria dos medicamentos para obesidade, conhecidos como canetas emagrecedoras, não melhora a qualidade de vida de forma robusta e poucos demonstram benefícios cardiovasculares após um ano de us",
+            "titulo": "Anvisa atualiza composição das vacinas contra a Covid-19 no Brasil",
+            "subtitulo": "A Anvisa (Agência Nacional de Vigilância Sanitária) atualizou as regras para a composição das vacinas contra a Covid-19 que serão comercializadas e utilizadas no Brasil. A medida foi publicada no Diário Oficial da União nesta quinta-feira (9). Com a",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T20:00:00",
-            "link": "https://cearaagora.com.br/estudo-aponta-que-canetas-emagrecedoras-ajudam-a-perder-peso-mas-tem-beneficios-limitados-a-saude/",
+            "dataPublicacao": "2026-07-10T19:00:00",
+            "link": "https://cearaagora.com.br/anvisa-atualiza-composicao-das-vacinas-contra-a-covid-19-no-brasil/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Acusado pela morte do ator Jeff Machado é condenado a 22 anos e 9 meses de prisão",
-            "subtitulo": "A Justiça do Rio de Janeiro condenou a 22 anos e 9 meses de prisão Jeander Vinícius da Silva Braga, um dos acusados pela morte do ator Jeff Machado, encontrado morto em maio de 2023. A sentença foi publicada na noite de quarta-feira 8. Braga foi cond",
+            "titulo": "Gerente de restaurante é morto a tiros ao chegar em casa em Fortaleza",
+            "subtitulo": "O gerente de um restaurante da Região Metropolitana foi assassinado a tiros ao chegar em casa no Bairro Granja Lisboa, em Fortaleza, na madrugada de quarta-feira (8). O crime foi registrado por uma câmera de segurança. Américo Rubens Rodrigues da Sil",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T19:42:00",
-            "link": "https://cearaagora.com.br/acusado-pela-morte-do-ator-jeff-machado-e-condenado-a-22-anos-e-9-meses-de-prisao/",
+            "dataPublicacao": "2026-07-10T18:45:00",
+            "link": "https://cearaagora.com.br/gerente-de-restaurante-e-morto-a-tiros-ao-chegar-em-casa-em-fortaleza/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Governo busca ampliar programa Desenrola Adimplentes para mais bancos privados",
-            "subtitulo": "O ministro da Fazenda, Dario Durigan, disse nesta quinta-feira, 9, que continua tentando que a Federação Brasileira de Bancos (Febraban) contribua para estender o Desenrola Adimplentes, programa de renegociação de dívidas voltado para quem está com o",
+            "titulo": "Morre aos 90 anos o jornalista e ex-senador cearense Cid Sabóia de Carvalho",
+            "subtitulo": "O jornalista, advogado, professor e ex-senador Cid Sabóia de Carvalho morreu nesta sexta-feira (10), aos 90 anos. Ele também era membro da Academia Cearense de Letras e teve uma trajetória marcada pela atuação na comunicação, na política, no direito",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T19:29:00",
-            "link": "https://cearaagora.com.br/governo-busca-ampliar-programa-desenrola-adimplentes-para-mais-bancos-privados/",
+            "dataPublicacao": "2026-07-10T18:42:38",
+            "link": "https://cearaagora.com.br/morre-aos-90-anos-o-jornalista-e-ex-senador-cearense-cid-saboia-de-carvalho/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "PL Mulher divulga nota e avisa: “Michelle não vai parar! Vêm aí as Imparáveis!”",
-            "subtitulo": "O PL Mulher divulgou uma nota nas redes sociais para marcar a transição no comando do movimento feminino da legenda e, ao mesmo tempo, enviar um recado político aos apoiadores da ex-primeira-dama Michelle Bolsonaro: “Michelle não vai parar!”. A publi",
+            "titulo": "Mãe de menino morto após agressões é presa por suspeita de ocultar violência contra os filhos",
+            "subtitulo": "Mayanna Angelina Rodgers, mãe de Oliver Golden Grayson, de 3 anos, que morreu após ser espancado pelo pai por não dizer “bom dia”, pedia para que os filhos escondessem as marcas das agressões. Oliver faleceu no domingo (5/7) em Viamão (RS), depois de",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T19:13:39",
-            "link": "https://cearaagora.com.br/pl-mulher-divulga-nota-e-avisa-michelle-nao-vai-parar-vem-ai-as-imparaveis/",
+            "dataPublicacao": "2026-07-10T18:30:00",
+            "link": "https://cearaagora.com.br/mae-de-menino-morto-apos-agressoes-e-presa-por-suspeita-de-ocultar-violencia-contra-os-filhos/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Homem é preso com explosivos e arma após suspeita de ataque a delegacia",
-            "subtitulo": "Um homem de 25 anos foi preso na última quarta-feira (8), no município de Viçosa do Ceará, por suspeita de planejar um ataque com granadas à delegacia de Polícia Civil da cidade, localizada na região da Serra da Ibiapaba. De acordo com testemunhas, o",
+            "titulo": "Motociclista morre após bater em muro no Bairro Cidade 2000, em Fortaleza",
+            "subtitulo": "Um motociclista morreu após perder o controle do veículo e bater violentamente no portão de uma casa na Rua Andrade Furtado, no Bairro Cidade 2000, em Fortaleza, na tarde desta quinta-feira (9). Conforme a Autarquia Municipal de Trânsito e Cidadania",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T18:45:00",
-            "link": "https://cearaagora.com.br/homem-e-preso-com-explosivos-e-arma-apos-suspeita-de-ataque-a-delegacia/",
+            "dataPublicacao": "2026-07-10T18:15:00",
+            "link": "https://cearaagora.com.br/motociclista-morre-apos-bater-em-muro-no-bairro-cidade-2000-em-fortaleza/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Menino de 3 anos morre após agressões; pai confessou crime",
-            "subtitulo": "O menino Oliver Golden Grayson, de apenas 3 anos, morreu na noite de quarta-feira, 8, após passar dias internado em estado gravíssimo na Unidade de Terapia Intensiva (UTI) pediátrica do Hospital de Pronto Socorro (HPS) de Porto Alegre. A morte foi co",
+            "titulo": "Início de financiamentos do Move Brasil é adiado para 27 de julho",
+            "subtitulo": "O início dos financiamentos do programa Move Brasil – Entregadores e Motoapps foi adiado em duas semanas, para 27 de julho.&nbsp; A linha de crédito estava prevista para&nbsp;a próxima segunda-feira (13) e é destinada à compra de motos e bicicletas p",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T18:43:00",
-            "link": "https://cearaagora.com.br/menino-de-3-anos-morre-apos-agressoes-pai-confessou-crime/",
+            "dataPublicacao": "2026-07-10T18:10:22",
+            "link": "https://cearaagora.com.br/inicio-de-financiamentos-do-move-brasil-e-adiado-para-27-de-julho/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Fortaleza amplia vacinação contra HPV para jovens de até 19 anos até dezembro",
-            "subtitulo": "Adolescentes e jovens de 15 a 19 anos que não receberam a vacina contra o Papilomavírus Humano (HPV) na infância terão uma nova oportunidade para se imunizar em Fortaleza. A Secretaria Municipal da Saúde (SMS) ampliou temporariamente o público-alvo e",
+            "titulo": "Eusébio capacita profissionais de saúde para fortalecer atendimento às gestantes",
+            "subtitulo": "A Prefeitura de Eusébio, por meio da Secretaria Municipal de Saúde, promoveu, nesta sexta-feira (10), no Hospital Municipal Dr. Amadeu Sá, uma capacitação voltada para médicos e enfermeiros da Atenção Primária à Saúde sobre Estratificação de Risco, F",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T18:35:54",
-            "link": "https://cearaagora.com.br/fortaleza-amplia-vacinacao-contra-hpv-para-jovens-de-ate-19-anos-ate-dezembro/",
+            "dataPublicacao": "2026-07-10T18:08:59",
+            "link": "https://cearaagora.com.br/eusebio-capacita-profissionais-de-saude-para-fortalecer-atendimento-as-gestantes/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Atenção, segurados: INSS confirma datas do 13º salário para novos beneficiários",
-            "subtitulo": "Aposentados, pensionistas e demais segurados do Instituto Nacional do Seguro Social (INSS) que tiveram benefícios concedidos a partir de maio deste ano receberão o 13º salário conforme o calendário regular de pagamentos de novembro. Os depósitos serã",
+            "titulo": "Ausência de Priscila Costa em ato de Flávio Bolsonaro amplia especulações sobre crise no PL e disputa por espaço no Ceará",
+            "subtitulo": "Um mês após anunciar com entusiasmo a agenda do senador e pré-candidato do PL à Presidência da República, Flávio Bolsonaro (PL-RJ), no Ceará, a vereadora Priscila Costa (PL) decidiu não participar do evento realizado nesta sexta-feira (10), em Fortal",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T18:20:31",
-            "link": "https://cearaagora.com.br/atencao-segurados-inss-confirma-datas-do-13o-salario-para-novos-beneficiarios/",
+            "dataPublicacao": "2026-07-10T18:07:06",
+            "link": "https://cearaagora.com.br/ausencia-de-priscila-costa-em-ato-de-flavio-bolsonaro-amplia-especulacoes-sobre-crise-no-pl-e-disputa-por-espaco-no-ceara/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Homem é preso suspeito de matar ex-companheira a facadas em restaurante no Ceará",
-            "subtitulo": "Um homem de 43 anos foi preso em flagrante, nesta quarta-feira (8), por matar a ex-companheira, uma mulher de 53 anos, a facadas. O crime aconteceu em um restaurante no Centro de Missão Velha, município na região Cariri do Ceará. O preso foi identifi",
+            "titulo": "Homem é condenado a mais de 33 anos por matar ex-companheira em Sobral",
+            "subtitulo": "Um homem acusado de matar a ex-mulher a facadas na frente da escola do filho do casal no Bairro Padre Palhano, em Sobral, no interior do Ceará, foi condenado pela Justiça na última quarta-feira (8) a 33 anos e 4 meses de prisão, em regime fechado, po",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:46:00",
-            "link": "https://cearaagora.com.br/homem-e-preso-suspeito-de-matar-ex-companheira-a-facadas-em-restaurante-no-ceara/",
+            "dataPublicacao": "2026-07-10T18:00:00",
+            "link": "https://cearaagora.com.br/homem-e-condenado-a-mais-de-33-anos-por-matar-ex-companheira-em-sobral/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Vacinação ganha importância para mulheres após os 40 anos, alertam especialistas",
-            "subtitulo": "A vacinação é uma das principais estratégias para prevenir doenças e se torna ainda mais importante para mulheres acima dos 40 anos. Com o avanço da idade, o sistema imunológico passa por mudanças naturais que aumentam a vulnerabilidade a infecções r",
+            "titulo": "Valdemar nega participação em suposto esquema de emendas e promete recorrer da decisão de Flávio Dino",
+            "subtitulo": "O presidente nacional do PL, Valdemar Costa Neto, afirmou nesta sexta-feira (10) que não há “qualquer prova, ou mesmo indício” de que tenha participado conscientemente de um suposto esquema de desvio de emendas parlamentares. Em nota divulgada por se",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:39:08",
-            "link": "https://cearaagora.com.br/vacinacao-ganha-importancia-para-mulheres-apos-os-40-anos-alertam-especialistas/",
+            "dataPublicacao": "2026-07-10T17:52:46",
+            "link": "https://cearaagora.com.br/valdemar-nega-participacao-em-suposto-esquema-de-emendas-e-promete-recorrer-da-decisao-de-flavio-dino/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Governo endurece regras contra propaganda de bets e prevê multa de até R$ 14 milhões por publicidade abusiva",
-            "subtitulo": "O governo federal anunciou um novo pacote de medidas para restringir a publicidade das casas de apostas esportivas (bets) e reforçar o combate ao vício em jogos. O ministro da Fazenda, Dario Durigan, informou nesta quinta-feira que serão publicadas d",
+            "titulo": "Homem é morto a tiros e polícia investiga possível ligação com o tráfico de drogas",
+            "subtitulo": "Um homem de 34 anos foi morto a tiros na madrugada desta sexta-feira (10/7), no Bairro Belo Vale, em Ribeirão das Neves, na Região Metropolitana de Belo Horizonte. Segundo a Polícia Militar, o crime ocorreu por volta das 0h20, na Avenida Vinte e Um d",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:23:17",
-            "link": "https://cearaagora.com.br/governo-endurece-regras-contra-propaganda-de-bets-e-preve-multa-de-ate-r-14-milhoes-por-publicidade-abusiva/",
+            "dataPublicacao": "2026-07-10T17:45:00",
+            "link": "https://cearaagora.com.br/homem-e-morto-a-tiros-e-policia-investiga-possivel-ligacao-com-o-trafico-de-drogas/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "TST autoriza penhora de aposentadoria para quitar dívida trabalhista e amplia garantia ao trabalhador",
-            "subtitulo": "A Terceira Turma do Tribunal Superior do Trabalho (TST) autorizou a penhora de parte da aposentadoria de um empresário de São Caetano do Sul (SP) para o pagamento de uma dívida trabalhista referente a verbas salariais e rescisórias não quitadas a um",
+            "titulo": "Estudo aponta possível relação entre mamoplastia redutora e menor risco de doenças metabólicas",
+            "subtitulo": "Além de aliviar dores nas costas, melhorar a postura e facilitar a rotina de mulheres com mamas volumosas, a mamoplastia redutora pode trazer outro benefício importante: a redução do risco de problemas metabólicos. Um estudo preliminar divulgado em m",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:16:10",
-            "link": "https://cearaagora.com.br/tst-autoriza-penhora-de-aposentadoria-para-quitar-divida-trabalhista-e-amplia-garantia-ao-trabalhador/",
+            "dataPublicacao": "2026-07-10T17:40:00",
+            "link": "https://cearaagora.com.br/estudo-aponta-possivel-relacao-entre-mamoplastia-redutora-e-menor-risco-de-doencas-metabolicas/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Brasileiros passam mais de 116 horas por semana conectados à internet, aponta estudo",
-            "subtitulo": "Uma pesquisa mostrou que os&nbsp;brasileiros passam cerca de 116 horas por semana conectados à internet.&nbsp;No total, o brasileiro médio&nbsp;está ficando 52 anos, 9 meses e 16 dias na internet&nbsp;— considerando a&nbsp;expectativa de vida de 76 a",
+            "titulo": "Turista escapa de duas tentativas de sequestro durante viagem à Itália",
+            "subtitulo": "Uma viagem de férias pela Europa se transformou em um cenário de pânico para a executiva australiana Stephanie, de 36 anos. O caso ocorreu na região da Sicília, na Itália, onde a turista acabou sendo alvo de duas tentativas de sequestro por homens di",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:14:49",
-            "link": "https://cearaagora.com.br/brasileiros-passam-mais-de-116-horas-por-semana-conectados-a-internet-aponta-estudo/",
+            "dataPublicacao": "2026-07-10T17:30:00",
+            "link": "https://cearaagora.com.br/turista-escapa-de-duas-tentativas-de-sequestro-durante-viagem-a-italia/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Teste do Olhinho e consultas regulares são essenciais para a saúde visual das crianças",
-            "subtitulo": "No Dia da Saúde Ocular, comemorada na sexta-feira (10), especialistas alertam para a necessidade da realização do Teste do Olhinho, que identifica possíveis problemas de visão. Além disso, também é recomendado que, entre os seis meses e o primeiro an",
+            "titulo": "Anvisa exonera funcionário acusado de desviar canetas para emagrecimento",
+            "subtitulo": "José Vieira Souza de Filho, ex-servidor da Agência Nacional de Vigilância Sanitária (Anvisa),foi demitido pelo órgão após ser preso por suspeita de desviar canetas emagrecedoras apreendidas no Aeroporto Internacional do Galeão, no Rio de Janeiro. A e",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:12:00",
-            "link": "https://cearaagora.com.br/saiba-como-identificar-problemas-de-visao-em-criancas/",
+            "dataPublicacao": "2026-07-10T17:15:00",
+            "link": "https://cearaagora.com.br/anvisa-exonera-funcionario-acusado-de-desviar-canetas-para-emagrecimento/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Mudança no IPVA pode reduzir imposto de alguns veículos e aumentar de outros",
-            "subtitulo": "A proposta que pode mudar a forma de cobrança do IPVA no Brasil deu mais um passo na Câmara dos Deputados. A Comissão de Constituição e Justiça e de Cidadania aprovou a admissibilidade da PEC 3/2026, que altera a base de cálculo do Imposto sobre a Pr",
+            "titulo": "Jovem fica presa em lança de portão e é resgatada pelos bombeiros",
+            "subtitulo": "Uma jovem de 19 anos precisou ser resgatada pelo Corpo de Bombeiros após ficar com o braço perfurado e preso na lança metálica de um portão durante a madrugada desta sexta-feira (10), no Setor Bela Vista, em Jataí (GO). De acordo com os bombeiros, a",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:09:21",
-            "link": "https://cearaagora.com.br/mudanca-no-ipva-pode-reduzir-imposto-de-alguns-veiculos-e-aumentar-de-outros/",
+            "dataPublicacao": "2026-07-10T17:00:00",
+            "link": "https://cearaagora.com.br/jovem-fica-presa-em-lanca-de-portao-e-e-resgatada-pelos-bombeiros/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Bets terão de exibir alertas: &#8220;Apostar faz você perder dinheiro&#8221;",
-            "subtitulo": "O ministro da Fazenda, Dario Durigan, anunciou nesta quinta-feira (9/7) que a partir do dia 17 de julho, todas as propagandas de apostas online, as chamadas bets, deverão ser acompanhadas por alertas. As mensagens que serão exibidas juntas da propaga",
+            "titulo": "Dois homens são presos suspeitos de envolvimento com plantação de 290 mil pés de maconha em Acopiara",
+            "subtitulo": "Dois homens foram presos nesta sexta-feira (10) suspeitos de participação no cultivo de uma plantação com cerca de 290 mil pés de maconha localizada em Acopiara, no interior do Ceará. Segundo a Secretaria da Segurança Pública e Defesa Social do Ceará",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:07:14",
-            "link": "https://cearaagora.com.br/bets-terao-de-exibir-alertas-apostar-faz-voce-perder-dinheiro/",
+            "dataPublicacao": "2026-07-10T16:56:39",
+            "link": "https://cearaagora.com.br/dois-homens-sao-presos-suspeitos-de-envolvimento-com-plantacao-de-290-mil-pes-de-maconha-em-acopiara/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Moça que deixou amigo em trilha no Paraná anuncia nova aventura",
-            "subtitulo": "Sete meses após virar notícia por abandonar um amigo para trás na trilha do Pico Paraná, Thayane Smith Moraes voltou a causar nas redes sociais ao anunciar sua próxima aventura: uma trilha ao Monte Roraima. Nas redes sociais, ela causou uma onda de c",
+            "titulo": "TRE-DF determina bloqueio de bens de ex-esposa de Bolsonaro por falhas em contas de campanha",
+            "subtitulo": "A Justiça Eleitoral determinou o bloqueio de R$ 227 mil em bens e valores de Ana Cristina Valle, segunda ex-esposa do ex-presidente Jair Bolsonaro (PL) e mãe do vereador Jair Renan Bolsonaro (PL-SC), em razão de irregularidades na prestação de contas",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:05:02",
-            "link": "https://cearaagora.com.br/moca-que-deixou-amigo-em-trilha-no-parana-anuncia-nova-aventura/",
+            "dataPublicacao": "2026-07-10T16:45:00",
+            "link": "https://cearaagora.com.br/tre-df-determina-bloqueio-de-bens-de-ex-esposa-de-bolsonaro-por-falhas-em-contas-de-campanha/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Influenciadora brasileira Kauana Bilhar morre após queda de prédio em Dubai",
-            "subtitulo": "A influenciadora brasileira Kauana Bilhar morreu ao cair do 27º andar de um edifício de Dubai, nos Emirados Árabes. O falecimento da jovem foi confirmado por sua mãe, Darla, através das redes sociais, na quarta-fefiraa (8). A polícia está investigand",
+            "titulo": "Caso Master: PF listou 40 perfis que atacaram o Banco Central nas redes",
+            "subtitulo": "A Polícia Federal identificou, no âmbito das investigações da Operação Compliance Zero, que investiga as fraudes no Banco Master, 40 perfis de influenciadores e jornalistas que foram usados para atacar o Banco Central por meio das redes sociais. De a",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T17:01:47",
-            "link": "https://cearaagora.com.br/influenciadora-brasileira-kauana-bilhar-morre-apos-queda-de-predio-em-dubai/",
+            "dataPublicacao": "2026-07-10T16:35:00",
+            "link": "https://cearaagora.com.br/caso-master-pf-listou-40-perfis-que-atacaram-o-banco-central-nas-redes/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Prefeitura de Massapê fortalece políticas para crianças com primeira reunião do Comitê Gestor da Primeira Infância",
-            "subtitulo": "A Prefeitura de Massapê deu mais um passo no fortalecimento das políticas públicas voltadas à infância ao realizar a primeira reunião do Comitê Gestor Intersetorial Municipal da Primeira Infância (CIPI). O encontro marcou o início dos trabalhos do co",
+            "titulo": "Uso de tadalafila cresce entre homens jovens e médicos alertam para consumo sem indicação",
+            "subtitulo": "&#8220;Tomei cinco miligramas porque ia sair com mais de uma menina em um dia&#8221;, conta Ricardo (que teve o nome alterado pela reportagem), de 28 anos, sobre o uso da tadalafila. O medicamento se tornou popular entre homens jovens que desejam mel",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T16:40:53",
-            "link": "https://cearaagora.com.br/prefeitura-de-massape-fortalece-politicas-para-criancas-com-primeira-reuniao-do-comite-gestor-da-primeira-infancia/",
+            "dataPublicacao": "2026-07-10T16:28:47",
+            "link": "https://cearaagora.com.br/uso-de-tadalafila-cresce-entre-homens-jovens-e-medicos-alertam-para-consumo-sem-indicacao/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Comissão do Senado aprova projeto para combater ligações indesejadas de telemarketing",
-            "subtitulo": "A Comissão de Fiscalização e Controle do Senado aprovou um projeto de lei voltado a proteger o consumidor de ligações de telemarketing e cobrança indesejadas, principalmente quando as chamadas se destinam a pessoas desconhecidas. A menos que haja um",
+            "titulo": "Uso incorreto de canetas emagrecedoras pode comprometer resultados e trazer riscos à saúde",
+            "subtitulo": "O uso da caneta emagrecedora cresce no Brasil, porém erros comuns podem comprometer resultados e trazer riscos importantes à saúde. Esses medicamentos injetáveis ajudam no controle do peso, mas exigem acompanhamento profissional e mudanças consistent",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:40:33",
-            "link": "https://cearaagora.com.br/comissao-do-senado-aprova-projeto-para-combater-ligacoes-indesejadas-de-telemarketing/",
+            "dataPublicacao": "2026-07-10T16:26:18",
+            "link": "https://cearaagora.com.br/uso-incorreto-de-canetas-emagrecedoras-pode-comprometer-resultados-e-trazer-riscos-a-saude/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Anvisa amplia indicação de medicamento para tratamento do câncer de mama",
-            "subtitulo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou a indicação terapêutica do medicamento Enhertu (trastuzumabe deruxtecana), já registrado no Brasil, para tratamento do câncer de mama. A medicação, de acordo com a Anvisa, também poderá ser",
+            "titulo": "Milei confirma viagem ao Brasil para apoiar Flávio ampliando articulação da direita",
+            "subtitulo": "O presidente da Argentina, Javier Milei, confirmou que viajará ao Brasil nas próximas semanas para participar de agendas políticas ligadas ao ex-presidente Jair Bolsonaro e ao senador Flávio Bolsonaro (PL-RJ), em mais um movimento de fortalecimento d",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:31:19",
-            "link": "https://cearaagora.com.br/anvisa-amplia-indicacao-de-medicamento-para-tratamento-do-cancer-de-mama/",
+            "dataPublicacao": "2026-07-10T16:17:31",
+            "link": "https://cearaagora.com.br/milei-confirma-viagem-ao-brasil-para-apoiar-flavio-ampliando-articulacao-da-direita/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Golpes em apostas esportivas representam 75% das fraudes ligadas ao futebol, aponta levantamento",
-            "subtitulo": "A paixão pelo futebol sempre mobilizou milhões de brasileiros. Durante a Copa do Mundo, esse sentimento se intensifica e movimenta não apenas torcedores, mas também um mercado que cresce ano após ano: o das apostas esportivas. Ao mesmo tempo em que e",
+            "titulo": "Mulher morre após ter 65% do corpo queimado em ritual de candomblé",
+            "subtitulo": "Uma mulher morreu, nesta quinta-feira (9), após ter 65% do corpo queimado durante  cerimônia realizada em um terreiro de candomblé, em Realengo, na Zona Oeste. Caroline Pinto dos Santos, 31 anos, estava internada desde o dia 13 de junho no Hospital M",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:25:13",
-            "link": "https://cearaagora.com.br/golpes-em-apostas-esportivas-representam-75-das-fraudes-ligadas-ao-futebol-aponta-levantamento/",
+            "dataPublicacao": "2026-07-10T16:00:08",
+            "link": "https://cearaagora.com.br/mulher-morre-apos-ter-65-do-corpo-queimado-em-ritual-de-candomble/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Caixa libera vale-recarga do Gás do Povo nesta sexta-feira para famílias de baixa renda",
-            "subtitulo": "A Caixa Econômica Federal libera nesta sexta-feira (10) o vale-recarga para os beneficiários do programa Gás do Povo. O programa garante a recarga gratuita do botijão de gás de 13 quilos para cerca de 15 milhões de famílias de baixa renda inscritas n",
+            "titulo": "Caso Oliver: polícia detalha agressões que levaram à morte de menino de 3 anos",
+            "subtitulo": "O menino Oliver Golden Grayson, de 3 anos, morreu após sofrer agressões tão graves que chegaram a deslocar o coração e achatar o crânio. As informações foram divulgadas pela delegada Luana Tamiozzo Medeiros, da Polícia Civil, responsável pela investi",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:20:44",
-            "link": "https://cearaagora.com.br/caixa-libera-vale-recarga-do-gas-do-povo-nesta-sexta-feira-para-familias-de-baixa-renda/",
+            "dataPublicacao": "2026-07-10T15:58:53",
+            "link": "https://cearaagora.com.br/caso-oliver-policia-detalha-agressoes-que-levaram-a-morte-de-menino-de-3-anos/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Google é a principal fonte de pesquisa antes das compras on-line para 64% dos brasileiros, aponta estudo",
-            "subtitulo": "Antes de efetuar uma compra on-line, 64% dos brasileiros citam o Google como primeira opção para procurar e se informar sobre o produto desejado. A resposta vem de forma espontânea, sem necessidade de citar lista de opções. O site aparece antes de re",
+            "titulo": "Falha em janela de aeronave provoca momentos de tensão durante voo",
+            "subtitulo": "Um voo da Ryanair entre Tessalônica, na Grécia, e Memmingen, na Alemanha, precisou retornar ao aeroporto de origem após uma janela da aeronave se soltar durante o trajeto. Com a despressurização da cabine, um passageiro ficou parcialmente para fora d",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:18:37",
-            "link": "https://cearaagora.com.br/google-e-a-principal-fonte-de-pesquisa-antes-das-compras-on-line-para-64-dos-brasileiros-aponta-estudo/",
+            "dataPublicacao": "2026-07-10T15:32:31",
+            "link": "https://cearaagora.com.br/falha-em-janela-de-aeronave-provoca-momentos-de-tensao-durante-voo/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Enamed: reaberto prazo de recurso de atendimento especializado",
-            "subtitulo": "O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) reabriu o prazo para que os candidatos do Exame Nacional de Avaliação da Formação Médica (Enamed) 2026 entrem com recurso de atendimento especializado, em caso de uma pri",
+            "titulo": "Mega: sortudo que levou R$ 43 milhões é de MG e fez aposta simples",
+            "subtitulo": "Uma aposta simples feita em Divinópolis, no Centro-Oeste de Minas Gerais, acertou sozinha as seis dezenas da Mega-Sena e levou R$ 43.068.394,39 no concurso 3029, sorteado nessa quinta-feira (9/7). O jogo vencedor foi registrado na lotérica&nbsp;O Par",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:13:22",
-            "link": "https://cearaagora.com.br/enamed-reaberto-prazo-de-recurso-de-atendimento-especializado/",
+            "dataPublicacao": "2026-07-10T14:59:25",
+            "link": "https://cearaagora.com.br/mega-sortudo-que-levou-r-43-milhoes-e-de-mg-e-fez-aposta-simples/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Atlas da Violência: duas em cada três mulheres atendidas após agressões já haviam sofrido violência antes",
-            "subtitulo": "Duas em cada três mulheres atendidas em unidades de saúde após sofrerem violência doméstica em 2024 relataram que aquela não havia sido a primeira agressão. O dado integra o Atlas da Violência 2026, elaborado pelo Instituto de Pesquisa Econômica Apli",
+            "titulo": "Dia da Pizza: brasileiros consomem mais de 3 milhões de pizzas por dia",
+            "subtitulo": "Hoje (10/7) é celebrado o Dia da Pizza no Brasil e nós aproveitamos para trazer curiosidades sobre um dos fast-foods preferidos dos brasileiros. Dados da Associação Pizzarias Unidas do Brasil (Abupra) revelam que, a cada minuto, cerca de 2.333 pizzas",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:12:10",
-            "link": "https://cearaagora.com.br/atlas-da-violencia-duas-em-cada-tres-mulheres-atendidas-apos-agressoes-ja-haviam-sofrido-violencia-antes/",
+            "dataPublicacao": "2026-07-10T14:58:09",
+            "link": "https://cearaagora.com.br/dia-da-pizza-brasileiros-consomem-mais-de-3-milhoes-de-pizzas-por-dia/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Edward Boggiss, de &#8220;Sandy e Junior&#8221; e &#8220;Malhação&#8221;, morre aos 49 anos",
-            "subtitulo": "Conhecido pelos papéis no seriado &#8220;Sandy e Junior&#8221; e na novela &#8220;Malhação&#8221;, Edward Boggiss morreu aos 49 anos. O corpo do ator será velado nesta quinta-feira, dia 9, no Memorial do Carmo, no Caju, na Zona Norte do Rio de Janeir",
+            "titulo": "Duas semanas antes da morte em Dubai, influenciadora Kauana Bilhar celebrou realização de um sonho nas redes sociais",
+            "subtitulo": "Duas semanas antes de morrer após cair do 27º andar de um prédio em Dubai, nos Emirados Árabes Unidos, a influenciadora Kauana Bilhar compartilhou nas redes sociais um dos momentos mais felizes de sua vida. Em uma publicação, ela comemorou a realizaç",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:10:13",
-            "link": "https://cearaagora.com.br/edward-boggiss-de-sandy-e-junior-e-malhacao-morre-aos-49-anos/",
+            "dataPublicacao": "2026-07-10T14:41:56",
+            "link": "https://cearaagora.com.br/duas-semanas-antes-da-morte-em-dubai-influenciadora-kauana-bilhar-celebrou-realizacao-de-um-sonho-nas-redes-sociais/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         },
         {
-            "titulo": "Prouni 2026: inscrição gratuita para o 2º semestre termina nesta sexta",
-            "subtitulo": "As inscrições gratuitas para o processo seletivo do Programa Universidade para Todos (Prouni) do segundo semestre terminam às 23h59 desta sexta-feira (10), no horário de Brasília. O programa oferece bolsas de estudo integrais – que cobrem 100% do val",
+            "titulo": "Anvisa faz novo alerta sobre remédios para emagrecer e manda apreender lotes falsificados do Mounjaro",
+            "subtitulo": "A Agência Nacional de Vigilância Sanitária (Anvisa) reforçou, nesta sexta-feira, o alerta para os riscos da compra de medicamentos para emagrecimento de origem duvidosa. O órgão determinou a apreensão de lotes falsificados do Mounjaro, medicamento in",
             "categoria": null,
             "autor": null,
-            "dataPublicacao": "2026-07-09T15:04:51",
-            "link": "https://cearaagora.com.br/prouni-2026-inscricao-gratuita-para-o-2o-semestre-termina-nesta-sexta/",
+            "dataPublicacao": "2026-07-10T14:36:58",
+            "link": "https://cearaagora.com.br/anvisa-faz-novo-alerta-sobre-remedios-para-emagrecer-e-manda-apreender-lotes-falsificados-do-mounjaro/",
             "jornal": "cearaagora",
-            "createdAt": "2026-07-09 23:09:11"
+            "createdAt": "2026-07-10 19:50:46"
         }
     ]
 }
