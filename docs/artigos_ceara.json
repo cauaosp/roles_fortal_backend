@@ -1,6 +1,96 @@
 {
     "O povo": [
         {
+            "titulo": "Simaria anuncia volta aos palcos e gravação de DVD solo",
+            "subtitulo": "Retorno da cantora Simaria acontece após anos de afastamento e marca o início de uma nova etapa profissional",
+            "categoria": "Vida&Arte",
+            "autor": "Carolina Passos",
+            "dataPublicacao": "2026-08-14 20:09:39",
+            "link": "https://www.opovo.com.br/vidaearte/2026/08/14/simaria-anuncia-volta-aos-palcos-e-gravacao-de-dvd-solo.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Com morte e tesão, terror lésbico premiado em Cannes estreia em Fortaleza",
+            "subtitulo": "Vencedor da Queer Palm em Cannes, \"Acampamento Miasma: Adolescência, Sexo e Morte\" chega aos cinemas se divertindo com a liberdade mórbida do terror americano",
+            "categoria": "Cinema",
+            "autor": "Arthur Gadelha",
+            "dataPublicacao": "2026-08-14 17:32:00",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/14/com-morte-e-tesao-terror-lesbico-premiado-em-cannes-estreia-em-fortaleza.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Mês da Visibilidade Lésbica: confira programação em Fortaleza em agosto",
+            "subtitulo": "Fortaleza recebe o 19º For Rainbow e possui agenda cultural dedicada ao Mês da Visibilidade Lésbica com cinema, música, feiras, oficinas e saúde. Saiba mais",
+            "categoria": "Agenda",
+            "autor": "Arthur Albano",
+            "dataPublicacao": "2026-08-14 16:08:01",
+            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/14/visibilidade-lesbica-programacao-em-fortaleza-em-agosto-de-2026.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Lanternas: saiba onde assistir à nova série de heróis da DC",
+            "subtitulo": "A série \"Lanternas\", parte do universo compartilhado da DC, estreia neste domingo, 16, às 22 horas. Os personagens Hal Jordan e John Stewart são os protagonistas",
+            "categoria": "Vida&Arte",
+            "autor": "Esaú Souza",
+            "dataPublicacao": "2026-08-14 14:23:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/08/14/lanternas-saiba-onde-assistir-a-nova-serie-de-herois-da-dc.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Filme cearense leva romance LGBTQIA+ da terceira idade às telas",
+            "subtitulo": "Curta acompanha Eulália e Iremar em uma história sobre amor, liberdade e a possibilidade de recomeçar após os 60 anos.",
+            "categoria": "Cinema",
+            "autor": "Carolina Passos",
+            "dataPublicacao": "2026-08-14 14:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/14/filme-cearense-leva-romance-lgbtqia-da-terceira-idade-as-telas.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Pause: Eduardo Rocha e Glória Cabral discutem o futuro da arquitetura",
+            "subtitulo": "Arquitetos Eduardo Rocha e Glória Cabral integram a programação do 22º Congresso Brasileiro de Arquitetos, evento que reúne alguns dos nomes mais importantes do setor",
+            "categoria": "Vida&Arte",
+            "autor": "George Sousa ",
+            "dataPublicacao": "2026-08-14 13:55:06",
+            "link": "https://www.opovo.com.br/vidaearte/2026/08/14/pause-arquitetos-debatem-o-futuro-da-arquitetura.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Gandaia Club realiza Noite da Anitta, após o show Equilibrium",
+            "subtitulo": "A boate anuncia a \"Noite da Anitta\", começando após o fim da turnê, às 23 horas. Entrada gratuita com apresentação do ingresso da Equilibrium Tour",
+            "categoria": "Agenda",
+            "autor": "Gabriela Crispim",
+            "dataPublicacao": "2026-08-14 12:13:00",
+            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/14/gandaia-club-realiza-noite-da-anitta-apos-o-show-equilibrium.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Disney+, Netflix e Prime Video : confira as estreias da semana (10 a 16/08)",
+            "subtitulo": "O Vida&Arte selecionou filmes e séries que chegam aos catálogos dos principais streamings de 10 a 16 de agosto de 2026. Confira lista",
+            "categoria": "Vida&Arte",
+            "autor": "Carolina Passos",
+            "dataPublicacao": "2026-08-14 11:00:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/08/14/disney-netflix-e-prime-video-confira-as-estreias-da-semana-10-a-16-08.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
+            "titulo": "Encha seu Kindle 2026: confira os livros mais vendidos no evento da Amazon",
+            "subtitulo": "Mais de 8 mil e-books foram ofertados em evento promocional da Amazon. Títulos nacionais estão entre os mais vendidos; confira lista com os mais vendidos",
+            "categoria": "Vida&Arte",
+            "autor": "Júlia Honorato",
+            "dataPublicacao": "2026-08-14 10:37:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/08/14/encha-seu-kindle-veja-os-livros-mais-vendidos.html",
+            "jornal": "opovo",
+            "createdAt": "2026-08-14 22:04:00"
+        },
+        {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  14 de agosto(14/08)",
             "subtitulo": "Veja programação - com estreia, horários de hoje, sexta, 14 de agosto(14/08), dos cinemas de Fortaleza.",
             "categoria": "Cinema",
@@ -8,7 +98,7 @@
             "dataPublicacao": "2026-08-14 09:00:12",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/14/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-14-de-agosto-14-08.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "O que fazer em Fortaleza no fim de semana? Veja agenda de festas e shows",
@@ -18,7 +108,7 @@
             "dataPublicacao": "2026-08-14 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/14/o-que-fazer-em-fortaleza-no-fim-de-semana-veja-agenda-de-festas-e-shows.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Sessão da Tarde hoje: que filme passa na TV Globo sexta, 14/08/2026",
@@ -28,7 +118,7 @@
             "dataPublicacao": "2026-08-14 00:15:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/14/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-sexta-14-08-2026.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Polônia ergue maior estátua da Virgem Maria da Europa",
@@ -38,7 +128,7 @@
             "dataPublicacao": "2026-08-14 00:02:59",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/14/polonia-ergue-maior-estatua-da-virgem-maria-da-europa.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Suspeita de espionagem, Casa da Rússia em Berlim segue ativa",
@@ -48,7 +138,7 @@
             "dataPublicacao": "2026-08-14 00:02:57",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/14/suspeita-de-espionagem-casa-da-russia-em-berlim-segue-ativa.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Nova temporada de X-Men '97 tem bons momentos, mas erra no ritmo",
@@ -58,7 +148,7 @@
             "dataPublicacao": "2026-08-13 18:55:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/x-men-97-2-temporada-tem-bons-momentos-mas-erra-no-ritmo.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Restaurante em Fortaleza anuncia pizza de caranguejo às quintas",
@@ -68,7 +158,7 @@
             "dataPublicacao": "2026-08-13 12:05:49",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/restaurante-em-fortaleza-anuncia-pizza-de-caranguejo-as-quintas.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Pré-venda de 'Vingadores: Doutor Destino' começa em setembro",
@@ -78,7 +168,7 @@
             "dataPublicacao": "2026-08-13 09:30:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/13/pre-venda-de-vingadores-doutor-destino-comeca-em-setembro.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  13 de agosto(13/08)",
@@ -88,7 +178,7 @@
             "dataPublicacao": "2026-08-13 09:00:13",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/13/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-13-de-agosto-13-08.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Marvel Tokon: Fighting Souls promove excelente disputa de heróis",
@@ -98,7 +188,7 @@
             "dataPublicacao": "2026-08-13 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/marvel-tokon-fighting-souls-promove-excelente-disputa-de-herois.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "HQ 'Ulis' discute inclusão escolar de forma madura e humana",
@@ -108,7 +198,7 @@
             "dataPublicacao": "2026-08-13 09:00:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/hq-ulis-discute-inclusao-escolar-de-forma-madura-e-humana.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Sessão da Tarde hoje: que filme passa na TV Globo quinta, 13/08/2026",
@@ -118,7 +208,7 @@
             "dataPublicacao": "2026-08-13 00:15:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-quinta-13-08-2026.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Países em guerra não poderão sediar o Eurovision",
@@ -128,7 +218,7 @@
             "dataPublicacao": "2026-08-13 00:02:46",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/13/paises-em-guerra-nao-poderao-sediar-o-eurovision.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Bichos escrotos: conheça história da música que ganhou cover de Anitta e virou meme",
@@ -138,7 +228,7 @@
             "dataPublicacao": "2026-08-12 21:50:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/12/bichos-escrotos-conheca-historia-da-musica-cover-de-anitta.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "SP-Arte Rotas reúne artistas cearenses em mostra nacional",
@@ -148,7 +238,7 @@
             "dataPublicacao": "2026-08-12 19:53:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/12/sp-arte-rotas-reune-artistas-cearenses-em-mostra-nacional.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Festival multicultural reúne 800 jovens do Estado em programação gratuita",
@@ -158,7 +248,7 @@
             "dataPublicacao": "2026-08-12 19:39:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/12/festival-multicultural-reune-800-jovens-do-estado-em-programacao-gratuita.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Wagner Moura é destaque em filme decepcionante da Netflix",
@@ -168,7 +258,7 @@
             "dataPublicacao": "2026-08-12 19:34:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/12/wagner-moura-e-destaque-em-filme-decepcionante-da-netflix.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Grupo Nóis de Teatro comemora 24 anos com programação especial",
@@ -178,7 +268,7 @@
             "dataPublicacao": "2026-08-12 19:31:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/12/grupo-nois-de-teatro-comemora-24-anos-com-programacao-especial.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Academia Cearense de Letras lança projeto Fortaleza 300 anos",
@@ -188,7 +278,7 @@
             "dataPublicacao": "2026-08-12 19:06:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/08/12/academia-cearense-de-letras-lanca-projeto-fortaleza-300-anos.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "'Corrida dos Bichos' desperdiça ideia com história sem ousadia",
@@ -198,7 +288,7 @@
             "dataPublicacao": "2026-08-12 18:17:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/12/corrida-dos-bichos-desperdica-ideia-com-historia-sem-ousadia.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         },
         {
             "titulo": "Coletivos organizam passeio guiado no Cemitério São João Batista",
@@ -208,100 +298,80 @@
             "dataPublicacao": "2026-08-12 12:00:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/12/coletivos-organizam-passeio-guiado-no-cemiterio-sao-joao-batista.html",
             "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Banda cearense faz tributo gratuito a Raul Seixas neste sábado, 15",
-            "subtitulo": "Apresentação reúne clássicos do cantor e compositor na voz da banda cearense Cancerianos Sem Lar, neste sábado,15, no Eusébio",
-            "categoria": "Agenda",
-            "autor": "Carolina Passos",
-            "dataPublicacao": "2026-08-12 10:51:00",
-            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/12/banda-cearense-faz-tributo-gratuito-a-raul-seixas-neste-sabado-15.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Setlist, spa e yoga: saiba como será o show da Anitta em Fortaleza",
-            "subtitulo": "Massagens nos pés e nas mãos, yoga, dança circular, spa e experiências sonoras: saiba o que o público de Fortaleza pode esperar da Equilibrivm Tour, da Anitta",
-            "categoria": "Agenda",
-            "autor": "Isabel Costa",
-            "dataPublicacao": "2026-08-12 09:39:00",
-            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/12/setlist-spa-e-yoga-como-sera-o-show-da-anitta-em-fortaleza.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Cinema em Fortaleza: Filmes em cartaz de hoje,  12 de agosto(12/08)",
-            "subtitulo": "Veja programação - com estreia, horários de hoje, quarta, 12 de agosto(12/08), dos cinemas de Fortaleza.",
-            "categoria": "Cinema",
-            "autor": "Ingresso.com",
-            "dataPublicacao": "2026-08-12 09:00:12",
-            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/12/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-12-de-agosto-12-08.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Espetáculo gratuito sobre Tambor de Crioula é apresentado em Fortaleza",
-            "subtitulo": "Theatro José de Alencer recebe no palco principal espatáculo cênico sobre história, ancestralidade e identidade do Tambor de Crioula",
-            "categoria": "Agenda",
-            "autor": "Gabriela Crispim",
-            "dataPublicacao": "2026-08-12 09:00:00",
-            "link": "https://www.opovo.com.br/vidaearte/agenda/2026/08/12/espetaculo-gratuito-sobre-tambor-de-crioula-e-apresentado-em-fortaleza.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Encha seu Kindle: veja quando será o evento da Amazon e como participar",
-            "subtitulo": "Evento anual da Amazon tem grandes descontos e até E-books grátis. Confira como aproveitar as promoções do Encha seu Kindle",
-            "categoria": "Vida&Arte",
-            "autor": "Mariana Fernandes",
-            "dataPublicacao": "2026-08-12 06:00:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/08/12/encha-seu-kindle-veja-quando-sera-o-evento-da-amazon-e-como-participar.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Sessão da Tarde hoje: que filme passa na TV Globo quarta, 12/08/2026",
-            "subtitulo": "Um filme de comédia vai passar na Sessão da Tarde hoje, quarta, 12 de agosto de 2026, (12/08/2026) às 15h30min (horário de Brasília), na TV Globo",
-            "categoria": "Vida&Arte",
-            "autor": "Carolina Passos",
-            "dataPublicacao": "2026-08-12 00:15:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/08/12/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-quarta-12-08-2026.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "'Verity' ganha trailer com Anne Hathaway e Dakota Johnson; veja",
-            "subtitulo": "Adaptação do best-seller de Colleen Hoover acompanha mulher que encontra confissões perturbadoras na casa de uma autora famosa",
-            "categoria": "Cinema",
-            "autor": "Carolina Passos",
-            "dataPublicacao": "2026-08-11 17:59:00",
-            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/08/11/verity-ganha-trailer-com-anne-hathaway-e-dakota-johnson-veja.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Festival Zepelim 2026 terá transmissão gratuita pelo YouTube",
-            "subtitulo": "Marina Sena, Duda Beat, BaianaSystem, Gilsons e outros artistas integram a programação do evento, que será transmitido ao vivo",
-            "categoria": "Vida&Arte",
-            "autor": "Carolina Passos",
-            "dataPublicacao": "2026-08-11 16:56:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/08/11/festival-zepelim-2026-tera-transmissao-gratuita-pelo-youtube.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Sonic vai aparecer na próxima temporada do jogo Fortnite; veja prévia",
-            "subtitulo": "O personagem Sonic, um dos mais famosos da história dos videogames, terá um crossover com o jogo Fortnite. Veja a prévia",
-            "categoria": "Vida&Arte",
-            "autor": "Esaú Souza",
-            "dataPublicacao": "2026-08-11 14:00:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/08/11/sonic-vai-aparecer-na-proxima-temporada-do-jogo-fortnite-veja-previa.html",
-            "jornal": "opovo",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:04:00"
         }
     ],
     "Diário do Nordeste": [
+        {
+            "titulo": "Trecho da CE-388 entre Altaneira e Nova Olinda será interditado por 30 dias; veja desvios",
+            "subtitulo": "O tráfego ficará restrito a moradores locais e a veículos de emergência a partir de segunda-feira (17).",
+            "categoria": "Ceará",
+            "autor": "Beatriz Rabelo",
+            "dataPublicacao": "2026-08-14T19:26:48-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/trecho-da-ce-388-entre-altaneira-e-nova-olinda-sera-interditado-por-30-dias-veja-desvios-1.3784250",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Vestibular da USP poderá ser feito em Fortaleza pela 1ª vez; veja detalhes",
+            "subtitulo": "Vestibular realizado somente em SP até ano passado, Fuvest será realizado em 1º de novembro.",
+            "categoria": "Ceará",
+            "autor": "Ana Alice Freire*",
+            "dataPublicacao": "2026-08-14T18:00:58-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/vestibular-da-usp-podera-ser-feito-em-fortaleza-pela-1-vez-veja-detalhes-1.3784201",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Cearense compra tablet em app e recebe caixa com pastas de dente: 'Um verdadeiro tormento'",
+            "subtitulo": "Empresária recebeu o pedido em julho, mas relata que tem passado por dificuldades para reaver quantia gasta em produto.",
+            "categoria": "Ceará",
+            "autor": "Mylena Gadelha",
+            "dataPublicacao": "2026-08-14T17:45:46-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/cearense-compra-tablet-em-app-e-recebe-caixa-com-pastas-de-dente-um-verdadeiro-tormento-1.3784235",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "CE lança programa para acelerar ajuda a vítimas de violência; veja como funciona",
+            "subtitulo": "Sistema foi lançado nesta sexta-feira (14) e será disponibilizado no Portal do Cidadão do MPCE.",
+            "categoria": "Ceará",
+            "autor": "Diego Barbosa",
+            "dataPublicacao": "2026-08-14T16:30:19-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/ce-lanca-programa-para-acelerar-ajuda-a-vitimas-de-violencia-veja-como-funciona-1.3784226",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Em vídeo, criança cearense pede cura da irmã com doença rara como presente de aniversário",
+            "subtitulo": "Registro de João Miqueias, de 11 anos, falando sobre a irmã Sofia, de 11 meses, emocionou as redes sociais.",
+            "categoria": "Ceará",
+            "autor": "João Gabriel Tréz",
+            "dataPublicacao": "2026-08-14T15:54:00-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/em-video-crianca-cearense-pede-cura-da-irma-com-doenca-rara-como-presente-de-aniversario-1.3784111",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Cearense está preso há 15 dias na Islândia após protesto contra a caça às baleias",
+            "subtitulo": "Rui Amorin é médico de bordo e participava de uma missão internacional da Captain Paul Watson Foundation.",
+            "categoria": "Ceará",
+            "autor": "Renato Bezerra",
+            "dataPublicacao": "2026-08-14T12:34:00-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/cearense-esta-preso-ha-15-dias-na-islandia-apos-protesto-contra-a-caca-as-baleias-1.3784100",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "'Alphavella': Bastidores de condomínio de luxo em Eusébio viralizam e geram notificação contra influencer",
+            "subtitulo": "Influenciadora Tayane Barros expõe diferenciação social nas redes e foi repreendida por associar a marca a termos \"depreciativos e pejorativos”",
+            "categoria": "Ceará",
+            "autor": "Raísa Azevedo",
+            "dataPublicacao": "2026-08-14T12:24:12-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/alphavella-bastidores-de-condominio-de-luxo-em-eusebio-viralizam-e-geram-notificacao-contra-influencer-1.3784094",
+            "jornal": "diariodonordeste",
+            "createdAt": "2026-08-14 22:03:53"
+        },
         {
             "titulo": "Peixe das Nuvens: nova espécie que só vive em tempos de chuva é descoberta no CE",
             "subtitulo": "Seguidor reconheceu o animal da infância e acionou pesquisadores pela internet.",
@@ -310,7 +380,7 @@
             "dataPublicacao": "2026-08-14T06:00:00-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/peixe-das-nuvens-nova-especie-que-so-vive-em-tempos-de-chuva-e-descoberta-no-ce-1.3783556",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Avenida do Aeroporto deve ganhar área de lazer e convivência de 23 mil m²; veja projeto",
@@ -320,7 +390,7 @@
             "dataPublicacao": "2026-08-13T10:35:02-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/avenida-do-aeroporto-deve-ganhar-area-de-lazer-e-convivencia-de-23-mil-m-veja-projeto-1.3783807",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Calor, chuvas e água no solo: como será o tempo no CE até outubro",
@@ -330,7 +400,7 @@
             "dataPublicacao": "2026-08-13T10:00:18-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/calor-chuvas-e-agua-no-solo-como-sera-o-tempo-no-ce-ate-outubro-1.3783687",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Escultura de Jesus, Maria e José corre risco de desabar em Fortaleza",
@@ -340,77 +410,77 @@
             "dataPublicacao": "2026-08-13T06:00:30-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/escultura-de-jesus-maria-e-jose-corre-risco-de-desabar-em-fortaleza-1.3783508",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Veja o que abre e fecha no feriado de Nossa Senhora da Assunção, em Fortaleza",
             "subtitulo": "Data é celebrada no sábado (15), e contará com alteração no funcionamento de alguns serviços.",
             "categoria": "Ceará",
-            "autor": "Beatriz Rabelo",
-            "dataPublicacao": "2026-08-12T19:45:00-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/veja-o-que-abre-e-fecha-no-feriado-de-nossa-senhora-da-assuncao-em-fortaleza-1.3783593",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Homem sofre descarga elétrica, cai de telhado e fratura a coluna em Jaguaruana",
             "subtitulo": "Vítima limpava as placas solares no teto de um estabelecimento comercial quando o acidente aconteceu.",
             "categoria": "Ceará",
-            "autor": "Paulo Roberto Maciel",
-            "dataPublicacao": "2026-08-12T19:25:00-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/homem-sofre-descarga-eletrica-cai-de-telhado-e-fratura-a-coluna-em-jaguaruana-1.3783658",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Trecho da BR-116 é liberado após tombamento de veículo com contêiner",
             "subtitulo": "Acidente foi registrado na madrugada desta quarta-feira (12).",
             "categoria": "Ceará",
-            "autor": "Mylena Gadelha",
-            "dataPublicacao": "2026-08-12T16:11:00-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/trecho-da-br-116-segue-interditado-horas-apos-tombamento-de-veiculo-1.3783606",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Supermercado é autuado em Fortaleza por vender queijo, bacon e demais itens vencidos",
             "subtitulo": "Procedimento administrativo foi instaurado e, em nota, o estabelecimento afirmou que \"apresentará os esclarecimentos pertinentes\" quanto ao caso.",
             "categoria": "Ceará",
-            "autor": "Redação",
-            "dataPublicacao": "2026-08-12T12:09:50-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/supermercado-e-autuado-em-fortaleza-por-vender-queijo-bacon-e-demais-itens-vencidos-1.3783532",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "'Falsos' arquitetos são investigados por suposta atuação ilegal no CE; veja riscos",
             "subtitulo": "Conselho de Arquitetura apura 17 casos em 10 cidades.",
             "categoria": "Ceará",
-            "autor": "Ana Alice Freire*",
-            "dataPublicacao": "2026-08-12T10:00:32-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/falsos-arquitetos-sao-investigados-por-suposta-atuacao-ilegal-no-ce-veja-riscos-1.3782569",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Plano de saúde Best Senior lança promoção sem coparticipação e carência zero",
             "subtitulo": "Após o cadastro, o beneficiário tem acesso a consultas, exames e pronto-socorro já inclusos na mensalidade.",
             "categoria": "Ceará",
-            "autor": "Agência de Conteúdo DN",
-            "dataPublicacao": "2026-08-12T07:00:00-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/plano-de-saude-best-senior-lanca-promocao-sem-coparticipacao-e-carencia-zero-1.3783409",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Pardal lança Sublime, linha premium de sorvetes com mais cremosidade e textura",
             "subtitulo": "Produtos têm sabores inspirados em gelaterias e contêm mais densidade, o que gera produtos diferenciados para o público",
             "categoria": "Ceará",
-            "autor": "Agência de Conteúdo DN",
-            "dataPublicacao": "2026-08-12T07:00:00-03:00",
+            "autor": null,
+            "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/pardal-lanca-sublime-linha-premium-de-sorvetes-com-mais-cremosidade-e-textura-1.3783402",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Qual é a história da 'Cruz das Almas' que marca a Av. Leste-Oeste desde 1990?",
@@ -420,7 +490,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/qual-e-a-historia-da-cruz-das-almas-que-marca-a-av-leste-oeste-desde-1990-1.3783316",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Influenciador 'testa' hospitalidade dos cearenses e acaba acolhido em almoço de Dia dos Pais",
@@ -430,7 +500,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/influenciador-testa-hospitalidade-dos-cearenses-e-acaba-acolhido-em-almoco-de-dia-dos-pais-1.3783319",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Monitor é demitido após esquecer criança de 4 anos dentro de van escolar em Altaneira",
@@ -440,7 +510,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/monitor-e-demitido-apos-esquecer-crianca-de-4-anos-dentro-de-van-escolar-em-altaneira-1.3783346",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Homem leva choque em brinquedo de parque de diversões em Guaraciaba do Norte",
@@ -450,7 +520,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/homem-leva-choque-em-brinquedo-de-parque-de-diversoes-em-guaraciaba-do-norte-1.3783370",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Estágios de 24 mil alunos do CE são adiados após falência de empresa; Seduc anuncia nova data",
@@ -460,7 +530,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/estagios-de-24-mil-alunos-do-ce-sao-adiados-apos-falencia-de-empresa-seduc-anuncia-nova-data-1.3783241",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Caminhada com Maria 2026: veja percurso, alterações no trânsito e na frota de ônibus",
@@ -470,7 +540,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/caminhada-com-maria-2026-veja-percurso-alteracoes-no-transito-e-na-frota-de-onibus-1.3783253",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Defeso eleitoral barra contratos de professores temporários aprovados em seleção na Seduc",
@@ -480,7 +550,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/defeso-eleitoral-barra-contratos-de-professores-temporarios-aprovados-em-selecao-na-seduc-1.3782506",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "O que tem no ponto mais alto do Ceará? Conheça o Pico da Serra Branca",
@@ -490,7 +560,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/o-que-tem-no-ponto-mais-alto-do-ceara-conheca-o-pico-da-serra-branca-1.3780324",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Jiboia é encontrada dentro de caixa de som em loja de ração em Aracati",
@@ -500,7 +570,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/jiboia-e-encontrada-dentro-de-caixa-de-som-em-loja-de-racao-em-aracati-1.3783177",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Fóssil de mais de 115 milhões de anos nomeado em homenagem a Padre Cícero voltará ao Ceará",
@@ -510,7 +580,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/fossil-de-mais-de-115-milhoes-de-anos-nomeado-em-homenagem-a-padre-cicero-voltara-ao-ceara-1.3783083",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Influenciadora cearense denuncia transfobia após ser agredida em bar no Maranhão",
@@ -520,7 +590,7 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/influenciadora-cearense-denuncia-transfobia-apos-ser-agredida-em-bar-no-maranhao-1.3783034",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Como solicitar sinalização para a sua rua em Fortaleza",
@@ -530,81 +600,155 @@
             "dataPublicacao": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/como-solicitar-sinalizacao-para-a-sua-rua-em-fortaleza-1.3781316",
             "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "Cearenses produzem remédio à base de murici com potencial contra inflamações ligadas ao câncer",
-            "subtitulo": "Patente registrada pela Uece e Unifor utiliza extrato das folhas da planta nativa da Caatinga.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/cearenses-produzem-remedio-a-base-de-murici-com-potencial-contra-inflamacoes-ligadas-ao-cancer-1.3779211",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "Por que agremiações reagiram à possível retirada do Carnaval de rua da Domingos Olímpio",
-            "subtitulo": "Dentre os impactos da possibilidade da mudança, foi citada a quebra da tradição da festa em Fortaleza, afetando também uma diversão a baixo custo.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/por-que-agremiacoes-reagiram-a-retirada-do-carnaval-de-rua-da-domingos-olimpio-1.3782705",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "Arquidiocese de Fortaleza cria comissão para proteção do patrimônio eclesiástico",
-            "subtitulo": "Arquitetura, arte sacra e itens de valor histórico serão contemplados em ações de salvaguarda e conservação.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/arquidiocese-de-fortaleza-cria-comissao-para-protecao-do-patrimonio-eclesiastico-1.3782790",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "‘Antes Elize do que Eliza’ é sobre ‘tribunal moral’ contra mulheres, diz cearense autora de TCC",
-            "subtitulo": "O Diário do Nordeste entrevistou a sobralense Clara Emilly Souza, de 22 anos, autora da monografia sobre casos de Eliza Samudio e Elize Matsunaga, aprovada com nota máxima.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/antes-elize-do-que-eliza-e-sobre-tribunal-moral-contra-mulheres-diz-cearense-autora-de-tcc-1.3782639",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "O que tem na primeira rua de Fortaleza e como ela mudou ao longo do tempo",
-            "subtitulo": "Endereço fica no Centro e até hoje faz ponte entre passado e presente.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/o-que-tem-na-primeira-rua-de-fortaleza-e-como-ela-mudou-ao-longo-do-tempo-1.3781765",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "Uso de spray de pimenta por mulheres deve ser acompanhado de capacitação, dizem especialistas",
-            "subtitulo": "Legislação não obriga curso prévio para compra e porte, mas professores de defesa pessoal argumentam pela necessidade",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/uso-de-spray-de-pimenta-por-mulheres-deve-ser-acompanhado-de-capacitacao-dizem-especialistas-1.3780569",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
-        },
-        {
-            "titulo": "Ytacaranha Park Hotel, em Aquiraz, é interditado por falta de alvará e outras 30 irregularidades",
-            "subtitulo": "Decon também identificou falhas no restaurante do empreendimento.",
-            "categoria": "Ceará",
-            "autor": null,
-            "dataPublicacao": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/ytacaranha-park-hotel-em-aquiraz-e-interditado-por-falta-de-alvara-e-outras-30-irregularidades-1.3782683",
-            "jornal": "diariodonordeste",
-            "createdAt": "2026-08-14 09:59:46"
+            "createdAt": "2026-08-14 22:03:53"
         }
     ],
     "O Estado CE": [],
     "Verdes Mares": [
+        {
+            "titulo": "Governo do Ceará lança concurso com 2 mil vagas imediatas para professores",
+            "subtitulo": "O concurso havia sido anunciado em fevereiro pelo governo, mas só foi publicado agora no Diário Oficial do Estado (DOE).",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 22:50:48 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/concurso-professor-ceara-rede-estadual-edital.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Busca por capacitação em hidrogênio verde cresce no Ceará; saiba mais sobre o curso",
+            "subtitulo": "Iniciado em 2024, o Projeto H-TEC formou 788 multiplicadores. A previsão é atingir 1.800 formados até o final do ano.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 21:20:28 -0000",
+            "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/14/busca-por-capacitacao-em-hidrogenio-verde-cresce-no-ceara-saiba-mais-sobre-o-curso.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Semana Sênior do Sebrae capacita empreendedores com mais de 50 anos",
+            "subtitulo": "Programação, de 17 a 21 de agosto, em Fortaleza, reúne conteúdos voltados para o público sênior que desejam empreender",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 21:06:52 -0000",
+            "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/08/14/semana-senior-do-sebrae-capacita-empreendedores-com-mais-de-50-anos.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Reginaldo Ferreira declara patrimônio de R$ 212 mil ao TSE",
+            "subtitulo": "Houve aumento no patrimônio de 94,5% em comparação à declaração realizada na eleição de 2022.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 20:32:08 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/reginaldo-ferreira-declara-patrimonio-de-r-212-mil.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Catarina Matos declara patrimônio de R$ 10 mil ao TSE",
+            "subtitulo": "Os dados constam no Divulgacand, plataforma do Tribunal Superior Eleitoral (TSE) que agrega informações sobre as candidaturas.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 20:21:32 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/catarina-matos-declara-patrimonio-de-r-10-mil.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Guilherme Theophilo declara R$ 6 milhões em bens ao TSE",
+            "subtitulo": "Político registou aumento de 411% no patrimônio em relação ao que declarou em 2018, quando concorreu ao Governo do Ceará.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 19:40:08 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/guilherme-theophilo-declara-r-6-milhoes-em-bens.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Alcides Fernandes declara R$ 648 mil em bens ao TSE",
+            "subtitulo": "Deputado registrou redução de 26,41% no patrimônio declarado em relação a 2022.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 19:14:50 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/alcides-fernandes-declara-r-648-mil-em-bens.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Advogado é detido por tentar entregar celular para PM presa por morte de policial carbonizado",
+            "subtitulo": "Coronel da reserva da PM e advogado, Walmir Medeiros representou a defesa da soldado Júlia Natália Girão Gomes. Ele foi detido na manhã desta sexta-feira (14) e foi liberado após assinar um TCO.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 18:39:49 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/advogado-de-pm-que-alegou-estar-amarrada-apos-morte-de-policial-e-detido-por-tentar-entregar-celular-para-cliente-dentro-de-presidio.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Luizianne Lins declara patrimônio de R$ 333 mil ao TSE",
+            "subtitulo": "Deputada da Rede Sustentabilidade teve aumento no patrimônio de 39,82% em relação a 2022.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 17:07:48 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/luizianne-lins-declara-patrimonio-de-r-333-mil.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Capitão Wagner declara patrimônio de R$ 2,3 milhões ao TSE",
+            "subtitulo": "O ex-deputado federal teve um aumento de 135% no patrimônio em relação ao que declarou na última eleição da qual concorreu, em 2024.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 15:39:13 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/capitao-wagner-declara-patrimonio-de-r-23-milhoes.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Trecho de rodovia estadual será interditado por cerca de 30 dias no Ceará; veja mudança",
+            "subtitulo": "A região terá a implosão de rochas para permitir a requalificação da rodovia CE-388, a partir da próxima segunda-feira (17).",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 15:05:25 -0000",
+            "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/14/trecho-de-rodovia-estadual-sera-interditado-por-cerca-de-30-dias-no-ceara-veja-mudanca.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Cid Gomes declara patrimônio de R$ 1,5 milhão ao TSE",
+            "subtitulo": "Senador teve redução de 0,14% no patrimônio em relação ao que declarou na eleição de 2018.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 15:03:32 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/cid-gomes-declara-patrimonio-de-r-15-milhao.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Policial civil é preso por tentar matar homem com tiro na cabeça no Ceará; vídeo",
+            "subtitulo": "O agente, de 44 anos, que não teve a identidade informada, foi autuado em flagrante por tentativa de homicídio e desacato.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 14:48:22 -0000",
+            "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/14/policial-civil-e-preso-por-tentar-matar-homem-com-tiro-na-cabeca-no-ceara-video.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Ex-chefe de arbitragem no Ceará, suspeito de assédio e importunação sexual, será monitorado por tornozeleira eletrônica",
+            "subtitulo": "Os episódios de assédio relatados pelas mulheres tiveram início em 2018 e aconteceram no período entre a formação das vítimas como árbitras e o início da carreira delas.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 13:57:42 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/ex-chefe-de-arbitragem-no-ceara-suspeito-de-assedio-e-importunacao-sexual-sera-monitorado-por-tornozeleira-eletronica.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Datafolha para o Senado no Ceará: Cid Gomes tem 26% e Capitão Wagner, 22%",
+            "subtitulo": "Levantamento mostrou também Luizianne Lins (Rede) com 14% das intenções de voto e Alcides Fernandes (PL) tem 7%.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 13:04:39 -0000",
+            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/14/datafolha-para-o-senado-no-ceara-cid-gomes-tem-26percent-e-capitao-wagner-22percent.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
+        {
+            "titulo": "Feriado no sábado? Veja o que abre e o que fecha em Fortaleza no Dia de Nossa Sra. da Assunção",
+            "subtitulo": "Em Fortaleza, o feriado municipal celebra a padroeira da capital cearense. Por isso, serviços e estabelecimentos podem ter horários de funcionamento diferentes.",
+            "categoria": "G1",
+            "dataPublicacao": "Fri, 14 Aug 2026 12:58:06 -0000",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/feriado-no-sabado-veja-o-que-abre-e-o-que-fecha-em-fortaleza-no-dia-de-nossa-sra-da-assuncao.ghtml",
+            "jornal": "verdesmares",
+            "createdAt": "2026-08-14 22:03:54"
+        },
         {
             "titulo": "Polícia apreende 700 kg de drogas escondidos em materiais destinados à reciclagem em Fortaleza",
             "subtitulo": "Três suspeitos foram presos em flagrante, no bairro Passaré, na ação integrada entre Polícia Civil e Receita Federal.",
@@ -612,7 +756,7 @@
             "dataPublicacao": "Fri, 14 Aug 2026 11:47:21 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/policia-apreende-700-kg-de-drogas-escondidos-em-materiais-destinados-a-reciclagem-em-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Chefe de facção foragido da Justiça há 8 anos é preso em Fortaleza",
@@ -621,7 +765,7 @@
             "dataPublicacao": "Fri, 14 Aug 2026 10:28:33 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/chefe-de-faccao-foragido-da-justica-ha-8-anos-e-preso-em-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Suspeito de matar a namorada a facadas e atear fogo no corpo dela é preso em Juazeiro do Norte",
@@ -630,7 +774,7 @@
             "dataPublicacao": "Fri, 14 Aug 2026 09:41:02 -0000",
             "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/08/14/suspeito-de-matar-a-namorada-a-facadas-e-atear-fogo-no-corpo-dela-e-preso-em-juazeiro-do-norte.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Tia afirma que policial carbonizado tinha caso extraconjugal com PM presa: ‘Não justifica a morte’",
@@ -639,7 +783,7 @@
             "dataPublicacao": "Fri, 14 Aug 2026 07:00:51 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/14/tia-afirma-que-policial-carbonizado-tinha-caso-extraconjugal-com-pm-presa-nao-justifica-a-morte.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Vídeo mostra PM e marido deixando filha na escola no horário em que ela alegou estar amarrada após morte de policial",
@@ -648,7 +792,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 23:43:22 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/video-mostra-pm-e-marido-deixando-filha-na-escola-no-horario-em-que-ela-alegou-estar-amarrada-apos-morte-de-policial.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Homem é preso por suspeita de estuprar enteada de 8 anos em Fortaleza",
@@ -657,7 +801,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 23:18:29 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/homem-e-preso-por-suspeita-de-estuprar-enteada-de-8-anos-em-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Zé Batista declara R$ 157 mil em bens ao TSE; Ivonete Félix informa R$ 390 mil",
@@ -666,7 +810,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 23:02:48 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/ze-batista-declara-r-157-mil-em-bens-ao-tse-ivonete-felix-informa-r-390-mil.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Datafolha no Ceará: Ciro lidera com 52% contra 33% de Elmano",
@@ -675,7 +819,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 21:38:29 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/datafolha-no-ceara-ciro-tem-52percent-contra-33percent-de-elmano.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Adolescente de 17 anos morre após passar mal em academia de Fortaleza",
@@ -684,7 +828,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 20:16:10 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/adolescente-de-17-anos-morre-apos-passar-mal-em-academia-de-fortaleza.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "PM e marido têm prisões decretadas em audiência de custódia por suspeita de participação em morte de policial",
@@ -693,7 +837,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 19:57:32 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/pm-e-marido-tem-prisoes-mantidas.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Serley Leal declara R$ 88 mil em bens ao TSE; Catherine Teles informa R$ 554 mil",
@@ -702,7 +846,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 18:12:55 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/serley-leal-declara-r-88-mil-em-bens-ao-tse-catherine-teles-informa-r-554-mil.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Delegado Huggo declara R$ 256 mil em bens ao TSE; Felipe Moreira não informa bens",
@@ -711,7 +855,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 17:23:17 -0000",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/delegado-huggo-declara-r-256-mil-em-bens-ao-tse-felipe-moreira-nao-informa-bens.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "Polícia prende nove suspeitos e recupera 130 trilhos ferroviários no interior do Ceará",
@@ -720,7 +864,7 @@
             "dataPublicacao": "Thu, 13 Aug 2026 17:15:05 -0000",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/policia-prende-nove-suspeitos-e-recupera-130-trilhos-ferroviarios-no-interior-do-ceara.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         },
         {
             "titulo": "IFCE abre 350 vagas em cursos gratuitos nas áreas de energias renováveis e mobilidade elétrica",
@@ -729,164 +873,80 @@
             "dataPublicacao": "Thu, 13 Aug 2026 16:48:44 -0000",
             "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/13/ifce-abre-350-vagas-em-cursos-gratuitos-nas-areas-de-energias-renovaveis-e-mobilidade-eletrica.ghtml",
             "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Homem é baleado por dupla em moto durante ataque a tiros em rua de Fortaleza; vídeo",
-            "subtitulo": "Antes de ser atingida, vítima estava conversando com outras pessoas na Rua Airton Júnior, no Bairro José de Alencar.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 15:06:49 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/homem-e-baleado-por-dupla-em-moto-durante-ataque-a-tiros-em-rua-de-fortaleza-video.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Auditor-fiscal do Aeroporto de Fortaleza é denunciado por comandar grupo criminoso suspeito de fraudes em importações",
-            "subtitulo": "O Ministério Público Federal (MPF) apresentou à Justiça duas denúncias decorrentes da Operação Snooker, que apura fraudes em operações de importação praticadas por uma organização criminosa no Aeroporto Internacional Pinto Martins, em Fortaleza (CE).",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 14:21:33 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/auditor-fiscal-do-aeroporto-de-fortaleza-e-denunciado-por-comandar-grupo-criminoso-suspeito-de-fraudes-em-importacoes.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Polícia apreende 8 armas em operação contra CACs com registros cancelados na Grande Fortaleza",
-            "subtitulo": "Investigações apontaram que alguns dos alvos também possuem registros de envolvimento com crimes.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 13:50:18 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/policia-apreende-8-armas-em-operacao-contra-cacs-com-registros-cancelados-na-grande-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Sine oferta mais de 600 vagas de emprego durante ação no Cuca José Walter nesta sexta (14), em Fortaleza",
-            "subtitulo": "Ação itinerante da Prefeitura de Fortaleza levará oportunidades de trabalho em diversas áreas, com atendimento das 8h30 às 15h.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 12:13:15 -0000",
-            "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/13/sine-oferta-mais-de-600-vagas-de-emprego-durante-acao-no-cuca-jose-walter-nesta-sexta-14-em-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Ciro Gomes declara R$ R$ 1,7 milhão em bens ao TSE; Roberto Cláudio informa R$ 2,18 milhões  ",
-            "subtitulo": "A declaração de patrimônio de Ciro Gomes registrou uma redução ao comparar as eleições de 2022 e 2026. Já os de Roberto Cláudio mais que dobrou no mesmo período.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 11:08:51 -0000",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/ciro-gomes-declara-r-r-17-milhao-em-bens-ao-tse-roberto-claudio-informa-r-218-milhoes.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Elmano de Freitas declara R$ 366 mil em bens ao TSE; Gabriella Aguiar informa R$ 699 mil",
-            "subtitulo": "Em comparação com a eleição de 2022, na qual Elmano concorreu a governador e foi eleito, o valor declarado por ele cresceu 408%. Já de Gabriella Aguiar aumentou em 25% de 2024 para 2026.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 11:08:34 -0000",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/08/13/elmano-de-freitas-declara-r-366-mil-em-bens-ao-tse-gabriella-aguiar-informa-r-699-mil.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Falso advogado: quadrilha que aplicou golpe de R$ 150 mil em idosa no RS é alvo de operação no Ceará",
-            "subtitulo": "Investigação começou após idosa de Santa Maria perder R$ 150 mil. Agentes cumprem 48 mandados judiciais e bloqueiam contas com apoio do Ministério da Justiça.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 11:05:48 -0000",
-            "link": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/08/13/operacao-policia-rs-golpe-falso-advogado-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Justiça mantém prisão de vereadores suspeitos de pagar ‘pedágio’ para facção nas eleições em Sobral",
-            "subtitulo": "Além dos parlamentares, outros quatro investigados também tiveram as prisões preventivas mantidas.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 09:47:03 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/justica-mantem-prisao-de-vereadores-suspeitos-de-pagar-pedagio-para-faccao-nas-eleicoes-em-sobral.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Casal preso por desvio de R$ 1 milhão de clientes de banco no Ceará mirava idosos com altos investimentos",
-            "subtitulo": "Os suspeitos foram presos nesta terça-feira (11) em um imóvel de luxo na Praia do Cumbuco, em Caucaia, na região metropolitana de Fortaleza.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 08:03:38 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/casal-preso-por-desvio-de-r-1-milhao-de-clientes-de-banco-no-ceara-mirava-idosos-com-altos-investimentos.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "PM suspeita de morte de policial carbonizado é investigada por vender contas falsas em app de transporte",
-            "subtitulo": "O marido dela foi preso em setembro do ano passado por fazer parte do esquema criminoso. A Polícia Civil investiga se o casal participou da morte do soldado encontrado carbonizado.",
-            "categoria": "G1",
-            "dataPublicacao": "Thu, 13 Aug 2026 03:00:59 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/13/pm-suspeita-de-morte-de-policial-carbonizado-e-investigada-por-vender-contas-falsas-em-app-de-transporte.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Justiça libera nove advogados presos por suspeita de atuar como 'pombo-correio' de facções no Ceará",
-            "subtitulo": "Conforme o Ministério Público, rede de advogados intermediava ordens de chefes de organizações criminosas presos; bloqueio de R$ 20 milhões e apreensões foram realizados.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 21:13:51 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/12/justica-libera-nove-advogados-presos-por-suspeita-de-atuar-como-pombo-correio-de-faccoes-no-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Rede de atacarejo abre mais de 80 vagas de emprego no Ceará",
-            "subtitulo": "Oportunidades estão distribuídas entre principais cidades do estado como Fortaleza, Caucaia, Maracanaú, Sobral e Juazeiro do Norte. Inscrições devem ser feitas pela internet.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 20:22:57 -0000",
-            "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/08/12/rede-de-atacarejo-abre-mais-de-80-vagas-de-emprego-no-ceara.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Queijos, bacon e chips vencidos são encontrados à venda em supermercado de Fortaleza",
-            "subtitulo": "Estabelecimento foi autuado nesta terça-feira (11). Equipe do Procon Ceará encontrou produtos com validade vencida há 15 dias.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 19:00:34 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/12/queijos-bacon-e-chips-vencidos-sao-encontrados-a-venda-em-supermercado-de-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Suspeito tenta extorquir policial militar, leva tiro na perna e é preso na Grande Fortaleza",
-            "subtitulo": "De acordo com a Polícia Militar, o suspeito foi à residência do policial com o objetivo de cobrar uma dívida em nome de outra pessoa.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 17:40:03 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/12/suspeito-tenta-extorquir-policial-militar-leva-tiro-na-perna-e-e-preso-na-grande-fortaleza.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Marido de PM detida por homicídio de soldado é preso em Fortaleza com munições e documentos falsos",
-            "subtitulo": "Antoneudo Ribeiro Lima Júnior foi autuado em flagrante por falsificação de documento e posse irregular de munição. Defesa nega participação do casal na morte do PM Raphael Sampaio.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 16:54:39 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/12/marido-de-pm-autuada-por-homicidio-de-soldado-e-preso-em-fortaleza-com-municoes-e-documentos-falsos.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Vídeo: homem sofre descarga elétrica e cai de telhado após vara encostar em fiação",
-            "subtitulo": "Vítima sobreviveu e foi internada no Hospital Regional Vale do Jaguaribe, em Limoeiro do Norte.",
-            "categoria": "G1",
-            "dataPublicacao": "Wed, 12 Aug 2026 15:15:13 -0000",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/08/12/video-homem-sofre-descarga-eletrica-e-cai-de-telhado-apos-vara-encostar-em-fiacao.ghtml",
-            "jornal": "verdesmares",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:54"
         }
     ],
     "Ceará Agora": [],
     "Terra da Luz": [
+        {
+            "titulo": "Diplomacia: Brasil notifica EUA sobre reciprocidade Governo brasileiro informou início do processo para avaliar contramedidas contra tarifas impostas pelos Estados Unidos a produtos nacionais",
+            "subtitulo": "14 de agosto de 2026 – O governo dos Estados Unidos foi notificado nesta sexta-feira (14) sobre a abertura do processo brasileiro para aplicação de possíveis medidas de reciprocidade econômica contra tarifas impostas a produtos do […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T18:03:54",
+            "link": "https://portalterradaluz.com.br/principal/diplomacia-brasil-notifica-eua-sobre-reciprocidade/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Crédito: BNB contrata R$ 21,3 bi em três meses Banco do Nordeste registra resultado recorde no segundo trimestre e destaca avanço das microfinanças urbanas e rurais",
+            "subtitulo": "14 de agosto de 2026 – O Banco do Nordeste (BNB) contratou mais de R$ 21,3 bilhões em crédito no segundo trimestre de 2026. O resultado é recorde para o período e supera em R$ 260 […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T17:36:55",
+            "link": "https://portalterradaluz.com.br/principal/credito-bnb-contrata-r-213-bi-em-tres-meses/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Música: WAV Sessions encerra temporada no Mareá Kite Última edição do projeto acontece neste sábado, 15, com Simo Not Simon, Sterium, BOSS, Lucas Coelho e Rodolfo B",
+            "subtitulo": "14 de agosto de 2026 – Depois de uma temporada marcada por encontros entre artistas da house music, a WAV Sessions chega à sua última edição neste sábado, 15 de agosto, a partir das 21h, no […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T17:11:20",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/musica-wav-sessions-encerra-temporada-no-marea-kite/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Cultura: Museu da Fotografia leva mostra ao TRE-CE Exposição “Entre o Mar e o Sertão” reúne imagens sobre paisagens, culturas e modos de vida do litoral e do sertão brasileiro",
+            "subtitulo": "14 de agosto de 2026 – O Museu da Fotografia Fortaleza (MFF) apresenta no Tribunal Regional Eleitoral do Ceará (TRE-CE), em Fortaleza, a exposição itinerante “Entre o Mar e o Sertão”. A mostra reúne fotografias que […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T13:36:02",
+            "link": "https://portalterradaluz.com.br/principal/cultura-museu-da-fotografia-leva-mostra-ao-tre-ce/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Cultura: Polícia recupera oito obras de Matisse em SP Quadros furtados da Biblioteca Mário de Andrade em 2025 foram encontrados em apartamento de São Bernardo do Campo; um homem foi preso",
+            "subtitulo": "14 de agosto de 2026 – A Polícia Civil de São Paulo recuperou nesta quinta-feira (13) oito obras do pintor francês Henri Matisse que haviam sido roubadas de uma exposição realizada na Biblioteca Mário de Andrade, […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T10:43:08",
+            "link": "https://portalterradaluz.com.br/noticias/cultura-policia-recupera-oito-obras-de-matisse-em-sp/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
+        {
+            "titulo": "Segurança: RioMar promove campanha contra violência às mulheres Ação “Fala, Mulher” ocorre até 31 de agosto em Fortaleza e aborda diferentes formas de violência de gênero",
+            "subtitulo": "14 de agosto de 2026 – O RioMar Fortaleza e o RioMar Kennedy promovem, durante todo o mês de agosto, a campanha “Fala, Mulher”, iniciativa de conscientização sobre a violência contra as mulheres. A ação integra […]",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T10:23:35",
+            "link": "https://portalterradaluz.com.br/noticias/seguranca-riomar-promove-campanha-contra-violencia-as-mulheres/",
+            "jornal": "portalterradaluz",
+            "createdAt": "2026-08-14 22:03:53"
+        },
         {
             "titulo": "Loterias: Mega-Sena acumula e prêmio chega a R$ 38 milhões Concurso 3044 não teve ganhador das seis dezenas; 16 apostas acertaram a quina e 1.252 jogos levaram prêmio da quadra",
             "subtitulo": "14 de agosto de 2026 – Ninguém acertou as seis dezenas do concurso 3.044 da Mega-Sena, realizado na noite desta quinta-feira (13), em São Paulo. Com isso, o prêmio principal acumulou e está estimado em R$ […]",
             "categoria": null,
             "autor": null,
             "dataPublicacao": "2026-08-14T09:07:10",
-            "link": "https://portalterradaluz.com.br/principal/loterias-mega-sena-acumula-e-premio-chega-a-r-38-milhoes/",
+            "link": "https://portalterradaluz.com.br/economia-negocios/loterias-mega-sena-acumula-e-premio-chega-a-r-38-milhoes/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Economia: Mais de 5 milhões são impedidos de apostar em bets Medidas do governo incluem autoexclusão, restrições a beneficiários sociais e bloqueios vinculados à renegociação de dívidas",
@@ -894,9 +954,9 @@
             "categoria": null,
             "autor": null,
             "dataPublicacao": "2026-08-14T08:48:13",
-            "link": "https://portalterradaluz.com.br/principal/economia-mais-de-5-milhoes-sao-impedidos-de-apostar-em-bets/",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-mais-de-5-milhoes-sao-impedidos-de-apostar-em-bets/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Negócios: McDonald’s abre cadastro para novos terrenos no Brasil Arcos Dorados lança portal para receber propostas de imóveis destinados à expansão da rede de restaurantes no país",
@@ -906,7 +966,7 @@
             "dataPublicacao": "2026-08-14T08:33:13",
             "link": "https://portalterradaluz.com.br/economia-negocios/negocios-mcdonalds-abre-cadastro-para-novos-terrenos-no-brasil/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Política: TSE suspende novas filiações após fraude em sistema Tribunal interrompe temporariamente registros no Filia após inclusão indevida de Flávio Bolsonaro no partido Missão",
@@ -914,9 +974,9 @@
             "categoria": null,
             "autor": null,
             "dataPublicacao": "2026-08-14T08:16:16",
-            "link": "https://portalterradaluz.com.br/principal/politica-tse-suspende-novas-filiacoes-apos-fraude-em-sistema/",
+            "link": "https://portalterradaluz.com.br/destaques/politica-tse-suspende-novas-filiacoes-apos-fraude-em-sistema/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Cultura: ACL celebra 132 anos com homenagem a Fortaleza Projeto reúne exposição, palestras, prêmio literário e livro comemorativo para marcar os 300 anos da Capital cearense",
@@ -924,9 +984,9 @@
             "categoria": null,
             "autor": null,
             "dataPublicacao": "2026-08-14T08:09:23",
-            "link": "https://portalterradaluz.com.br/principal/cultura-acl-celebra-132-anos-com-homenagem-a-fortaleza/",
+            "link": "https://portalterradaluz.com.br/destaques/cultura-acl-celebra-132-anos-com-homenagem-a-fortaleza/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Saúde: Ministério da Saúde visita carretas de atendimento no Ceará Representantes do Ministério da Saúde e da Secretaria da Saúde do Ceará acompanham serviços de exames de imagem e oftalmologia em Jaguaruana e Limoeiro do Norte",
@@ -934,9 +994,9 @@
             "categoria": null,
             "autor": null,
             "dataPublicacao": "2026-08-14T08:01:25",
-            "link": "https://portalterradaluz.com.br/principal/saude-ministerio-da-saude-visita-carretas-de-atendimento-no-ceara/",
+            "link": "https://portalterradaluz.com.br/destaques/saude-ministerio-da-saude-visita-carretas-de-atendimento-no-ceara/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Comércio: Brasil abre análise sobre resposta a tarifas dos EUA Governo inicia processo com base na Lei da Reciprocidade Econômica, prioriza diálogo diplomático e avalia possíveis contramedidas comerciais",
@@ -946,7 +1006,7 @@
             "dataPublicacao": "2026-08-14T07:45:55",
             "link": "https://portalterradaluz.com.br/economia-negocios/comercio-brasil-abre-analise-sobre-resposta-a-tarifas-dos-eua/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Negócios: NM2B reúne lideranças em Fortaleza Evento reuniu cerca de 700 participantes no La Maison e debateu marcas, estratégia, confiança e a força do que é real",
@@ -956,7 +1016,7 @@
             "dataPublicacao": "2026-08-13T15:51:01",
             "link": "https://portalterradaluz.com.br/economia-negocios/negocios-nm2b-reune-liderancas-em-fortaleza/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Economia: Ceará chega a 2,95 milhões de planos de saúde Estado tem o segundo maior mercado do Nordeste, enquanto empresas buscam equilibrar custos, qualidade e benefícios aos colaboradores",
@@ -966,7 +1026,7 @@
             "dataPublicacao": "2026-08-13T11:43:29",
             "link": "https://portalterradaluz.com.br/economia-negocios/economia-ceara-chega-a-295-milhoes-de-planos-de-saude/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Economia: Cimento Apodi destaca inovação na ExpoConstruir 2026 Empresa apresenta soluções para a construção civil, promove palestra técnica e reforça investimentos em sustentabilidade e inteligência artificial",
@@ -976,7 +1036,7 @@
             "dataPublicacao": "2026-08-13T11:10:26",
             "link": "https://portalterradaluz.com.br/economia-negocios/economia-cimento-apodi-destaca-inovacao-na-expoconstruir-2026/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Eventos: Shopping Aldeota celebra Dia dos Pais com experiências Evento reuniu clientes e convidados em uma noite com vinhos, gastronomia, música e arte, promovendo momentos de conexão e confraternização",
@@ -986,7 +1046,7 @@
             "dataPublicacao": "2026-08-13T10:51:41",
             "link": "https://portalterradaluz.com.br/destaques/eventos-shopping-aldeota-celebra-dia-dos-pais-com-experiencias/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Saúde: Farmácia Popular poderá oferecer exames e testes Nova regulamentação prevê modernização do programa, unidades volantes em áreas ribeirinhas e uso de inteligência artificial contra fraudes",
@@ -996,7 +1056,7 @@
             "dataPublicacao": "2026-08-13T10:35:53",
             "link": "https://portalterradaluz.com.br/economia-negocios/saude-farmacia-popular-podera-oferecer-exames-e-testes/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Saúde: Novas regras reduzem espera para doar sangue Mudanças entram em vigor em outubro e também permitem que doadores regulares com mais de 70 anos continuem doando, se estiverem aptos",
@@ -1006,7 +1066,7 @@
             "dataPublicacao": "2026-08-13T10:17:59",
             "link": "https://portalterradaluz.com.br/destaques/saude-novas-regras-reduzem-espera-para-doar-sangue/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Cultura: Tiago Araripe celebra 75 anos com novo livro Artista cearense radicado em Portugal lança “Repertório Homeopoético” nesta quinta-feira (13), na Bece, em Fortaleza, com entrada gratuita",
@@ -1016,7 +1076,7 @@
             "dataPublicacao": "2026-08-13T09:58:23",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-tiago-araripe-celebra-75-anos-com-novo-livro/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Saúde: Infarto e AVC crescem entre adultos jovens no Brasil Especialistas alertam que mudanças no estilo de vida e prevenção precoce são essenciais para reduzir o avanço das doenças cardiovasculares",
@@ -1026,7 +1086,7 @@
             "dataPublicacao": "2026-08-13T09:30:03",
             "link": "https://portalterradaluz.com.br/destaques/saude-infarto-e-avc-crescem-entre-adultos-jovens-no-brasil/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Polícia: PF mira advogado Nelson Wilians Operação Arena investiga grupo empresarial suspeito de exploração de jogos de azar e apostas esportivas online",
@@ -1036,7 +1096,7 @@
             "dataPublicacao": "2026-08-13T09:25:44",
             "link": "https://portalterradaluz.com.br/destaques/policia-pf-mira-advogado-nelson-wilians/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Política: TSE debate veto ao uso de deepfake nas eleições Ministros da Corte discutem ampliar restrições ao uso de inteligência artificial em campanhas eleitorais e definir punições para infrações",
@@ -1046,7 +1106,7 @@
             "dataPublicacao": "2026-08-13T09:08:59",
             "link": "https://portalterradaluz.com.br/destaques/politica-tse-debate-veto-ao-uso-de-deepfake-nas-eleicoes/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Esporte: Palmeiras cede empate na Libertadores e decide vaga no Paraguai Verdão sofre gol nos acréscimos, empata com o Cerro Porteño e precisará vencer fora de casa para avançar às quartas de final da Libertadores",
@@ -1056,7 +1116,7 @@
             "dataPublicacao": "2026-08-13T08:54:04",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-palmeiras-cede-empate-na-libertadores-e-decide-vaga-no-paraguai/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Esporte: Cruzeiro e Flamengo empatam e deixam vaga aberta na Libertadores Primeiro duelo das oitavas da Libertadores termina em 1 a 1 no Mineirão, e decisão da classificação será na próxima semana, no Maracanã",
@@ -1066,7 +1126,7 @@
             "dataPublicacao": "2026-08-13T08:41:04",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-cruzeiro-e-flamengo-empatam-e-deixam-vaga-aberta-na-libertadores/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Família: Paternidade exige presença além da licença Artigo aborda a ampliação da licença-paternidade e defende maior participação dos pais no cuidado, na educação e na formação dos filhos",
@@ -1076,7 +1136,7 @@
             "dataPublicacao": "2026-08-12T16:35:28",
             "link": "https://portalterradaluz.com.br/artigos/familia-paternidade-exige-presenca-alem-da-licenca/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Tributário: Rótulo temporário, punição processual permanente Lei Complementar nº 225/2026 cria regras para o devedor contumaz, mas regulamentação da Receita levanta debate sobre limites do rito administrativo tributário",
@@ -1086,7 +1146,7 @@
             "dataPublicacao": "2026-08-12T14:45:33",
             "link": "https://portalterradaluz.com.br/artigos/tributario-rotulo-temporario-punicao-processual-permanente/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Construção: Expoconstruir e CBA seguem em Fortaleza Eventos reúnem profissionais da construção, arquitetura, indústria e comércio até sexta-feira, 14, no Centro de Eventos do Ceará",
@@ -1096,7 +1156,7 @@
             "dataPublicacao": "2026-08-12T14:09:37",
             "link": "https://portalterradaluz.com.br/economia-negocios/construcao-expoconstruir-e-cba-seguem-em-fortaleza/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Economia: Mercado ilegal de apostas cai no Brasil Estudo aponta que entre 38% e 44% das apostas online ocorreram em plataformas clandestinas no primeiro semestre de 2026",
@@ -1106,7 +1166,7 @@
             "dataPublicacao": "2026-08-12T11:39:38",
             "link": "https://portalterradaluz.com.br/destaques/economia-mercado-ilegal-de-apostas-cai-no-brasil/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         },
         {
             "titulo": "Gastronomia: Fortaleza ganha pizza de caranguejo às quintas Novo prato do Alchymist Prehistoric Garden combina tradição cearense com referências da gastronomia italiana",
@@ -1116,71 +1176,352 @@
             "dataPublicacao": "2026-08-12T11:04:20",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/gastronomia-fortaleza-ganha-pizza-de-caranguejo-as-quintas/",
             "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Fenacce: Ceará lança edição 2026 em Fortaleza Festival Nacional de Artesanato e Cultura do Ceará será realizado de 4 a 13 de setembro, no Centro de Eventos, com artesãos de todo o Brasil, música, gastronomia e economia criativa",
-            "subtitulo": "12 de agosto de 2026 – Fortaleza se prepara para receber, de 4 a 13 de setembro, a 8ª edição do Festival Nacional de Artesanato e Cultura do Ceará (Fenacce), evento que reúne produção artesanal, manifestações […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T11:04:12",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/fenacce-ceara-lanca-edicao-2026-em-fortaleza/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Economia: Brasileiros têm R$ 5,1 bilhões esquecidos em bancos Banco Central informa que R$ 15,8 bilhões já foram devolvidos; sistema permite consultar e solicitar o resgate dos valores",
-            "subtitulo": "12 de agosto de 2026 – Brasileiros ainda têm mais de R$ 5,12 bilhões esquecidos em bancos e outras instituições financeiras, segundo dados divulgados nesta terça-feira (11) pelo Banco Central (BC). Do total disponível no Sistema […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T10:45:08",
-            "link": "https://portalterradaluz.com.br/economia-negocios/economia-brasileiros-tem-r-51-bilhoes-esquecidos-em-bancos/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Cultura: Intercâmbio na França amplia formação de musicistas Sara Martins e Rute Oliveira, do Instituto de Música Jacques Klein, participaram de aulas, ensaios e concertos durante temporada internacional",
-            "subtitulo": "12 de agosto de 2026 – Uma experiência internacional na França ampliou a formação artística e musical de duas jovens integrantes do Instituto de Música Jacques Klein (IMJK). Sara Martins, de 24 anos, e Rute Oliveira, […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T10:36:14",
-            "link": "https://portalterradaluz.com.br/destaques/cultura-intercambio-na-franca-amplia-formacao-de-musicistas/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Astronomia: Eclipse solar total escurece céu nesta quarta-feira Fenômeno poderá ser visto por 15,2 milhões de pessoas na faixa de totalidade; no Brasil, eclipse não será visível nem parcialmente",
-            "subtitulo": "12 de agosto de 2026 – Um eclipse solar total acontece nesta quarta-feira (12) e poderá escurecer o céu em uma estreita faixa do planeta. Segundo estimativa do site especializado Time and Date, cerca de 15,2 […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T10:27:58",
-            "link": "https://portalterradaluz.com.br/destaques/astronomia-eclipse-solar-total-escurece-ceu-nesta-quarta-feira/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Turismo: Ceará amplia rede hoteleira com novos investimentos Novos resorts e hotéis elevam a oferta de hospedagem no estado e reforçam o Ceará como um dos principais destinos turísticos do Brasil",
-            "subtitulo": "12 de agosto de 2026 – O Ceará entra em 2026 com uma nova onda de investimentos no setor hoteleiro, ampliando a oferta de hospedagem e fortalecendo a posição do estado entre os principais destinos turísticos […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T10:09:25",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/turismo-ceara-amplia-rede-hoteleira-com-novos-investimentos/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
-        },
-        {
-            "titulo": "Educação: Projeto leva cultura a crianças Destino Certo, do Instituto Unimed Fortaleza, reúne famílias, teatro e educação alimentar em ações gratuitas até outubro",
-            "subtitulo": "12 de agosto de 2026 – O Instituto Unimed Fortaleza deu início ao Projeto Destino Certo, iniciativa que transforma parte do Imposto de Renda em investimento social, cultural e educativo para crianças. O lançamento aconteceu no […]",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-12T10:09:17",
-            "link": "https://portalterradaluz.com.br/destaques/educacao-projeto-leva-cultura-a-criancas/",
-            "jornal": "portalterradaluz",
-            "createdAt": "2026-08-14 09:59:47"
+            "createdAt": "2026-08-14 22:03:53"
         }
     ],
-    "Tribunal de Contas do Ceará": [],
+    "Tribunal de Contas do Ceará": [
+        {
+            "titulo": "TCE Ceará analisa a gestão e a operação do Aterro de Maracanaú",
+            "subtitulo": "O Pleno do Tribunal de Contas do Estado do Ceará (TCE Ceará), em sessão virtual (período de 27 a 31/7), concluiu julgamento de processo de inspeção, tendo como objeto a gestão, operação e manutenção do Aterro Sanitário do município de Maracanaú. Foi",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-08-14T15:05:06-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7141-tce-ceara-analisa-a-gestao-e-a-operacao-do-aterro-de-maracanau",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Tribunal de Contas do Ceará envia à Justiça Eleitoral lista de gestores com contas julgadas irregulares",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará, em atendimento à Lei das Eleições, encaminhou à Justiça Eleitoral a lista contendo a relação dos 2.546 gestores públicos que tiveram suas contas rejeitadas ou julgadas irregulares nos últimos oito anos. Tratam",
+            "categoria": "Notícias",
+            "autor": "Gabriella Antunes",
+            "dataPublicacao": "2026-08-14T12:05:25-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7140-tribunal-de-contas-do-ceara-envia-a-justica-eleitoral-lista-de-gestores-com-contas-julgadas-irregulares",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Políticas Públicas para a Primeira Infância são abordadas durante seminário com participação do TCE Ceará",
+            "subtitulo": "A importância da atuação conjunta para fortalecer políticas públicas voltadas às crianças esteve em pauta durante o V Seminário Municipal Intersetorial da Primeira Infância, realizado nesta quinta-feira (13/8), em Quixeré, como parte da programação d",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-14T12:02:53-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7139-politicas-publicas-para-a-primeira-infancia-sao-abordadas-durante-seminario-com-participacao-do-tce-ceara",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "TCE Ceará publica Ofício com orientações aos municípios sobre a construção do IEGM 2026/2025",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará publicou o Oficio Circular nº 41/2026 , no Diário Oficial Eletrônico de 14/8, informando sobre o início de ações para a construção do Índice de Efetividade da Gestão Municipal – IEGM TCE Ceará ano-base 2025, ap",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-08-14T11:41:03-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7138-tce-ceara-publica-oficio-com-orientacoes-aos-municipios-sobre-a-construcao-do-iegm-2026-2025",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Atuação fiscalizatória, orientativa e administrativa do TCE Ceará é apresentada na segunda edição de 2026 do Relatório de Atividades",
+            "subtitulo": "Com o objetivo de dar transparência às ações realizadas, o Tribunal de Contas do Ceará apresenta à Assembleia Legislativa do Estado (Alece) e à sociedade o Relatório de Atividades do 2º trimestre de 2026. O documento consolida os principais resultado",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-14T11:33:13-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7137-atuacao-fiscalizatoria-orientativa-e-administrativa-do-tce-ceara-e-apresentada-na-segunda-edicao-de-2026-do-relatorio-de-atividades",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Música, literatura e exposição integram programação da III Semana da Arte",
+            "subtitulo": "Com manifestações artísticas e culturais em uma programação voltada à integração, à criatividade e ao bem-estar no ambiente institucional, será realizada a III Semana da Arte do Tribunal de Contas do Ceará, nos dias 19, 20 e 26 de agosto. As atividad",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-14T11:21:24-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7136-musica-literatura-e-exposicao-integram-programacao-da-iii-semana-da-arte",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Levantamento avalia maturidade da governança para implementação da Agenda 2030 e seus impactos nas políticas para a Primeira Infância",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará está realizando levantamento para avaliar o grau de maturidade da governança dos Centros de Governo do Estado e dos municípios cearenses na implementação da Agenda 2030 da Organização das Nações Unidas (ONU). A",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-08-13T12:58:25-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7135-levantamento-avalia-maturidade-da-governanca-para-implementacao-da-agenda-2030-e-seus-impactos-nas-politicas-para-a-primeira-infancia",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "TCE Ceará integra Rede Nacional de Controle Externo pela Proteção das Mulheres",
+            "subtitulo": "O Tribunal de Contas do Ceará passou a integrar a Rede Nacional de Controle Externo pela Proteção das Mulheres (Rede que Protege), iniciativa lançada nesta segunda-feira (10/8), pelo Sistema Tribunais de Contas do Brasil. A rede tem como objetivo fom",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-12T16:59:20-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7134-tce-ceara-integra-rede-nacional-de-controle-externo-pela-protecao-das-mulheres",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "Primeira Infância, Selo A3P e canal direto com o cidadão são destaques nos programas de TV e Rádio do TCE Ceará",
+            "subtitulo": "As novas ações desenvolvidas pelo TCE Ceará esta semana são apresentadas nos programas de comunicação da Corte de Contas. No Acontece TV, a atuação integrada pela primeira infância, o lançamento do canal do Tribunal com o cidadão e a fiscalização de",
+            "categoria": "Notícias",
+            "autor": "Larissa Martins Santos Duarte",
+            "dataPublicacao": "2026-08-12T16:03:17-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7133-primeira-infancia-selo-a3p-e-canal-direto-com-o-cidadao-sao-destaques-nos-programas-de-tv-e-radio-do-tce-ceara",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "TCE Ceará participa de reunião sobre proteção de crianças e adolescentes vítimas ou testemunhas de violência",
+            "subtitulo": "O Tribunal de Contas do Ceará participou da primeira reunião do Comitê Estadual de Gestão Colegiada da Rede de Cuidado e de Proteção Social de Crianças e Adolescentes Vítimas ou Testemunhas de Violência, após a posse dos novos conselheiros do Conselh",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-11T13:50:12-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7131-tce-ceara-participa-de-reuniao-sobre-protecao-de-criancas-e-adolescentes-vitimas-ou-testemunhas-de-violencia",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "MPC em Ação apresenta atuação do órgão ministerial no trimestre e a emissão de mais de mil pareceres",
+            "subtitulo": "Está publicada a segunda edição de 2026 do MPC em Ação , com as principais ações realizadas pelo Ministério Público Especial junto ao TCE Ceará. A publicação apresenta a atuação do órgão ministerial nos meses de abril, maio e junho, com destaque para",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-07T14:25:26-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7130-mpc-em-acao-apresenta-atuacao-do-orgao-ministerial-no-trimestre-e-a-emissao-de-mais-de-mil-pareceres",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:55"
+        },
+        {
+            "titulo": "III Semana da Arte do TCE Ceará promoverá atividades culturais e valorização dos talentos da instituição",
+            "subtitulo": "O Tribunal de Contas do Ceará, por meio do Instituto Plácido Castelo (IPC), realizará a III Semana da Arte do TCE Ceará, nos dias 19, 20 e 26 de agosto. A iniciativa integra o Programa Educação pela Arte e reunirá atividades voltadas à valorização da",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-06T14:40:29-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7129-iii-semana-da-arte-do-tce-ceara-promovera-atividades-culturais-e-valorizacao-dos-talentos-da-instituicao",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Programas Acontece TV e Conexão Cidadão apresentam capacitações e fiscalização de plataformas de licitação",
+            "subtitulo": "As últimas atividades desenvolvidas pelo TCE Ceará esta semana são destaque nas produções audiovisuais da Corte, que trazem informações sobre ações voltadas à gestão pública. No Acontece TV, a atuação da Presidência do Tribunal é detalhada na última",
+            "categoria": "Notícias",
+            "autor": "Larissa Martins Santos Duarte",
+            "dataPublicacao": "2026-08-05T15:59:44-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7128-programas-acontece-tv-e-conexao-cidadao-apresentam-capacitacoes-e-fiscalizacao-de-plataformas-de-licitacao",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "TCE Ceará alcança conquista no Índice de Governança, Sustentabilidade e Gestão",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará (TCE Ceará) alcançou o nível Aprimorado no Índice de Governança, Sustentabilidade e Gestão (iESGo). Com 87,5% de conformidade com as melhores práticas, o órgão atingiu o grau máximo na escala de maturidade inst",
+            "categoria": "Notícias",
+            "autor": "Larissa Martins Santos Duarte",
+            "dataPublicacao": "2026-08-05T11:28:17-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7126-tce-ceara-alcanca-conquista-no-indice-de-governanca-sustentabilidade-e-gestao",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "TCE Ceará divulga nova edição de informativo com destaques da jurisprudência de junho",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará publicou a sexta edição do seu Informativo de Jurisprudência. O documento compila as principais deliberações das Câmaras e do Pleno da Corte de Contas, proferidas em junho de 2026, para orientar gestores e a so",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-08-05T08:58:12-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7125-tce-ceara-divulga-nova-edicao-de-informativo-com-destaques-da-jurisprudencia-de-junho",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Atuação integrada pela Primeira Infância é estimulada durante encerramento de curso do TCE Ceará",
+            "subtitulo": "A construção de políticas públicas voltadas ao desenvolvimento infantil, com foco na atuação integrada entre diferentes áreas da gestão municipal, esteve no centro dos debates no encerramento do curso “Gestão por Resultados: Política Pública da Prime",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-08-04T17:37:00-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7124-atuacao-integrada-pela-primeira-infancia-e-estimulada-durante-encerramento-de-curso-do-tce-ceara",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Iniciativas de controle externo e social do TCE Ceará são publicadas em boletim internacional sobre entidades fiscalizadoras",
+            "subtitulo": "O artigo “Transparência e Participação Cidadã: o caminho do TCE Ceará rumo a um controle externo mais próximo da sociedade” compõe a nova edição do Boletim Olacefs – Organização Latino-Americana e do Caribe de Entidades Fiscalizadoras Superiores – re",
+            "categoria": "Notícias",
+            "autor": "Gabriella Antunes",
+            "dataPublicacao": "2026-08-04T14:47:38-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7123-iniciativas-de-controle-externo-e-social-do-tce-ceara-sao-publicadas-em-boletim-internacional-sobre-entidades-fiscalizadoras",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "TCE Ceará participa de solenidade de posse da vice-ouvidora-geral do Ministério Público do Ceará",
+            "subtitulo": "A conselheira do Tribunal de Contas do Ceará, Soraia Victor, representando o presidente da Corte, conselheiro Rholden Queiroz, participou, nesta quarta-feira (29/7), da Sessão Solene de Posse e Exercício da procuradora de Justiça Lorraine Jacob Molin",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-29T15:42:03-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7122-tce-ceara-participa-de-solenidade-de-posse-da-vice-ouvidora-geral-do-ministerio-publico-do-ceara",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Programas de Comunicação do Tribunal destacam planejamento de contratações públicas e estreia do quadro “Conta aí, TCE”",
+            "subtitulo": "As produções audiovisuais do Tribunal de Contas do Ceará apresentam, nesta semana, temas relacionados à educação, à fiscalização e ao desenvolvimento profissional. No Acontece TV, serão exibidas reportagens sobre a adesão das escolas à disciplina ele",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-29T15:23:19-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7121-programas-de-comunicacao-do-tribunal-destacam-planejamento-de-contratacoes-publicas-e-estreia-do-quadro-conta-ai-tce",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "TCE Ceará inicia fiscalizações em plataformas eletrônicas de licitação nos municípios cearenses",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará vai iniciar uma série de inspeções direcionadas às plataformas eletrônicas de licitação utilizadas pelas prefeituras municipais. Esta ação está prevista no Plano Anual de Fiscalização 2026–2027 e visa avaliar a",
+            "categoria": "Notícias",
+            "autor": "HELLEN MARIA MAXIMINA VASCONCELOS",
+            "dataPublicacao": "2026-07-28T09:42:00-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7120-tce-ceara-inicia-fiscalizacoes-em-plataformas-eletronicas-de-licitacao-nos-municipios-cearenses",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Portaria do TCE Ceará estabelece regras de transição e flexibilizações para envio de Prestação de Contas de Gestão 2025",
+            "subtitulo": "A Portaria nº 544/2026 , publicada no Diário Oficial Eletrônico do Tribunal de Contas do Estado do Ceará, torna facultativo, exclusivamente para a Prestação de Contas de Gestão (PCS) referente ao exercício de 2025, a apresentação de parte dos documen",
+            "categoria": "Notícias",
+            "autor": "HELLEN MARIA MAXIMINA VASCONCELOS",
+            "dataPublicacao": "2026-07-27T15:10:00-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7119-portaria-do-tce-ceara-estabelece-regras-de-transicao-e-flexibilizacoes-para-envio-de-prestacao-de-contas-de-gestao-2025",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "Inscrições para a disciplina Cidadania e Controle Social das Contas Públicas estão abertas até 7 de agosto",
+            "subtitulo": "Escolas de ensino médio em tempo integral da rede pública estadual já podem aderir ao componente curricular eletivo ofertado pelo Tribunal de Contas do Estado do Ceará até o dia 7 de agosto (sexta-feira). Com o tema “Cidadania e Controle Social das C",
+            "categoria": "Notícias",
+            "autor": "HELLEN MARIA MAXIMINA VASCONCELOS",
+            "dataPublicacao": "2026-07-24T14:18:02-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7118-inscricoes-para-a-disciplina-cidadania-e-controle-social-das-contas-publicas-estao-abertas-ate-7-de-agosto",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:56"
+        },
+        {
+            "titulo": "TCE Ceará lança canal no WhatsApp para transmissão de notícias ao cidadão",
+            "subtitulo": "Com o objetivo de compartilhar notícias de forma rápida e prática com a sociedade, o Tribunal de Contas do Estado do Ceará criou o canal TCE Ceará Comunica. O espaço de comunicação é aberto ao público externo e garante a privacidade dos usuários. Cli",
+            "categoria": "Notícias",
+            "autor": "HELLEN MARIA MAXIMINA VASCONCELOS",
+            "dataPublicacao": "2026-07-24T14:10:00-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7117-tce-ceara-lanca-canal-no-whatsapp-para-transmissao-de-noticias-ao-cidadao",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "Relatório de fiscalização do TCE analisou projeto de R$ 990,2 milhões para manejo de resíduos em São Gonçalo do Amarante",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará concluiu relatório final de fiscalização sobre a concessão administrativa para os serviços de manejo de resíduos sólidos no município de São Gonçalo do Amarante. O relatório final do Processo de Desestatização",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-07-24T13:57:09-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7116-relatorio-de-fiscalizacao-do-tce-analisou-projeto-de-r-990-2-milhoes-para-manejo-de-residuos-em-sao-goncalo-do-amarante",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "Fiscalização coordenada do TCE Ceará analisa serviços de assistência social e transferência de renda",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará deu início a uma ação de fiscalização coordenada voltada ao eixo de Assistência Social e Programas de Transferência de Renda, com foco na Rede do Sistema Único de Assistência Social (Suas). O trabalho está send",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-24T08:20:27-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7115-fiscalizacao-coordenada-do-tce-ceara-analisa-servicos-de-assistencia-social-e-transferencia-de-renda",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "TCE Ceará, CNJ e TJCE discutem estratégias para fortalecer políticas públicas voltadas ao sistema prisional",
+            "subtitulo": "O presidente do Tribunal de Contas do Ceará, conselheiro Rholden Queiroz, recebeu, nesta quinta-feira (23/7), uma visita institucional de representantes do Conselho Nacional de Justiça (CNJ) e do Tribunal de Justiça do Ceará (TJCE) para debater a coo",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-23T16:51:13-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7114-tce-ceara-cnj-e-tjce-discutem-estrategias-para-fortalecer-politicas-publicas-voltadas-ao-sistema-prisional",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "Acompanhamento da gestão fiscal e atividades de formação são abordados no Acontece TV e no Conexão Cidadão",
+            "subtitulo": "Os programas oficiais de comunicação do TCE Ceará apresentam, nesta semana, reportagens e entrevistas sobre o acompanhamento da gestão fiscal dos municípios, as oportunidades de capacitação oferecidas pelo Instituto Plácido Castelo (IPC) e o Programa",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-23T16:28:22-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7113-acompanhamento-da-gestao-fiscal-e-atividades-de-formacao-sao-abordados-no-acontece-tv-e-no-conexao-cidadao",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "TCE Ceará prestigia solenidade de posse no Ministério Público do Estado do Ceará",
+            "subtitulo": "O procurador-geral do Ministério Público Especial junto ao Tribunal de Contas do Ceará, Aécio Vasconcelos, participou da 9ª Sessão Solene do Colégio de Procuradores de Justiça do Ministério Público do Estado (MPCE), nesta terça-feira (21/7). O evento",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-23T15:49:52-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7112-tce-ceara-prestigia-solenidade-de-posse-no-ministerio-publico-do-estado-do-ceara",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "TCE Ceará responde Processo de Consulta sobre subsídio de vereadores",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará, durante a Sessão Ordinária Presencial do Pleno, nesta terça-feira (14/7), conheceu processo de Consulta nº 06669/2025-7, acerca da possibilidade fixação de subsídios de vereadores de forma escalonada, responde",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-07-17T09:12:34-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7111-tce-ceara-responde-processo-de-consulta-sobre-subsidio-de-vereadores",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "TCE Ceará oferta cursos sobre administração pública ",
+            "subtitulo": "Com o objetivo de aprimorar a gestão pública, o Tribunal de Contas do Ceará, por meio do Instituto Plácido Castelo (IPC), oferta cursos sobre temas relacionados à administração pública. Por meio da plataforma IPCeduc , servidores, jurisdicionados e t",
+            "categoria": "Notícias",
+            "autor": "HELLEN MARIA MAXIMINA VASCONCELOS",
+            "dataPublicacao": "2026-07-16T15:27:03-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7110-tce-ceara-oferta-cursos-sobre-administracao-publica",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "Tribunal de Contas do Ceará inicia monitoramento sobre gestão patrimonial do Governo do Estado",
+            "subtitulo": "O Tribunal de Contas do Estado do Ceará vai realizar monitoramento para verificar o cumprimento do Plano de Ação referente ao aperfeiçoamento do controle patrimonial imobiliário do Poder Executivo Estadual.",
+            "categoria": "Notícias",
+            "autor": "CAROLINA COSTA MADEIRA",
+            "dataPublicacao": "2026-07-16T13:27:19-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7109-tribunal-de-contas-do-ceara-inicia-monitoramento-sobre-gestao-patrimonial-do-governo-do-estado",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "Produções audiovisuais do TCE Ceará apresentam cursos gratuitos e estratégias para a integridade pública",
+            "subtitulo": "As ações mais recentes do Tribunal de Contas do Ceará ganham destaque nos programas audiovisuais da Corte, que apresentam informações sobre iniciativas voltadas ao fortalecimento da administração pública. No Acontece TV, é possível conhecer as formaç",
+            "categoria": "Notícias",
+            "autor": "Larissa Martins Santos Duarte",
+            "dataPublicacao": "2026-07-16T11:02:29-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7108-producoes-audiovisuais-do-tce-ceara-apresentam-cursos-gratuitos-e-estrategias-para-a-integridade-publica-2",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        },
+        {
+            "titulo": "TCE Ceará e TCE Amazonas compartilham experiências sobre educação ambiental e controle social",
+            "subtitulo": "O Tribunal de Contas do Ceará recebeu, nesta segunda-feira (13/7), a visita institucional do conselheiro do TCE Amazonas, Júlio Pinheiro, coordenador-geral da Escola de Contas Públicas (ECP) da instituição amazonense. O encontro ocorreu na Presidênci",
+            "categoria": "Notícias",
+            "autor": "MICHELE MESQUITA DA SILVA",
+            "dataPublicacao": "2026-07-15T15:15:49-03:00",
+            "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7106-tce-ceara-e-tce-amazonas-compartilham-experiencias-sobre-educacao-ambiental-e-controle-social",
+            "jornal": "tce",
+            "createdAt": "2026-08-14 22:03:57"
+        }
+    ],
     "Jornal Jangadeiro": [
+        {
+            "titulo": "Destaque do Ceará, Kayck Pará inicia preparação com a Seleção Sub-15",
+            "subtitulo": "Kayck Pará, destaque das categorias de base do Ceará, foi convocado e realizou o primeiro treinamento com a Seleção Brasileira sub-15. A equipe se prepara para amistosos contra o Uruguai, que serão disputados na próxima semana, nos dias 19 e 22, na G",
+            "categoria": null,
+            "autor": null,
+            "dataPublicacao": "2026-08-14T10:30:46",
+            "link": "https://www.jangadeiro.com.br/futeboles/destaque-do-ceara-kayck-para-inicia-preparacao-com-a-selecao-sub-15/",
+            "jornal": "jangadeiro",
+            "createdAt": "2026-08-14 22:03:55"
+        },
         {
             "titulo": "Fortaleza encara melhor mandante da Série B em busca de reação fora de casa",
             "subtitulo": "O Fortaleza terá um desafio importante neste sábado (15), pela 22ª rodada da Série B do Campeonato Brasileiro. O Leão visita o Juventude, às 18h30, no Alfredo Jaconi, com a missão de melhorar seu desempenho longe de casa diante do melhor mandante da",
@@ -1189,7 +1530,7 @@
             "dataPublicacao": "2026-08-14T09:56:51",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-encara-melhor-mandante-da-serie-b-em-busca-de-reacao-fora-de-casa/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Imagens mostram PM e marido deixando filha na escola no horário em que ela diz ter sido &#8220;amarrada&#8221;",
@@ -1199,7 +1540,7 @@
             "dataPublicacao": "2026-08-13T19:26:54",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/imagens-mostram-pm-e-marido-deixando-filha-na-escola-no-horario-em-que-ela-diz-ter-sido-amarrada/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Clássico-Rei pelo segundo turnoda Série B será no domingo, 13 de setembro, às 18h30",
@@ -1209,7 +1550,7 @@
             "dataPublicacao": "2026-08-13T18:58:46",
             "link": "https://www.jangadeiro.com.br/futeboles/classico-rei-pelo-segundo-turnoda-serie-b-sera-no-domingo-13-de-setembro-as-18h30/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará busca manter 100% de aproveitamento no returno da Série B",
@@ -1219,7 +1560,7 @@
             "dataPublicacao": "2026-08-13T13:31:05",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-busca-manter-100-de-aproveitamento-no-returno-da-serie-b/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará terá 1.500 vagas de estacionamento na Arena Castelão contra o Cuiabá",
@@ -1229,7 +1570,7 @@
             "dataPublicacao": "2026-08-13T10:51:53",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-tera-1-500-vagas-de-estacionamento-na-arena-castelao-contra-o-cuiaba/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Fortaleza embarca para Caxias do Sul com 22 jogadores relacionados para duelo com Juventude",
@@ -1239,7 +1580,7 @@
             "dataPublicacao": "2026-08-13T08:53:19",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-embarca-para-caxias-do-sul-com-22-jogadores-relacionados-para-duelo-com-juventude/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "UFC abre 25 vagas para casamento comunitário gratuito em Fortaleza; veja como participar",
@@ -1249,7 +1590,7 @@
             "dataPublicacao": "2026-08-12T20:27:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/ufc-abre-25-vagas-para-casamento-comunitario-gratuito-em-fortaleza-veja-como-participar/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Passe Livre permite que crianças andem de ônibus de graça em Fortaleza; veja como solicitar",
@@ -1259,7 +1600,7 @@
             "dataPublicacao": "2026-08-12T20:25:31",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/passe-livre-permite-que-criancas-andem-de-onibus-de-graca-em-fortaleza-veja-como-solicitar/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará divulga parcial de ingressos para jogo contra o Cuiabá no Castelão",
@@ -1269,7 +1610,7 @@
             "dataPublicacao": "2026-08-12T18:54:23",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-divulga-parcial-de-ingressos-para-jogo-contra-o-cuiaba-no-castelao/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Lenny Lobato chega ao Ceará por empréstimo; veja detalhes do negócio",
@@ -1279,7 +1620,7 @@
             "dataPublicacao": "2026-08-12T14:28:17",
             "link": "https://www.jangadeiro.com.br/futeboles/lenny-lobato-chega-ao-ceara-por-emprestimo-veja-detalhes-do-negocio/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará acerta contratação de Lenny Lobato para sequência da temporada",
@@ -1289,7 +1630,7 @@
             "dataPublicacao": "2026-08-12T13:13:21",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-acerta-contratacao-de-lenny-lobato-para-sequencia-da-temporada/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Fechamento da 21ª rodada ajuda Ceará antes de sequência de confrontos diretos",
@@ -1299,7 +1640,7 @@
             "dataPublicacao": "2026-08-12T10:39:24",
             "link": "https://www.jangadeiro.com.br/futeboles/fechamento-da-21a-rodada-ajuda-ceara-antes-de-sequencia-de-confrontos-diretos/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Fuentes sofre lesão no joelho e está fora da temporada do Fortaleza",
@@ -1309,7 +1650,7 @@
             "dataPublicacao": "2026-08-12T08:29:06",
             "link": "https://www.jangadeiro.com.br/futeboles/fuentes-sofre-lesao-no-joelho-e-esta-fora-da-temporada-do-fortaleza/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Justiça mantém prisão de ex de Maria da Penha; ele foi preso após descumprir medidas protetivas de urgência",
@@ -1319,7 +1660,7 @@
             "dataPublicacao": "2026-08-11T19:30:23",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/justica-mantem-prisao-de-ex-de-maria-da-penha-ele-foi-preso-apos-descumprir-medidas-protetivas-de-urgencia/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará iniciou a venda de ingressos, com valores promocionais, para o confronto diante do Cuiabá",
@@ -1329,7 +1670,7 @@
             "dataPublicacao": "2026-08-11T16:13:29",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-iniciou-a-venda-de-ingressos-com-valores-promocionais-para-o-confronto-diante-do-cuiaba/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Em três partidas à frente do Fortaleza, Paulo Autuori já utilizou 22 jogadores",
@@ -1339,7 +1680,7 @@
             "dataPublicacao": "2026-08-11T16:03:43",
             "link": "https://www.jangadeiro.com.br/futeboles/em-tres-partidas-a-frente-do-fortaleza-paulo-autuori-ja-utilizou-22-jogadores/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Fortaleza terá sequência decisiva com três confrontos diretos na Série B",
@@ -1349,7 +1690,7 @@
             "dataPublicacao": "2026-08-11T11:54:17",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-tera-sequencia-decisiva-com-tres-confrontos-diretos-na-serie-b/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Clubes aprovam novas regras no futebol brasileiro",
@@ -1359,7 +1700,7 @@
             "dataPublicacao": "2026-08-11T09:21:43",
             "link": "https://www.jangadeiro.com.br/futeboles/clubes-aprovam-novas-regras-no-futebol-brasileiro/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "CBF confirma Ceará x Cuiabá às 16h na Arena Castelão",
@@ -1369,7 +1710,7 @@
             "dataPublicacao": "2026-08-10T17:46:22",
             "link": "https://www.jangadeiro.com.br/futeboles/cbf-confirma-ceara-x-cuiaba-as-16h-na-arena-castelao/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Zagueiro Thalisson está fora do restante da temporada 2026.",
@@ -1379,7 +1720,7 @@
             "dataPublicacao": "2026-08-10T17:38:56",
             "link": "https://www.jangadeiro.com.br/futeboles/zagueiro-thalisson-esta-fora-do-restante-da-temporada-2026/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ewil Murillo é reprovado nos exames médicos e Ceará desiste da contratação",
@@ -1389,7 +1730,7 @@
             "dataPublicacao": "2026-08-10T17:37:49",
             "link": "https://www.jangadeiro.com.br/futeboles/ewil-murillo-e-reprovado-nos-exames-medicos-e-ceara-desiste-da-contratacao/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Maílton é o jogador do Fortaleza com mais participações em gols na temporada",
@@ -1399,7 +1740,7 @@
             "dataPublicacao": "2026-08-10T17:13:45",
             "link": "https://www.jangadeiro.com.br/futeboles/mailton-e-o-jogador-do-fortaleza-com-mais-participacoes-em-gols-na-temporada/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Segurança Pública marca 1º debate entre Elmano de Freitas e Ciro Gomes",
@@ -1409,7 +1750,7 @@
             "dataPublicacao": "2026-08-10T15:18:41",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/seguranca-publica-marca-1o-debate-entre-elmano-de-freitas-e-ciro-gomes/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Ceará oficializa rescisão contratual com o meia Juan Alano, que está a caminho",
@@ -1419,7 +1760,7 @@
             "dataPublicacao": "2026-08-10T15:17:38",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-oficializa-rescisao-contratual-com-o-meia-juan-alano-que-esta-a-caminho/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Após transmissão de morte de jovem, Discord é investigado e pode ser tirado do ar no Brasil",
@@ -1429,7 +1770,7 @@
             "dataPublicacao": "2026-08-10T15:16:34",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/apos-transmissao-de-morte-de-jovem-discord-e-investigado-e-pode-ser-tirado-do-ar-no-brasil/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Fortaleza oficializa ida de Machuca para o Independiente-ARG",
@@ -1439,7 +1780,7 @@
             "dataPublicacao": "2026-08-10T14:31:48",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-oficializa-ida-de-machuca-para-o-independiente-arg/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Miritello chega à terceira expulsão pelo Fortaleza em menos de seis meses",
@@ -1449,7 +1790,7 @@
             "dataPublicacao": "2026-08-10T12:41:22",
             "link": "https://www.jangadeiro.com.br/futeboles/miritello-chega-a-terceira-expulsao-pelo-fortaleza-em-menos-de-seis-meses/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "Classificação Série B: Ceará vence, mas permanece em 16º e Fortaleza sobe para 3º",
@@ -1459,7 +1800,7 @@
             "dataPublicacao": "2026-08-10T11:42:55",
             "link": "https://www.jangadeiro.com.br/futeboles/16498/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         },
         {
             "titulo": "CBF dá sinal positivo, e Ceará deve antecipar jogo contra o Cuiabá",
@@ -1469,17 +1810,7 @@
             "dataPublicacao": "2026-08-10T10:08:31",
             "link": "https://www.jangadeiro.com.br/futeboles/cbf-da-sinal-positivo-e-ceara-deve-antecipar-jogo-contra-o-cuiaba/",
             "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
-        },
-        {
-            "titulo": "Fortaleza empata com o Cuiabá e ganha uma posição na Série B",
-            "subtitulo": "O Fortaleza empatou com o Cuiabá no último domingo (9) pela 21ª rodada da Série B do Campeonato Brasileiro, na Arena Pantanal, em Cuiabá. O Cuiabá abriu placar ainda no primeiro tempo, aos 9 minutos, com Jean Dias. O Tricolor teve dificuldades para t",
-            "categoria": null,
-            "autor": null,
-            "dataPublicacao": "2026-08-10T08:54:42",
-            "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-empata-com-o-cuiaba-e-ganha-uma-posicao-na-serie-b/",
-            "jornal": "jangadeiro",
-            "createdAt": "2026-08-14 09:59:49"
+            "createdAt": "2026-08-14 22:03:55"
         }
     ]
 }
