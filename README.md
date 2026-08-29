@@ -1,10 +1,16 @@
 # Backend do Rolê Fortal 🌊
 
-### Aplicativo idealizado para centralizar o que está ocorrendo em fortaleza.
+🌐 url pública: https://roles-fortal-frontend.cauaosp20.workers.dev/
 
-### Funções do backend
-- Webscrapping de notícias do Ceará
-- Registro dos artigos em JSON
-- Site que expõe o JSON com todos artigos capturados
+💻 Backend: `Python` • `Flask`
 
-* Lembrar de adicionar um Internal Service para o backend, quero que os fetchs e o arquivo json seja interno da rede Kubernetes, não exposto externamente.
+☸️ Infra: `Docker` • `Kubernetes`
+
+📡 Deploy: `Github Pages`
+
+## 📌 Próximas Funcionalidades
+
+-  Buscador por texto
+-  Ordenação das notícias
+-  Armazenar e organizar os conteúdos da semana
+-  pesquisa em linguagem natural
