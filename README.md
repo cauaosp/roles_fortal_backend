@@ -8,6 +8,11 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 
 🌐 url pública: https://roles-fortal-frontend.cauaosp20.workers.dev/
 
+## 🖧 Repositórios
+- Infra: https://github.com/cauaosp/roles_fortal_infra
+- Front: https://github.com/cauaosp/roles_fortal_frontend
+- Back: https://github.com/cauaosp/roles_fortal_backend
+
 ## 🏗️ Arquitetura
 
 💻 Backend: `Python` • `Flask`
