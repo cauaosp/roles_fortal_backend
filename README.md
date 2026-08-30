@@ -1,6 +1,6 @@
 # Backend do Rolê Fortal 🌊
 
-### Site para descobrir o que está acontecendo em Fortaleza centralizando as notícias.
+> Aqui é feito as raspagens dos jornais, depois o tratamento, processamento e armazenamento.
 
 Usei o projeto para treinar ETL, repositórios descentralizados e o uso de contêineres **Docker** e gerenciadores como **Kubernetes**, utilizando o **Minikube** para infraestrutura local.
 
@@ -17,9 +17,11 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 
 💻 Backend: `Python` • `Flask`
 
-☸️ Infra: `Docker` • `Kubernetes`
+🎨 Frontend: `Vite` • `TypeScript` • `React` 
 
-📡 Deploy: `Github Pages`
+☸️ Infra: `Docker` • `Kubernetes` • `Minikube`
+
+📡 Deploy: `Cloudfare Pages` • `Github Pages`
 
 ## 📌 Próximas Funcionalidades
 
@@ -27,3 +29,5 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 -  Ordenação das notícias
 -  Armazenar e organizar os conteúdos da semana
 -  pesquisa em linguagem natural
+
+###### ☸️ Desenvolvido por [Cauã Paiva](https://github.com/cauaosp)
