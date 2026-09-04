@@ -4,13 +4,13 @@ import json
 import re
 import time
 from datetime import datetime, timedelta, timezone
-from math import e
-from typing import Any, Dict
+from typing import Any
 
 import aiohttp
 import requests
 from bs4 import BeautifulSoup
 from utils.const import JORNAIS_MAP
+
 
 def creation_time():
     fuso_brasilia = timezone(timedelta(hours=-3))
@@ -513,7 +513,7 @@ async def fetch_jangadeiro(session, url, params, headers):
 
     return articles
 
-async def scraping_limitado(session, sem, nome: str, config: Dict[str, Any]):
+async def scraping_limitado(session, sem, nome: str, config: dict[str, Any]):
     async with sem:
         print(f"[{time.strftime('%H:%M:%S')}] 🔍 Iniciando: {nome}")
         try:
