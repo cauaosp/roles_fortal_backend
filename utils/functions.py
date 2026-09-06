@@ -3,18 +3,21 @@ import html
 import json
 import re
 import time
+from dataclasses import asdict
 from datetime import datetime, timedelta, timezone
+from operator import sub
 from typing import Any
 
 import aiohttp
 import requests
 from bs4 import BeautifulSoup
+from models.articles import Article
 from utils.const import JORNAIS_MAP
 
 
-def creation_time():
+def creation_time() -> datetime:
     fuso_brasilia = timezone(timedelta(hours=-3))
-    return datetime.now(fuso_brasilia).strftime("%Y-%m-%d %H:%M:%S")
+    return datetime.now(fuso_brasilia)
 
 def clear_html_string(texto):
     if not texto:
@@ -37,7 +40,7 @@ async def log_html(response, name):
     print("-*-"*20)
 
 async def fetch_opovo(session, url, params, headers):
-    opovo_articles = []
+    opovo_articles: list[Article] = []
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
@@ -52,27 +55,27 @@ async def fetch_opovo(session, url, params, headers):
             for item in data:
                 try:
                     opovo_articles.append(
-                        {
-                            "titulo": item["ds_matia_titlo"],
-                            "subtitulo": clear_html_string(item["ds_matia_chape"]),
-                            "categoria": item["ds_site"],
-                            "autor": item["nm_autor"],
-                            "dataPublicacao": item["dt_matia_publi"],
-                            "link": "https://www.opovo.com.br" + item["ds_matia_path"],
-                            "jornal": "opovo",
-                            "createdAt": createdAt,
-                        }
+                        Article(
+                            title=item["ds_matia_titlo"],
+                            subtitle=str(clear_html_string(item["ds_matia_chape"])),
+                            category=item["ds_site"],
+                            author=item["nm_autor"],
+                            publicationDate=item["dt_matia_publi"],
+                            link="https://www.opovo.com.br" + item["ds_matia_path"],
+                            journal="opovo",
+                            createdAt=createdAt,
+                        )
                     )
                 except KeyError:
                     print("Erro ao processar item:", item)
                     continue
-    except Exception as e:
-        print(f"Erro ao buscar opovo: {e}")
+    except KeyError as e:
+        print(f"Erro ao buscar item: {e}")
 
     return opovo_articles
 
 async def fetch_dn(session, url, headers):
-    dn_articles = []
+    dn_articles: list[Article] = []
 
     for i in range(3):
         url_paged = url + f"?page={i + 1}"
@@ -143,16 +146,16 @@ async def fetch_dn(session, url, headers):
                             )
 
                         dn_articles.append(
-                            {
-                                "titulo": titulo,
-                                "subtitulo": subtitulo,
-                                "categoria": categoria,
-                                "autor": autor,
-                                "dataPublicacao": data_publicacao,
-                                "link": link,
-                                "jornal": "diariodonordeste",
-                                "createdAt": creation_time(),
-                            }
+                            Article(
+                                title=titulo,
+                                subtitle=subtitulo,
+                                category=categoria,
+                                author=autor,
+                                publicationDate=data_publicacao,
+                                link=link,
+                                journal="diariodonordeste",
+                                createdAt=creation_time(),
+                            )
                         )
 
                     except Exception as e:
@@ -164,7 +167,7 @@ async def fetch_dn(session, url, headers):
     return dn_articles
 
 async def fetch_oestadoce(session, url, headers):
-    articles = []
+    articles: list[Article] = []
 
     try:
         created_at = creation_time()
@@ -239,32 +242,31 @@ async def fetch_oestadoce(session, url, headers):
                         )
 
                         articles.append(
-                            {
-                                "titulo": titulo,
-                                "subtitulo": subtitulo,
-                                "categoria": categoria,
-                                "autor": autor,
-                                "dataPublicacao": data_publicacao,
-                                "link": link,
-                                "jornal": "oestadoce",
-                                "createdAt": created_at,
-                            }
+                            Article(
+                                title=titulo,
+                                subtitle=subtitulo,
+                                category=categoria,
+                                author=autor,
+                                publicationDate=data_publicacao,
+                                link=link,
+                                journal="oestadoce",
+                                createdAt=created_at
+                            )
                         )
 
                         if len(articles) >= 30:
                             return articles
 
-                    except Exception as e:
+                    except KeyError as e:
                         print(e)
-                        continue
 
-    except Exception as e:
+    except KeyError as e:
         print(f"Erro no scraper do O Estado CE: {e}")
 
     return articles
 
 async def fetch_verdemares(session, url, headers):
-    articles = []
+    articles: list[Article] = []
 
     try:
         async with session.get(url, headers=headers) as response:
@@ -282,6 +284,10 @@ async def fetch_verdemares(session, url, headers):
                 title_tag = item.title
                 titulo = title_tag.get_text() if title_tag else None
 
+                if not titulo:
+                    print(f"⚠️ Pulando item sem título: {item}")
+                    continue
+
                 subtitle_tag = item.find("atom:subtitle")
                 subtitulo = clear_html_string(subtitle_tag.get_text())
 
@@ -295,15 +301,16 @@ async def fetch_verdemares(session, url, headers):
                 categoria = category_tag.get_text() if category_tag else None
 
                 articles.append(
-                    {
-                        "titulo": titulo,
-                        "subtitulo": subtitulo,
-                        "categoria": categoria,
-                        "dataPublicacao": data,
-                        "link": link,
-                        "jornal": "verdesmares",
-                        "createdAt": creation_time(),
-                    }
+                    Article(
+                        title=titulo,
+                        subtitle=subtitulo,
+                        category=categoria,
+                        author=None,
+                        publicationDate=data,
+                        link=link,
+                        journal="verdesmares",
+                        createdAt=creation_time(),
+                    )
                 )
     except KeyError as e:
         print(f"Erro no fetch de dados da verdemares {e}")
@@ -311,7 +318,7 @@ async def fetch_verdemares(session, url, headers):
     return articles
 
 async def fetch_cearaagora(session, url, params, headers):
-    articles = []
+    articles: list[Article] = []
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
@@ -331,26 +338,27 @@ async def fetch_cearaagora(session, url, params, headers):
                     subtitle = clear_html_string(item["excerpt"]["rendered"])
 
                     articles.append(
-                        {
-                            "titulo": item["title"]["rendered"],
-                            "subtitulo": subtitle,
-                            "categoria": None,
-                            "autor": None,
-                            "dataPublicacao": item["date"],
-                            "link": item["link"],
-                            "jornal": "cearaagora",
-                            "createdAt": createdAt,
-                        }
+                        Article(
+                            title=item["title"]["rendered"],
+                            subtitle=subtitle,
+                            category=None,
+                            author=None,
+                            publicationDate=item["date"],
+                            link=item["link"],
+                            journal="cearaagora",
+                            createdAt=createdAt,
+                        )
                     )
-                except KeyError:
+                except KeyError as e:
                     print(f"Erro no item: {item}")
+                    print(f"Erro: {e}")
     except requests.exceptions.RequestException as e:
         print(f"Erro no fetch do Ceará Agora: {e}")
 
     return articles
 
 async def fetch_tce(session, url, params, headers):
-    articles = []
+    articles: list[Article] = []
 
     try:
         for i in range(3):
@@ -376,6 +384,9 @@ async def fetch_tce(session, url, params, headers):
                     try:
                         titulo_tag = item.title
                         titulo = titulo_tag.get_text() if titulo_tag else None
+
+                        if not titulo:
+                            continue
 
                         sumario_tag = item.find("summary")
                         sumario = sumario_tag.get_text() if sumario_tag else None
@@ -414,27 +425,27 @@ async def fetch_tce(session, url, params, headers):
                         createdAt = creation_time()
 
                         articles.append(
-                            {
-                                "titulo": titulo,
-                                "subtitulo": subtitulo,
-                                "categoria": categoria,
-                                "autor": autor,
-                                "dataPublicacao": dataPublicacao,
-                                "link": link,
-                                "jornal": "tce",
-                                "createdAt": createdAt,
-                            }
+                            Article(
+                                title=titulo,
+                                subtitle=subtitulo,
+                                category=categoria,
+                                author=autor,
+                                publicationDate=dataPublicacao,
+                                link=link,
+                                journal="tce",
+                                createdAt=createdAt,
+                            )
                         )
-                    except Exception:
+                    except KeyError as e:
                         print(f"Erro no item: {item}")
-                        continue
+                        print(f"Erro: {e}")
     except KeyError as e:
         print(f"Erro no fetch dos dados do tce: {e}")
 
     return articles
 
 async def fetch_terra_da_luz(session, url, params, headers):
-    articles = []
+    articles: list[Article] = []
 
     async with session.get(url, params=params, headers=headers) as response:
         try:
@@ -455,16 +466,16 @@ async def fetch_terra_da_luz(session, url, params, headers):
                     )
 
                     articles.append(
-                        {
-                            "titulo": titulo,
-                            "subtitulo": subtitulo,
-                            "categoria": None,
-                            "autor": None,
-                            "dataPublicacao": item["date"],
-                            "link": item["link"],
-                            "jornal": "portalterradaluz",
-                            "createdAt": creation_time(),
-                        }
+                        Article(
+                            title=titulo,
+                            subtitle=subtitulo,
+                            category=None,
+                            author=None,
+                            publicationDate=item["date"],
+                            link=item["link"],
+                            journal="portalterradaluz",
+                            createdAt=creation_time(),
+                        )
                     )
                 except KeyError:
                     print(f"Erro no item: {item}")
@@ -474,7 +485,7 @@ async def fetch_terra_da_luz(session, url, params, headers):
     return articles
 
 async def fetch_jangadeiro(session, url, params, headers):
-    articles = []
+    articles: list[Article] = []
 
     try:
         async with session.get(
@@ -495,16 +506,16 @@ async def fetch_jangadeiro(session, url, params, headers):
                     subtitulo = clear_html_string(item["excerpt"]["rendered"])
 
                     articles.append(
-                        {
-                            "titulo": item["title"]["rendered"],
-                            "subtitulo": subtitulo,
-                            "categoria": None,
-                            "autor": None,
-                            "dataPublicacao": item["date"],
-                            "link": item["link"],
-                            "jornal": "jangadeiro",
-                            "createdAt": createdAt,
-                        }
+                        Article(
+                            title=item["title"]["rendered"],
+                            subtitle=subtitulo,
+                            category=None,
+                            author=None,
+                            publicationDate=item["date"],
+                            link=item["link"],
+                            journal="jangadeiro",
+                            createdAt=createdAt,
+                        )
                     )
                 except KeyError as e:
                     print("Erro no processamento do item: ", e)
@@ -513,8 +524,8 @@ async def fetch_jangadeiro(session, url, params, headers):
 
     return articles
 
-async def scraping_limitado(session, sem, nome: str, config: dict[str, Any]):
-    async with sem:
+async def scraping_limitado(session, semaphore, nome: str, config: dict[str, Any]):
+    async with semaphore:
         print(f"[{time.strftime('%H:%M:%S')}] 🔍 Iniciando: {nome}")
         try:
             func = config["func"]
@@ -534,7 +545,7 @@ async def scraping_limitado(session, sem, nome: str, config: dict[str, Any]):
             )
 
             return nome, resultado
-        except Exception as e:
+        except KeyError as e:
             print(f"[{time.strftime('%H:%M:%S')}] ❌ Erro em {nome}: {e}")
             import traceback
 
@@ -542,15 +553,15 @@ async def scraping_limitado(session, sem, nome: str, config: dict[str, Any]):
             return nome, []
 
 async def fetch_concurrent(limit: int = 4):
-    data = {nome: [] for nome in FUNCTIONS_MAP.keys()}
+    data = {nome: [] for nome in FUNCTIONS_MAP}
 
-    sem = asyncio.Semaphore(limit)
+    semaphore = asyncio.Semaphore(limit)
 
     inicio = time.perf_counter()
 
     async with aiohttp.ClientSession() as session:
         tarefas = [
-            scraping_limitado(session, sem, nome, config)
+            scraping_limitado(session, semaphore, nome, config)
             for nome, config in FUNCTIONS_MAP.items()
         ]
 
@@ -577,6 +588,17 @@ async def fetch_concurrent(limit: int = 4):
 
     return data
 
+def dataclass_asdict(data):
+    dataAsDict = {}
+    for journal_name, articles in data.items():
+        dataAsDict[journal_name] = []
+        for article in articles:
+            articleDict = asdict(article)
+            articleDict["createdAt"] = articleDict['createdAt'].isoformat()
+            dataAsDict[journal_name].append(articleDict)
+    return dataAsDict
+
+
 FUNCTIONS_MAP = {
     "O povo": {"func": fetch_opovo, "urlParameters": JORNAIS_MAP["opovo"]},
     "Diário do Nordeste": {
@@ -595,13 +617,13 @@ FUNCTIONS_MAP = {
         "func": fetch_cearaagora,
         "urlParameters": JORNAIS_MAP["cearaagora"],
     },
-    "Terra da Luz": {
-        "func": fetch_terra_da_luz,
-        "urlParameters": JORNAIS_MAP["terra_da_luz"],
-    },
     "Tribunal de Contas do Ceará": {
         "func": fetch_tce,
         "urlParameters": JORNAIS_MAP["tce"],
+    },
+    "Terra da Luz": {
+        "func": fetch_terra_da_luz,
+        "urlParameters": JORNAIS_MAP["terra_da_luz"],
     },
     "Jornal Jangadeiro": {
         "func": fetch_jangadeiro,
