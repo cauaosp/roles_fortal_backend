@@ -1,7 +1,7 @@
 import asyncio
 import json
 
-from utils.functions import dataclass_asdict, fetch_concurrent
+from utils.execution import dataclass_asdict, fetch_concurrent
 
 
 async def main():
