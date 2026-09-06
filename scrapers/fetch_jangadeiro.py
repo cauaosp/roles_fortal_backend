@@ -29,10 +29,10 @@ async def fetch_jangadeiro(session, url, params, headers):
                             subtitle=subtitulo,
                             category=None,
                             author=None,
-                            publicationDate=item["date"],
+                            publication_date=item["date"],
                             link=item["link"],
                             journal="jangadeiro",
-                            createdAt=createdAt,
+                            scraped_at=createdAt,
                         )
                     )
                 except KeyError as e:

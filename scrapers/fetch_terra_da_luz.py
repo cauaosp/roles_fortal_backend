@@ -30,10 +30,10 @@ async def fetch_terra_da_luz(session, url, params, headers):
                             subtitle=subtitulo,
                             category=None,
                             author=None,
-                            publicationDate=item["date"],
+                            publication_date=item["date"],
                             link=item["link"],
                             journal="portalterradaluz",
-                            createdAt=creation_time(),
+                            scraped_at=creation_time(),
                         )
                     )
                 except KeyError as e:

@@ -84,10 +84,10 @@ async def fetch_oestadoce(session, url, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publicationDate=data_publicacao,
+                                publication_date=data_publicacao,
                                 link=link,
                                 journal="oestadoce",
-                                createdAt=created_at
+                                scraped_at=created_at
                             )
                         )
 

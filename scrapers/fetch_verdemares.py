@@ -44,10 +44,10 @@ async def fetch_verdemares(session, url, headers):
                         subtitle=subtitulo,
                         category=categoria,
                         author=None,
-                        publicationDate=data,
+                        publication_date=data,
                         link=link,
                         journal="verdesmares",
-                        createdAt=creation_time(),
+                        scraped_at=creation_time(),
                     )
                 )
     except KeyError as e:

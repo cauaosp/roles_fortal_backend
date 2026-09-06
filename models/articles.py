@@ -8,10 +8,10 @@ class Article:
     subtitle: str | None
     category: list[str] | None
     author: str | None
-    publicationDate: str | None
+    publication_date: str | None
     link: str | None
     journal: str
-    createdAt: datetime
+    scraped_at: datetime
 
 
     def __post_init__(self):
@@ -21,7 +21,7 @@ class Article:
         self.subtitle = self.subtitle or ""
         self.category = self.category or []
         self.author = self.author or ""
-        self.publicationDate = self.publicationDate or ""
+        self.publication_date = self.publication_date or ""
         self.link = self.link or ""
 
         if not self.title:
@@ -30,8 +30,8 @@ class Article:
         if not self.journal:
             raise ValueError("Journal é obrigatório!")
 
-        if not isinstance(self.createdAt, datetime):
-            raise TypeError("createdAt deve ser datetime!")
+        if not isinstance(self.scraped_at, datetime):
+            raise TypeError("scraped_at deve ser datetime!")
 
     def to_dict(self) -> dict:
         """Converte para dicionário serializável"""
@@ -40,11 +40,11 @@ class Article:
             "subtitulo": self.subtitle,
             "categoria": self.category,
             "autor": self.author,
-            "dataPublicacao": self.publicationDate,
+            "dataPublicacao": self.publication_date,
             "link": self.link,
             "jornal": self.journal,
-            "createdAt": self.createdAt.isoformat() if isinstance(self.createdAt, datetime) else self.createdAt
+            "scraped_at": self.scraped_at.isoformat() if isinstance(self.scraped_at, datetime) else self.scraped_at
         }
 
     def __repr__(self):
-        return f"Artigo: \ntitle={self.title},\nsubtitle={self.subtitle},\ncategory={self.category},\nauthor={self.author},\npublication_date={self.publicationDate},\nlink={self.link},\njournal={self.journal},\ncreatedAt={self.createdAt}"
+        return f"Artigo: \ntitle={self.title},\nsubtitle={self.subtitle},\ncategory={self.category},\nauthor={self.author},\npublication_date={self.publication_date},\nlink={self.link},\njournal={self.journal},\nscraped_at={self.scraped_at}"

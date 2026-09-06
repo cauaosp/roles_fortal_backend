@@ -82,10 +82,10 @@ async def fetch_dn(session, url, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publicationDate=data_publicacao,
+                                publication_date=data_publicacao,
                                 link=link,
                                 journal="diariodonordeste",
-                                createdAt=creation_time(),
+                                scraped_at=creation_time(),
                             )
                         )
 

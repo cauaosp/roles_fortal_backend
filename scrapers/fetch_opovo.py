@@ -23,10 +23,10 @@ async def fetch_opovo(session, url, params, headers):
                             subtitle=str(clear_html_string(item["ds_matia_chape"])),
                             category=item["ds_site"],
                             author=item["nm_autor"],
-                            publicationDate=item["dt_matia_publi"],
+                            publication_date=item["dt_matia_publi"],
                             link="https://www.opovo.com.br" + item["ds_matia_path"],
                             journal="opovo",
-                            createdAt=createdAt,
+                            scraped_at=createdAt,
                         )
                     )
                 except KeyError:

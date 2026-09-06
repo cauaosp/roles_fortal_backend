@@ -78,10 +78,10 @@ async def fetch_tce(session, url, params, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publicationDate=dataPublicacao,
+                                publication_date=dataPublicacao,
                                 link=link,
                                 journal="tce",
-                                createdAt=createdAt,
+                                scraped_at=createdAt,
                             )
                         )
                     except KeyError as e:

@@ -29,10 +29,10 @@ async def fetch_cearaagora(session, url, params, headers):
                             subtitle=subtitle,
                             category=None,
                             author=None,
-                            publicationDate=item["date"],
+                            publication_date=item["date"],
                             link=item["link"],
                             journal="cearaagora",
-                            createdAt=createdAt,
+                            scraped_at=createdAt,
                         )
                     )
                 except KeyError as e:
