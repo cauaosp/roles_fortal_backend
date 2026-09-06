@@ -4,7 +4,7 @@ from dataclasses import asdict
 from typing import Any
 
 import aiohttp
-from services import (
+from scrapers import (
     fetch_cearaagora,
     fetch_dn,
     fetch_jangadeiro,

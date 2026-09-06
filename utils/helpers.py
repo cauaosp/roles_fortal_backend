@@ -12,7 +12,7 @@ def clear_html_string(texto):
         return None
 
     subtitulo = re.sub(r"<[^>]+>", "", texto)
-    return subtitulo[:250].strip()
+    return subtitulo[:1000].strip()
 
 async def log_html(response, name):
     print(f"\nLOG da função: {name}")
