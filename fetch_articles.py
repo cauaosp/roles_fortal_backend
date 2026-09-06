@@ -1,12 +1,13 @@
 import asyncio
 import json
 
-from utils.functions import fetch_concurrent
+from utils.execution import dataclass_asdict, fetch_concurrent
 
 
 async def main():
-    resultados = await fetch_concurrent(limit=4)  # 4 scraping simultâneos
-    return resultados
+    newspaperData = await fetch_concurrent(limit=4)  # 4 scraping simultâneos
+    resultAsDict = dataclass_asdict(newspaperData)
+    return resultAsDict
 
 
 if __name__ == "__main__":
