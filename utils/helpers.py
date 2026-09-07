@@ -28,7 +28,6 @@ async def log_html(response, name):
 
     print("-*-"*20)
 
-
 def normalize_publication_date(date_str: str | None) -> datetime | None:
     if not date_str:
         return None

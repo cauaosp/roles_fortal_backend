@@ -55,11 +55,8 @@ async def fetch_dn(session, url, headers):
 
                         dados_artigo = artigos_json.get(link, {})
 
-                        autor = (
-                            dados_artigo.get("author", {}).get("name")
-                            if dados_artigo.get("author")
-                            else None
-                        )
+                        autor_data = dados_artigo.get("author")
+                        autor = extract_author_name(autor_data)
 
                         data_publicacao = dados_artigo.get("datePublished")
                         publication_date_normalized = normalize_publication_date(data_publicacao)
@@ -97,3 +94,24 @@ async def fetch_dn(session, url, headers):
             print(f"Erro no fetch dos dados do Diario do Nordeste: {e}")
 
     return dn_articles
+
+
+def extract_author_name(author_data):
+    """Extrai o nome do autor, seja objeto ou lista"""
+    if not author_data:
+        return None
+
+    if isinstance(author_data, list):
+        if len(author_data) > 0:
+            first_author = author_data[0]
+            if isinstance(first_author, dict):
+                return first_author.get("name")
+        return None
+
+    if isinstance(author_data, dict):
+        return author_data.get("name")
+
+    if isinstance(author_data, str):
+        return author_data
+
+    return None
