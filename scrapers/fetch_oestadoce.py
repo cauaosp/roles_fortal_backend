@@ -1,6 +1,11 @@
 from bs4 import BeautifulSoup
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time, log_html
+from utils.helpers import (
+    clear_html_string,
+    creation_time,
+    log_html,
+    normalize_publication_date,
+)
 
 
 async def fetch_oestadoce(session, url, headers):
@@ -77,6 +82,7 @@ async def fetch_oestadoce(session, url, headers):
                             if data_tag
                             else None
                         )
+                        publication_date_normalized = normalize_publication_date(data_publicacao)
 
                         articles.append(
                             Article(
@@ -84,7 +90,7 @@ async def fetch_oestadoce(session, url, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publication_date=data_publicacao,
+                                publication_date=publication_date_normalized,
                                 link=link,
                                 journal="oestadoce",
                                 scraped_at=created_at

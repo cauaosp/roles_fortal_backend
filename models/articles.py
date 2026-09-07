@@ -8,7 +8,7 @@ class Article:
     subtitle: str | None
     category: list[str] | None
     author: str | None
-    publication_date: str | None
+    publication_date: datetime | None
     link: str | None
     journal: str
     scraped_at: datetime
@@ -16,12 +16,11 @@ class Article:
 
     def __post_init__(self):
         """Valida e normaliza os campos"""
-        # Converte None para valores padrão
         self.title = self.title or ""
         self.subtitle = self.subtitle or ""
         self.category = self.category or []
         self.author = self.author or ""
-        self.publication_date = self.publication_date or ""
+        self.publication_date = self.publication_date or None
         self.link = self.link or ""
 
         if not self.title:
@@ -40,7 +39,7 @@ class Article:
             "subtitulo": self.subtitle,
             "categoria": self.category,
             "autor": self.author,
-            "dataPublicacao": self.publication_date,
+            "dataPublicacao": self.publication_date.isoformat() if isinstance(self.publication_date, datetime) else self.publication_date,
             "link": self.link,
             "jornal": self.journal,
             "scraped_at": self.scraped_at.isoformat() if isinstance(self.scraped_at, datetime) else self.scraped_at

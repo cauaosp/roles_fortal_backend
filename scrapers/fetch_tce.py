@@ -2,7 +2,7 @@ import html
 
 from bs4 import BeautifulSoup
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_tce(session, url, params, headers):
@@ -27,6 +27,8 @@ async def fetch_tce(session, url, params, headers):
                 items = soup.find_all("entry")
 
                 subtitulo = None
+
+                createdAt = creation_time()
 
                 for item in items:
                     try:
@@ -66,11 +68,11 @@ async def fetch_tce(session, url, params, headers):
 
                         date_tag = item.published
                         dataPublicacao = date_tag.get_text() if date_tag else None
+                        publication_date_normalized = normalize_publication_date(dataPublicacao)
 
                         link_tag = item.id
                         link = link_tag.get_text() if link_tag else None
 
-                        createdAt = creation_time()
 
                         articles.append(
                             Article(
@@ -78,7 +80,7 @@ async def fetch_tce(session, url, params, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publication_date=dataPublicacao,
+                                publication_date=publication_date_normalized,
                                 link=link,
                                 journal="tce",
                                 scraped_at=createdAt,

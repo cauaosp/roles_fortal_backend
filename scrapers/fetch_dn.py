@@ -2,7 +2,7 @@ import json
 
 from bs4 import BeautifulSoup
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_dn(session, url, headers):
@@ -62,6 +62,7 @@ async def fetch_dn(session, url, headers):
                         )
 
                         data_publicacao = dados_artigo.get("datePublished")
+                        publication_date_normalized = normalize_publication_date(data_publicacao)
 
                         links = artigo.find_all("a", href=True)
 
@@ -82,7 +83,7 @@ async def fetch_dn(session, url, headers):
                                 subtitle=subtitulo,
                                 category=categoria,
                                 author=autor,
-                                publication_date=data_publicacao,
+                                publication_date=publication_date_normalized,
                                 link=link,
                                 journal="diariodonordeste",
                                 scraped_at=creation_time(),

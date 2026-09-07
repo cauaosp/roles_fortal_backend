@@ -1,5 +1,5 @@
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_jangadeiro(session, url, params, headers):
@@ -21,15 +21,16 @@ async def fetch_jangadeiro(session, url, params, headers):
 
             for item in data:
                 try:
-                    subtitulo = clear_html_string(item["excerpt"]["rendered"])
+                    publication_date_normalized = normalize_publication_date(item["date"])
+                    subtitle = clear_html_string(item["excerpt"]["rendered"])
 
                     articles.append(
                         Article(
                             title=item["title"]["rendered"],
-                            subtitle=subtitulo,
+                            subtitle=subtitle,
                             category=None,
                             author=None,
-                            publication_date=item["date"],
+                            publication_date=publication_date_normalized,
                             link=item["link"],
                             journal="jangadeiro",
                             scraped_at=createdAt,

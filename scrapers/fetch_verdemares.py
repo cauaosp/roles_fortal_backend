@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_verdemares(session, url, headers):
@@ -20,31 +20,32 @@ async def fetch_verdemares(session, url, headers):
 
             for item in items:
                 title_tag = item.title
-                titulo = title_tag.get_text() if title_tag else None
+                title = title_tag.get_text() if title_tag else None
 
-                if not titulo:
+                if not title:
                     print(f"⚠️ Pulando item sem título: {item}")
                     continue
 
                 subtitle_tag = item.find("atom:subtitle")
-                subtitulo = clear_html_string(subtitle_tag.get_text())
+                subtitle = clear_html_string(subtitle_tag.get_text())
 
                 link_tag = item.link
                 link = link_tag.get_text() if link_tag else None
 
                 pubdate_tag = item.pubDate
-                data = pubdate_tag.get_text() if pubdate_tag else None
+                date = pubdate_tag.get_text() if pubdate_tag else None
+                normalized_publication_date = normalize_publication_date(date)
 
                 category_tag = item.category
                 categoria = category_tag.get_text() if category_tag else None
 
                 articles.append(
                     Article(
-                        title=titulo,
-                        subtitle=subtitulo,
+                        title=title,
+                        subtitle=subtitle,
                         category=categoria,
                         author=None,
-                        publication_date=data,
+                        publication_date=normalized_publication_date,
                         link=link,
                         journal="verdesmares",
                         scraped_at=creation_time(),

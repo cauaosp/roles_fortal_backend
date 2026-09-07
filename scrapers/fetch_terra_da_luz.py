@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_terra_da_luz(session, url, params, headers):
@@ -10,30 +10,34 @@ async def fetch_terra_da_luz(session, url, params, headers):
         try:
             items = await response.json()
 
+            scraped_at = creation_time()
+
             for item in items:
                 try:
 
                     titulo_html = item["title"]["rendered"]
                     excerpt_html = item["excerpt"]["rendered"]
 
-                    titulo = BeautifulSoup(titulo_html, "html.parser").get_text(
+                    title = BeautifulSoup(titulo_html, "html.parser").get_text(
                         " ", strip=True
                     )
 
-                    subtitulo = clear_html_string(
+                    subtitle = clear_html_string(
                         BeautifulSoup(excerpt_html, "html.parser").get_text(" ", strip=True)
                     )
 
+                    publication_date = normalize_publication_date(item["date"])
+
                     articles.append(
                         Article(
-                            title=titulo,
-                            subtitle=subtitulo,
+                            title=title,
+                            subtitle=subtitle,
                             category=None,
                             author=None,
-                            publication_date=item["date"],
+                            publication_date=publication_date,
                             link=item["link"],
                             journal="portalterradaluz",
-                            scraped_at=creation_time(),
+                            scraped_at=scraped_at,
                         )
                     )
                 except KeyError as e:

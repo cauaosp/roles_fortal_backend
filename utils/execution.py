@@ -88,6 +88,7 @@ def dataclass_asdict(data):
         for article in articles:
             articleDict = asdict(article)
             articleDict["scraped_at"] = articleDict['scraped_at'].isoformat()
+            articleDict["publication_date"] = articleDict['publication_date'].isoformat() if articleDict['publication_date'] else None
             dataAsDict[journal_name].append(articleDict)
     return dataAsDict
 

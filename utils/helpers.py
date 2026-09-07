@@ -1,6 +1,7 @@
-
 import re
 from datetime import datetime, timedelta, timezone
+
+from dateutil import parser
 
 
 def creation_time() -> datetime:
@@ -26,3 +27,32 @@ async def log_html(response, name):
         print("3 - Primeiros 1000 caracteres: ", data[:1000])
 
     print("-*-"*20)
+
+
+def normalize_publication_date(date_str: str | None) -> datetime | None:
+    if not date_str:
+        return None
+
+    tz = timezone(timedelta(hours=-3))
+
+    try:
+        date = parser.parse(date_str)
+        if date.tzinfo is None:
+            date = date.replace(tzinfo=tz)
+
+        return date.astimezone(tz)
+    except (ValueError, TypeError, OverflowError):
+        for fmt in [
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%a, %d %b %Y %H:%M:%S %z",
+            "%Y-%m-%dT%H:%M:%S.%f%z",
+        ]:
+            try:
+                return datetime.strptime(date_str, fmt).astimezone(tz)
+            except ValueError:
+                continue
+
+        print(f"⚠️ Data não pôde ser parseada: {date_str}")
+        return None

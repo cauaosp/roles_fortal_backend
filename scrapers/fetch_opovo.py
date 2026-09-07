@@ -1,5 +1,5 @@
 from models.articles import Article
-from utils.helpers import clear_html_string, creation_time
+from utils.helpers import clear_html_string, creation_time, normalize_publication_date
 
 
 async def fetch_opovo(session, url, params, headers):
@@ -17,13 +17,14 @@ async def fetch_opovo(session, url, params, headers):
 
             for item in data:
                 try:
+                    publication_date_normalized = normalize_publication_date(item["dt_matia_publi"])
                     opovo_articles.append(
                         Article(
                             title=item["ds_matia_titlo"],
                             subtitle=str(clear_html_string(item["ds_matia_chape"])),
                             category=item["ds_site"],
                             author=item["nm_autor"],
-                            publication_date=item["dt_matia_publi"],
+                            publication_date=publication_date_normalized,
                             link="https://www.opovo.com.br" + item["ds_matia_path"],
                             journal="opovo",
                             scraped_at=createdAt,
