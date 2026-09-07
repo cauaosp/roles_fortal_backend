@@ -1,3 +1,4 @@
+# .github/workflows/fetch.yml
 name: Atualizar Artigos
 
 on:
@@ -13,7 +14,6 @@ jobs:
       contents: write
 
     steps:
-      # Checkout da MAIN (código fonte)
       - name: Checkout main
         uses: actions/checkout@v4
 
@@ -32,51 +32,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Testar O Estado CE
-        run: |
-          curl -I https://oestadoce.com.br/wp-json/wp/v2/posts
-
-      - name: Testar Ceará Agora 1
-        run: |
-          curl -v \
-          -H "User-Agent: Mozilla/5.0" \
-          https://cearaagora.com.br/wp-json/wp/v2/posts
-
-      - name: Testar Ceará Agora 2
-        run: |
-          curl -v \
-          -H "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-          https://cearaagora.com.br/wp-json/wp/v2/posts
-
       - name: Executar fetcher
         run: |
           python fetch_articles.py
 
-      # Clona a branch de produção em outra pasta
-      - name: Checkout release/production
-        uses: actions/checkout@v4
-        with:
-          ref: release/production
-          path: release
-
-      - name: Copiar JSON para release
+      - name: Verificar JSON gerado
         run: |
-          mkdir -p release/docs
-          cp data/artigos_ceara.json release/docs/artigos_ceara.json
+          ls -la data/
+          cat data/artigos_ceara.json | head -c 200
 
-      - name: Commit e Push
+      - name: Commit e Push (se houver mudanças)
         run: |
-          cd release
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/artigos_ceara.json
+          git add data/artigos_ceara.json
 
           if git diff --cached --quiet; then
             echo "Nenhuma alteração encontrada."
             exit 0
           fi
 
-          git commit -m "Atualiza artigos"
-          git push origin release/production
+          git commit -m "Atualiza artigos [skip ci]"
+          git push origin main
