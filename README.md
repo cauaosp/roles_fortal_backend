@@ -1,8 +1,8 @@
 # Backend do Rolê Fortal 🌊
 
-> Aqui é feito as raspagens dos jornais, depois o tratamento, processamento e armazenamento.
+> repositório responsável pelas raspagens dos jornais, processamento e armazenamento dos artigos.
 
-Usei o projeto para treinar ETL, repositórios descentralizados e o uso de contêineres **Docker** e gerenciadores como **Kubernetes**, utilizando o **Minikube** para infraestrutura local.
+Centralizador de notícias para se manter atualizado sobre cultura, lazer e acontecimentos de Fortaleza e Ceará com os principais jornais do estado.
 
 <img width="400" alt="role-fortal" src="https://github.com/user-attachments/assets/423b83d6-394b-4785-ad53-acbc1aa6f5e2" />
 
@@ -13,7 +13,7 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 - Front: https://github.com/cauaosp/roles_fortal_frontend
 - Back: https://github.com/cauaosp/roles_fortal_backend
 
-## 🏗️ Arquitetura
+## 🏗️ Stacks
 
 💻 Backend: `Python` • `Flask`
 
@@ -23,11 +23,23 @@ Usei o projeto para treinar ETL, repositórios descentralizados e o uso de cont�
 
 📡 Deploy: `Cloudfare Pages` • `Github Pages`
 
+## 📰 Jornais
+
+Os jornais foram escolhidos com base na regionalidade, preciso de notícias que sejam sobre fortal.
+
+- O POVO
+- DIÁRIO DO NORDESTE
+- O ESTADO CE
+- VERDES MARES
+- CEARÁ AGORA
+- TRIBUNAL DE CONTAS DO CEARÁ
+- TERRA DA LUZ
+- JORNAL JANGADEIRO
+
 ## 📌 Próximas Funcionalidades
 
 -  Buscador por texto
 -  Ordenação das notícias
--  Armazenar e organizar os conteúdos da semana
--  pesquisa em linguagem natural
+-  Algoritmo de categorização da notícia
 
 ###### ☸️ Desenvolvido por [Cauã Paiva](https://github.com/cauaosp)
