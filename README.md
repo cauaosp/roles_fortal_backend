@@ -4,7 +4,7 @@
 
 Usei o projeto para treinar ETL, repositórios descentralizados e o uso de contêineres **Docker** e gerenciadores como **Kubernetes**, utilizando o **Minikube** para infraestrutura local.
 
-<img width="400" alt="roles-fortal" src="https://github.com/user-attachments/assets/ff0710f8-2d89-49aa-b9bf-b74fa541250c" />
+<img width="400" alt="role-fortal" src="https://github.com/user-attachments/assets/423b83d6-394b-4785-ad53-acbc1aa6f5e2" />
 
 🌐 url pública: https://roles-fortal-frontend.cauaosp20.workers.dev/
 
