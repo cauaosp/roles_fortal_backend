@@ -35,6 +35,8 @@ jobs:
       - name: Executar fetcher
         run: |
           python fetch_articles.py
+        env:
+          DB_URL: ${{ secrets.DB_URL }}
 
       - name: Verificar JSON gerado
         run: |
