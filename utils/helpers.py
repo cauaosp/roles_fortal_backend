@@ -8,12 +8,14 @@ def creation_time() -> datetime:
     fuso_brasilia = timezone(timedelta(hours=-3))
     return datetime.now(fuso_brasilia)
 
+
 def clear_html_string(texto):
     if not texto:
         return None
 
     subtitulo = re.sub(r"<[^>]+>", "", texto)
     return subtitulo[:1000].strip()
+
 
 async def log_html(response, name):
     print(f"\nLOG da função: {name}")
@@ -26,7 +28,8 @@ async def log_html(response, name):
     if data:
         print("3 - Primeiros 1000 caracteres: ", data[:1000])
 
-    print("-*-"*20)
+    print("-*-" * 20)
+
 
 def normalize_publication_date(date_str: str | None) -> datetime | None:
     if not date_str:
@@ -55,3 +58,24 @@ def normalize_publication_date(date_str: str | None) -> datetime | None:
 
         print(f"⚠️ Data não pôde ser parseada: {date_str}")
         return None
+
+
+def parse_date(value):
+    """Converte string ISO para datetime."""
+    if not value:
+        return None
+    if isinstance(value, datetime):
+        return value
+    try:
+        return datetime.fromisoformat(value)
+    except (ValueError, TypeError):
+        return None
+
+
+def normalize_category(cat):
+    """Garante que category seja sempre uma lista."""
+    if not cat:
+        return []
+    if isinstance(cat, list):
+        return cat
+    return [cat]
