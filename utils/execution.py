@@ -1,9 +1,11 @@
 import asyncio
+import json
 import time
 from dataclasses import asdict
 from typing import Any
 
 import aiohttp
+from models.articles import Article
 from scrapers import (
     fetch_cearaagora,
     fetch_dn,
@@ -26,10 +28,15 @@ async def scraping_limitado(session, semaphore, nome: str, config: dict[str, Any
 
             if "params" in urlParameters and "headers" in urlParameters:
                 resultado = await func(
-                    session, urlParameters["url"], urlParameters.get("params", {}), urlParameters["headers"]
+                    session,
+                    urlParameters["url"],
+                    urlParameters.get("params", {}),
+                    urlParameters["headers"],
                 )
             elif "params" not in urlParameters and "headers" in urlParameters:
-                resultado = await func(session, urlParameters["url"], urlParameters["headers"])
+                resultado = await func(
+                    session, urlParameters["url"], urlParameters["headers"]
+                )
             else:
                 resultado = await func(session, urlParameters["url"])
 
@@ -44,6 +51,7 @@ async def scraping_limitado(session, semaphore, nome: str, config: dict[str, Any
 
             traceback.print_exc()
             return nome, []
+
 
 async def fetch_concurrent(limit: int = 4):
     data = {nome: [] for nome in FUNCTIONS_MAP}
@@ -81,16 +89,47 @@ async def fetch_concurrent(limit: int = 4):
 
     return data
 
+
 def dataclass_asdict(data):
     dataAsDict = {}
     for journal_name, articles in data.items():
         dataAsDict[journal_name] = []
         for article in articles:
             articleDict = asdict(article)
-            articleDict["scraped_at"] = articleDict['scraped_at'].isoformat()
-            articleDict["publication_date"] = articleDict['publication_date'].isoformat() if articleDict['publication_date'] else None
+            articleDict["scraped_at"] = articleDict["scraped_at"].isoformat()
+            articleDict["publication_date"] = (
+                articleDict["publication_date"].isoformat()
+                if articleDict["publication_date"]
+                else None
+            )
             dataAsDict[journal_name].append(articleDict)
     return dataAsDict
+
+
+def get_articles_scraped(data: dict) -> list[Article]:
+    articles = []
+
+    with open("data/artigos_ceara.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+        for line in data.values():
+            articles.extend(list(line))
+
+    return articles
+
+
+def dict_articles() -> dict:
+    dict_articles = {}
+    with open("data/artigos_ceara.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+        for k in data:
+            for v in data[k]:
+                dict_articles[v["link"]] = v
+
+    print(f"Salvo {len(dict_articles)} artigos!")
+
+    return dict_articles
 
 
 FUNCTIONS_MAP = {

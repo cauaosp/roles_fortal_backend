@@ -3,7 +3,6 @@ from models.articles import Article
 from utils.helpers import (
     clear_html_string,
     creation_time,
-    log_html,
     normalize_publication_date,
 )
 
@@ -13,8 +12,6 @@ async def fetch_cearaagora(session, url, params, headers):
 
     try:
         async with session.get(url, params=params, headers=headers) as response:
-            await log_html(response, "CEARÁ AGORA")
-
             if response.status != 200:
                 print(f"Erro HTTP {response.status} para o cearaagora")
                 print(f"Error: {response.text}")
@@ -26,7 +23,9 @@ async def fetch_cearaagora(session, url, params, headers):
 
             for item in data:
                 try:
-                    publication_date_normalized = normalize_publication_date(item["date"])
+                    publication_date_normalized = normalize_publication_date(
+                        item["date"]
+                    )
                     subtitle = clear_html_string(item["excerpt"]["rendered"])
 
                     articles.append(
