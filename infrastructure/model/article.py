@@ -1,19 +1,11 @@
-from datetime import datetime
-
 from infrastructure.database import Base
-from sqlalchemy import (
-    JSON,
-    BigInteger,
-    Column,
-    DateTime,
-    String,
-)
+from sqlalchemy import JSON, BigInteger, Column, DateTime, Identity, String, func
 
 
 class Article(Base):
     __tablename__ = "articles"
 
-    id = Column(BigInteger, primary_key=True, autoincrement=True)
+    id = Column(BigInteger, Identity(), primary_key=True)
     title = Column(String, nullable=False)
     subtitle = Column(String)
     author = Column(String)
@@ -22,4 +14,6 @@ class Article(Base):
     journal = Column(String, nullable=False)
     category = Column(JSON)
     scraped_at = Column(DateTime)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(
+        DateTime(timezone=True), nullable=False, server_default=func.now()
+    )
