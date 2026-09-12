@@ -8,6 +8,8 @@ Centralizador de notícias para se manter atualizado sobre cultura, lazer e acon
 
 🌐 url pública: https://roles-fortal-frontend.cauaosp20.workers.dev/
 
+---
+
 ## 🖧 Repositórios
 - Infra: https://github.com/cauaosp/roles_fortal_infra
 - Front: https://github.com/cauaosp/roles_fortal_frontend
@@ -15,13 +17,25 @@ Centralizador de notícias para se manter atualizado sobre cultura, lazer e acon
 
 ## 🏗️ Stacks
 
-💻 Backend: `Python` • `Flask`
+💻 Backend: `Python` • `Flask` • `SQLAlchemy`
 
-🎨 Frontend: `Vite` • `TypeScript` • `React` 
+🎨 Frontend: `Vite` • `TypeScript` • `React`
+
+🗄️ Banco de Dados: `Supabase` • `PostgreSQL`
 
 ☸️ Infra: `Docker` • `Kubernetes` • `Minikube`
 
-📡 Deploy: `Cloudfare Pages` • `Github Pages`
+📡 Deploy: `Cloudflare Pages` • `Github Pages`
+
+## 🔄 Fluxo de Dados
+
+1) ⏰ GitHub Actions (cron a cada 12h)
+2) 🕷️ Scrapers (Python + aiohttp)
+3) 🧹 Normalização (dataclass + helpers)
+4) 🔗 SQLAlchemy ORM (inserção no banco)
+5) 🗄️ Supabase (PostgreSQL)
+6) 📡 Data API (REST)
+7) 🎨 Frontend (React + supabase-js)
 
 ## 📰 Jornais
 
@@ -41,5 +55,6 @@ Os jornais foram escolhidos com base na regionalidade, preciso de notícias que 
 -  Buscador por texto
 -  Ordenação das notícias
 -  Algoritmo de categorização da notícia
+-  Adicionar banco de cacheamento
 
 ###### ☸️ Desenvolvido por [Cauã Paiva](https://github.com/cauaosp)
