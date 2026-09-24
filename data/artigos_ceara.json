@@ -1,6 +1,36 @@
 {
     "O povo": [
         {
+            "title": "CineBH: Conceição Evaristo estreia na atuação com filme premiado",
+            "subtitle": "Prestes a completar 80 anos, Conceição Evaristo estrelou o longa \"Se eu fosse vivo… Vivia\", premiado no Festival de Brasília e apresentado no CineBH",
+            "category": "Cinema",
+            "author": "Isabel Costa",
+            "publication_date": "2026-09-24T10:32:00-03:00",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/24/cinebh-conceicao-evaristo-estreia-na-atuacao-com-filme-premiado.html",
+            "journal": "opovo",
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
+        },
+        {
+            "title": "Cinema em Fortaleza: Filmes em cartaz de hoje,  24 de setembro(24/09)",
+            "subtitle": "Veja programação - com estreia, horários de hoje, quinta, 24 de setembro(24/09), dos cinemas de Fortaleza.",
+            "category": "Cinema",
+            "author": "Ingresso.com",
+            "publication_date": "2026-09-24T09:00:20-03:00",
+            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/24/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-24-de-setembro-24-09.html",
+            "journal": "opovo",
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
+        },
+        {
+            "title": "Sessão da Tarde hoje: que filme passa na TV Globo quinta, 24/09/2026",
+            "subtitle": "Um filme de drama vai passar na Sessão da Tarde hoje, quinta,24 de setembro de 2026, (24/09/2026) às 15h35 (horário de Brasília), na TV Globo",
+            "category": "Vida&Arte",
+            "author": "Carolina Passos",
+            "publication_date": "2026-09-24T00:15:00-03:00",
+            "link": "https://www.opovo.com.br/vidaearte/2026/09/24/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-quinta-24-09-2026.html",
+            "journal": "opovo",
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
+        },
+        {
             "title": "Homem encontra tesouro de moedas romanas na Alemanha",
             "subtitle": "None",
             "category": "Vida&Arte",
@@ -8,7 +38,7 @@
             "publication_date": "2026-09-24T00:00:22-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/24/homem-encontra-tesouro-de-moedas-romanas-na-alemanha.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Filme ‘A Hipótese do Amor’ ganha exibição em bar de Fortaleza",
@@ -18,7 +48,7 @@
             "publication_date": "2026-09-23T15:44:08-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/23/filme-a-hipotese-do-amor-ganha-exibicao-em-bar-de-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Dia do Sorvete: conheça dez sorveterias em Fortaleza",
@@ -28,7 +58,7 @@
             "publication_date": "2026-09-23T14:18:42-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/23/dia-do-sorvete-conheca-dez-sorveterias-em-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Dia do Sorvete: Fortaleza celebra data com promoções em diversas sorveterias",
@@ -38,7 +68,7 @@
             "publication_date": "2026-09-23T11:17:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/23/hoje-e-dia-do-sorvete-veja-ofertas-em-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Cinema em Fortaleza: Filmes em cartaz de hoje,  23 de setembro(23/09)",
@@ -48,7 +78,7 @@
             "publication_date": "2026-09-23T09:00:21-03:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/23/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-23-de-setembro-23-09.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Sessão da Tarde hoje: que filme passa na TV Globo quarta, 23/09/2026",
@@ -58,7 +88,7 @@
             "publication_date": "2026-09-23T00:15:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/23/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-quarta-23-09-2026.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Irmão da Princesa Diana expõe bastidores da família real",
@@ -68,7 +98,7 @@
             "publication_date": "2026-09-23T00:00:12-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/23/irmao-da-princesa-diana-expoe-bastidores-da-familia-real.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Fortaleza recebe espetáculo lírico gratuito em outubro",
@@ -78,7 +108,7 @@
             "publication_date": "2026-09-22T19:51:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/fortaleza-recebe-espetaculo-lirico-gratuito-em-outubro.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Maria Bethânia é tema de espetáculo e bate-papo em Fortaleza",
@@ -88,7 +118,7 @@
             "publication_date": "2026-09-22T19:33:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/09/22/maria-bethania-e-tema-de-espetaculo-e-bate-papo-em-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Marcus Dias apresenta novo livro em show gratuito em Fortaleza",
@@ -98,7 +128,7 @@
             "publication_date": "2026-09-22T19:31:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/09/22/marcus-dias-apresenta-novo-livro-em-show-gratuito-em-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Bonde das Maravilhas apresenta novo show gratuito em Fortaleza",
@@ -108,7 +138,7 @@
             "publication_date": "2026-09-22T19:30:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/agenda/2026/09/22/bonde-das-maravilhas-apresenta-novo-show-gratuito-em-fortaleza.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Morre Rick, da dupla com Renner; relembre os principais sucessos",
@@ -118,7 +148,7 @@
             "publication_date": "2026-09-22T12:44:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/morre-rick-da-dupla-com-renner-relembre-os-principais-sucessos.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Rick, da dupla com Renner, morre após queda de helicóptero",
@@ -128,7 +158,7 @@
             "publication_date": "2026-09-22T12:40:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/morre-o-cantor-rick-da-dupla-com-renner-apos-queda-de-helicoptero.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Morre Zuenir Ventura, referência do jornalismo, aos 95 anos",
@@ -138,7 +168,7 @@
             "publication_date": "2026-09-22T11:40:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/morre-zuenir-ventura-referencia-do-jornalismo-aos-95-anos.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Helicóptero onde viajavam Rick e mais quatro pessoas é encontrado; não há sobreviventes",
@@ -148,7 +178,7 @@
             "publication_date": "2026-09-22T10:21:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/rick-foi-encontrado-acompanhe-buscas-apos-helicoptero-sumir.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Cinema em Fortaleza: Filmes em cartaz de hoje,  22 de setembro(22/09)",
@@ -158,7 +188,7 @@
             "publication_date": "2026-09-22T09:00:16-03:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/22/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-22-de-setembro-22-09.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Festival de cinema fantástico é realizado no Cineteatro São Luiz",
@@ -168,7 +198,7 @@
             "publication_date": "2026-09-22T09:00:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/festival-de-cinema-fantastico-e-realizado-no-cineteatro-sao-luiz.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Sessão da Tarde hoje: que filme passa na TV Globo terça, 22/09/2026",
@@ -178,7 +208,7 @@
             "publication_date": "2026-09-22T00:15:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-terca-22-09-2026.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Maria Madalena: de pecadora a símbolo de autonomia feminina",
@@ -188,7 +218,7 @@
             "publication_date": "2026-09-22T00:04:56-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/22/maria-madalena-de-pecadora-a-simbolo-de-autonomia-feminina.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Ministra da Cultura defende regulação das plataformas de streaming",
@@ -198,7 +228,7 @@
             "publication_date": "2026-09-21T20:00:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/21/ministra-da-cultura-defende-regulacao-das-plataformas-de-streaming.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Rick, da dupla com Renner, é procurado após helicóptero sumir",
@@ -208,7 +238,7 @@
             "publication_date": "2026-09-21T19:51:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/21/rick-da-dupla-com-renner-e-procurado-apos-helicoptero-sumir.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Modelo Presley Gerber, filho de Cindy Crawford, morre aos 27 anos",
@@ -218,7 +248,7 @@
             "publication_date": "2026-09-21T16:52:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/21/modelo-presley-gerber-filho-de-cindy-crawford-morre-aos-27-anos.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Cinema em Fortaleza: Filmes em cartaz de hoje,  21 de setembro(21/09)",
@@ -228,7 +258,7 @@
             "publication_date": "2026-09-21T09:00:15-03:00",
             "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/21/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-21-de-setembro-21-09.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Sessão da Tarde hoje: que filme passa na TV Globo segunda, 21/09/2026",
@@ -238,7 +268,7 @@
             "publication_date": "2026-09-21T00:15:00-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/21/sessao-da-tarde-hoje-que-filme-passa-na-tv-globo-segunda-21-09-2026.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Thiago Lacerda e Vanessa Lóes se separam após 25 anos juntos",
@@ -248,7 +278,7 @@
             "publication_date": "2026-09-20T17:26:53-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/20/thiago-lacerda-confirma-fim-da-uniao-com-vanessa-loes.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Pabllo Vittar no Fortnite: artista ganha pacote de itens",
@@ -258,7 +288,7 @@
             "publication_date": "2026-09-20T17:10:48-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/20/pabllo-vittar-no-fortnite-artista-ganha-pacote-de-itens.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         },
         {
             "title": "Demi Lovato se declara ao Brasil após turnê: \"Amo brigadeiro\"",
@@ -268,40 +298,40 @@
             "publication_date": "2026-09-20T16:18:13-03:00",
             "link": "https://www.opovo.com.br/vidaearte/2026/09/20/demi-lovato-se-declara-ao-brasil-apos-turne-amo-brigadeiro.html",
             "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
-        },
-        {
-            "title": "Fiuk anuncia volta da banda Hori em show para 67 pessoas, diz site",
-            "subtitle": "Cantor Fiuk fez show para 67 pessoas em Campinas, anunciou pausa na carreira solo e disse que se sente \"em casa\" como vocalista da banda Hori, segundo site",
-            "category": "Vida&Arte",
-            "author": "Izabele Vasconcelos",
-            "publication_date": "2026-09-20T14:00:07-03:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/09/20/fiuk-anuncia-volta-da-banda-hori-apos-fim-da-carreira-solo.html",
-            "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
-        },
-        {
-            "title": "Campeonato de batalha de rima é realizado em Juazeiro do Norte",
-            "subtitle": "Competição estadual de batalha de rima ocorre em Juazeiro do Norte em setembro; confira MCs classificados e premiação",
-            "category": "Vida&Arte",
-            "author": "Júlia Vasconcelos",
-            "publication_date": "2026-09-20T12:42:47-03:00",
-            "link": "https://www.opovo.com.br/vidaearte/2026/09/20/campeonato-de-batalha-de-rima-e-realizado-em-juazeiro-do-norte.html",
-            "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
-        },
-        {
-            "title": "Cinema em Fortaleza: Filmes em cartaz de hoje,  20 de setembro(20/09)",
-            "subtitle": "Veja programação - com estreia, horários de hoje, domingo, 20 de setembro(20/09), dos cinemas de Fortaleza.",
-            "category": "Cinema",
-            "author": "Ingresso.com",
-            "publication_date": "2026-09-20T09:00:14-03:00",
-            "link": "https://www.opovo.com.br/vidaearte/cinema/2026/09/20/cinema-em-fortaleza-filmes-em-cartaz-de-hoje-20-de-setembro-20-09.html",
-            "journal": "opovo",
-            "scraped_at": "2026-09-24T00:05:47.300546-03:00"
+            "scraped_at": "2026-09-24T13:28:36.638159-03:00"
         }
     ],
     "Diário do Nordeste": [
+        {
+            "title": "Adolescente de 13 anos morre atropelada por ônibus ao voltar da escola em São Gonçalo do Amarante",
+            "subtitle": "Foi declarado luto oficial e suspensão das aulas no município.",
+            "category": "Ceará",
+            "author": "Redação",
+            "publication_date": "2026-09-24T10:47:25-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/adolescente-de-13-anos-morre-atropelada-por-onibus-ao-voltar-da-escola-em-sao-goncalo-do-amarante-1.3793779",
+            "journal": "diariodonordeste",
+            "scraped_at": "2026-09-24T13:28:34.363691-03:00"
+        },
+        {
+            "title": "FM 93 celebra 50 anos com mais de 1 milhão de ouvintes na Grande Fortaleza",
+            "subtitle": "Rádio celebra trajetória marcada pela proximidade com diferentes gerações de ouvintes",
+            "category": "Ceará",
+            "author": "Agência de Conteúdo DN",
+            "publication_date": "2026-09-24T07:00:00-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/fm-93-celebra-50-anos-com-mais-de-1-milhao-de-ouvintes-na-grande-fortaleza-1.3793681",
+            "journal": "diariodonordeste",
+            "scraped_at": "2026-09-24T13:28:34.363863-03:00"
+        },
+        {
+            "title": "Fortaleza obriga academias com 500 alunos ou mais a terem desfibrilador e profissional capacitado",
+            "subtitle": "Descumprimento da lei pode gerar multa de até R$10 mil conforme gravidade da infração e o porte do estabelecimento.",
+            "category": "Ceará",
+            "author": "Clarice Nascimento",
+            "publication_date": "2026-09-24T06:00:00-03:00",
+            "link": "https://diariodonordeste.verdesmares.com.br/ceara/fortaleza-obriga-academias-com-500-alunos-ou-mais-a-terem-desfibrilador-e-profissional-capacitado-1.3793526",
+            "journal": "diariodonordeste",
+            "scraped_at": "2026-09-24T13:28:34.364039-03:00"
+        },
         {
             "title": "Fogo em fritadeira provoca incêndio em lanchonete no Conjunto Ceará",
             "subtitle": "Chamas atingiram parte da cozinha do estabelecimento.",
@@ -310,7 +340,7 @@
             "publication_date": "2026-09-23T15:35:00-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/fogo-em-fritadeira-provoca-incendio-em-lanchonete-no-conjunto-ceara-1.3793528",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.141917-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364155-03:00"
         },
         {
             "title": "Quatro regiões hidrográficas do Ceará têm situação crítica de escassez declarada",
@@ -320,7 +350,7 @@
             "publication_date": "2026-09-23T14:00:00-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/quatro-regioes-hidrograficas-do-ceara-tem-situacao-critica-de-escassez-declarada-1.3792535",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142141-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364270-03:00"
         },
         {
             "title": "Retroescavadeira usada em aterramento irregular é apreendida às margens do Rio Cocó",
@@ -330,7 +360,7 @@
             "publication_date": "2026-09-22T19:12:00-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/retroescavadeira-usada-em-aterramento-irregular-e-apreendida-as-margens-do-rio-coco-1.3793293",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142312-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364381-03:00"
         },
         {
             "title": "Usuários do SUS em Fortaleza poderão confirmar consultas e exames por aplicativo; saiba como",
@@ -340,7 +370,7 @@
             "publication_date": "2026-09-22T19:05:28-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/usuarios-do-sus-em-fortaleza-poderao-confirmar-consultas-e-exames-por-aplicativo-saiba-como-1.3793298",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142462-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364494-03:00"
         },
         {
             "title": "Incêndio atinge estabelecimento comercial próximo à Pontes Vieira, em Fortaleza",
@@ -350,7 +380,7 @@
             "publication_date": "2026-09-22T17:58:00-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/incendio-atinge-estabelecimento-comercial-proximo-a-pontes-vieira-em-fortaleza-1.3793330",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142613-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364599-03:00"
         },
         {
             "title": "Baleia-jubarte é enterrada após operação com maquinário pesado em Icapuí",
@@ -360,7 +390,7 @@
             "publication_date": "2026-09-22T13:55:54-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/baleia-jubarte-e-enterrada-apos-operacao-com-maquinario-pesado-em-icapui-1.3793179",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142752-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364703-03:00"
         },
         {
             "title": "Artistas cearenses doam obras para ajudar tratamento de criança com doença que afeta os olhos",
@@ -370,7 +400,7 @@
             "publication_date": "2026-09-22T09:00:13-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/artistas-cearenses-doam-obras-para-ajudar-tratamento-de-crianca-com-doenca-que-afeta-os-olhos-1.3792951",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.142889-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364805-03:00"
         },
         {
             "title": "Por dentro do casarão da Imperador: dossiê revela danos e o que ainda resiste no imóvel histórico",
@@ -380,37 +410,37 @@
             "publication_date": "2026-09-22T06:00:05-03:00",
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/por-dentro-do-casarao-da-imperador-dossie-revela-danos-e-o-que-ainda-resiste-no-imovel-historico-1.3792202",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143025-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364919-03:00"
         },
         {
             "title": "Aviação solidária doa horas de voos em aeronaves privadas para transportar órgãos",
             "subtitle": "",
             "category": "Ceará",
-            "author": "Thatiany Nascimento",
-            "publication_date": "2026-09-22T06:00:00-03:00",
+            "author": "",
+            "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/aviacao-solidaria-doa-horas-de-voos-em-aeronaves-privadas-para-transportar-orgaos-1.3785329",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143201-03:00"
+            "scraped_at": "2026-09-24T13:28:34.364968-03:00"
         },
         {
             "title": "Padre Willame Sales, da Paróquia Nossa Senhora de Fátima, morre aos 64 anos",
             "subtitle": "O falecimento foi comunicado pelas redes sociais da igreja nesta segunda-feira (21).",
             "category": "Ceará",
-            "author": "Redação",
-            "publication_date": "2026-09-21T20:04:00-03:00",
+            "author": "",
+            "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/padre-willame-sales-da-paroquia-nossa-senhora-de-fatima-morre-aos-64-anos-1.3793094",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143340-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365012-03:00"
         },
         {
             "title": "Mártir cearense Menina Benigna dá nome a fóssil de 120 milhões de anos",
             "subtitle": "A partir da nova nomenclatura do fóssil, o nome de Benigna passa a integrar também o registro científico internacional.",
             "category": "Ceará",
-            "author": "Raísa Azevedo",
-            "publication_date": "2026-09-21T13:43:00-03:00",
+            "author": "",
+            "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/martir-cearense-menina-benigna-da-nome-a-fossil-de-120-milhoes-de-anos-1.3792870",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143477-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365055-03:00"
         },
         {
             "title": "Morre Pró-Reitor de Administração da Uece, Fernando Santos, aos 61 anos",
@@ -420,7 +450,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/morre-pro-reitor-de-administracao-da-uece-fernando-santos-aos-61-anos-1.3792830",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143540-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365094-03:00"
         },
         {
             "title": "Socorristas irão usar bicicletas elétricas para emergências na Beira-Mar de Fortaleza",
@@ -430,7 +460,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/socorristas-irao-usar-bicicletas-eletricas-para-emergencias-na-beira-mar-de-fortaleza-1.3791653",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143601-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365133-03:00"
         },
         {
             "title": "Luxo e tradição da família cearense que morava no casarão da Avenida Imperador",
@@ -440,7 +470,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/luxo-e-tradicao-da-familia-cearense-que-morava-no-casarao-da-avenida-imperador-1.3791916",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143659-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365178-03:00"
         },
         {
             "title": "Baleia-jubarte é retirada da Praia da Redonda, mas enterro ainda não foi concluído em Icapuí",
@@ -450,7 +480,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/baleia-jubarte-e-retirada-da-praia-da-redonda-mas-enterro-ainda-nao-foi-concluido-em-icapui-1.3792752",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143716-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365216-03:00"
         },
         {
             "title": "Estudante de Quixeramobim é selecionado entre 200 candidatos para intercâmbio em Harvard",
@@ -460,7 +490,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/estudante-de-quixeramobim-e-selecionado-entre-200-candidatos-para-intercambio-em-harvard-1.3792460",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143772-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365257-03:00"
         },
         {
             "title": "‘Crânio apertando meu cérebro’: como é viver com crises de enxaqueca que mudam a rotina",
@@ -470,7 +500,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/cranio-apertando-meu-cerebro-como-e-viver-com-crises-de-enxaqueca-que-mudam-a-rotina-1.3790809",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143830-03:00"
+            "scraped_at": "2026-09-24T13:28:34.365296-03:00"
         },
         {
             "title": "Cearense com câncer de mama é surpreendida por gesto de namorado ao raspar cabelo",
@@ -480,7 +510,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/cearense-com-cancer-de-mama-e-surpreendida-por-gesto-de-namorado-ao-raspar-cabelo-1.3792663",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143888-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718631-03:00"
         },
         {
             "title": "Nova lei obriga academias de Fortaleza a denunciar assédio e prevê punições a estabelecimentos",
@@ -490,7 +520,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/nova-lei-obriga-academias-de-fortaleza-a-denunciar-assedio-e-preve-punicoes-a-estabelecimentos-1.3792657",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.143945-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718685-03:00"
         },
         {
             "title": "Baleia-jubarte morta segue encalhada no Ceará; retirada exige cuidados ambientais",
@@ -500,7 +530,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/baleia-jubarte-morta-segue-encalhada-no-ceara-retirada-exige-cuidados-ambientais-1.3792637",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.144002-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718729-03:00"
         },
         {
             "title": "Incêndio atinge terreno baldio próximo à sucatas e lojas de autopeças em Fortaleza",
@@ -510,7 +540,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/incendio-atinge-terreno-baldio-proximo-a-sucatas-e-lojas-de-autopecas-em-fortaleza-1.3792628",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305431-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718771-03:00"
         },
         {
             "title": "Etufor lança novo cartão de gratuidade para PcD; saiba como solicitar",
@@ -520,7 +550,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/etufor-lanca-novo-cartao-de-gratuidade-para-pcd-saiba-como-solicitar-1.3792598",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305510-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718813-03:00"
         },
         {
             "title": "Sítio arqueológico de Jaguaribara é autorizado pelo Iphan para pesquisa e pode virar parque",
@@ -530,7 +560,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/sitio-arqueologico-de-jaguaribara-e-autorizado-pelo-iphan-para-pesquisa-e-pode-virar-parque-1.3791558",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305574-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718855-03:00"
         },
         {
             "title": "Decon autua 22 lojas de Fortaleza por venda de produtos vencidos e falta de alvará",
@@ -540,7 +570,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/decon-autua-22-lojas-de-fortaleza-por-venda-de-produtos-vencidos-e-falta-de-alvara-1.3792550",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305633-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718906-03:00"
         },
         {
             "title": "Retirada da Sagrada Família previa estrutura de apoio que não foi usada, diz ex-coordenador",
@@ -550,7 +580,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/retirada-da-sagrada-familia-previa-estrutura-de-apoio-que-nao-foi-usada-diz-ex-coordenador-1.3792427",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305692-03:00"
+            "scraped_at": "2026-09-24T13:28:34.718956-03:00"
         },
         {
             "title": "Pescador é flagrado dançando sobre baleia-jubarte morta em Icapuí; ONG alerta para riscos",
@@ -560,7 +590,7 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/pescador-e-flagrado-dancando-sobre-baleia-jubarte-morta-em-icapui-ong-alerta-para-riscos-1.3792519",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305752-03:00"
+            "scraped_at": "2026-09-24T13:28:34.719000-03:00"
         },
         {
             "title": "Aluno da Casa de Cultura da UFC denuncia transfobia após ser chamado pelo 'nome morto'",
@@ -570,41 +600,101 @@
             "publication_date": null,
             "link": "https://diariodonordeste.verdesmares.com.br/ceara/aluno-da-casa-de-cultura-da-ufc-denuncia-transfobia-apos-ser-chamado-pelo-nome-morto-1.3792453",
             "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305810-03:00"
-        },
-        {
-            "title": "Veja o que abre e fecha no Dia do Comerciário nesta segunda (21), em Fortaleza",
-            "subtitle": "Data foi definida pelo Sindicato dos Comerciários.",
-            "category": "Ceará",
-            "author": "",
-            "publication_date": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/veja-o-que-abre-e-fecha-no-dia-do-comerciario-nesta-segunda-21-em-fortaleza-1.3792222",
-            "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305867-03:00"
-        },
-        {
-            "title": "35 baleias mortas encalharam no Ceará em 30 anos; reprodução eleva casos de julho a novembro",
-            "subtitle": "Levantamento da Aquasis aponta 26 encalhes de baleias-jubarte no Estado; só neste ano, foram três registros.",
-            "category": "Ceará",
-            "author": "",
-            "publication_date": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/35-baleias-mortas-encalharam-no-ceara-em-30-anos-reproducao-eleva-casos-de-julho-a-novembro-1.3792399",
-            "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305924-03:00"
-        },
-        {
-            "title": "Escolas públicas do CE têm mais salas de recursos e profissionais de apoio a PcD que as privadas, diz IBGE",
-            "subtitle": "Ferramentas são destinadas ao auxílio da escolarização de estudantes com deficiência.",
-            "category": "Ceará",
-            "author": "",
-            "publication_date": null,
-            "link": "https://diariodonordeste.verdesmares.com.br/ceara/escolas-publicas-do-ce-tem-mais-salas-de-recursos-e-profissionais-de-apoio-a-pcd-que-as-privadas-diz-ibge-1.3792271",
-            "journal": "diariodonordeste",
-            "scraped_at": "2026-09-24T00:05:30.305989-03:00"
+            "scraped_at": "2026-09-24T13:28:34.719040-03:00"
         }
     ],
     "O Estado CE": [],
     "Verdes Mares": [
+        {
+            "title": "Dono de escritório onde Isabelle Caracristi foi estagiária afirma que ela relatou se sentir ‘sufocada’ por dinâmica de trabalho",
+            "subtitle": "Conforme advogado do dono da empresa, João Munhoz geria as tarefas de Isabelle como estagiária. A estudante chegou a reclamar que não conseguia realizar atividades sozinha.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T11:36:00-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/dono-de-escritorio-onde-isabelle-caracristi-foi-estagiaria-afirma-que-ela-relatou-se-sentir-sufocada-por-dinamica-de-trabalho.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.638834-03:00"
+        },
+        {
+            "title": "Adolescente em moto morre após colidir contra muro no interior do Ceará",
+            "subtitle": "Em nota, a Secretaria da Segurança Pública e Defesa Social (SSPDS) informou que a polícia apura as circunstâncias da colisão. Acidente ocorreu na cidade de Assaré.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T10:27:48-03:00",
+            "link": "https://g1.globo.com/ce/ceara/cariri/noticia/2026/09/24/adolescente-em-moto-morre-apos-colidir-contra-muro-no-interior-do-ceara.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639050-03:00"
+        },
+        {
+            "title": "Associação oferece 500 mamografias gratuitas para mulheres em Fortaleza",
+            "subtitle": "Iniciativa ocorre em alusão ao Outubro Rosa, campanha de conscientização e prevenção do câncer de mama.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T10:11:00-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/associacao-oferece-500-mamografias-gratuitas-para-mulheres-em-fortaleza.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639222-03:00"
+        },
+        {
+            "title": "Namorado suspeito de induzir Isabelle ao suicídio controlava rotina dela: 'Não podia ir sozinha à farmácia', diz delegado",
+            "subtitle": "A Polícia Civil não descartou nenhuma linha de investigação. Em coletiva de imprensa nesta quarta-feira (23), a polícia do Ceará deu detalhes sobre o caso.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T09:31:22-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/namorado-suspeito-de-induzir-isabelle-ao-suicidio-controlava-rotina-dela-nao-podia-ir-sozinha-a-farmacia-diz-delegado.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639388-03:00"
+        },
+        {
+            "title": "Última edição do Sebrae Supernova em 2026 abre inscrições para universitários",
+            "subtitle": "Universitários de todo o Brasil têm até 29 de outubro para participar da iniciativa, que oferece formação empreendedora e premiação de R$ 1,5 milhão",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T09:25:35-03:00",
+            "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ce/inovacao-e-negocios/noticia/2026/09/24/ultima-edicao-do-sebrae-supernova-em-2026-abre-inscricoes-para-universitarios.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639551-03:00"
+        },
+        {
+            "title": "Homem morde e arranca pedaço de orelha de entregador em discussão iniciada por política",
+            "subtitle": "No meio da confusão, a vítima da agressão teria xingado a mãe do agressor, o que provocou a mordida. O caso aconteceu no Eusébio, no Ceará.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T09:12:20-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/homem-morde-e-arranca-pedaco-de-orelha-de-entregador-em-discussao-iniciada-por-politica.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639708-03:00"
+        },
+        {
+            "title": "Atacadista oferece mais de 100 vagas de emprego no Ceará",
+            "subtitle": "Todas as posições de trabalho são elegíveis a pessoas com deficiência e abrangem diferentes áreas operacionais. O processo seletivo será realizado com etapas presenciais e online.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T08:39:13-03:00",
+            "link": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/09/24/atacadista-oferece-mais-de-100-vagas-de-emprego-no-ceara.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.639869-03:00"
+        },
+        {
+            "title": "Onze pessoas são detidas por furto de trilhos de trem no Ceará",
+            "subtitle": "Cinco homens estavam escondidos sob uma lona na carroceria do veículo. Outros três estavam na cabine e tentaram fugir. Polícia também abordou carro com três pessoas que, segundo informações colhidas no local, teriam ido resgatar um dos envolvidos.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T07:51:09-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/onze-pessoas-sao-detidas-por-furto-de-trilhos-de-trem-no-ceara.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.640043-03:00"
+        },
+        {
+            "title": "Caso Isabelle Caracristi: entenda em 7 pontos a investigação sobre a morte da jovem que caiu de prédio em Fortaleza",
+            "subtitle": "Pelo menos oito pessoas foram ouvidas, aparelhos eletrônicos foram analisados, perícias foram realizadas e centenas de vídeos são verificados.",
+            "category": "G1",
+            "author": "",
+            "publication_date": "2026-09-24T00:00:00-03:00",
+            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/24/caso-isabelle-caracristi-entenda-em-7-pontos-a-investigacao-sobre-a-morte-da-jovem-que-caiu-de-predio-em-fortaleza.ghtml",
+            "journal": "verdesmares",
+            "scraped_at": "2026-09-24T13:28:34.640203-03:00"
+        },
         {
             "title": "Debate para o governo do Ceará: Ciro e Elmano discutem investimentos em saúde, educação e geração de emprego",
             "subtitle": "Os dois candidatos que protagonizam a disputa pelo Governo do Ceará tiveram novo momento para discussão de projetos para o Estado, a menos de duas semanas da eleição.",
@@ -613,7 +703,7 @@
             "publication_date": "2026-09-23T22:28:40-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/debate-para-o-governo-do-ceara-ciro-e-elmano-discutem-investimentos-em-saude-educacao-e-geracao-de-emprego.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.360187-03:00"
+            "scraped_at": "2026-09-24T13:28:34.640360-03:00"
         },
         {
             "title": "Debate e reunião com apoiadores: candidatos ao governo do Ceará participam de agendas na capital",
@@ -623,7 +713,7 @@
             "publication_date": "2026-09-23T20:53:46-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/debate-e-reuniao-com-apoiadores-candidatos-ao-governo-do-ceara-participam-de-agendas-na-capital.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.360437-03:00"
+            "scraped_at": "2026-09-24T13:28:34.640519-03:00"
         },
         {
             "title": "Caso Isabelle Caracristi: polícia diz que rooftop de onde jovem caiu não tinha câmeras de segurança",
@@ -633,7 +723,7 @@
             "publication_date": "2026-09-23T19:23:02-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/caso-isabelle-policia-revela-que-rooftop-de-onde-jovem-caiu-nao-tinha-cameras-de-seguranca.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.360658-03:00"
+            "scraped_at": "2026-09-24T13:28:34.640680-03:00"
         },
         {
             "title": "Elmano promete criar programa de intercâmbio internacional para premiar alunos da rede pública do Ceará",
@@ -643,7 +733,7 @@
             "publication_date": "2026-09-23T19:10:05-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/elmano-promete-criar-programa-de-intercambio-internacional-para-premiar-alunos-da-rede-publica-do-ceara.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.360868-03:00"
+            "scraped_at": "2026-09-24T13:28:34.640839-03:00"
         },
         {
             "title": "Caso Isabelle Caracristi: mãe de namorado da jovem é exonerada de cargo de direção na Secretaria da Administração Penitenciária",
@@ -653,7 +743,7 @@
             "publication_date": "2026-09-23T18:27:33-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/caso-isabelle-caracristi-mae-de-namorado-da-jovem-e-exonerada-de-cargo-de-direcao-na-secretaria-da-administracao-penitenciaria.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.361100-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641015-03:00"
         },
         {
             "title": "Ciro quer projeto nas universidades estaduais para 'responder aos dramas da realidade econômica e social' do Ceará",
@@ -663,7 +753,7 @@
             "publication_date": "2026-09-23T18:01:48-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/ciro-quer-projeto-nas-universidades-estaduais-para-responder-aos-dramas-da-realidade-economica-e-social-do-ceara.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.361318-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641172-03:00"
         },
         {
             "title": "Quaest: 45% dos eleitores ainda estão indecisos no voto para governador do Ceará, mostra pesquisa espontânea",
@@ -673,7 +763,7 @@
             "publication_date": "2026-09-23T17:10:48-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-45percent-dos-eleitores-ainda-estao-indecisos-no-voto-para-governador-do-ceara-mostra-pesquisa-espontanea.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.361527-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641330-03:00"
         },
         {
             "title": "Caso Isabelle: depoimentos apontam que namorado tinha comportamento controlador e tentava deixá-la isolada, diz delegado",
@@ -683,7 +773,7 @@
             "publication_date": "2026-09-23T16:24:33-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/caso-isabelle-depoimentos-apontam-que-namorado-tinha-comportamento-controlador-e-tentava-deixa-la-isolada-diz-delegado.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.361729-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641488-03:00"
         },
         {
             "title": "Caso Isabelle Caracristi: apartamento foi limpo e colocado à venda e familiares da jovem foram proibidos de entrar no prédio após a morte, diz polícia",
@@ -693,7 +783,7 @@
             "publication_date": "2026-09-23T15:15:31-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/caso-isabelle-caracristi-apartamento-foi-limpo-e-colocado-a-venda-e-familiares-da-jovem-foram-proibidos-de-entrar-no-predio.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.361940-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641642-03:00"
         },
         {
             "title": "Quaest no Ceará: Lula, 55%; Flávio Bolsonaro, 23%; Augusto Cury, 5%; Renan Santos, 3%; Ronaldo Caiado, 1%",
@@ -703,7 +793,7 @@
             "publication_date": "2026-09-23T12:54:54-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-ce-presidente-23-setembro.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.362171-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641797-03:00"
         },
         {
             "title": "Quaest no Ceará: 56% aprovam e 36% desaprovam governo de Elmano de Freitas",
@@ -713,7 +803,7 @@
             "publication_date": "2026-09-23T12:53:06-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-ce-avaliacao-governo-22-setembro.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.362377-03:00"
+            "scraped_at": "2026-09-24T13:28:34.641968-03:00"
         },
         {
             "title": "Quaest no CE para o Senado: Cid Gomes, 25%; Capitão Wagner, 21%; Luizianne, 19%; Alcides Fernandes, 8%",
@@ -723,7 +813,7 @@
             "publication_date": "2026-09-23T12:48:47-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-ce-senado-23-setembro.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.362580-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642125-03:00"
         },
         {
             "title": "Quaest no Ceará: Ciro Gomes, 43%; Elmano de Freitas, 41%",
@@ -733,7 +823,7 @@
             "publication_date": "2026-09-23T12:42:30-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-ce-governador-23-setembro.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.362781-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642279-03:00"
         },
         {
             "title": "Caso Isabelle Caracristi: namorado de jovem achada morta em condomínio foi preso por suspeita de induzi-la ao suicídio e por não colaborar com a investigação",
@@ -743,7 +833,7 @@
             "publication_date": "2026-09-23T12:25:04-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/investigacao-caso-isabelle-caracristi.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.362981-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642434-03:00"
         },
         {
             "title": "Preso no Ceará suspeito de estuprar duas crianças no MA; uma das vítimas foi abordada dentro de uma igreja",
@@ -753,7 +843,7 @@
             "publication_date": "2026-09-23T11:05:11-03:00",
             "link": "https://g1.globo.com/ma/maranhao/noticia/2026/09/23/preso-no-ceara-suspeito-de-estuprar-duas-criancas-no-ma-uma-das-vitimas-foi-abordada-dentro-de-uma-igreja.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.363208-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642588-03:00"
         },
         {
             "title": "Siará Tech Summit reúne diferentes olhares sobre as transformações do presente",
@@ -763,7 +853,7 @@
             "publication_date": "2026-09-23T08:51:44-03:00",
             "link": "https://g1.globo.com/ce/ceara/especial-publicitario/sebrae-ceara/inovacao-e-negocios/noticia/2026/09/23/siara-tech-summit-reune-diferentes-olhares-sobre-as-transformacoes-do-presente.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.363410-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642741-03:00"
         },
         {
             "title": "Brasileiro apontado como chefe de facção criminosa do Ceará é preso na Bolívia",
@@ -773,7 +863,7 @@
             "publication_date": "2026-09-23T08:23:20-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/brasileiro-apontado-como-chefe-de-faccao-criminosa-do-ceara-e-preso-na-bolivia.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.363610-03:00"
+            "scraped_at": "2026-09-24T13:28:34.642894-03:00"
         },
         {
             "title": "'Processo de justiça se inicia', diz mãe de Isabelle Caracristi após prisão preventiva de namorado da universitária",
@@ -783,7 +873,7 @@
             "publication_date": "2026-09-23T07:25:00-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/processo-de-justica-se-inicia-diz-mae-de-isabelle-caracristi-apos-prisao-preventiva-de-namorado-da-universitaria.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.363809-03:00"
+            "scraped_at": "2026-09-24T13:28:34.643065-03:00"
         },
         {
             "title": "Mãe de jovem encontrada morta em condomínio diz que foi bloqueada e cobra contato da família do namorado: 'Por que não me avisaram?'",
@@ -793,7 +883,7 @@
             "publication_date": "2026-09-23T05:52:33-03:00",
             "link": "https://g1.globo.com/fantastico/noticia/2026/09/23/mae-de-jovem-encontrada-morta-em-condominio-diz-que-foi-bloqueada-e-cobra-contato-da-familia-do-namorado-por-que-nao-me-avisaram.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.364008-03:00"
+            "scraped_at": "2026-09-24T13:28:34.643220-03:00"
         },
         {
             "title": "Caso Isabelle Caracristi: estudante achada morta em Fortaleza disse para familiar não acreditar no namorado se algo acontecesse com ela",
@@ -803,7 +893,7 @@
             "publication_date": "2026-09-23T00:00:00-03:00",
             "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/23/isabelle-caracristi-disse-para-familiar-que-nao-acreditasse-no-namorado-se-acontecesse-algo-com-ela.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.364285-03:00"
+            "scraped_at": "2026-09-24T13:28:34.643373-03:00"
         },
         {
             "title": "Panfletagem e reuniões: veja como foi o dia dos candidatos ao governo do Ceará",
@@ -813,97 +903,7 @@
             "publication_date": "2026-09-22T21:44:26-03:00",
             "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/22/panfletagem-e-reunioes-veja-como-foi-o-dia-dos-candidatos-ao-governo-do-ceara.ghtml",
             "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.364509-03:00"
-        },
-        {
-            "title": "Caso Isabelle Caracristi: exame pericial descarta que jovem estivesse grávida",
-            "subtitle": "O irmão dela, Rafael Magalhães, havia afirmado que a irmã estava grávida. No entanto, a Perícia descartou a informação após análises. O namorado da jovem foi preso em Fortaleza.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T21:05:57-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/caso-isabelle-caracristi-exame-pericial-descarta-que-jovem-estava-gravida.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.364719-03:00"
-        },
-        {
-            "title": "Ciro promete replicar modelo do Iprede para atendimento de pessoas neurodivergentes no interior",
-            "subtitle": "Candidato do PSDB ao Governo do Estado se reuniu com entidades que representam famílias atípicas e crianças neurodivergentes, nesta terça (22), e falou de propostas para a área.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T20:44:04-03:00",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/22/ciro-promete-replicar-modelo-do-iprede-para-atendimento-de-pessoas-neurodivergentes-no-interior.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.364923-03:00"
-        },
-        {
-            "title": "Caso Isabelle Caracristi: confira infográfico com linha do tempo e resumo da morte da estudante",
-            "subtitle": "Isabelle Caracristi, 22 anos, foi encontrada morta no pátio do condomínio onde morava com o namorado, em Fortaleza. João Munhoz Neto foi preso preventivamente, 9 dias depois.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T20:31:38-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/infografico-caso-isabelle-caracristi.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.365151-03:00"
-        },
-        {
-            "title": "TRE-CE condena Elmano a perder 76 minutos de propaganda eleitoral por associar Ciro a Bolsonaro",
-            "subtitle": "O candidato à reeleição disse que 'o Poder Judiciário tem o direito de ter um entendimento que ele acha ser o mais adequado' e que irá recorrer das decisões.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T18:47:50-03:00",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/22/tre-ce-condena-elmano-a-perder-76-minutos-de-propaganda-eleitoral-por-associar-ciro-a-bolsonaro.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.365353-03:00"
-        },
-        {
-            "title": "Ciclista morre ao sofrer colisão de ônibus em Fortaleza",
-            "subtitle": "A Etufor solicitou à empresa operadora do transporte coletivo as imagens das câmeras de monitoramento do veículo, para contribuir com a polícia com visualização do acidente.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T18:20:25-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/ciclista-morre-ao-sofrer-colisao-de-onibus-em-fortaleza.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.365552-03:00"
-        },
-        {
-            "title": "Elmano planeja construir 70 mil novas casas no Ceará, em parceria com governo Lula e prefeituras",
-            "subtitle": "Candidato do PT ao Governo do Ceará participou de caminhada na comunidade do Poço da Draga, em Fortaleza, e destacou necessidade de ações na área de moradia em um novo governo.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T17:37:13-03:00",
-            "link": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/22/elmano-planeja-construir-70-mil-novas-casas-no-ceara.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.365753-03:00"
-        },
-        {
-            "title": "Namorado de Isabelle Caracristi é casado com outra mulher, confirma advogada dele: ‘Em nenhum momento negou’",
-            "subtitle": "João Munhoz Neto foi preso em um condomínio no bairro Aldeota, em Fortaleza. Segundo a advogada, já existe um procedimento de divórcio amigável entre ele e a esposa.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T16:45:41-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/namorado-de-isabelle-caracristi-casado-com-outra-mulher.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.365952-03:00"
-        },
-        {
-            "title": "Quem é João Munhoz Neto, namorado de Isabelle Caracristi preso em Fortaleza",
-            "subtitle": "O bacharel em direito foi preso preventivamente em um condomínio no bairro Aldeota, em Fortaleza, nesta terça-feira (22). A jovem foi encontrada morta em 13 de setembro.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T15:41:09-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/quem-e-joao-munhoz-neto-namorado-de-isabelle-caracristi-preso-em-fortaleza.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.366178-03:00"
-        },
-        {
-            "title": "Namorado disse à polícia qual foi a última mensagem recebida de Isabelle Caracristi: 'Estou sentindo uma sensação estranha'",
-            "subtitle": "O namorado de Isabelle Caracristi, João Munhoz Neto, foi preso preventivamente em Fortaleza. Ele revelou quais mensagens foram enviadas pela jovem antes de sua morte em 13 de setembro.",
-            "category": "G1",
-            "author": "",
-            "publication_date": "2026-09-22T15:23:29-03:00",
-            "link": "https://g1.globo.com/ce/ceara/noticia/2026/09/22/depoimento-namorado-de-isabelle-caracristi.ghtml",
-            "journal": "verdesmares",
-            "scraped_at": "2026-09-24T00:05:31.366391-03:00"
+            "scraped_at": "2026-09-24T13:28:34.643526-03:00"
         }
     ],
     "Ceará Agora": [],
@@ -916,7 +916,7 @@
             "publication_date": "2026-09-23T13:49:50-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7208-tce-ceara-apresenta-matriz-de-planejamento-de-auditoria-piloto-sobre-sistema-prisional",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE Ceará aprova modelo de concessão da Cagece para esgotamento sanitário em 104 municípios",
@@ -926,7 +926,7 @@
             "publication_date": "2026-09-23T09:39:57-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7207-tce-ceara-aprova-modelo-de-concessao-da-cagece-para-esgotamento-sanitario-em-104-municipios",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "Estratégia ESG do TCE Ceará é tema de artigo aprovado no SemeAd 2026",
@@ -936,7 +936,7 @@
             "publication_date": "2026-09-22T11:04:50-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7206-estrategia-esg-do-tce-ceara-e-tema-de-artigo-aprovado-no-semead-2026",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE Ceará vai realizar acompanhamento sobre a folha de pagamento de órgãos e entidades públicas",
@@ -946,7 +946,7 @@
             "publication_date": "2026-09-21T13:50:11-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7205-tce-ceara-vai-realizar-acompanhamento-sobre-a-folha-de-pagamento-de-orgaos-e-entidades-publicas",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "Conselheiro Edilberto Pontes será agraciado com a Medalha Mérito de Contas do TCE Ceará",
@@ -956,7 +956,7 @@
             "publication_date": "2026-09-21T09:14:00-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7204-conselheiro-edilberto-pontes-sera-agraciado-com-a-medalha-merito-de-contas-do-tce-ceara",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "Olimpíada do TCE Ceará é tema de apresentação no Seminário Docentes 2026",
@@ -966,7 +966,7 @@
             "publication_date": "2026-09-21T08:56:12-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7203-olimpiada-do-tce-ceara-e-tema-de-apresentacao-no-seminario-docentes-2026",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE Ceará alerta para o prazo final de envio da Prestação de Contas de Gestão – PCS municipais de 2025",
@@ -976,7 +976,7 @@
             "publication_date": "2026-09-18T16:24:53-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7202-tce-ceara-alerta-para-o-prazo-final-de-envio-da-prestacao-de-contas-de-gestao-pcs-municipais-de-2025",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE Ceará participa de capacitação da Rede Integrar sobre uso da Plataforma Sinapse",
@@ -986,7 +986,7 @@
             "publication_date": "2026-09-18T11:42:37-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7201-tce-ceara-participa-de-capacitacao-da-rede-integrar-sobre-uso-da-plataforma-sinapse",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "Programa de Formação das Novas Gerações do TCE Ceará concorre ao Prêmio Nacional de Educação Fiscal",
@@ -996,7 +996,7 @@
             "publication_date": "2026-09-18T09:29:07-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7200-programa-de-formacao-das-novas-geracoes-do-tce-ceara-concorre-ao-premio-nacional-de-educacao-fiscal",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE alerta municípios cearenses sobre prazo para adesão ao Sistema de Informações Territoriais e ao Cadastro Imobiliário",
@@ -1006,7 +1006,7 @@
             "publication_date": "2026-09-17T11:05:03-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7199-tce-alerta-municipios-cearenses-sobre-prazo-para-adesao-ao-sistema-de-informacoes-territoriais-e-ao-cadastro-imobiliario",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "TCE Ceará inicia acompanhamento preventivo nos 184 municípios sobre situação orçamentária e financeira",
@@ -1016,7 +1016,7 @@
             "publication_date": "2026-09-17T09:18:50-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7198-tce-ceara-inicia-acompanhamento-preventivo-nos-184-municipios-sobre-situacao-orcamentaria-e-financeira",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:31.615074-03:00"
+            "scraped_at": "2026-09-24T13:28:37.844081-03:00"
         },
         {
             "title": "Estudantes do ensino médio de Pacajus participam de Visita Cidadã Guiada no TCE Ceará",
@@ -1026,7 +1026,7 @@
             "publication_date": "2026-09-17T09:03:08-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7197-estudantes-do-ensino-medio-de-pacajus-participam-de-visita-cidada-guiada-no-tce-ceara",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Assistente virtual do TCE Ceará tira dúvidas e orienta sobre Prestação de Contas de Gestão – PCS municipais",
@@ -1036,7 +1036,7 @@
             "publication_date": "2026-09-17T08:39:22-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7196-assistente-virtual-do-tce-ceara-tira-duvidas-e-orienta-sobre-prestacao-de-contas-de-gestao-pcs-municipais",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Assistente virtual “Chico” do TCE Ceará é guia para acessar informações do IEGM",
@@ -1046,7 +1046,7 @@
             "publication_date": "2026-09-16T16:47:18-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7195-assistente-virtual-chico-do-tce-ceara-e-guia-para-acessar-informacoes-do-iegm",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Programas de comunicação do TCE Ceará destacam monitoramento na gestão da saúde pública e controle social",
@@ -1056,7 +1056,7 @@
             "publication_date": "2026-09-16T13:55:24-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7194-programas-de-comunicacao-do-tce-ceara-destacam-monitoramento-na-gestao-da-saude-publica-e-controle-social",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Conselheiro Edilberto Pontes é agraciado com a Medalha da Ordem do Mérito de Contas Ruy Barbosa",
@@ -1066,7 +1066,7 @@
             "publication_date": "2026-09-15T15:34:05-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7192-conselheiro-edilberto-pontes-e-agraciado-com-a-medalha-da-ordem-do-merito-de-contas-ruy-barbosa",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "TCE Ceará realiza visita técnica a aterro sanitário privado na Região Metropolitana de Fortaleza",
@@ -1076,7 +1076,7 @@
             "publication_date": "2026-09-11T10:07:18-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7189-tce-ceara-realiza-visita-tecnica-a-aterro-sanitario-privado-na-regiao-metropolitana-de-fortaleza",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "TCE Ceará palestra sobre segurança de dados em encontro nacional de tecnologia nas instituições de controle",
@@ -1086,7 +1086,7 @@
             "publication_date": "2026-09-11T09:03:41-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7188-tce-ceara-palestra-sobre-seguranca-de-dados-em-encontro-nacional-de-tecnologia-nas-instituicoes-de-controle",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Tribunal de Contas do Ceará realiza fiscalização no Instituto José Frota (IJF)",
@@ -1096,7 +1096,7 @@
             "publication_date": "2026-09-10T12:59:35-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7187-tribunal-de-contas-do-ceara-realiza-fiscalizacao-no-instituto-jose-frota-ijf",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "TCE Ceará participa de encontro nacional de avaliação da transparência pública em Alagoas",
@@ -1106,7 +1106,7 @@
             "publication_date": "2026-09-10T12:20:54-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7186-tce-ceara-participa-de-encontro-nacional-de-avaliacao-da-transparencia-publica-em-alagoas",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Informativo de Jurisprudência do TCE Ceará destaca licitações e contratos, subsídio de vereadores e gestão fiscal",
@@ -1116,7 +1116,7 @@
             "publication_date": "2026-09-10T08:57:55-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7185-informativo-de-jurisprudencia-do-tce-ceara-destaca-licitacoes-e-contratos-subsidio-de-vereadores-e-gestao-fiscal",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Programas Acontece TV e Conexão Cidadão abordam importância do controle social e formação de docentes",
@@ -1126,7 +1126,7 @@
             "publication_date": "2026-09-09T15:50:28-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7184-programas-acontece-tv-e-conexao-cidadao-abordam-importancia-do-controle-social-e-formacao-de-docentes",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:32.406153-03:00"
+            "scraped_at": "2026-09-24T13:28:38.654211-03:00"
         },
         {
             "title": "Projeto Agilize do TCE Ceará é apresentado em congresso nacional de inovação em Brasília",
@@ -1136,7 +1136,7 @@
             "publication_date": "2026-09-09T15:44:34-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7183-projeto-agilize-do-tce-ceara-e-apresentado-em-congresso-nacional-de-inovacao-em-brasilia",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará realizará Auditoria de Conformidade para fortalecer políticas públicas de saneamento básico",
@@ -1146,7 +1146,7 @@
             "publication_date": "2026-09-09T10:17:34-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7182-tce-ceara-realizara-auditoria-de-conformidade-para-fortalecer-politicas-publicas-de-saneamento-basico",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará oferta curso online sobre abastecimento de água e esgotamento sanitário ",
@@ -1156,7 +1156,7 @@
             "publication_date": "2026-09-09T10:03:13-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7181-tce-ceara-oferta-curso-online-sobre-abastecimento-de-agua-e-esgotamento-sanitario",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará homologa TAG com Tribunal de Justiça para regularizar e fiscalizar patrimônio do Judiciário",
@@ -1166,7 +1166,7 @@
             "publication_date": "2026-09-04T16:11:24-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7180-tce-ceara-homologa-tag-com-tribunal-de-justica-para-regularizar-e-fiscalizar-patrimonio-do-judiciario",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará realiza formação para professores da disciplina eletiva Cidadania e Controle Social das Contas Públicas",
@@ -1176,7 +1176,7 @@
             "publication_date": "2026-09-04T11:46:22-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7179-tce-ceara-realiza-formacao-para-professores-da-disciplina-eletiva-cidadania-e-controle-social-das-contas-publicas",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará participa do XVI Encontro Técnico de Gestão de Pessoas dos Tribunais de Contas do Brasil",
@@ -1186,7 +1186,7 @@
             "publication_date": "2026-09-03T11:53:20-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7178-tce-ceara-participa-do-xvi-encontro-tecnico-de-gestao-de-pessoas-dos-tribunais-de-contas-do-brasil",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará alerta Municípios e Consórcios sobre limites de despesas com pessoal e Transparência ",
@@ -1196,7 +1196,7 @@
             "publication_date": "2026-09-03T09:31:55-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7177-tce-ceara-alerta-municipios-e-consorcios-sobre-limites-de-despesas-com-pessoal-e-transparencia",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "Prestação de contas municipais e reconhecimento internacional são destaques nos programas de TV e rádio do TCE Ceará",
@@ -1206,7 +1206,7 @@
             "publication_date": "2026-09-03T08:50:52-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7176-prestacao-de-contas-municipais-e-reconhecimento-internacional-sao-destaques-nos-programas-de-tv-e-radio-do-tce-ceara",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará oferta curso online sobre Emendas Pix",
@@ -1216,7 +1216,7 @@
             "publication_date": "2026-09-01T16:59:16-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7175-tce-ceara-oferta-curso-online-sobre-emendas-pix",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "TCE Ceará estabelece regras e prazos para o IEGM 2026 - exercício 2025",
@@ -1226,7 +1226,7 @@
             "publication_date": "2026-09-01T14:14:46-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7174-tce-ceara-estabelece-regras-e-prazos-para-o-iegm-2026-exercicio-2025",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         },
         {
             "title": "Corregedoria do TCE Ceará publica Nota Recomendatória com diretrizes referentes ao período eleitoral",
@@ -1236,19 +1236,159 @@
             "publication_date": "2026-08-31T11:11:59-03:00",
             "link": "https://www.tce.ce.gov.br/comunicacao/noticias/7173-corregedoria-do-tce-ceara-publica-nota-recomendatoria-com-diretrizes-referentes-ao-periodo-eleitoral",
             "journal": "tce",
-            "scraped_at": "2026-09-24T00:05:33.154605-03:00"
+            "scraped_at": "2026-09-24T13:28:39.456200-03:00"
         }
     ],
     "Terra da Luz": [
+        {
+            "title": "Turismo: Alemanha e Itália terão trens diretos em 2027 Novas rotas ligando Munique a Milão e Roma passarão pela Áustria e serão operadas pelo trem de alta velocidade Frecciarossa",
+            "subtitle": "24 de setembro de 2026 – Viajar de trem entre Alemanha e Itália ficará mais simples a partir do verão europeu de 2027. Uma parceria entre as empresas ferroviárias Deutsche Bahn (DB), Trenitalia e ÖBB prevê […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T12:32:34-03:00",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/turismo-alemanha-e-italia-terao-trens-diretos-em-2027/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Investigação: PF investiga suspeitas de crimes eleitorais no Ceará Operação Mordaça cumpriu 16 mandados de busca e apreensão em Jaguaretama nesta quinta-feira (24)",
+            "subtitle": "24 de setembro de 2026 – A Polícia Federal (PF), com apoio do Ministério Público Eleitoral (MPE), deflagrou nesta quinta-feira (24) a Operação Mordaça, que investiga possíveis crimes eleitorais no município de Jaguaretama, no interior do […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T12:26:06-03:00",
+            "link": "https://portalterradaluz.com.br/principal/investigacao-pf-investiga-suspeitas-de-crimes-eleitorais-no-ceara/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Saúde: Transplante de medula óssea une irmãos em história de superação Amanda Souza descobriu leucemia durante a gravidez e encontrou no irmão um doador compatível para o transplante",
+            "subtitle": "24 de setembro de 2026 – Uma gravidez, um diagnóstico inesperado e uma corrida contra o tempo marcaram a trajetória de Amanda Souza, médica e mãe de Sofia. Durante a gestação da filha, ela descobriu que […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T12:16:53-03:00",
+            "link": "https://portalterradaluz.com.br/principal/saude-transplante-de-medula-ossea-une-irmaos-em-historia-de-superacao/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Diplomacia: Trump e Xi se reúnem na Casa Branca Presidentes dos Estados Unidos e da China fazem encontro bilateral em Washington com foco nas relações entre os dois países e no avanço da inteligência artificial",
+            "subtitle": "24 de setembro de 2026 – Os presidentes dos Estados Unidos, Donald Trump, e da China, Xi Jinping, se reuniram nesta quinta-feira (24), em Washington, em um encontro bilateral realizado na Casa Branca. Considerados os dois […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T12:00:20-03:00",
+            "link": "https://portalterradaluz.com.br/principal/diplomacia-trump-e-xi-se-reunem-na-casa-branca/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Segurança: Golpes de site falso e WhatsApp lideram contestações Levantamento do Santander aponta que golpes digitais personalizados foram os mais comunicados por clientes no primeiro semestre de 2026",
+            "subtitle": "24 de setembro de 2026 – Golpes de engenharia social com abordagens cada vez mais sofisticadas e personalizadas estão entre as principais ameaças enfrentadas por consumidores no ambiente digital. Um levantamento do Santander aponta que os […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T11:58:04-03:00",
+            "link": "https://portalterradaluz.com.br/noticias/seguranca-golpes-de-site-falso-e-whatsapp-lideram-contestacoes/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Economia: Pix pode ser integrado ao sistema europeu Tips Bancos centrais do Brasil e da Europa iniciam estudo para avaliar conexão entre sistemas de pagamentos instantâneos",
+            "subtitle": "24 de setembro de 2026 – O Banco Central do Brasil (BC) e o Banco Central Europeu (BCE) iniciam nesta quinta-feira (24) um estudo de viabilidade para avaliar a interligação entre o Pix, sistema brasileiro de […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T11:24:44-03:00",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-pix-pode-ser-integrado-ao-sistema-europeu-tips/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Cultura: Festival Surdará destaca cultura Surda em Fortaleza Segunda edição reúne teatro, performances e vivências gratuitas em espaços culturais da capital",
+            "subtitle": "24 de setembro de 2026 – O 2º Festival Surdará começa nesta quinta-feira (24) com uma programação gratuita dedicada à cultura e ao protagonismo da comunidade Surda em Fortaleza. A abertura acontece às 18h, no Teatro […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T10:55:33-03:00",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-festival-surdara-destaca-cultura-surda-em-fortaleza/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Economia: Mega-Sena sorteia R$ 38 milhões nesta quinta-feira Concurso 3.062 será realizado às 21h; apostas podem ser feitas até as 20h",
+            "subtitle": "24 de setembro de 2026 – A Mega-Sena sorteia nesta quinta-feira (24) um prêmio estimado em R$ 38 milhões. O concurso 3.062 será realizado a partir das 21h, no Espaço da Sorte, em São Paulo, com […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T10:36:46-03:00",
+            "link": "https://portalterradaluz.com.br/economia-negocios/economia-mega-sena-sorteia-r-38-milhoes-nesta-quinta-feira/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Política: Flávio usou jato ligado a Vorcaro, diz revista Segundo a Piauí, senador viajou com a família em aeronave que teria sido usada meses depois por Alexandre de Moraes",
+            "subtitle": "24 de setembro de 2026 – O senador Flávio Bolsonaro (PL) viajou dos Estados Unidos ao Brasil em um jato executivo ligado ao banqueiro Daniel Vorcaro, segundo reportagem da revista Piauí reproduzida pelo Correio Braziliense. De […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T10:29:23-03:00",
+            "link": "https://portalterradaluz.com.br/destaques/politica-flavio-usou-jato-ligado-a-vorcaro-diz-revista/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Cultura: ACI promove cinema e chorinho neste sábado Programação gratuita terá documentários, debate, curta cearense e apresentação do grupo Tokatta",
+            "subtitle": "24 de setembro de 2026 – A Associação Cearense de Imprensa (ACI) realiza, neste sábado (26), uma nova edição dos projetos “Cinema, Café e Tapioca” e “Chorinho nas Alturas”, na sede da entidade, no Centro de […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T10:17:04-03:00",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-aci-promove-cinema-e-chorinho-neste-sabado/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Futebol: Ancelotti confirma titulares da Seleção Brasil enfrenta a Austrália nesta sexta-feira, com estreias de Matheuzinho e Vitor Reis entre os titulares",
+            "subtitle": "24 de setembro de 2026 – O técnico Carlo Ancelotti confirmou, nesta quinta-feira (24), a escalação titular da Seleção Brasileira para o amistoso contra a Austrália, primeiro compromisso da equipe após a Copa do Mundo. A […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T10:01:15-03:00",
+            "link": "https://portalterradaluz.com.br/destinos-turisticos/futebol-ancelotti-confirma-titulares-da-selecao/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Acidente: Cenipa recupera caixa-preta de helicóptero de Rick Equipamento registra sons e comunicações da cabine e será analisado em laboratório em Brasília",
+            "subtitle": "24 de setembro de 2026 – O Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa) recuperou a caixa-preta do helicóptero Bell 430 que caiu na serra de Santa Catarina, na região de Urubici, no último […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T09:58:44-03:00",
+            "link": "https://portalterradaluz.com.br/destaques/acidente-cenipa-recupera-caixa-preta-de-helicoptero-de-rick/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Finanças: Aluguel Virtual: patrimônio vira risco financeiro Operações de Home Equity levantam debate sobre diligência, responsabilidades na cadeia financeira e proteção do imóvel utilizado como garantia. Por Luis Arthur Kanno Santos Oliveira",
+            "subtitle": "24 de setembro de 2026 – O caso envolvendo a Aluguel Virtual Gestão Financeira Ltda., cujo fundador e sócio-administrador é Rafael Pimenta Braga, chama a atenção para um problema que pode ultrapassar os limites de um […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T09:38:44-03:00",
+            "link": "https://portalterradaluz.com.br/artigos/financas-aluguel-virtual-patrimonio-vira-risco-financeiro/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
+        {
+            "title": "Investigação: Operação Carbono Oculto mira diretor do Banco Genial Terceira fase cumpre 27 mandados em sete estados e investiga suposta lavagem de dinheiro na compra da distribuidora Terrana",
+            "subtitle": "24 de setembro de 2026 – O Grupo de Atuação Especial de Combate ao Crime Organizado (GAECO), do Ministério Público de São Paulo, deflagrou nesta quinta-feira (24) a terceira fase da Operação Carbono Oculto. A ação, […]",
+            "category": [],
+            "author": "",
+            "publication_date": "2026-09-24T09:13:10-03:00",
+            "link": "https://portalterradaluz.com.br/destaques/investigacao-operacao-carbono-oculto-mira-diretor-do-banco-genial/",
+            "journal": "portalterradaluz",
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
+        },
         {
             "title": "Política: Tainah Marinho desponta na política cearense Romeu Aldigueri destaca maturidade da nova liderança ao analisar investimentos e presença do Governo do Estado no interior",
             "subtitle": "23 de setembro de 2026 – A atuação de Tainah Marinho tem chamado atenção no cenário político cearense pela maturidade demonstrada ao abordar os desafios, avanços e perspectivas de desenvolvimento do Ceará. Ao falar sobre a […]",
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T18:03:21-03:00",
-            "link": "https://portalterradaluz.com.br/principal/politica-tainah-marinho-desponta-na-politica-cearense/",
+            "link": "https://portalterradaluz.com.br/destaques/politica-tainah-marinho-desponta-na-politica-cearense/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Justiça: CNJ cancela R$ 4,7 bi em precatórios do Master Decisão da Corregedoria Nacional de Justiça atende a pedido da AGU e envolve créditos ligados a usinas do setor sucroalcooleiro",
@@ -1256,9 +1396,9 @@
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T17:47:42-03:00",
-            "link": "https://portalterradaluz.com.br/principal/justica-cnj-cancela-r-47-bi-em-precatorios-do-master/",
+            "link": "https://portalterradaluz.com.br/economia-negocios/justica-cnj-cancela-r-47-bi-em-precatorios-do-master/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Segurança: Pefoce afirma que Isabelle caiu de rooftop em Fortaleza Perícia diz que câmeras registraram a queda da universitária; namorado permanece preso e é investigado pela Polícia Civil",
@@ -1266,9 +1406,9 @@
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T13:53:00-03:00",
-            "link": "https://portalterradaluz.com.br/principal/seguranca-pefoce-afirma-que-isabelle-caiu-de-rooftop-em-fortaleza/",
+            "link": "https://portalterradaluz.com.br/destaques/seguranca-pefoce-afirma-que-isabelle-caiu-de-rooftop-em-fortaleza/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Justiça: Alexandre Pires é alvo da PF por cassiterita Operação investiga suspeitas de lavagem de dinheiro e venda ilegal de minério extraído da Terra Yanomami",
@@ -1276,9 +1416,9 @@
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T12:51:23-03:00",
-            "link": "https://portalterradaluz.com.br/principal/justica-alexandre-pires-e-alvo-da-pf-por-cassiterita/",
+            "link": "https://portalterradaluz.com.br/destaques/justica-alexandre-pires-e-alvo-da-pf-por-cassiterita/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Trabalho: Empresas podem voltar a ser punidas pela NR-1 Fim da suspensão de 90 dias permite retomada de multas por descumprimento de regras sobre riscos psicossociais",
@@ -1288,7 +1428,7 @@
             "publication_date": "2026-09-23T11:23:30-03:00",
             "link": "https://portalterradaluz.com.br/economia-negocios/trabalho-empresas-podem-voltar-a-ser-punidas-pela-nr-1/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Justiça: Zanin nega liminar para instalar CPI do caso Master Ministro do STF afirmou que não ficou comprovada, neste momento, omissão do presidente do Senado sobre requerimento",
@@ -1296,9 +1436,9 @@
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T10:33:11-03:00",
-            "link": "https://portalterradaluz.com.br/noticias/justica-zanin-nega-liminar-para-instalar-cpi-do-caso-master/",
+            "link": "https://portalterradaluz.com.br/destaques/justica-zanin-nega-liminar-para-instalar-cpi-do-caso-master/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Luto: Corpo de Rick será velado em Sorocaba Cantor foi uma das cinco vítimas da queda de helicóptero na Serra de Santa Catarina; acidente será investigado pela Polícia Civil e pelo Cenipa",
@@ -1306,9 +1446,9 @@
             "category": [],
             "author": "",
             "publication_date": "2026-09-23T10:05:39-03:00",
-            "link": "https://portalterradaluz.com.br/noticias/luto-corpo-de-rick-sera-velado-em-sorocaba/",
+            "link": "https://portalterradaluz.com.br/destaques/luto-corpo-de-rick-sera-velado-em-sorocaba/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Segurança: Brasileiro apontado como chefe de facção do Ceará é preso na Bolívia Homem de 34 anos era procurado pela Justiça brasileira por crimes como homicídio, tráfico de drogas e organização criminosa",
@@ -1318,7 +1458,7 @@
             "publication_date": "2026-09-23T09:22:55-03:00",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-brasileiro-apontado-como-chefe-de-faccao-do-ceara-e-preso-na-bolivia/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Cultura: “São Amores” leva forró e humor ao Teatro São José Musical ambientado no litoral cearense mistura drama, comédia e clássicos do forró entre 8 e 11 de outubro",
@@ -1328,7 +1468,7 @@
             "publication_date": "2026-09-23T09:10:08-03:00",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-sao-amores-leva-forro-e-humor-ao-teatro-sao-jose/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Esporte: Festival da Rede ASPAB reúne mais de 600 atletas Evento em Fortaleza marcou encerramento de ciclo do projeto em parceria com o Nubank e reuniu crianças e adolescentes de nove núcleos",
@@ -1338,7 +1478,7 @@
             "publication_date": "2026-09-23T08:50:38-03:00",
             "link": "https://portalterradaluz.com.br/destinos-turisticos/esporte-festival-da-rede-aspab-reune-mais-de-600-atletas/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Política: Violência política de gênero cresce 11 vezes em 4 anos TSE e MPF lançam campanha para conscientizar sobre ataques contra mulheres na política",
@@ -1348,7 +1488,7 @@
             "publication_date": "2026-09-23T08:43:02-03:00",
             "link": "https://portalterradaluz.com.br/destaques/politica-violencia-politica-de-genero-cresce-11-vezes-em-4-anos/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Imóveis: Mega Feira da Casa Própria reúne 17 construtoras Evento acontece de 24 a 27 de setembro no RioMar Fortaleza e terá opções de financiamento de até 90% do valor do imóvel",
@@ -1358,7 +1498,7 @@
             "publication_date": "2026-09-23T08:32:37-03:00",
             "link": "https://portalterradaluz.com.br/economia-negocios/imoveis-mega-feira-da-casa-propria-reune-17-construtoras/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Economia: Arrecadação federal supera R$ 2 trilhões em 2026 Valor acumulado de janeiro a agosto representa crescimento real de 7,12% em relação ao mesmo período de 2025",
@@ -1368,7 +1508,7 @@
             "publication_date": "2026-09-23T08:04:33-03:00",
             "link": "https://portalterradaluz.com.br/economia-negocios/economia-arrecadacao-federal-supera-r-2-trilhoes-em-2026/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Ciência: Pergaminhos de Herculano ganham nova pista Estudo mostra que tintas com chumbo brilham em raios X e podem ajudar a decifrar papiros carbonizados pelo Vesúvio",
@@ -1378,7 +1518,7 @@
             "publication_date": "2026-09-22T22:43:42-03:00",
             "link": "https://portalterradaluz.com.br/destaques/ciencia-pergaminhos-de-herculano-ganham-nova-pista/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Segurança: Escudo das Américas anuncia sanções a facções Acordo assinado por países da aliança mira 24 organizações, incluindo PCC e Comando Vermelho",
@@ -1388,7 +1528,7 @@
             "publication_date": "2026-09-22T22:19:50-03:00",
             "link": "https://portalterradaluz.com.br/destaques/seguranca-escudo-das-americas-anuncia-sancoes-a-faccoes/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         },
         {
             "title": "Loterias: Mega-Sena 3061 acumula prêmio de R$ 38 mi Nenhuma aposta acertou as seis dezenas sorteadas nesta terça-feira; 39 apostas fizeram a quina",
@@ -1398,147 +1538,7 @@
             "publication_date": "2026-09-22T22:02:00-03:00",
             "link": "https://portalterradaluz.com.br/economia-negocios/loterias-mega-sena-3061-acumula-premio-de-r-38-mi/",
             "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Justiça: Ato por Isabelle Caracristi cobra respostas em Fortaleza Manifestação ocorre nesta terça-feira (22), na Praça Luiza Távora, após morte da estudante de 22 anos",
-            "subtitle": "22 de setembro de 2026 – Familiares, amigos e integrantes da comunidade realizam nesta terça-feira (22) um ato pacífico em memória da estudante universitária Isabelle Caracristi, de 22 anos, e em cobrança por esclarecimentos sobre a […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T14:16:28-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/justica-ato-por-isabelle-caracristi-cobra-respostas-em-fortaleza/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Acidente: Cantor Rick e mais quatro morrem em queda de helicóptero Destroços foram encontrados em área de difícil acesso na Serra de Santa Catarina",
-            "subtitle": "22 de setembro de 2026 – O cantor Rick, da dupla sertaneja Rick e Renner, morreu aos 59 anos em um acidente de helicóptero em Santa Catarina. Os outros quatro ocupantes da aeronave também morreram. Entre […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T13:54:42-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/acidente-cantor-rick-e-mais-quatro-morrem-em-queda-de-helicoptero/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Segurança: Namorado de Isabelle Caracristi é preso em Fortaleza João Munhoz foi detido pela Polícia Civil por suspeita de interferir na investigação sobre a morte da estudante",
-            "subtitle": "22 de setembro de 2026 – João Munhoz, namorado da estudante de Direito Isabelle Caracristi, foi preso pela Polícia Civil do Ceará. Segundo as informações divulgadas sobre o caso, o bacharel em Direito teria tentado interferir […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T13:19:29-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/seguranca-namorado-de-isabelle-caracristi-e-preso-em-fortaleza/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Acidente: Encontrados destroços de helicóptero com cantor Rick Corpo de Bombeiros confirmou cinco mortes após aeronave desaparecer na Serra de Santa Catarina",
-            "subtitle": "22 de setembro de 2026 – Os destroços do helicóptero que transportava o cantor Rick, da dupla com Renner, foram encontrados nesta terça-feira (22), cerca de 24 horas após o desaparecimento da aeronave na Serra de […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T12:57:16-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/acidente-encontrados-destrocos-de-helicoptero-com-cantor-rick/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Gastronomia: Avine apresenta lançamentos no Festival Costume Gourmet Marca destacou ovos livres de gaiolas com selênio e linha Super Protein em evento realizado em Fortaleza",
-            "subtitle": "22 de setembro de 2026 – A Avine apresentou lançamentos e outros produtos do portfólio durante o Festival Costume Gourmet, realizado pelo São Luiz Supermercados entre os dias 18 e 20 de setembro, no La Maison […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T11:23:53-03:00",
-            "link": "https://portalterradaluz.com.br/economia-negocios/gastronomia-avine-apresenta-lancamentos-no-festival-costume-gourmet/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Educação: Dia do Técnico em Edificações destaca qualificação Formação profissional ganha relevância com avanço do emprego na construção civil",
-            "subtitle": "22 de setembro de 2026 – O Dia do Técnico em Edificações, celebrado em 23 de setembro, destaca a atuação de profissionais que participam de diferentes etapas da construção civil, desde o planejamento e a elaboração […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T11:14:41-03:00",
-            "link": "https://portalterradaluz.com.br/economia-negocios/educacao-dia-do-tecnico-em-edificacoes-destaca-qualificacao/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Meio ambiente: Serra das Almas completa 26 anos de conservação da Caatinga Reserva entre Ceará e Piauí protege 6.285 hectares, nascentes e espécies ameaçadas",
-            "subtitle": "22 de setembro de 2026 – A Reserva Natural Serra das Almas (RNSA), localizada entre Crateús, no Ceará, e Buriti dos Montes, no Piauí, completa 26 anos neste mês como uma das principais áreas privadas de […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T10:41:27-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/meio-ambiente-serra-das-almas-completa-26-anos-de-conservacao-da-caatinga/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "STF: Mendonça contesta Moraes e pede arquivamento de investigação Ministro afirma que relatórios da PF não têm valor probatório e questiona pedido para investigá-lo",
-            "subtitle": "22 de setembro de 2026 – O ministro André Mendonça, do Supremo Tribunal Federal (STF), contestou as acusações apresentadas pelo ministro Alexandre de Moraes e pediu o arquivamento do pedido de investigação contra sua atuação nos […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T10:01:28-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/stf-mendonca-contesta-moraes-e-pede-arquivamento-de-investigacao/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Apostas: O que significa “aposta grátis” na prática — e onde ela realmente aparece Crédito promocional pode ser usado em bilhetes esportivos, mas não significa dinheiro disponível para saque imediato",
-            "subtitle": "22 de setembro de 2026 – Quem começa a acompanhar as promoções do mercado de apostas esportivas provavelmente já encontrou a expressão “aposta grátis”. Para entender como funcionam as apostas grátis nas casas de apostas, porém, […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T09:26:01-03:00",
-            "link": "https://portalterradaluz.com.br/economia-negocios/apostas-o-que-significa-aposta-gratis-na-pratica-e-onde-ela-realmente-aparece/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Cerimônia: UFC sedia casamento comunitário de 27 casais em Fortaleza Cerimônia civil será realizada na Reitoria nesta quarta-feira (23), com parte celebrativa nos jardins",
-            "subtitle": "22 de setembro de 2026 – A Reitoria da Universidade Federal do Ceará (UFC) sediará, nesta quarta-feira (23), uma cerimônia de casamento comunitário para 27 casais. A solenidade de casamento civil terá início às 16h, na […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T09:25:00-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/cerimonia-ufc-sedia-casamento-comunitario-de-27-casais-em-fortaleza/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Eleições: TRE-CE inicia carga de 26 mil urnas para eleições Procedimento começou em Fortaleza e segue até 3 de outubro no interior do Ceará",
-            "subtitle": "22 de setembro de 2026 – O Tribunal Regional Eleitoral do Ceará (TRE-CE) iniciou nesta segunda-feira (21) a carga das urnas eletrônicas que serão utilizadas no primeiro turno das Eleições 2026. O procedimento consiste na inserção […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T09:11:39-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/eleicoes-tre-ce-inicia-carga-de-26-mil-urnas-para-eleicoes/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Cultura: Festival Diaspóricas recebe filmes de mulheres negras Evento em Goiânia terá cinema, música, oficinas e afroempreendedorismo entre 12 e 14 de novembro",
-            "subtitle": "22 de setembro de 2026 – O Festival Diaspóricas de Cinema e Música Negra recebe até o dia 27 de setembro inscrições de filmes e videoclipes dirigidos por mulheres negras do Nordeste e de outras regiões […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T08:52:53-03:00",
-            "link": "https://portalterradaluz.com.br/destinos-turisticos/cultura-festival-diasporicas-recebe-filmes-de-mulheres-negras/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Resgate: Buscas por helicóptero com cantor Rick avançam em SC Equipes do Corpo de Bombeiros e da FAB ampliam operação na Serra Catarinense nesta terça-feira (22)",
-            "subtitle": "22 de setembro de 2026 – As buscas pelo helicóptero que desapareceu em Santa Catarina com quatro pessoas a bordo serão intensificadas na manhã desta terça-feira (22). Segundo o Corpo de Bombeiros, as equipes mantiveram a […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T08:28:55-03:00",
-            "link": "https://portalterradaluz.com.br/destaques/resgate-buscas-por-helicoptero-com-cantor-rick-avancam-em-sc/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
-        },
-        {
-            "title": "Sorteio: Mega-Sena sorteia prêmio de R$ 32 milhões nesta terça-feira Apostas podem ser feitas até as 20h; concurso 3.061 será realizado às 21h, em São Paulo",
-            "subtitle": "22 de setembro de 2026 – A Mega-Sena sorteia nesta terça-feira (22) um prêmio estimado em R$ 32 milhões. O concurso 3.061 terá as seis dezenas sorteadas a partir das 21h, no Espaço da Sorte, em […]",
-            "category": [],
-            "author": "",
-            "publication_date": "2026-09-22T08:08:34-03:00",
-            "link": "https://portalterradaluz.com.br/economia-negocios/sorteio-mega-sena-sorteia-premio-de-r-32-milhoes-nesta-terca-feira/",
-            "journal": "portalterradaluz",
-            "scraped_at": "2026-09-24T00:05:31.705365-03:00"
+            "scraped_at": "2026-09-24T13:28:35.382461-03:00"
         }
     ],
     "Jornal Jangadeiro": [
@@ -1550,7 +1550,7 @@
             "publication_date": "2026-09-17T13:50:49-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-faz-contas-na-reta-final-da-serie-b-para-buscar-acesso-a-serie-a/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ceará vê briga contra o rebaixamento apertar na reta final da Série B",
@@ -1560,7 +1560,7 @@
             "publication_date": "2026-09-17T13:00:39-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-ve-briga-contra-o-rebaixamento-apertar-na-reta-final-da-serie-b/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "&#8220;Crime foi premeditado&#8221;: MPCE denuncia trio por morte de casal em trailer no novo Mondubim",
@@ -1570,7 +1570,7 @@
             "publication_date": "2026-09-16T19:49:01-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/crime-foi-premeditado-mpce-denuncia-trio-por-morte-de-casal-em-trailer-no-novo-mondubim/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza terá 200 pontos de coleta de roupas, calçados e outros materiais têxteis usados",
@@ -1580,7 +1580,7 @@
             "publication_date": "2026-09-16T19:46:48-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/fortaleza-tera-200-pontos-de-coleta-de-roupas-calcados-e-outros-materiais-texteis-usados/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Com Cantillo e Bastos, Fortaleza chega a oito reforços na segunda janela de transferências",
@@ -1590,7 +1590,7 @@
             "publication_date": "2026-09-16T13:41:18-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/com-cantillo-e-bastos-fortaleza-chega-a-oito-reforcos-na-segunda-janela-de-transferencias/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Eveliny Almeida será a primeira mulher no comando da arbitragem da FCF",
@@ -1600,7 +1600,7 @@
             "publication_date": "2026-09-16T11:52:04-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/eveliny-almeida-sera-a-primeira-mulher-no-comando-da-arbitragem-da-fcf/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ciro e Elmano reeditam confrontos, mas baixam tom de acusações em debate Jangadeiro/UOL",
@@ -1610,7 +1610,7 @@
             "publication_date": "2026-09-15T20:45:21-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/fleicoes-ciro-e-elmano-reeditam-confrontos-mas-baixam-tom-de-acusacoes-em-debate-jangadeiro-uol/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Homem é contido pela população após tentar estuprar menina de 6 anos em área nobre de Fortaleza",
@@ -1620,7 +1620,7 @@
             "publication_date": "2026-09-14T19:33:23-03:00",
             "link": "https://www.jangadeiro.com.br/sem-categoria/homem-e-contido-pela-populacao-apos-tentar-estuprar-menina-de-6-anos-em-area-nobre-de-fortaleza/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Homem de 55 anos morre em academia de Fortaleza após mal súbito",
@@ -1630,7 +1630,7 @@
             "publication_date": "2026-09-14T19:31:59-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/homem-de-55-anos-morre-em-academia-de-fortaleza-apos-mal-subito/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ceará perde para o Atlético-GO e não se afasta do Z4",
@@ -1640,7 +1640,7 @@
             "publication_date": "2026-09-10T13:02:11-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-perde-para-o-atletico-go-e-nao-se-afasta-do-z4/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza vence o Avaí e chega a oito jogos sem perder na Série B",
@@ -1650,7 +1650,7 @@
             "publication_date": "2026-09-10T12:57:04-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-vence-o-avai-e-chega-a-oito-jogos-sem-perder-na-serie-b/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Supermercados em Fortaleza são autuados por vender alimentos vencidos e em decomposição",
@@ -1660,7 +1660,7 @@
             "publication_date": "2026-09-09T19:41:41-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/supermercados-em-fortaleza-sao-autuados-por-vender-alimentos-vencidos-e-em-decomposicao/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza e Ceará fecham rodada com vitórias na Série B",
@@ -1670,7 +1670,7 @@
             "publication_date": "2026-09-08T08:35:31-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-e-ceara-fecham-rodada-com-vitorias-na-serie-b/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Precisa trocar de geladeira? Enel Ceará oferece 50% de desconto; veja detalhes",
@@ -1680,7 +1680,7 @@
             "publication_date": "2026-09-07T19:49:43-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/precisa-trocar-de-geladeira-enel-ceara-oferece-50-de-desconto-veja-detalhes/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Idosa morre em incêndio em Fortaleza; mãe suspeita que fogo iniciou com vela usada em orações",
@@ -1690,7 +1690,7 @@
             "publication_date": "2026-09-07T19:46:53-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/idosa-morre-em-incendio-em-fortaleza-mae-suspeita-que-fogo-iniciou-com-vela-usada-em-oracoes/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Senado aprova fim da &#8220;taxa das blusinhas&#8221;",
@@ -1700,7 +1700,7 @@
             "publication_date": "2026-09-04T15:41:53-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/senado-aprova-fim-da-taxa-das-blusinhas/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Seis pescadores são encontrados vivos após 7 dias desaparecidos em alto-mar",
@@ -1710,7 +1710,7 @@
             "publication_date": "2026-09-04T15:40:24-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/seis-pescadores-sao-encontrados-vivos-apos-7-dias-desaparecidos-em-alto-mar/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ceará e Fortaleza se enfrentam nesta sexta-feira pela final do Campeonato Cearense Sub-2",
@@ -1720,7 +1720,7 @@
             "publication_date": "2026-09-04T09:39:20-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-e-fortaleza-se-enfrentam-nesta-sexta-feira-pela-final-do-campeonato-cearense-sub-2/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Floresta inicia segunda fase da Série C em busca do acesso",
@@ -1730,7 +1730,7 @@
             "publication_date": "2026-09-03T09:29:51-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/floresta-inicia-segunda-fase-da-serie-c-em-busca-do-acesso/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fim da escala 6&#215;1 é aprovado pela CCJ e vai ao Plenário do Senado",
@@ -1740,7 +1740,7 @@
             "publication_date": "2026-09-02T19:47:15-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/fim-da-escala-6x1-e-aprovado-pela-ccj-e-vai-ao-plenario-do-senado/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ceará terá eleição para novo 1º vice-presidente da Diretoria Executiva",
@@ -1750,7 +1750,7 @@
             "publication_date": "2026-09-02T13:58:16-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-tera-eleicao-para-novo-1o-vice-presidente-da-diretoria-executiva/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Clássico-Rei terá arbitragem 100% cearense pela primeira vez em jogo nacional",
@@ -1760,7 +1760,7 @@
             "publication_date": "2026-09-02T12:02:21-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/classico-rei-tera-arbitragem-100-cearense-pela-primeira-vez-em-jogo-nacional/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Ceará acende alerta nos dois lados do campo na Série B",
@@ -1770,7 +1770,7 @@
             "publication_date": "2026-09-02T10:50:08-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/ceara-acende-alerta-nos-dois-lados-do-campo-na-serie-b/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza registra maior número de finalizações na Série B em empate com o Operário-PR",
@@ -1780,7 +1780,7 @@
             "publication_date": "2026-09-02T10:45:26-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-registra-maior-numero-de-finalizacoes-na-serie-b-em-empate-com-o-operario-pr/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Taxistas e motoristas de aplicativo agora têm até sete anos para financiar carros de até R$ 200 mil",
@@ -1790,7 +1790,7 @@
             "publication_date": "2026-08-31T18:47:18-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/taxistas-e-motoristas-de-aplicativo-agora-tem-ate-sete-anos-para-financiar-carros-de-ate-r-200-mil/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Projeto amplia para até 12 dias de faltas justificadas para empregado acompanhar filho em consultas",
@@ -1800,7 +1800,7 @@
             "publication_date": "2026-08-31T18:46:08-03:00",
             "link": "https://www.jangadeiro.com.br/jornal-jangadeiro/projeto-amplia-para-ate-12-dias-de-faltas-justificadas-para-empregado-acompanhar-filho-em-consultas/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza oficializa contratação de Kaio Henrique, lateral-esquerdo ex-Porto",
@@ -1810,7 +1810,7 @@
             "publication_date": "2026-08-28T09:23:09-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-oficializa-contratacao-de-kaio-henrique-lateral-esquerdo-ex-porto/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza se destaca em volume ofensivo na Série B, enquanto João Ricardo aparece entre os melhores goleiros",
@@ -1820,7 +1820,7 @@
             "publication_date": "2026-08-28T08:31:04-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-se-destaca-em-volume-ofensivo-na-serie-b-enquanto-joao-ricardo-aparece-entre-os-melhores-goleiros/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Fortaleza é acionado na CNRD por cobrança ligada a Renato Kayzer",
@@ -1830,7 +1830,7 @@
             "publication_date": "2026-08-27T13:25:37-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/fortaleza-e-acionado-na-cnrd-por-cobranca-ligada-a-renato-kayzer/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         },
         {
             "title": "Com moral: João Gabriel é o jogador com mais minutos na era Daniel Paulista",
@@ -1840,7 +1840,7 @@
             "publication_date": "2026-08-26T16:37:07-03:00",
             "link": "https://www.jangadeiro.com.br/futeboles/com-moral-joao-gabriel-e-o-jogador-com-mais-minutos-na-era-daniel-paulista/",
             "journal": "jangadeiro",
-            "scraped_at": "2026-09-24T00:05:32.610209-03:00"
+            "scraped_at": "2026-09-24T13:28:36.779606-03:00"
         }
     ]
 }
